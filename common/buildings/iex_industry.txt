@@ -1,0 +1,114 @@
+﻿
+building_lumber_mill = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/lumber_mill.dds"
+	
+	unlocking_technologies = {
+		steelworking
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_base_building_lumber_mill
+		pmg_secondary_building_lumber_mill
+		pmg_automation_building_industry
+		pmg_ownership_capital_building_universal
+	}
+	
+	required_construction = construction_cost_medium
+}
+
+building_synthetics_plants = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/synthetics_plants.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		chemical_bleaching
+	}
+	
+	production_method_groups = {
+		pmg_synthetic_dyes
+		pmg_synthetic_silk
+		pmg_ownership_capital_building_synthetics_plants
+	}
+	
+	required_construction = construction_cost_high
+
+	possible = {
+		error_check = {
+			severity = fail
+			this = {
+				owner = { 
+					NOT = { has_law = law_type:law_industry_banned } 
+				}
+			}
+		}
+	}
+}
+
+building_food_industry = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/food_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_food_industry
+		pmg_food_secondary
+		pmg_canning
+		pmg_automation_building_food_industry
+		pmg_ownership_capital_building_food_industry
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+building_distillery = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/distillery.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		distillation
+	}
+
+	production_method_groups = {
+		pmg_distillery
+		pmg_winery
+		pmg_automation_building_industry
+		pmg_ownership_capital_building_liquor_industry
+	}
+
+	required_construction = construction_cost_high
+	
+}
+
+building_machine_parts_factories = {
+	building_group = bg_heavy_industry
+	texture = "gfx/interface/icons/building_icons/machine_parts_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		atmospheric_engine
+	}
+
+	production_method_groups = {
+		pmg_base_machine_parts
+		pmg_automation_building_industry
+		pmg_ownership_capital_building_universal
+	}
+
+	required_construction = construction_cost_high
+	
+}

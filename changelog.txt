@@ -1,0 +1,249 @@
+[h1]v9.0[/h1]
+-Added new goods: Machine Parts and Copper
+-Added Copper Mine
+-Added Machine Parts Factory
+[i]Machine parts will be used everywhere, often instead of tools, but mainly automation and mining.[/i]
+-Automation Rework
+[i]Automation was reworked and standardized for most buildings. Instead of 3-4 automation PMs, there are now 6.[/i]
+-Added new technologies: Mechanical Production, Electrification, Assembly Lines
+-Lumber Mill building is back with a rework. 
+[i]Lumber Mill is a more efficient source of hardwood.[/i]
+-Tweaked Distilleries employment.
+-Rebalanced Motor Industries PMs, latter ones now use machine parts.
+-Redone "No secondary" icon for Food Industries.
+
+[h1]v8.1[/h1]
+-Road Network now also gives a state infrastructure % buff.
+-Fixed could not use Ore Filtering for Sulfur Mines.
+-Fixed Advanced Filtering PM icon was wrong colour.
+
+[h1]v8.0[/h1]
+-Added Ore Filtering for Sulfur Mines, which allows to produce Coal.
+-Added Forestry from Weight of Rule mod, which allows to produce wood from fertilizer, occupying arable land.
+-Colonies should employ clergymen and aristocrats better.
+-Intensive wool gathering methods give even more wool and less meat
+-Pops want to consume more groceries
+
+[h1]v7.2[/h1]
+-Added Rayon Focus PM for Synthetic Plants
+-Buffed Rayon PM so it doesn't decrease profitability
+-Rebalanced Distillery Wine production PMs
+-Publicly Traded PM for Motor Industries is available with Steam Engines PM
+-Fixed Canning PMs required as many workers as a new building would
+-Fixed no Publicly Traded PM for Distilleries
+-Various localization tweaks
+
+[h1]v7.1[/h1]
+-Added Filtering PMG for Lead Mines, which allows to produce Sulfur, sacrificing a bit of Lead production.
+-Added Early Engine Production PM that allows to produce Engines with Iron, rather than Steel.
+-Steam Engines PM is now unlocked by Rotary Valve Engine tech.
+-Moved Synthetic Plants to Chemical Bleaching tech (as it was before v7.0).
+-Moved Synthetic Dye Production PM to Aniline tech.
+-Moved Cheese Production PM from Canneries tech to Baking Powder.
+
+[h1]v7.0[/h1]
+[b]Open Beta Compatibility Patch[/b]
+Many features were removed due to base game changes so they became irrelevant. Hopefully will be replaced by new ones soon.
+[b]List of Retained Features:[/b]
+-Ink Paper PM for Paper Mills
+-Ink & Floral Dye Production PM for Synthetic Plants
+-Oil Streetlights PM for Urban Center
+-Viable Isolationism
+-Distillery Building
+-Food Industries Rework
+
+[h1]v1.6.3[/h1]
+[b]Rebalance Part 2[/b]
+-Redone Lumber Mill PMs
+-Redone Furniture Manufactories PMs
+-Redone Luxury Furniture Manufactories PMs
+^ Now produce much more, reducing total needed amount of these buildings
+
+[h1]v1.6.2[/h1]
+[b]Rebalance[/b]
+-Redone Shipyard PMs
+-Redone Military Shipyard PMs
+-Redone Distilleries PMs
+-Redone Food Industries PMs
+^ Now produce much more, reducing total needed amount of these buildings
+
+[b]Other[/b]
+-Rebalanced Fertilization once more, latter PMs will always be more profitable than previous ones
+
+[h1]v1.6.1[/h1]
+-Fixed Early Canning PM localization
+-Changed Early Canning PM icon
+
+[h1]v1.6.0[/h1]
+[b]Features[/b]
+-Luxury Furniture Manufactories PMs are unlocked by different techs, so no more "straight to best PM".
+-Though services had more demand in the mod, it was not enough. Administration buildings now consume services.
+-Added Lumber Mill building. It processes timber to lumber (previously Hardwood).
+-Vanilla groceries were returned. Grocery production was rebalanced.
+-Added secondary PMG for food industries.
+-Reworked Colonial Exploitation
+-Canned Food Factories earlier. Added new PM, made other more profitable. Fixed Vacuum Canning didn't consume oil
+
+[b]Balance & Tweaks[/b]
+-Luxury Furniture Manufactories are now unlocked by the Lathe tech
+-Moved around some production techs, so Patent Stills for Distillery can't be unlocked before Pot Stills
+-Upgraded "Ink Usage" PM, so it's now between bleaching paper and sulphite pulping
+-Tweaked pop basic and luxury food needs to be more vanilla-like to avoid demand shortage
+-Halved Canned Food consumption tax cost
+-Added a bit of buildings to Mexico
+-Light Industry uses less infrastructure
+-FRA and GBR now start with colonial exploitation, rather than resettlement
+-Added starting canned food factories in countries that need them
+
+
+[h1]v1.5.3[/h1]
+[b]Features/Tweaks[/b]
+-Wooden Passenger Carriages PM is unlocked by Early Steam Engines PM
+-Publicly Traded PM for Motor Industries is unlocked by Steam Engines PM
+
+[b]Fixes[/b]
+-Fixed Food Industries ownership PMs weren't available with pastry production PM
+-Fixed Publicly Traded PM for Explosives Industry localization
+-Fixed Coal was called Coal Coke, though ore refinement was removed
+
+[h1]v1.5.2[/h1]
+[b]Features[/b]
+-Allowed downsizing privately construct buildings on Lassez-Fairre. In exchange, removed buff reducing loan interest size
+-Psychiatry branch techs now give assimilation and conversion buffs
+
+[b]Balance & Tweaks[/b]
+-Standardized Filling System PM consumes less paper
+-Reduced army canned food consumption
+
+
+[h1]v1.5.1[/h1]
+-Fixed Military Shipyards PM prerequisites
+
+[h1]v1.5[/h1]
+[b]Features[/b]
+-Added Roads building, bringing a way to increase infrastructure without rushing railroads
+-Added Military Shipyards building to produce military ships separately
+-Buffed Isolationism trade policy
+-Removed ores from trade routes tab
+-Removed sausages, brought back meat
+
+[b]Balance & Tweaks[/b]
+-Early grain farms are a lot more profitable, so no unfilled farms and low SoL
+-Rebalanced wheat agriculture again. Wheat should have more trade demand again.
+-Fertilizers are more profitable
+-Reworked & Rebalanced Canned Food Industries PMs
+-Increased subsistence farms employment
+-Nerfed early Luxury Furniture production PMs
+-Reduced pop factor to consume grain and increased factor to consume bakery
+-Increased pop factor to consume meat as luxury food need
+-Nerfed Modern Tools PM, now gives 1800 total profit instead of 2000
+-Reduced amount of furniture manufactories in the world
+-Added Luxury Furniture Manufactories in the world
+-New "Ink Usage" PM icon
+
+[b]Fixes[/b]
+-Fixed publicly traded PM localization for explosives industry
+-Starting tooling workshops PMs should not be obsolete anymore
+
+v1.4.1
+-Renamed tooling workshops PMs to be more adequate
+-Fix ownership PMs for Luxury Furniture Manufactories
+
+v1.4 
+Removed all of ore refinement because of balance issues.
+
+[b]Features[/b]
+-Split luxury furniture & furniture factories
+
+[b]Balance[/b]
+-Balanced animal products & sausages production
+-Balanced pop food consumption
+-Universities consume services to reduce its huge proficite
+
+
+v1.3
+Integrating ideas from "Seeds of Change" mod:
+-Farm Fertilizer PMs
+-Farm Base PMs
+-Plantation irrigation PMs
+-Animal Products Good
+-Sausages Good
+-Bread Good
+-Canned Food Good
+-Reworked Food Industries to produce bread and sausages
+
+Army Supplies:
+-Army & Fleet now need food supplies
+
+New Content:
+-Added Canned Food Factory building
+-Added early ammunition production PM that doesn't use explosives
+# TODO RUBBER TOOLS
+
+Tweaks & Fixes:
+-Latter Ore Refineries PMs are much more powerful, leading to decreased workforce usage for refinement
+-Made liquor distillery main PM icons less contrasting
+-Decreased economy of scale modifier
+-Urban center level gets increased every 120 urbanization, instead of 100
+-Fix explosives factory ownership PM localization
+-Fix trade route lens localization for new goods
+
+v1.2.2
+-Buffed "Alcohol Production" distillery PM 
+-Nerfed wine production PMs
+
+v1.2.1
+-Fix wine production PM can't be used with patent stills
+
+v1.2
+Agriculture Expansion:
+-Added Fertilized Citrus/Fig/Apple orchards PMs
+-Added Harvesting Process PMs, useable in farms, for plantations
+-Added Fertilization for Plantations
+
+Food Industries Expansion:
+-Added Fruit and Fish canning PMs for food industries
+-Food Industries cannot produce liquor anymore.
+-Added Distillery Building, which is able to produce Liquor and Wine
+
+Making Whaling not useless in early game:
+-Added Ink Paper production PM (Same as Sulfite Pulping, but uses Oil instead of Sulfur)
+-Added Oil Streetlights PM for urban center
+-Added Ink & Floral Dye Production PM for Synthetic Plants. Synthetic Plants are unlocked earlier now.
+
+Fixes & Tweaks:
+-Fix Lead Ore localization
+-(Probably) Fix new goods modifiers localization
+-Revamped Coke Oven PM icons
+
+Starting Production Balance Changes:
++60% USA Coke Production
+USA Iron Ore import trade route 
+Ohio Chemical Plants is now Explosives Industry
++60% GBR Iron Production
++360% GBR Coke Production
+-20% PRU Iron Production
+Westphalia Chemical Plants is now Explosives Industry
++90 BEL Iron Production (was 0)
++95 BEL Coke Production (was 0)
++90 NET Iron Production (was 0)
+-50% AUS Coke Production
+
+v1.1.1
+-Base construction increased from 5 to 10
+-Fix explosives production PMG localization
+-ARoAI compatibility
+
+v1.1
+-Nerf Health Care insitutions (cos pop growth is insane and causes lag)
+-Add Explosive Factories building
+-Glass production reworked
+-Railroads reworked
+
+v1.0.2
+-Fix steam donkey for coal mines
+-Fix publicly traded for all foundries
+
+v1.0.1
+-Petcoke fixes
+-Added Coke Ovens city mesh

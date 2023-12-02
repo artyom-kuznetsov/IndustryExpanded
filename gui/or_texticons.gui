@@ -1,0 +1,10 @@
+
+texticon = {
+	icon = machine_parts
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/machine_parts.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

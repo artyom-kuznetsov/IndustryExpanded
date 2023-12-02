@@ -1,0 +1,46 @@
+[b]Please, report any bugs or problems in the mod! Also feel free to suggest your ideas.[/b]
+
+[img]https://cdn.discordapp.com/attachments/896957883772706816/1126509901859000391/IEX.png[/img]
+A mod focused on goods, building, production methods and variability expansion, improvement and balancing.
+
+[h1]Separated Production[/h1]
+[img]https://i.imgur.com/OEAxm0Y.png[/img]
+- Liquor Distilleries were seperated from Food Industries (which was reworked), now it can also produce Wine.
+
+[h1]Roads[/h1]
+Using roads, you can develop a bit further without researching railroads.
+[img]https://cdn.discordapp.com/attachments/896957883772706816/1125952510394388521/road_network_.png[/img]
+
+[h1]Useful Whaling[/h1]
+Didn't you feel that whaling in early game is absolutely useless? I did too, because oil had no use. Why did they give us an early oil source if didn't give an early oil use? With these new PMs for Paper Mills, Urban Centers and Synthetic Plants, you can effeciently utilize whaling.
+[img]https://i.imgur.com/6qcjmmu.png[/img]
+
+[h1]Ore Filtering[/h1]
+AI doesn't have enough resources to trade with you, while you are playing a country with no specific minerals? Now you can redirect some ore mining output for a bit of another resource.
+[img]https://i.imgur.com/SM6VjzO.png[/img]
+
+[h1]Isolationism[/h1]
+Isolationism is not just a step back now, but an option, viable under certain circumstances.
+[img]https://i.imgur.com/P8TcdcZ.png[/img]
+
+[h1]PM Rebalance and Expansion[/h1]
+A lot of PMs were tweaked to be more balanced or more useful and many buildings also gained new PMs, but the changes were to insignificant to mention them individually.
+
+[h1]Localization and Compatibility[/h1]
+[img]https://i.imgur.com/rz12Uyw.png[/img]
+[b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
+Mod is made for game version [b]v1.5.10[/b]
+Not recommended to use with mods, changing building history.
+Not recommended to use with mods changing PMs.
+
+[h1]Planned Features[/h1]
+These features are planned for further updates. However, I cannot guarantee that all of them will appear.
+- More new goods and factories
+- Coal Liquefaction
+- Synthetic Rubber
+- Oil Industry overhaul
+- Electricity overhaul
+- Chemical Industry expansion
+- Medicine (pharmaceutical) industry
+- Textile Industry
+- Further PM reworks and rebalances

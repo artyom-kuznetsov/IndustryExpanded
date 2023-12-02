@@ -1,0 +1,21 @@
+﻿# roads
+state_building_road_network_max_level_add = {
+	good = yes
+	percent = no
+	num_decimals = 0
+}
+
+goods_output_machine_parts_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_machine_parts_add = {
+	good = no
+	percent = no	
+}
+
+goods_output_machine_parts_mult = {
+	good = yes
+	percent = yes
+}

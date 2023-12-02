@@ -1,0 +1,115 @@
+﻿pm_simple_forestry_forestry = {
+	texture = "gfx/interface/icons/production_method_icons/simple_forestry.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fertilizer_add = 10 # 300
+			goods_output_wood_add = 50 		# 1000 # +700
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 4500
+		}
+	}
+}
+
+pm_saw_mills_forestry = {
+	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"
+	unlocking_technologies = {
+		steelworking
+	}				
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5		# 200
+			goods_input_fertilizer_add = 15 # 450 # 650
+			
+			# output goods
+			goods_output_wood_add = 80		# 1600 # +950
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+		}
+	}
+}	
+
+pm_electric_saw_mills_forestry = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_mills.dds"
+	unlocking_technologies = {
+		electrical_generation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10		# 400
+			goods_input_fertilizer_add = 15 # 450
+			goods_input_electricity_add = 5	# 300 # 1150
+			
+			# output goods
+			goods_output_wood_add = 120 # 2400	# 1250
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_timber_trees = {
+	texture = "gfx/interface/icons/production_method_icons/timber_tree.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+		}
+	}
+}
+
+pm_fruit_trees = {
+	texture = "gfx/interface/icons/production_method_icons/fruit_tree.dds"
+	
+	unlocking_production_methods = {
+		pm_saw_mills_forestry
+		pm_electric_saw_mills_forestry
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_wood_add = -60
+			goods_output_fruit_add = 40 #600
+		}
+	}
+}
+
+pm_rail_transport_building_forestry = {
+	texture = "gfx/interface/icons/production_method_icons/rail_transport.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		railways
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}

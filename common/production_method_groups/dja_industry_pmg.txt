@@ -1,0 +1,132 @@
+﻿pmg_base_building_lumber_mill = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_sawing_lm
+		pm_powered_sawing_lm
+		pm_electrical_saw_lm
+	}
+}
+
+pmg_secondary_building_lumber_mill = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_secondary_treatment
+		pm_minimal_chemical_treatment
+		pm_full_chemical_treatment
+	}
+}
+
+pmg_base_machine_parts = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_iron_machine_parts
+		pm_rotary_machines
+		pm_belt_transmission_machines
+		pm_automatic_machines
+	}
+}
+
+pmg_base_building_motor_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_early_steam_engines
+		pm_steam_engines
+		pm_electric_engines
+		pm_diesel_engines
+	}
+}
+
+pmg_synthetic_dyes = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_ink_flower_dye_production
+		pm_dye_production
+	}
+}
+
+pmg_synthetic_silk = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_artificial_fibers
+		pm_rayon
+		pm_rayon_focus
+	}
+}
+
+pmg_base_building_paper_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_pulp_pressing
+		pm_sulfite_pulping
+		pm_ink_paper
+		pm_bleached_paper
+	}
+}
+
+pmg_distillery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_alcohol_production
+		pm_pot_stills
+		pm_patent_stills
+	}
+}
+
+pmg_winery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_wine_production
+		pm_wine_production
+		pm_wine_focus
+	}
+}
+
+pmg_automation_building_liquor_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_watertube_boiler_building_steel_mills
+		pm_rotary_valve_engine_building_steel_mills
+	}
+}
+
+pmg_ownership_capital_building_liquor_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_industry
+		pm_publicly_traded_building_liquor
+		pm_government_run_industry
+		pm_worker_cooperative_industry
+	}
+}
+
+pmg_base_building_food_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_bakery
+		pm_sweeteners
+		pm_baking_powder
+	}
+}
+
+pmg_food_secondary = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_use
+		pm_cheese_production
+		pm_creamery
+	}
+}
+
+pmg_canning = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_disabled_canning
+		pm_fish_canning
+		pm_fruit_canning
+		pm_meat_canning
+		pm_extended_fish_canning
+		pm_extended_fruit_canning
+		pm_extended_meat_canning
+	}
+}

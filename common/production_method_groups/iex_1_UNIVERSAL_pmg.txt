@@ -1,0 +1,22 @@
+﻿pmg_automation_building_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_automation_working_tools
+		pm_automation_watertube_boiler
+		pm_automation_pneumatic_conveyor
+		pm_automation_electric_drive
+		pm_automation_conveyor_production
+		pm_automation_assembly_lines
+	}
+}
+
+pmg_ownership_capital_building_universal = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
+	production_methods = {
+		pm_privately_owned_building_universal
+		pm_publicly_traded_building_universal
+		pm_government_run_building_universal
+		pm_worker_cooperative_building_universal
+	}
+}

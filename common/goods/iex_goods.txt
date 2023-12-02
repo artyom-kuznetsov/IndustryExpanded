@@ -1,0 +1,8 @@
+﻿
+machine_parts = {
+	texture = "gfx/interface/icons/goods_icons/machine_parts.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 5
+}

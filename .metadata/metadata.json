@@ -1,9 +1,10 @@
 {
-  "name" : "IndustryExpanded",
+  "name" : "(1.5) Industry Expanded v9.0",
+  "picture" : "thumbnail.png",
   "id" : "",
-  "version" : "",
-  "supported_game_version" : "",
-  "short_description" : "",
+  "version" : "9.0",
+  "supported_game_version" : "1.5.10",
+  "short_description" : "An Industry Expansion Mod",
   "tags" : [],
   "relationships" : [],
   "game_custom_data" : {

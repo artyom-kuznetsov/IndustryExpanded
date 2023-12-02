@@ -1,0 +1,369 @@
+﻿# NEW
+
+mechanical_production = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/mechanical_production.dds"
+	category = production
+	
+	
+	unlocking_technologies = {
+		mechanical_tools
+		atmospheric_engine
+	}
+	
+	ai_weight = {
+		value = 1
+		
+		if = {
+			limit = { 
+				 has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}		
+	}
+}
+
+electrification = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/electrification.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		electrical_generation
+	}
+	
+	ai_weight = {
+		value = 1
+		
+		if = {
+			limit = { 
+				OR = {
+					 has_strategy = ai_strategy_industrial_expansion
+					 has_strategy = ai_strategy_resource_expansion
+				}
+			}
+			add = 2
+		}	
+	}
+}
+
+assembly_lines = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/assembly_lines.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		conveyors
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+
+
+# REWRITED
+electrical_generation = {
+	# Unlocks Power Plants
+	# Unlocks Electric Sewing Machines PM and Automatic Power Looms PM in Textile Mills
+	# Unlocks Brine Electrolysis PM in Chemical Plants
+	# Unlocks Electric Fencing PM and Refrigerated Storage PM in Livestock Ranches
+	# Unlocks Refrigerated Storage PM in Fishing Wharfs
+	# Unlocks Electric Saw Mills PM in Logging Camps
+	# Unlocks Electric Streetlights PM in Urban Centers
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/electrical_generation.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		mechanical_production
+	}
+	
+	ai_weight = {
+		value = 1
+		
+		if = {
+			limit = { 
+				OR = {
+					 has_strategy = ai_strategy_industrial_expansion
+					 has_strategy = ai_strategy_resource_expansion
+				}
+			}
+			add = 2
+		}	
+	}
+}
+
+rotary_valve_engine = {
+	# Unlocks Rotary Valve Engine PM in Furniture Manufacturies, Tooling Workshops, Paper Mills, Steel Mills, Motor Industry
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/rotary_valve_engine.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		watertube_boiler
+		mechanical_production
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+crystal_glass = {
+	# Unlocks Leaded Glass PM in Glassworks
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/crystal_glass.dds"
+	category = production
+	
+	unlocking_technologies = {
+		fractional_distillation
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+chemical_bleaching = {
+	# Unlocks Bone China PM in Glassworks
+	# Unlocks Sulfite Pulping PM in Paper Mills
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/chemical_bleaching.dds"
+	category = production
+
+	unlocking_technologies = {	
+		fractional_distillation
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+mechanized_workshops = {
+	# Unlocks Slaughterhouses PM in Livestock Ranches
+	# Unlocks Sewing Machines PM and Mechanized Looms PM in Textile Mills
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/mechanized_workshops.dds"
+	category = production
+	
+	modifier = {
+		building_economy_of_scale_level_cap_add = 5
+	}
+	
+	unlocking_technologies = {
+		canneries
+		mechanical_tools
+	}
+	
+	ai_weight = {
+		value = 1
+		
+		if = {
+			limit = { 
+				 has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}		
+	}
+}
+
+shift_work = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+	
+	modifier = {
+		building_economy_of_scale_level_cap_add = 10
+	}
+	
+	unlocking_technologies = {	
+		mechanized_workshops
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+urban_planning = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/urban_planning.dds"
+	category = society
+	
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		state_building_construction_sector_max_level_add = 5
+		country_max_weekly_construction_progress_add = 5
+		market_land_trade_capacity_add = 10
+		state_building_road_network_max_level_add = 1
+	}
+	
+	unlocking_technologies = {
+		urbanization
+	}
+	
+	ai_weight = {
+		value = 2 # Important in general
+	}
+}
+
+gravel_roads = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/gravel_roads.dds"
+	category = society
+	
+	modifier = {
+		state_building_road_network_max_level_add = 1
+	}
+	
+	unlocking_technologies = {
+		urban_planning
+	}
+}
+
+modern_sewerage = {
+	# Unlocks Maintained Sewers PM in Urban Centers
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/modern_sewerage.dds"
+	category = society
+	
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		state_building_construction_sector_max_level_add = 5
+		country_max_weekly_construction_progress_add = 5
+		market_land_trade_capacity_add = 10
+	}
+	
+	unlocking_technologies = {
+		gravel_roads
+	}
+	
+	ai_weight = {
+		value = 1.5 # Important in general
+	}
+}
+
+stone_roads = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/stone_roads.dds"
+	category = society
+	
+	modifier = {
+		state_building_road_network_max_level_add = 1
+		state_market_access_price_impact = 0.025
+	}
+	
+	unlocking_technologies = {
+		modern_sewerage
+	}
+}
+
+steel_frame_buildings = {
+	# Unlocks Covered Markets PM in Urban Centers
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/steel_frame_buildings.dds"
+	category = society
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		state_building_construction_sector_max_level_add = 5
+		country_max_weekly_construction_progress_add = 5
+		market_land_trade_capacity_add = 10
+	}
+	
+	unlocking_technologies = {
+		stone_roads
+	}
+	
+	ai_weight = {
+		value = 2 # Important in general
+	}
+}
+
+paved_roads = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/paved_roads.dds"
+	category = society
+	
+	modifier = {
+		state_infrastructure_from_population_add = 1
+		state_infrastructure_from_population_max_add = 20
+		state_building_construction_sector_max_level_add = 5
+		market_land_trade_capacity_add = 10
+	}
+	
+	unlocking_technologies = {	
+		elevator
+	}
+	
+	ai_weight = {
+		value = 2 # Important for those nice-looking roads!
+	}
+}
+
+psychiatry = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/psychiatry.dds"
+	category = society
+	
+	modifier = {
+		country_influence_mult = 0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		state_conversion_mult = 0.1
+	}
+	
+	unlocking_technologies = {
+		empiricism
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+philosophical_pragmatism = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/philosophical_pragmatism.dds"
+	category = society
+	
+	modifier = {
+		country_influence_mult = 0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		state_assimilation_mult = 0.1
+	}
+	
+	unlocking_technologies = {
+		psychiatry
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+psychoanalysis = {
+	# #todo#! Does nothing at the moment
+	# Should provide additional methods for dealing with negative psychological character traits
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/psychoanalysis.dds"
+	category = society
+	
+	modifier = {
+		country_influence_mult = 0.1
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		state_conversion_mult = 0.1
+		state_assimilation_mult = 0.1
+	}
+	
+	unlocking_technologies = {
+		philosophical_pragmatism
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}

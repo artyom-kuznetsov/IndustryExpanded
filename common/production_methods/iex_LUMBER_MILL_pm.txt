@@ -1,0 +1,135 @@
+﻿pm_manual_sawing_lm = {
+	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"	
+	pollution_generation = 5
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5 # 200
+			goods_input_wood_add = 40 # 800 # TOTAL 1000
+			
+			# output goods
+			goods_output_hardwood_add = 40 # 1600 # PROFIT 600
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4250
+			building_employment_machinists_add = 250
+		}
+	}
+}
+
+pm_powered_sawing_lm = {
+	texture = "gfx/interface/icons/production_method_icons/powered_saw_lumber_mill.dds"
+	pollution_generation = 10
+	
+	unlocking_technologies = {
+		mechanical_production
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5	# 200
+			goods_input_coal_add = 10 	# 300
+			goods_input_wood_add = 50 	# 1000 # TOTAL 1500
+			
+			# output goods
+			goods_output_hardwood_add = 65 # 2600 # PROFIT 1100
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 800
+			building_employment_engineers_add = 200
+		}
+	}
+}
+
+pm_electrical_saw_lm = {
+	texture = "gfx/interface/icons/production_method_icons/electric_saw_lumber_mill.dds"
+	pollution_generation = 5
+	
+	unlocking_technologies = {
+		electrical_generation
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10 			# 400
+			goods_input_electricity_add = 10	# 300
+			goods_input_wood_add = 60			# 1200 # TOTAL 1900
+			
+			# output goods
+			goods_output_hardwood_add = 85	# 3400 # PROFIT 1500
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+
+}
+
+pm_no_secondary_treatment = {
+	texture = "gfx/interface/icons/production_method_icons/no_use.dds"
+	
+
+}
+
+pm_minimal_chemical_treatment = {
+	texture = "gfx/interface/icons/production_method_icons/leblanc_process.dds"
+	pollution_generation = 2
+	
+	unlocking_technologies = {
+		chemical_bleaching
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 2 			# 80
+			goods_input_fertilizer_add = 5		# 150	# TOTAL 230
+			
+			# output goods
+			goods_output_hardwood_add = 10	# 400 # PROFIT 170
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 75
+			building_employment_engineers_add = 75
+		}
+	}
+
+}
+
+pm_full_chemical_treatment = {
+	texture = "gfx/interface/icons/production_method_icons/ammonia_soda_process.dds"
+	pollution_generation = 4
+	
+	unlocking_technologies = {
+		aniline
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5 			# 200
+			goods_input_electricity_add = 2		# 60
+			goods_input_fertilizer_add = 8		# 240 # TOTAL 500
+			
+			# output goods
+			goods_output_hardwood_add = 20	# 800 # PROFIT 300
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 125
+			building_employment_engineers_add = 125
+		}
+	}
+
+}
+

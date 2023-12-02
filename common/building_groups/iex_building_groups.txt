@@ -1,0 +1,5 @@
+﻿bg_forestry = {
+	parent_group = bg_agriculture
+	cash_reserves_max = 25000
+	always_possible = yes
+}
