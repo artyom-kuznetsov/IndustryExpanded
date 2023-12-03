@@ -14,6 +14,7 @@
 -Electronics Industries now uses copper for telephone production, rather than iron.
 -Power Plants now use copper, reworked employment. Added automation PMG.
 -Reshuffled Market Access Price Impact modifiers among techs.
+-Increased max innovation investment cap 50 >> 60
 
 [h1]v8.1[/h1]
 -Road Network now also gives a state infrastructure % buff.

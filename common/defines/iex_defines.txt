@@ -1,0 +1,45 @@
+﻿NAI = {
+	TICKS_FOR_FULL_SPENDING_UPDATE = 250 # The higher this is, the less often AIs will update their spending priorities 
+	
+	# Below data is used to calculate how much weight the AI places on a production buildingPRODUCTION_BUILDING_BASE_VALUE = 1000 # If no ai_value is scripted in the building
+	PRODUCTION_BUILDING_NO_AVAILABLE_WORKFORCE_FACTOR = 0.1 # Total weight is multiplied by this if the state lacks enough workforce to staff the building
+	PRODUCTION_BUILDING_INPUT_NO_LOCAL_PRODUCTION_FACTOR = -0.25 # Add this value to a building for each unit of money worth of goods consumed that are not produced in the state but *are* produced by buildings in the market
+	PRODUCTION_BUILDING_OUTPUT_NO_LOCAL_CONSUMPTION_FACTOR = -0.25 # Add this value to a building for each unit of money worth of goods produced that are not consumed in the state but *are* consumed by buildings in the market
+	PRODUCTION_BUILDING_OUTPUT_NEW_GOODS_FACTOR = 2.0 # Add this value to a building for each unit of money worth of goods that currently isn't available in our market but the AI wants to prioritize
+	PRODUCTION_BUILDING_OUTPUT_WANTED_INDUSTRIAL_GOODS_FACTOR = 0.4 # Add this value to a building for each unit of money worth of industrial goods that aren't overproduced in the country and are used by buildings
+	PRODUCTION_BUILDING_OUTPUT_WANTED_MILITARY_GOODS_FACTOR = 0.4 # Add this value to a building for each unit of money worth of military goods that aren't overproduced in the country and are used by buildings
+	PRODUCTION_BUILDING_DISFAVORED_GOODS_FACTOR = -0.25 # Add this value to a building for each unit of money worth of building goods output that the AI disfavors
+	PRODUCTION_BUILDING_MISSING_QUALIFICATIONS_MULT = 0.25 # Multiply score by this if there's not enough qualifications to staff the building (disabled for now)
+	PRODUCTION_BUILDING_DESIRED_INFRASTRUCTURE_SURPLUS = 10 # If infrastructure 'surplus' in state is less than this, AI wants to improve it
+	PRODUCTION_BUILDING_EXCESSIVE_INFRASTRUCTURE_SURPLUS = 11 # If infra 'surplus' in state is at least this, AI doesn't want to improve it
+	
+	
+	# Below data is used to calculate how much weight the AI places on a production method	
+	PRODUCTION_METHOD_FAVORED_MILITARY_GOODS_FACTOR = 2.0 # Per base cost * units of goods produced that the AI favors (for military goods)
+	PRODUCTION_METHOD_CHANCE_TO_CHANGE = 0.5 # Chance that the AI will consider changing a production method when evaluating methods
+	PRODUCTION_METHOD_EMPLOYMENT_CHANGE_FACTOR = -1 # Per extra employee the employment method would require (reduced employment = higher score)
+	
+	NUM_GROWING_COLONIES_MAX = 2 # No more than this amount of growing colonies at once, regardless of amount of colonial growth points
+}
+
+NCountry = {
+	JOURNAL_ENTRY_UPDATE_ACTIVE = 20					# Number of ticks between each update of Active (Possible) Journal Entries, can be overriden on journal entry type
+}
+
+NEconomy = {
+	TRADE_ROUTE_AUTO_INCREASE_ACCEPTABLE_REVENUE_DIFFERENCE = 1.05 # Multiply revenue of new trade route level by this for the purpose of considering whether it's OK to auto-increase level (means that trade routes can level up even when slightly decreasing overall revenue)
+	TRADE_ROUTE_AUTO_REDUCTION_ACCEPTABLE_REVENUE_DIFFERENCE = 1.2 # Multiply revenue of current trade route level by this for the purpose of considering whether we should auto-decrease level (means that trade routes won't level down just for the purpose of a small revenue increase)
+}
+
+NPops = {
+	MIGRATION_MIN_POP_AMOUNT = 25								# No less than this amount of a pop can migrate each week (if any migration at all should happen)
+	ECONOMIC_MIGRATION_STATE_POPULATION_THRESHOLD = 250000				# States with less pops than this have reduced economic emigration numbers to avoid total depopulation
+	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_ORIGIN_FRACTION = 0.1	# The amount of unemployed workers in a state * this value is added to how many people can move from it (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
+	MIGRATION_MAX_PER_STATE_BASE = 1000							# No more than this amount of people can move from or to a state in a single week (base)	
+	MIGRATION_PULL_FROM_AVAILABLE_EMPLOYMENT = 0.75			# Migration pull is increased by for each 10k available non subsistence jobs
+	
+	ASSIMILATION_RATE = 0.01					# Percentage of pops who will Assimilate into a different Culture each month, if eligible
+	MIN_ASSIMILATION = 100						# If there is any assmiliation at least this many people will assimilate
+	CONVERSION_RATE = 0.01						# Percentage of pops who will Convert into a different Religion each month, if eligible
+	MIN_CONVERSION = 100							# If there is any conversion at least this many people will convert
+}
