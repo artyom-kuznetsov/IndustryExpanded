@@ -4,7 +4,12 @@
 pm_ink_flower_dye_production = {
 	texture = "gfx/interface/icons/production_method_icons/ink_floral_dyes.dds"
 	
-	pollution_generation = 5
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -32,7 +37,12 @@ pm_dye_production = {
 		aniline
 	}
 	
-	pollution_generation = 5
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
 
 	building_modifiers = {
 		workforce_scaled = {

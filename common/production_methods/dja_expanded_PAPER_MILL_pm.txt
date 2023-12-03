@@ -3,7 +3,13 @@
 
 pm_ink_paper = {
 	texture = "gfx/interface/icons/production_method_icons/ink_paper.dds"
-	pollution_generation = 3
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
 	
 	unlocking_technologies = {
 		mechanical_tools

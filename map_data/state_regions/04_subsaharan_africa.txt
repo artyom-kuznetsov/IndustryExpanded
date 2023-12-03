@@ -718,6 +718,7 @@ STATE_UGANDA = {
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 20
+		bg_copper_mining = 5
     }
     resource = {
         type = "bg_rubber"
@@ -862,6 +863,7 @@ STATE_CONGO = {
         bg_coal_mining = 48
         bg_logging = 25
         bg_fishing = 4
+		bg_copper_mining = 5
     }
     resource = {
         type = "bg_rubber"
@@ -869,7 +871,7 @@ STATE_CONGO = {
     }
     resource = {
         type = "bg_oil_extraction"
-        undiscovered_amount = 5
+        undiscovered_amount = 4
     }
     naval_exit_id = 3104
 }
@@ -889,6 +891,7 @@ STATE_CONGO_ORIENTALE = {
     capped_resources = {
         bg_coal_mining = 44
         bg_logging = 23
+		bg_copper_mining = 5
     }
     resource = {
         type = "bg_rubber"
@@ -1005,6 +1008,7 @@ STATE_SOUTH_ANGOLA = {
         bg_logging = 5
         bg_fishing = 7
         bg_whaling = 4
+		bg_copper_mining = 10
     }
     resource = {
         type = "bg_rubber"
@@ -1049,6 +1053,7 @@ STATE_KATANGA = {
     capped_resources = {
         bg_iron_mining = 27
         bg_logging = 18
+		bg_copper_mining = 10
     }
     resource = {
         type = "bg_rubber"
@@ -1098,6 +1103,7 @@ STATE_ZAMBIA = {
         bg_coal_mining = 36
         bg_lead_mining = 33
         bg_logging = 17
+		bg_copper_mining = 18
     }
     resource = {
         type = "bg_rubber"
@@ -1142,6 +1148,7 @@ STATE_ZAMBEZI = {
     capped_resources = {
         bg_coal_mining = 44
         bg_logging = 11
+		bg_copper_mining = 10
     }
     resource = {
         type = "bg_rubber"
@@ -1165,6 +1172,7 @@ STATE_NAMAQUALAND = {
         bg_coal_mining = 32
         bg_logging = 4
         bg_fishing = 7
+		bg_copper_mining = 20
     }
     naval_exit_id = 3105
 }
@@ -1246,6 +1254,7 @@ STATE_TRANSVAAL = {
         bg_coal_mining = 104
         bg_iron_mining = 60
         bg_logging = 5
+		bg_copper_mining = 10
     }
     resource = {
         type = "bg_gold_fields"
@@ -1328,6 +1337,7 @@ STATE_BOTSWANA = {
     capped_resources = {
         bg_coal_mining = 48
         bg_logging = 5
+		bg_copper_mining = 10
     }
 }
 

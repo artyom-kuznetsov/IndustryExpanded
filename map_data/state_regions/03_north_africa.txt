@@ -103,6 +103,7 @@ STATE_SINAI = {
         bg_fishing = 3
         bg_iron_mining = 24
         bg_lead_mining = 24
+		bg_copper_mining = 10
     }
     naval_exit_id = 3047
 }
@@ -218,6 +219,7 @@ STATE_MARRAKECH = {
     capped_resources = {
         bg_iron_mining = 30
         bg_fishing = 8
+		bg_copper_mining = 10
     }
     naval_exit_id = 3089
 }
@@ -279,6 +281,7 @@ STATE_INNER_MOROCCO = {
         bg_fishing = 4
         bg_gold_mining = 3
         bg_coal_mining = 6
+		bg_copper_mining = 30
     }
     naval_exit_id = 3089
 }
@@ -349,6 +352,7 @@ STATE_ORAN = {
         bg_iron_mining = 12
         bg_fishing = 5
         bg_logging = 3
+		bg_copper_mining = 18
     }
     naval_exit_id = 3032
 }
@@ -545,6 +549,7 @@ STATE_EASTERN_MALI = {
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tobacco_plantations" }
     capped_resources = {
         bg_monuments = 1
+		bg_copper_mining = 10
     }
 }
 
@@ -558,6 +563,9 @@ STATE_WESTERN_MALI = {
     mine = "xEAE72D"
     wood = "x901121"
     arable_land = 50
+	capped_resources = {
+		bg_copper_mining = 20
+	}
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_cotton_plantations" "bg_opium_plantations" "bg_tobacco_plantations" }
 }
 
@@ -619,6 +627,9 @@ STATE_CHAD = {
     wood = "x815967"
     arable_land = 30
     arable_resources = { "bg_livestock_ranches" }
+	capped_resources = {
+		bg_copper_mining = 5
+	}
     resource = {
         type = "bg_oil_extraction"
         undiscovered_amount = 10

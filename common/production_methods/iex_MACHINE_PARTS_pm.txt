@@ -1,8 +1,12 @@
 ﻿pm_iron_machine_parts = {
 	texture = "gfx/interface/icons/production_method_icons/pig_iron_tools.dds"
 	
-	pollution_generation = 10
-	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_iron_add = 27.5	# 1100
@@ -20,7 +24,12 @@
 pm_rotary_machines = {
 	texture = "gfx/interface/icons/production_method_icons/pumps.dds"
 	
-	pollution_generation = 20
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+
 	
 	unlocking_technologies = {
 		mechanical_production
@@ -44,7 +53,12 @@ pm_rotary_machines = {
 pm_belt_transmission_machines = {
 	texture = "gfx/interface/icons/production_method_icons/coke_battery.dds"
 	
-	pollution_generation = 30
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 30
+		}
+	}
+
 	
 	unlocking_technologies = {
 		rotary_valve_engine
@@ -69,7 +83,12 @@ pm_belt_transmission_machines = {
 pm_automatic_machines = {
 	texture = "gfx/interface/icons/production_method_icons/electric_engines.dds"
 	
-	pollution_generation = 40
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 40
+		}
+	}
+
 	
 	unlocking_technologies = {
 		pneumatic_tools
@@ -101,7 +120,12 @@ pm_no_boilers = {
 pm_low_pressure_boilers = {
 	texture = "gfx/interface/icons/production_method_icons/coal_fired_plant.dds"
 	
-	pollution_generation = 3
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
 	
 	unlocking_technologies = {
 		watertube_boiler
@@ -124,7 +148,12 @@ pm_low_pressure_boilers = {
 pm_high_pressure_boilers = {
 	texture = "gfx/interface/icons/production_method_icons/low_pressure_boilers.dds"
 	
-	pollution_generation = 5
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
 	
 	unlocking_technologies = {
 		automatic_bottle_blowers

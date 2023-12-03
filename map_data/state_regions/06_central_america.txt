@@ -130,6 +130,7 @@ STATE_PANAMA = {
         bg_coal_mining = 36
         bg_logging = 8
         bg_fishing = 6
+		bg_copper_mining = 24
         bg_whaling = 2
     }
     resource = {
@@ -153,6 +154,7 @@ STATE_HAITI = {
     capped_resources = {
         bg_logging = 7
         bg_fishing = 6
+		bg_copper_mining = 10
     }
     resource = {
         type = "bg_rubber"
@@ -175,6 +177,7 @@ STATE_SANTO_DOMINGO = {
     capped_resources = {
         bg_logging = 11
         bg_fishing = 7
+		bg_copper_mining = 12
     }
     resource = {
         type = "bg_rubber"
@@ -196,6 +199,7 @@ STATE_PUERTO_RICO = {
     capped_resources = {
         bg_logging = 2
         bg_fishing = 4
+		bg_copper_mining = 6
     }
     resource = {
         type = "bg_rubber"
@@ -255,6 +259,7 @@ STATE_JAMAICA = {
     capped_resources = {
         bg_logging = 4
         bg_fishing = 5
+		bg_copper_mining = 4
     }
     resource = {
         type = "bg_rubber"
@@ -280,6 +285,7 @@ STATE_CUBA = {
         bg_iron_mining = 18
         bg_logging = 15
         bg_fishing = 10
+		bg_copper_mining = 12
     }
     resource = {
         type = "bg_rubber"

@@ -3,9 +3,6 @@
 pm_oil_streetlights = {
 	texture = "gfx/interface/icons/production_method_icons/oil_streetlights.dds"
 	
-	unlocking_technologies = {
-	}
-
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_oil_add = 1

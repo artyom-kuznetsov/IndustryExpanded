@@ -54,7 +54,13 @@ pm_gravel_roads = {
 
 pm_paved_roads = {
 	texture = "gfx/interface/icons/production_method_icons/paved_roads.dds"
-	pollution_generation = 0
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
 
 	unlocking_technologies = {
 		stone_roads
@@ -84,7 +90,13 @@ pm_paved_roads = {
 
 pm_asphalt_roads = {
 	texture = "gfx/interface/icons/production_method_icons/asphalt_roads.dds"
-	pollution_generation = 0
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
 
 	unlocking_technologies = {
 		paved_roads

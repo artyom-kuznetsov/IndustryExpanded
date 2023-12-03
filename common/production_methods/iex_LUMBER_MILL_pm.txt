@@ -1,6 +1,5 @@
 ﻿pm_manual_sawing_lm = {
-	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"	
-	pollution_generation = 5
+	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"
 	
 	building_modifiers = {
 		workforce_scaled = {
@@ -21,7 +20,13 @@
 
 pm_powered_sawing_lm = {
 	texture = "gfx/interface/icons/production_method_icons/powered_saw_lumber_mill.dds"
-	pollution_generation = 10
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
 	
 	unlocking_technologies = {
 		mechanical_production
@@ -49,7 +54,6 @@ pm_powered_sawing_lm = {
 
 pm_electrical_saw_lm = {
 	texture = "gfx/interface/icons/production_method_icons/electric_saw_lumber_mill.dds"
-	pollution_generation = 5
 	
 	unlocking_technologies = {
 		electrical_generation
@@ -84,7 +88,13 @@ pm_no_secondary_treatment = {
 
 pm_minimal_chemical_treatment = {
 	texture = "gfx/interface/icons/production_method_icons/leblanc_process.dds"
-	pollution_generation = 2
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
 	
 	unlocking_technologies = {
 		chemical_bleaching
@@ -110,7 +120,13 @@ pm_minimal_chemical_treatment = {
 
 pm_full_chemical_treatment = {
 	texture = "gfx/interface/icons/production_method_icons/ammonia_soda_process.dds"
-	pollution_generation = 4
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
 	
 	unlocking_technologies = {
 		aniline

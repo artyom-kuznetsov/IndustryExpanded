@@ -66,6 +66,7 @@ STATE_VOLHYNIA = {
     capped_resources = {
         bg_coal_mining = 68
         bg_logging = 11
+		bg_copper_mining = 6
     }
 }
 
@@ -228,6 +229,7 @@ STATE_LUHANSK = {
         bg_iron_mining = 45
         bg_logging = 7
         bg_fishing = 10
+		bg_copper_mining = 20
     }
     naval_exit_id = 3036
 }
@@ -351,6 +353,7 @@ STATE_PERM = {
         bg_coal_mining = 80
         bg_iron_mining = 75
         bg_logging = 25
+		bg_copper_mining = 16
     }
     resource = {
         type = "bg_oil_extraction"
@@ -445,6 +448,7 @@ STATE_SILESIA = {
         bg_lead_mining = 54
         bg_sulfur_mining = 40
         bg_logging = 14
+		bg_copper_mining = 30
     }
 }
 
@@ -479,6 +483,7 @@ STATE_LESSER_POLAND = {
         bg_coal_mining = 84
         bg_lead_mining = 60
         bg_logging = 13
+		bg_copper_mining = 15
     }
 }
 
@@ -551,6 +556,7 @@ STATE_WEST_GALICIA = {
         bg_coal_mining = 140
         bg_iron_mining = 33
         bg_logging = 17
+		bg_copper_mining = 24
     }
     resource = {
         type = "bg_oil_extraction"
@@ -593,6 +599,7 @@ STATE_CENTRAL_HUNGARY = {
         bg_coal_mining = 20
         bg_iron_mining = 30
         bg_logging = 6
+		bg_copper_mining = 10
     }
 }
 
@@ -609,6 +616,7 @@ STATE_BEKES = {
     arable_resources = { "bg_wheat_farms" "bg_livestock_ranches" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 11
+		bg_copper_mining = 10
     }
 }
 
@@ -680,6 +688,7 @@ STATE_WEST_SLOVAKIA = {
         bg_coal_mining = 44
         bg_iron_mining = 63
         bg_logging = 8
+		bg_copper_mining = 30
     }
 }
 
@@ -697,6 +706,7 @@ STATE_EAST_SLOVAKIA = {
         bg_coal_mining = 92
         bg_lead_mining = 33
         bg_logging = 15
+		bg_copper_mining = 40
     }
 }
 
@@ -714,6 +724,7 @@ STATE_SOUTHERN_TRANSYLVANIA = {
         bg_iron_mining = 45
         bg_lead_mining = 45
         bg_logging = 17
+		bg_copper_mining = 25
     }
 }
 
@@ -731,6 +742,7 @@ STATE_NORTHERN_TRANSYLVANIA = {
         bg_coal_mining = 48
         bg_iron_mining = 63
         bg_logging = 13
+		bg_copper_mining = 20
     }
 }
 

@@ -103,6 +103,7 @@ STATE_HEDJAZ = {
     capped_resources = {
         bg_sulfur_mining = 28
         bg_fishing = 5
+		bg_copper_mining = 10
     }
     naval_exit_id = 3047
 }
@@ -155,6 +156,7 @@ STATE_TRANSJORDAN = {
     arable_resources = { "bg_livestock_ranches" }
     capped_resources = {
         bg_logging = 2
+		bg_copper_mining = 8
     }
     naval_exit_id = 3047
 }
@@ -322,6 +324,7 @@ STATE_FARS = {
         bg_iron_mining = 5
         bg_fishing = 7
         bg_logging = 6
+		bg_copper_mining = 20
     }
     resource = {
         type = "bg_oil_extraction"
@@ -349,6 +352,7 @@ STATE_LARISTAN = {
         bg_sulfur_mining = 22
         bg_fishing = 10
         bg_logging = 3
+		bg_copper_mining = 10
     }
     resource = {
         type = "bg_oil_extraction"
@@ -373,6 +377,7 @@ STATE_SISTAN = {
         bg_iron_mining = 14
         bg_coal_mining = 12
         bg_logging = 3
+		bg_copper_mining = 6
     }
     naval_exit_id = 3046
 }
@@ -438,6 +443,7 @@ STATE_ISFAHAN = {
         bg_iron_mining = 51
         bg_lead_mining = 28
         bg_logging = 4
+		bg_copper_mining = 18
     }
 }
 
@@ -496,6 +502,7 @@ STATE_TABRIZ = {
         bg_iron_mining = 30
         bg_lead_mining = 25
         bg_logging = 7
+		bg_copper_mining = 10
     }
 }
 
@@ -517,6 +524,7 @@ STATE_LURISTAN = {
     capped_resources = {
         bg_logging = 7
         bg_iron_mining = 5
+		bg_copper_mining = 10
     }
 }
 
@@ -534,6 +542,7 @@ STATE_HUDAVENDIGAR = {
     capped_resources = {
         bg_logging = 9
         bg_fishing = 8
+		bg_copper_mining = 30
     }
     naval_exit_id = 3035
 }
@@ -645,6 +654,7 @@ STATE_TRABZON = {
         bg_iron_mining = 21
         bg_logging = 8
         bg_fishing = 9
+		bg_copper_mining = 18
     }
     naval_exit_id = 3036
 }
@@ -664,6 +674,7 @@ STATE_ERZURUM = {
         bg_iron_mining = 30
         bg_lead_mining = 36
         bg_logging = 9
+		bg_copper_mining = 40
     }
 }
 
@@ -696,6 +707,7 @@ STATE_KARS = {
     capped_resources = {
         bg_logging = 9
         bg_fishing = 5
+		bg_copper_mining = 8
     }
     naval_exit_id = 3036
 }

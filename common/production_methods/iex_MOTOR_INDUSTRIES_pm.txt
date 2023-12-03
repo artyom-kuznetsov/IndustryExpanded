@@ -1,7 +1,12 @@
 ﻿pm_early_steam_engines = {
 	texture = "gfx/interface/icons/production_method_icons/condensing_engine_pump.dds"
 	
-	pollution_generation = 10
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
 	
 	building_modifiers = {
 		workforce_scaled = {
@@ -25,7 +30,12 @@ pm_steam_engines = {
 		rotary_valve_engine
 	}
 	
-	pollution_generation = 10
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
 	
 	building_modifiers = {
 		workforce_scaled = {

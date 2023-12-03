@@ -38,6 +38,7 @@ STATE_PIEDMONT = {
         bg_lead_mining = 45
         bg_logging = 8
         bg_fishing = 6
+		bg_copper_mining = 6
     }
     naval_exit_id = 3032
 }
@@ -60,6 +61,7 @@ STATE_SARDINIA = {
         bg_sulfur_mining = 20
         bg_logging = 11
         bg_fishing = 10
+		bg_copper_mining = 50
     }
     naval_exit_id = 3032
 }
@@ -206,6 +208,7 @@ STATE_SAVOY = {
         bg_iron_mining = 24
         bg_lead_mining = 24
         bg_logging = 11
+		bg_copper_mining = 10
     }
 }
 
@@ -303,6 +306,7 @@ STATE_VENETIA = {
         bg_sulfur_mining = 36
         bg_logging = 7
         bg_fishing = 12
+		bg_copper_mining = 12
     }
     naval_exit_id = 3033
 }
@@ -439,6 +443,7 @@ STATE_ARAGON = {
         bg_coal_mining = 36
         bg_lead_mining = 36
         bg_iron_mining = 18
+		bg_copper_mining = 6
         bg_logging = 8
     }
 }
@@ -473,6 +478,7 @@ STATE_BALEARES = {
     capped_resources = {
         bg_logging = 2
         bg_fishing = 5
+		bg_copper_mining = 3
     }
     naval_exit_id = 3032
 }
@@ -549,6 +555,7 @@ STATE_VALENCIA = {
         bg_lead_mining = 30
         bg_logging = 5
         bg_fishing = 10
+		bg_copper_mining = 20
     }
     naval_exit_id = 3032
 }
@@ -697,6 +704,7 @@ STATE_EASTERN_THRACE = {
         bg_logging = 4
         bg_fishing = 10
         bg_monuments = 1
+		bg_copper_mining = 12
     }
     naval_exit_id = 3035
 }
@@ -776,6 +784,7 @@ STATE_NORTHERN_THRACE = {
         bg_iron_mining = 33
         bg_logging = 17
         bg_fishing = 6
+		bg_copper_mining = 40
     }
     naval_exit_id = 3036
 }
@@ -795,6 +804,7 @@ STATE_BULGARIA = {
     capped_resources = {
         bg_logging = 14
         bg_fishing = 2
+		bg_copper_mining = 20
     }
     naval_exit_id = 3036
 }
@@ -925,6 +935,7 @@ STATE_NORTHERN_SERBIA = {
     capped_resources = {
         bg_iron_mining = 24
         bg_logging = 13
+		bg_copper_mining = 8
     }
 }
 
@@ -942,6 +953,7 @@ STATE_SOUTHERN_SERBIA = {
         bg_coal_mining = 40
         bg_lead_mining = 36
         bg_logging = 14
+		bg_copper_mining = 30
     }
 }
 
@@ -1045,6 +1057,7 @@ STATE_SKOPIA = {
     capped_resources = {
         bg_iron_mining = 36
         bg_logging = 16
+		bg_copper_mining = 16
     }
 }
 
@@ -1062,6 +1075,7 @@ STATE_MACEDONIA = {
     capped_resources = {
         bg_logging = 9
         bg_fishing = 3
+		bg_copper_mining = 19
     }
     naval_exit_id = 3034
 }
@@ -1081,6 +1095,7 @@ STATE_WESTERN_THRACE = {
         bg_iron_mining = 27
         bg_logging = 5
         bg_fishing = 10
+		bg_copper_mining = 20
     }
     naval_exit_id = 3035
 }
