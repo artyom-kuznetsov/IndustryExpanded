@@ -3,3 +3,11 @@
 	cash_reserves_max = 25000
 	always_possible = yes
 }
+
+bg_copper_mining = {
+	parent_group = bg_mining
+	
+	default_building = building_copper_mine
+
+	can_use_slaves = yes
+}

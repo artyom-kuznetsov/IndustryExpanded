@@ -30,6 +30,11 @@ electrification = {
 	
 	unlocking_technologies = {	
 		electrical_generation
+		rotary_valve_engine
+	}
+	
+	modifier = {		
+		building_economy_of_scale_level_cap_add = 5
 	}
 	
 	ai_weight = {

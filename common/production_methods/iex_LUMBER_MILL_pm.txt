@@ -5,7 +5,7 @@
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 5 # 200
+			goods_input_machine_parts_add = 4 # 200
 			goods_input_wood_add = 40 # 800 # TOTAL 1000
 			
 			# output goods
@@ -30,12 +30,13 @@ pm_powered_sawing_lm = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 5	# 200
-			goods_input_coal_add = 10 	# 300
-			goods_input_wood_add = 50 	# 1000 # TOTAL 1500
+			goods_input_tools_add = 5			# 200
+			goods_input_machine_parts_add = 4	# 200
+			goods_input_coal_add = 5 			# 150
+			goods_input_wood_add = 50 			# 1000 # TOTAL 1550
 			
 			# output goods
-			goods_output_hardwood_add = 65 # 2600 # PROFIT 1100
+			goods_output_hardwood_add = 65 # 2600 # PROFIT 1050
 		}
 
 		level_scaled = {
@@ -58,11 +59,12 @@ pm_electrical_saw_lm = {
 		workforce_scaled = {
 			# input goods
 			goods_input_tools_add = 10 			# 400
+			goods_input_machine_parts_add = 4	# 200
 			goods_input_electricity_add = 10	# 300
-			goods_input_wood_add = 60			# 1200 # TOTAL 1900
+			goods_input_wood_add = 60			# 1200 # TOTAL 2100
 			
 			# output goods
-			goods_output_hardwood_add = 85	# 3400 # PROFIT 1500
+			goods_output_hardwood_add = 90	# 3600 # PROFIT 1500
 		}
 
 		level_scaled = {

@@ -5,6 +5,21 @@ state_building_road_network_max_level_add = {
 	num_decimals = 0
 }
 
+goods_output_copper_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_copper_add = {
+	good = no
+	percent = no	
+}
+
+goods_output_copper_mult = {
+	good = yes
+	percent = yes
+}
+
 goods_output_machine_parts_add = {
 	good = yes
 	percent = no

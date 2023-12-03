@@ -6,3 +6,11 @@ machine_parts = {
 	
 	prestige_factor = 5
 }
+
+copper = {
+	texture = "gfx/interface/icons/goods_icons/copper.dds"
+	cost = 30
+	category = industrial
+	
+	prestige_factor = 5
+}

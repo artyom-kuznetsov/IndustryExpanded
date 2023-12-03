@@ -105,6 +105,7 @@ building_machine_parts_factories = {
 
 	production_method_groups = {
 		pmg_base_machine_parts
+		pmg_boilers
 		pmg_automation_building_industry
 		pmg_ownership_capital_building_universal
 	}

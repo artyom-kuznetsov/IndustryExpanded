@@ -241,8 +241,10 @@
  pm_automatic_machines:0 "Автоматические машины"
  
  fertilizer:0 "Химикаты"
+ building_chemical_plants:0 "Химические заводы"
  mechanical_tools:0 "Точные инструменты"
  mechanical_production:0 "Машинное производство"
+ mechanical_production_desc:0 "Производство паровых машин, которые были способны вращать или переворачивать предметы с приличной силой, стало одним из локомотивов промышленной революции."
  
  pm_automation_working_tools:0 "Рабочие инструменты"
  pm_automation_watertube_boiler:0 "Водотрубный котёл"
@@ -254,3 +256,18 @@
  electrification:0 "Электрификация"
  conveyors:0 "Электрические конвейеры"
  assembly_lines:0 "Производственные линии"
+ 
+ machine_parts:0 "Медь"
+ modifier_goods_output_copper_add:0 "выпуск @copper! меди за каждый уровень"
+ modifier_goods_output_copper_add_desc:0 "Количество @copper! меди, выпускаемых сооружениями"
+ modifier_goods_input_copper_add_desc:0 "Количество @copper! меди, потребляемых сооружениями"
+ modifier_goods_input_copper_add:0 "потребление @copper! меди за каждый уровень"
+ modifier_goods_output_copper_mult:0 "Выпуск @copper! меди сооружением"
+ modifier_goods_output_copper_mult_desc:0 "Бонус или штраф к выпуску @copper! меди сооружением"
+ trade_route_import_lens_option_copper_tooltip:0 "Проложить торговый путь импорта $copper$"
+ trade_route_export_lens_option_copper_tooltip:0 "Проложить торговый путь экспорта $copper$"
+ 
+ pm_no_boilers:0 "Нет производства котлов"
+ pm_low_pressure_boilers:0 "Котлы низкого давления"
+ pm_high_pressure_boilers:0 "Котлы высокого давления"
+ pmg_boilers:0 "Котлы"

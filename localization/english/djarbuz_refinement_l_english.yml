@@ -241,8 +241,10 @@
  pm_automatic_machines:0 "Automatic Machines"
  
  fertilizer:0 "Chemicals"
+ building_chemical_plants:0 "Chemical Plants"
  mechanical_tools:0 "Precision Tools"
  mechanical_production:0 "Mechanical Production"
+ mechanical_production_desc:0 "Production of steam machines that were able to rotate or lift objects with a decent force were one of the locomotives of the industrial revolution."
  
  pm_automation_working_tools:0 "Working Tools"
  pm_automation_watertube_boiler:0 "Water-tube Boiler"
@@ -254,3 +256,20 @@
  electrification:0 "Electrification"
  conveyors:0 "Electric Conveyors"
  assembly_lines:0 "Assembly Lines"
+ 
+ copper:0 "Copper"
+ modifier_goods_output_copper_add:0 "@copper! Copper output per level"
+ modifier_goods_output_copper_add_desc:0 "The amount of @copper! Copper produced by buildings"
+ modifier_goods_input_copper_add_desc:0 "The amount of @copper! Copper consumed by buildings"
+ modifier_goods_input_copper_add:0 "@copper! Copper input per level"
+ modifier_goods_output_copper_mult:0 "Building @copper! Copper output"
+ modifier_goods_output_copper_mult_desc:0 "A bonus or penalty to the amount of @copper! output produced by buildings"
+ trade_route_import_lens_option_copper_tooltip:0 "Establish a $copper$ import trade route"
+ trade_route_export_lens_option_copper_tooltip:0 "Establish a $copper$ export trade route"
+ 
+ pm_no_boilers:0 "No Boilers"
+ pm_low_pressure_boilers:0 "Low Pressure Boilers"
+ pm_high_pressure_boilers:0 "High Pressure Boilers"
+ pmg_boilers:0 "Boilers"
+ 
+ building_copper_mine:0 "Copper Mines"

@@ -5,9 +5,9 @@
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_iron_add = 30	# 1200
+			goods_input_iron_add = 27.5	# 1100
 			
-			goods_output_machine_parts_add = 35	# 1750 # PROFIT 550
+			goods_output_machine_parts_add = 35	# 1750 # PROFIT 650
 		}
 
 		level_scaled = {
@@ -28,9 +28,9 @@ pm_rotary_machines = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_steel_add = 30	# 1500
+			goods_input_steel_add = 26	# 1300
 			
-			goods_output_machine_parts_add = 45	# 2250 # PROFIT 750
+			goods_output_machine_parts_add = 45	# 2250 # PROFIT 800
 		}
 
 		level_scaled = {
@@ -52,10 +52,10 @@ pm_belt_transmission_machines = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_steel_add = 35	# 1750
-			goods_input_fabric_add = 5	# 100 # TOTAL 1850
+			goods_input_steel_add = 30	# 1500
+			goods_input_fabric_add = 5	# 100 # TOTAL 1600
 			
-			goods_output_machine_parts_add = 55	# 2750 # PROFIT 900
+			goods_output_machine_parts_add = 55	# 2750 # PROFIT 1150
 		}
 
 		level_scaled = {
@@ -77,17 +77,71 @@ pm_automatic_machines = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_steel_add = 35			# 1750
+			goods_input_steel_add = 30			# 1500
 			goods_input_electricity_add = 20	# 600
-			goods_input_fabric_add = 5			# 100 # TOTAL 2450
+			goods_input_fabric_add = 5			# 100 # TOTAL 2200
 			
-			goods_output_machine_parts_add = 75	# 3750 # PROFIT 1300
+			goods_output_machine_parts_add = 75	# 3750 # PROFIT 1550
 		}
 
 		level_scaled = {
 			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 1000
-			building_employment_engineers_add = 500
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+# PMG 2 - BOILERS
+
+pm_no_boilers = {
+	texture = "gfx/interface/icons/production_method_icons/no_use.dds"
+}
+
+pm_low_pressure_boilers = {
+	texture = "gfx/interface/icons/production_method_icons/coal_fired_plant.dds"
+	
+	pollution_generation = 3
+	
+	unlocking_technologies = {
+		watertube_boiler
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_copper_add = 15	# 450
+			
+			goods_output_machine_parts_add = 15	# 750 # PROFIT 300
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+pm_high_pressure_boilers = {
+	texture = "gfx/interface/icons/production_method_icons/low_pressure_boilers.dds"
+	
+	pollution_generation = 5
+	
+	unlocking_technologies = {
+		automatic_bottle_blowers
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_copper_add = 15	# 450
+			goods_input_oil_add = 5		# 200
+			goods_input_steel_add = 5	# 250	# TOTAL 900
+			
+			goods_output_machine_parts_add = 30	# 1500 # PROFIT 600
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 375
+			building_employment_engineers_add = 375
 		}
 	}
 }
