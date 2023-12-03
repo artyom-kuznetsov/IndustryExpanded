@@ -241,7 +241,7 @@
  pm_automatic_machines:0 "Automatic Machines"
  
  fertilizer:0 "Chemicals"
- building_chemical_plants:0 "Chemical Plants"
+ building_chemical_plants:1 "Chemical Plants"
  mechanical_tools:0 "Precision Tools"
  mechanical_production:0 "Mechanical Production"
  mechanical_production_desc:0 "Production of steam machines that were able to rotate or lift objects with a decent force were one of the locomotives of the industrial revolution."
@@ -273,3 +273,15 @@
  pmg_boilers:0 "Boilers"
  
  building_copper_mine:0 "Copper Mines"
+ pmg_mining_equipment_building_copper_mine:0 "$pmg_mining_equipment_building_iron_mine$"
+ pm_picks_and_shovels_building_copper_mine:0 "$pm_picks_and_shovels_building_iron_mine$"
+ pm_atmospheric_engine_pump_building_copper_mine:0 "$pm_atmospheric_engine_pump_building_iron_mine$"
+ pm_condensing_engine_pump_building_copper_mine:0 "$pm_condensing_engine_pump_building_iron_mine$"
+ pm_diesel_pump_building_copper_mine:0 "$pm_diesel_pump_building_iron_mine$"
+ pmg_explosives_building_copper_mine:0 "$pmg_explosives_building_iron_mine$"
+ pm_nitroglycerin_building_copper_mine:0 "$pm_nitroglycerin_building_iron_mine$"
+ pm_dynamite_building_copper_mine:0 "$pm_dynamite_building_iron_mine$"
+ 
+ pm_automation_water_pumps:0 "Water Pumps"
+ pm_automation_automatic_power_plant:0 "Automated Power Plant"
+ pmg_automation_building_power_plant:0 "$pmg_automation$"

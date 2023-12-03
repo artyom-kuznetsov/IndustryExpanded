@@ -1,0 +1,108 @@
+﻿
+pm_no_artillery_production = {
+	texture = "gfx/interface/icons/production_method_icons/no_artillery_production.dds"
+}
+
+pm_cannons = {
+	texture = "gfx/interface/icons/production_method_icons/artillery_production.dds"
+	
+	unlocking_technologies = {
+		artillery
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 15		# 450
+			goods_input_hardwood_add = 10	# 400 # TOTAL 850
+
+			# output goods
+			goods_output_artillery_add = 25	# 1750 PROFIT 900
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 1000
+		}
+	}
+}
+
+pm_smoothbores = {
+	texture = "gfx/interface/icons/production_method_icons/smoothbores.dds"
+	
+	unlocking_technologies = {
+		shell_gun
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 20			# 600
+			goods_input_machine_parts_add = 5	# 250
+			goods_input_hardwood_add = 15		# 600	# 1450
+
+			# output goods
+			goods_output_artillery_add = 45		# 3150	# PROFIT 1700
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3750
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 250
+		}
+	}
+}
+
+pm_breech_loaders = {
+	texture = "gfx/interface/icons/production_method_icons/breech_loading_artillery_production.dds"
+	
+	unlocking_technologies = {
+		breech_loading_artillery
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 20			# 1000
+			goods_input_machine_parts_add = 6	# 300
+			goods_input_hardwood_add = 10		# 400
+			goods_input_tools_add = 10			# 400	# TOTAL 2100
+
+			# output goods
+			goods_output_artillery_add = 65		# 4550 	# PROFIT 2450
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_recoiled_barrels = {
+	texture = "gfx/interface/icons/production_method_icons/recoil_mechanism_artillery_production.dds"
+	
+	unlocking_technologies = {
+		automatic_machine_guns
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 30			# 1500
+			goods_input_machine_parts_add = 10	# 500
+			goods_input_tools_add = 20			# 800
+			goods_input_oil_add = 10			# 400	# TOTAL 3200
+
+			# output goods
+			goods_output_artillery_add = 90		# 6300	# PROFIT 3100
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1250
+			building_employment_engineers_add = 750
+		}
+	}
+}

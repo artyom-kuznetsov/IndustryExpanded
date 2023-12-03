@@ -271,3 +271,17 @@
  pm_low_pressure_boilers:0 "Котлы низкого давления"
  pm_high_pressure_boilers:0 "Котлы высокого давления"
  pmg_boilers:0 "Котлы"
+ 
+ building_copper_mine:0 "Медные шахты"
+ pmg_mining_equipment_building_copper_mine:0 "$pmg_mining_equipment_building_iron_mine$"
+ pm_picks_and_shovels_building_copper_mine:0 "$pm_picks_and_shovels_building_iron_mine$"
+ pm_atmospheric_engine_pump_building_copper_mine:0 "$pm_atmospheric_engine_pump_building_iron_mine$"
+ pm_condensing_engine_pump_building_copper_mine:0 "$pm_condensing_engine_pump_building_iron_mine$"
+ pm_diesel_pump_building_copper_mine:0 "$pm_diesel_pump_building_iron_mine$"
+ pmg_explosives_building_copper_mine:0 "$pmg_explosives_building_iron_mine$"
+ pm_nitroglycerin_building_copper_mine:0 "$pm_nitroglycerin_building_iron_mine$"
+ pm_dynamite_building_copper_mine:0 "$pm_dynamite_building_iron_mine$"
+ 
+ pm_automation_water_pumps:0 "Водяные насосы"
+ pm_automation_automatic_power_plant:0 "Автоматизированная электростанция"
+ pmg_automation_building_power_plant:0 "$pmg_automation$"

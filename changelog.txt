@@ -8,9 +8,12 @@
 -Added new technologies: Mechanical Production, Electrification, Assembly Lines
 -Lumber Mill building is back with a rework. 
 [i]Lumber Mill is a more efficient source of hardwood.[/i]
--Tweaked Distilleries employment.
+-Tweaked Distilleries, Steel Mills, Artillery Foundries employment and/or PMs.
 -Rebalanced Motor Industries PMs, latter ones now use machine parts.
 -Redone "No secondary" icon for Food Industries.
+-Electronics Industries now uses copper for telephone production, rather than iron.
+-Power Plants now use copper, reworked employment. Added automation PMG.
+-Reshuffled Market Access Price Impact modifiers among techs.
 
 [h1]v8.1[/h1]
 -Road Network now also gives a state infrastructure % buff.

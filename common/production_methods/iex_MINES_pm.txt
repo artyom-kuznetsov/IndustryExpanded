@@ -629,7 +629,7 @@ pm_atmospheric_engine_pump_building_copper_mine = {
 			goods_input_coal_add = 10
 			
 			# output goods
-			goods_output_copper_add = 40
+			goods_output_copper_add = 50
 		}
 
 		level_scaled = {
@@ -660,7 +660,7 @@ pm_condensing_engine_pump_building_copper_mine = {
 			goods_input_coal_add = 15
 			
 			# output goods
-			goods_output_copper_add = 60
+			goods_output_copper_add = 75
 		}
 
 		level_scaled = {

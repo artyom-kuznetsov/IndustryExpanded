@@ -1,0 +1,155 @@
+﻿
+pm_hydroelectric_plant = {
+	texture = "gfx/interface/icons/production_method_icons/hydroelectric_plant.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 9			# 540
+			goods_input_copper_add = 8			# 240 	# TOTAL 800
+			
+			goods_output_electricity_add = 50	# 1500	# PROFIT 700
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_coal-fired_plant = {
+	texture = "gfx/interface/icons/production_method_icons/coal_fired_plant.dds"
+
+	unlocking_technologies = {
+		steam_turbine
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 50
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 10		# 600
+			goods_input_copper_add = 10			# 300
+			goods_input_coal_add = 30			# 900	# TOTAL 1800
+			
+			goods_output_electricity_add = 100	# 3000	# PROFIT 1200
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1500
+		}
+	}
+}
+
+pm_oil-fired_plant = {
+	texture = "gfx/interface/icons/production_method_icons/oil_fired_plant.dds"
+
+	unlocking_technologies = {
+		oil_turbine
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 75
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 15		# 900
+			goods_input_copper_add = 10			# 300
+			goods_input_oil_add = 40			# 1600		# TOTAL 2700
+			
+			goods_output_electricity_add = 150	# 4500		# PROFIT 1800
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1500
+		}
+	}
+}
+
+### AUTOMATION ###
+
+pm_automation_water_pumps = {
+	texture = "gfx/interface/icons/production_method_icons/water_pump.dds"
+	
+	unlocking_technologies = {
+		pumpjacks
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 5	# 250
+			goods_input_coal_add = 5			# 150 # TOTAL 400
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -750
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.05
+		}
+	}
+}
+
+pm_automation_automatic_power_plant = {
+	texture = "gfx/interface/icons/production_method_icons/combustion_derricks.dds"
+	
+	unlocking_technologies = {
+		steam_turbine
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 10		# 500
+			goods_input_electricity_add = 5			# 150 # TOTAL 650
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1500
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.08
+		}
+	}
+}
