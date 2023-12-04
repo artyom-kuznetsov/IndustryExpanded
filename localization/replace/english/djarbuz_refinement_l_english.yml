@@ -291,6 +291,7 @@
  pm_centrifuge:0 "Centrifuge"
  pm_rotary_press:0 "Rotary Press"
  pm_automatic_press:0 "Automatic Press"
+ pm_automation_disabled_solid:0 "No Automation"
  
  pm_bronze_tools:0 "Bronze Tools"
  automatic_machines:0 "Automatic Machines"

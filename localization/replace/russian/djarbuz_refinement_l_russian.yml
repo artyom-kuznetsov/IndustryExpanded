@@ -291,6 +291,7 @@
  pm_centrifuge:0 "Центрифуга"
  pm_rotary_press:0 "Ротационный пресс"
  pm_automatic_press:0 "Автоматический пресс"
+ pm_automation_disabled_solid:0 "Нет автоматизации"
  
  pm_bronze_tools:0 "Бронзовые инструменты"
  automatic_machines:0 "Автоматические механизмы"
