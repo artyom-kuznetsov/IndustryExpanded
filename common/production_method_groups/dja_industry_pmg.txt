@@ -1,4 +1,33 @@
-﻿pmg_base_building_lumber_mill = {
+﻿pmg_automation_building_solid = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled_solid
+		pm_mixing_machines
+		pm_centrifuge
+	}
+}
+
+pmg_automation_building_paper_mill = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled_solid
+		pm_rotary_press
+		pm_automatic_press
+	}
+}
+
+pmg_base_building_tooling_workshops = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_crude_tools
+		pm_bronze_tools
+		pm_pig_iron
+		pm_steel
+		pm_rubber_grips
+	}
+}
+
+pmg_base_building_lumber_mill = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_manual_sawing_lm

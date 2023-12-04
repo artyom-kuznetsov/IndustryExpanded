@@ -1,4 +1,8 @@
-﻿### AUTOMATION ###
+﻿
+### AUTOMATION ###
+pm_automation_disabled = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+}
 
 pm_automation_working_tools = {
 	texture = "gfx/interface/icons/production_method_icons/working_tools.dds"
@@ -200,6 +204,81 @@ pm_automation_assembly_lines = {
 	}
 }
 
+
+### SOLID AUTOMATION ###
+
+
+pm_automation_disabled_solid = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+}
+
+pm_mixing_machines = {
+	texture = "gfx/interface/icons/production_method_icons/mixers.dds"
+	
+	unlocking_technologies = {
+		rotary_valve_engine
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 2	# 100
+			goods_input_coal_add = 5			# 150 # TOTAL 250
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -500
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.02
+		}
+	}
+}
+
+pm_centrifuge = {
+	texture = "gfx/interface/icons/production_method_icons/centrifuge.dds"
+	
+	unlocking_technologies = {
+		automatic_machines
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 4	# 200
+			goods_input_electricity_add = 10	# 300 # TOTAL 500
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.05
+		}
+	}
+}
 
 ### OWNERSHIP ###
 

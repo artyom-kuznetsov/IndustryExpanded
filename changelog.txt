@@ -5,16 +5,18 @@
 [i]Machine parts will be used everywhere, often instead of tools, but mainly automation and mining.[/i]
 -Automation Rework
 [i]Automation was reworked and standardized for most buildings. Instead of 3-4 automation PMs, there are now 6.[/i]
--Added new technologies: Mechanical Production, Electrification, Assembly Lines
+-Added new technologies: Mechanical Production, Electrification, Assembly Lines, Automatic Machines
+-Added automation for Chemical Plants and Explosives Factory.
+-Added Bronze Tools PM for tooling workshops.
 -Lumber Mill building is back with a rework. 
-[i]Lumber Mill is a more efficient source of hardwood.[/i]
 -Tweaked Distilleries, Steel Mills, Artillery Foundries employment and/or PMs.
 -Rebalanced Motor Industries PMs, latter ones now use machine parts.
 -Redone "No secondary" icon for Food Industries.
 -Electronics Industries now uses copper for telephone production, rather than iron.
 -Power Plants now use copper, reworked employment. Added automation PMG.
 -Reshuffled Market Access Price Impact modifiers among techs.
--Increased max innovation investment cap 50 >> 60
+-Increased max innovation investment cap 50 >> 60.
+-Chemical Plants and Artillery Foundries now use copper.
 
 [h1]v8.1[/h1]
 -Road Network now also gives a state infrastructure % buff.

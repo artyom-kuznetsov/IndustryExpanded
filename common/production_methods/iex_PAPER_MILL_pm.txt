@@ -1,0 +1,104 @@
+﻿
+# PAPER MILL
+
+pm_ink_paper = {
+	texture = "gfx/interface/icons/production_method_icons/ink_paper.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 30 # 600
+			goods_input_oil_add = 12.5 # 500 # TOTAL 1100
+			
+			# output goods
+			goods_output_paper_add = 80 # 2400
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3750
+			building_employment_machinists_add = 650
+			building_employment_engineers_add = 100			
+		}
+	}
+}
+
+### AUTOMATION ###
+
+pm_rotary_press = {
+	texture = "gfx/interface/icons/production_method_icons/rotary_valve_engine.dds"
+	
+	unlocking_technologies = {
+		rotary_valve_engine
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 6	# 300
+			goods_input_coal_add = 5			# 150 # TOTAL 450
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1500
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.05
+		}
+	}
+}
+
+pm_automatic_press = {
+	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
+	
+	unlocking_technologies = {
+		automatic_machines
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 10	# 500
+			goods_input_electricity_add = 10	# 300 # TOTAL 800
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -3000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}

@@ -285,3 +285,13 @@
  pm_automation_water_pumps:0 "Водяные насосы"
  pm_automation_automatic_power_plant:0 "Автоматизированная электростанция"
  pmg_automation_building_power_plant:0 "$pmg_automation$"
+ pmg_automation_building_paper_mill:0 "$pmg_automation$"
+ pmg_automation_building_chemical:0 "$pmg_automation$"
+ pm_mixing_machines:0 "Смешивающие машины"
+ pm_centrifuge:0 "Центрифуга"
+ pm_rotary_press:0 "Ротационный пресс"
+ pm_automatic_press:0 "Автоматический пресс"
+ 
+ pm_bronze_tools:0 "Бронзовые инструменты"
+ automatic_machines:0 "Автоматические механизмы"
+ automatic_machines_desc:0 "Компактные и мощные механизмы позволили создать очень эффективное производство в некоторых отраслях."

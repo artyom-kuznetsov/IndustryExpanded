@@ -241,7 +241,7 @@
  pm_automatic_machines:0 "Automatic Machines"
  
  fertilizer:0 "Chemicals"
- building_chemical_plants:1 "Chemical Plants"
+ building_chemical_plants:0 "Chemical Plants"
  mechanical_tools:0 "Precision Tools"
  mechanical_production:0 "Mechanical Production"
  mechanical_production_desc:0 "Production of steam machines that were able to rotate or lift objects with a decent force were one of the locomotives of the industrial revolution."
@@ -285,3 +285,14 @@
  pm_automation_water_pumps:0 "Water Pumps"
  pm_automation_automatic_power_plant:0 "Automated Power Plant"
  pmg_automation_building_power_plant:0 "$pmg_automation$"
+ pmg_automation_building_paper_mill:0 "$pmg_automation$"
+ pmg_automation_building_chemical:0 "$pmg_automation$"
+ pm_mixing_machines:0 "Mixing Machines"
+ pm_centrifuge:0 "Centrifuge"
+ pm_rotary_press:0 "Rotary Press"
+ pm_automatic_press:0 "Automatic Press"
+ 
+ pm_bronze_tools:0 "Bronze Tools"
+ automatic_machines:0 "Automatic Machines"
+ automatic_machines_desc:0 "Compact and powerful mechanisms have made it possible to create very efficient production in some industries."
+ 

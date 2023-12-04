@@ -14,6 +14,7 @@
         bg_coal_mining = 84
         bg_iron_mining = 96
         bg_lead_mining = 81
+        bg_copper_mining = 30
         bg_logging = 27
     }
 }

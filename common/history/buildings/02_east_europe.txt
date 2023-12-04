@@ -625,9 +625,15 @@
 			}
 			create_building={
 				building="building_iron_mine"
-				level=4
+				level=2
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_iron_mine" }
+			}
+			create_building={
+				building="building_copper_mine"
+				level=2
+				reserves=1
+				activate_production_methods={ "pm_atmospheric_engine_pump_building_copper_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_universal" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -942,10 +948,10 @@
 				activate_production_methods={ "pm_lathe" "pm_luxury_furniture" "pm_automation_disabled" "pm_privately_owned_building_furniture_manufacturies" }
 			}
 			create_building={
-				building="building_iron_mine"
+				building="building_copper_mine"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_picks_and_shovels_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_merchant_guilds_building_iron_mine" }
+				activate_production_methods={ "pm_picks_and_shovels_building_copper_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts" "pm_privately_owned_building_universal" }
 			}
 			create_building={
 				building="building_wheat_farm"

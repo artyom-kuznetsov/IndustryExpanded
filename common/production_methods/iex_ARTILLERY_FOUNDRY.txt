@@ -13,11 +13,12 @@ pm_cannons = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 15		# 450
-			goods_input_hardwood_add = 10	# 400 # TOTAL 850
+			goods_input_iron_add = 6		# 240
+			goods_input_copper_add = 12		# 360
+			goods_input_hardwood_add = 10	# 400 # TOTAL 1000
 
 			# output goods
-			goods_output_artillery_add = 25	# 1750 PROFIT 900
+			goods_output_artillery_add = 25	# 1750 PROFIT 750
 		}
 
 		level_scaled = {
@@ -37,12 +38,13 @@ pm_smoothbores = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 20			# 600
+			goods_input_iron_add = 8			# 320
+			goods_input_copper_add = 16			# 480
 			goods_input_machine_parts_add = 5	# 250
-			goods_input_hardwood_add = 15		# 600	# 1450
+			goods_input_hardwood_add = 15		# 600	# TOTAL 1650
 
 			# output goods
-			goods_output_artillery_add = 45		# 3150	# PROFIT 1700
+			goods_output_artillery_add = 45		# 3150	# PROFIT 1500
 		}
 
 		level_scaled = {
@@ -63,7 +65,8 @@ pm_breech_loaders = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 20			# 1000
+			goods_input_steel_add = 8			# 400
+			goods_input_copper_add = 20			# 600
 			goods_input_machine_parts_add = 6	# 300
 			goods_input_hardwood_add = 10		# 400
 			goods_input_tools_add = 10			# 400	# TOTAL 2100
@@ -90,7 +93,8 @@ pm_recoiled_barrels = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 30			# 1500
+			goods_input_steel_add = 15			# 1500
+			goods_input_copper_add = 25			# 1500
 			goods_input_machine_parts_add = 10	# 500
 			goods_input_tools_add = 20			# 800
 			goods_input_oil_add = 10			# 400	# TOTAL 3200

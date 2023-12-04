@@ -1,0 +1,25 @@
+
+pm_bronze_tools = {
+	texture = "gfx/interface/icons/production_method_icons/pig_iron_tools.dds"
+	
+	unlocking_technologies = {
+		steelworking
+	}	
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 30
+			goods_input_iron_add = 8
+			goods_input_copper_add = 16
+			
+			# output goods
+			goods_output_tools_add = 60
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_machinists_add = 500
+		}
+	}
+}
