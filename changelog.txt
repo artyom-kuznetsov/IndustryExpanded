@@ -17,6 +17,7 @@
 -Reshuffled Market Access Price Impact modifiers among techs.
 -Increased max innovation investment cap 50 >> 60.
 -Chemical Plants and Artillery Foundries now use copper.
+-Steam Threshing Machines PMs for grain farms now use Machine Parts.
 
 [h1]v8.1[/h1]
 -Road Network now also gives a state infrastructure % buff.
