@@ -10,6 +10,7 @@ This mod contains new buildings, goods, production methods and other various twe
 - Viable isolationism
 - Road networks
 - Ore filtering
+- New technologies
 
 
 [h1]Localization and Compatibility[/h1]
@@ -20,4 +21,5 @@ Not recommended to use with mods, changing building or resource history.
 Not recommended to use with mods changing PMs or buildings.
 
 [h1]Credits[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030&searchtext=Cold+war+project]Cold War Project[/url] - for some GFX and inspiration.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url] - for some GFX and inspiration.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971224629]Weight of Rule[/url] - for forestry building idea and icon.
