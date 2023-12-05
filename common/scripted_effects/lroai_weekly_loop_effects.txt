@@ -1,0 +1,513 @@
+﻿# Effects of weekly loop iterarion
+lroai_perform_iteration_of_weekly_loop = {
+
+    # Track how many iterations of weekly loop were performed in this main iteration and schedule next if needed
+    lroai_count_and_schedule_iterations_of_weekly_loop = {
+        day_1_of_main_loop = $day_1_of_main_loop$
+    }
+
+    # Add a week of progress to elements of lroai_ongoing_constructions
+    lroai_add_progress_to_ongoing_constructions = yes
+
+    lroai_clear_country_iteration_variables = yes
+
+    lroai_weekly_check_of_gov_building_expenses = yes
+
+    lroai_calculate_building_construction_sector_expenses_per_point = yes
+
+    lroai_manage_tax_and_wage_level = yes
+
+    if = {
+        limit = {
+            OR = {
+                lroai_is_construction_allowed = yes
+                $day_1_of_main_loop$ = yes
+            }
+         }
+        lroai_collect_data_for_construction_and_downsizing = yes
+        lroai_invite_intelligentsia_agitator = yes
+        lroai_invite_industrialists_agitator = yes
+    }
+
+    if = { limit = { $day_1_of_main_loop$ = yes }
+        lroai_collect_coastlines_of_market_capital_and_overseas_lands = yes
+        lroai_start_downsizing = yes
+    }
+
+     if = {
+        limit = {
+            lroai_is_construction_allowed = yes
+         }
+         lroai_perform_for_every_building_type = {
+            effect = 5 # lroai_check_priority_of_building
+         }
+         lroai_start_construction = yes
+    }
+}
+
+lroai_start_downsizing = {
+    # Perform downsizing and immediately clear variables that won't be needed in construction
+    if = {
+        limit = { lroai_is_downsizing_allowed = yes }
+        lroai_downsize_excessive_buildings = yes
+    }
+    lroai_clear_downsizing_variables = yes
+}
+
+lroai_start_construction = {
+    trigger_event = {
+        id = lroai_construction_events.1
+    }
+}
+
+# Add a week of progress to elements of lroai_ongoing_constructions
+lroai_add_progress_to_ongoing_constructions = {
+    every_scope_state = {
+        limit = {
+            lroai_has_variable_list = {
+                name = lroai_ongoing_constructions
+            }
+        }
+        save_scope_as = lroai_current_state
+        every_in_list = {
+            variable = lroai_ongoing_constructions
+
+            # Building is being constructed, subtract construction points from cell 2 until it reaches zero
+            if = {
+                limit = {
+                    lroai_current_ongoing_constructions_element_3 = 1
+                    lroai_current_ongoing_constructions_element_2 > 0
+                }
+                set_local_variable = {
+                    name = lroai_modified_current_ongoing_constructions_element
+                    value = {
+                        value = this
+                        subtract = {
+                            value = root.modifier:country_max_weekly_construction_progress_add
+                            round = yes
+                            max = lroai_current_ongoing_constructions_element_2
+                            multiply = 100
+                        }
+                    }
+                }
+            }
+
+            # Construction is expected to be finished or was finished for sure
+            else = {
+
+                # Add weeks to cell 2 until enough of them would pass for the building to reach reasonable occupancy
+                set_local_variable = {
+                    name = lroai_modified_current_ongoing_constructions_element
+                    value = {
+                        value = this
+                        add = 100
+                    }
+                }
+
+                # Manage construction status, going from "is under construction" to "expected to be finished" and
+                # "was finished for sure". Do it only if weeks are below threshold, otherwise just delete the element.
+                if = {
+                    limit = {
+                        lroai_modified_current_ongoing_constructions_element_2 < 5
+                    }
+
+                    # Change status and thus cell 2 from points to weeks after construction ended to roughly track new
+                    # levels getting employees. Cell 2 stays at 0 during transition so we hang on an extra week before
+                    # claiming construction is done to account for desync between weekly loop and actual weekly tick.
+                    if = {
+                        limit = {
+                            lroai_modified_current_ongoing_constructions_element_3 = 1
+                        }
+                        change_local_variable = {
+                            name = lroai_modified_current_ongoing_constructions_element
+                            add = 1000000
+                        }
+                    }
+
+                    # If we weren't sure before if building was constructed but we see no building of such type under
+                    # construction in this state, we swap from "expected to be finished" to "was finished for sure".
+                    if = {
+                        limit = {
+                            lroai_modified_current_ongoing_constructions_element_3 = 2
+                            NOT = {
+                                scope:lroai_current_state = {
+                                    any_scope_building = {
+                                        lroai_is_true_for_any_building_type = {
+                                            trigger = 1 # is_building_type = $key$
+                                        }
+                                        is_under_construction = yes
+                                    }
+                                }
+                            }
+                        }
+                        change_local_variable = {
+                            name = lroai_modified_current_ongoing_constructions_element
+                            add = 1000000
+                        }
+                    }
+                }
+
+                # If enough weeks have passed, remove the element from the list
+                else = {
+                    remove_local_variable = lroai_modified_current_ongoing_constructions_element
+                }
+            }
+
+            # Add the element to a modified version of the list
+            scope:lroai_current_state = {
+                remove_list_variable = {
+                    name = lroai_ongoing_constructions
+                    target = prev
+                }
+                if = {
+                    limit = {
+                        has_local_variable = lroai_modified_current_ongoing_constructions_element
+                    }
+                    add_to_variable_list = {
+                        name = lroai_modified_ongoing_constructions
+                        target = local_var:lroai_modified_current_ongoing_constructions_element
+                    }
+                    remove_local_variable = lroai_modified_current_ongoing_constructions_element
+                }
+            }
+
+        }
+
+        # Move modified version of the list to a regular one
+        clear_variable_list = lroai_ongoing_constructions
+        every_in_list = {
+            variable = lroai_modified_ongoing_constructions
+            scope:lroai_current_state = {
+                add_to_variable_list = {
+                    name = lroai_ongoing_constructions
+                    target = prev
+                }
+                remove_list_variable = {
+                    name = lroai_modified_ongoing_constructions
+                    target = prev
+                }
+            }
+        }
+        clear_variable_list = lroai_modified_ongoing_constructions
+
+        # Garbage collection
+        clear_saved_scope = lroai_current_state
+    }
+}
+
+# Collect expenses data from buildings and perform a bunch of calculations and transformations using it, with
+# total levels, shortages and ongoing constructions also being collected on day 1 of economy cycle iteration.
+lroai_weekly_check_of_gov_building_expenses = {
+
+    set_local_variable = {
+        name = lroai_building_university_expenses
+        value = 0
+    }
+    set_local_variable = {
+        name = lroai_building_construction_sector_expenses
+        value = 0
+    }
+    set_local_variable = {
+        name = lroai_building_barracks_expenses
+        value = 0
+    }
+    set_local_variable = {
+        name = lroai_building_naval_base_expenses
+        value = 0
+    }
+    set_local_variable = {
+        name = lroai_building_conscription_center_expenses
+        value = 0
+    }
+
+    # Collect expenses data from buildings, with total levels, shortages and ongoing constructions also being collected
+    # on day 1 of economy cycle iteration for buildings that may be constructed as critical.
+    every_scope_building = {
+
+        if = {
+            limit = {
+                is_building_type = building_university
+            }
+            change_local_variable = {
+                name = lroai_building_university_expenses
+                subtract = weekly_profit
+
+            }
+        }
+        else_if = {
+            limit = {
+                is_building_type = building_construction_sector
+            }
+            change_local_variable = {
+                name = lroai_building_construction_sector_expenses
+                subtract = weekly_profit
+            }
+        }
+        else_if = {
+            limit = {
+                is_building_type = building_railway
+            }
+
+            # Railways should always be subsidized
+            if = {
+                limit = {
+                    root = {
+                        is_player = no
+                    }
+                    is_subsidized = no
+                }
+                set_subsidized = yes
+            }
+        }
+        else_if = {
+            limit = {
+                is_building_type = building_barracks
+            }
+            change_local_variable = {
+                name = lroai_building_barracks_expenses
+                subtract = weekly_profit
+            }
+        }
+        else_if = {
+            limit = {
+                is_building_type = building_naval_base
+            }
+            change_local_variable = {
+                name = lroai_building_naval_base_expenses
+                subtract = weekly_profit
+            }
+        }
+        else_if = {
+            limit = {
+                is_building_type = building_conscription_center
+            }
+            change_local_variable = {
+                name = lroai_building_conscription_center_expenses
+                subtract = weekly_profit
+            }
+        }
+    }
+
+    # Garbage collection; we don't need consription center expenses anywhere else
+    remove_local_variable = lroai_building_conscription_center_expenses
+
+    # We always pretend wage level is medium
+    if = {
+        limit = {
+            NOT = {
+                modifier:country_government_wages_mult = 0.00
+            }
+        }
+        change_local_variable = {
+            name = lroai_building_university_expenses
+            divide = {
+                value = 1
+                add = {
+                    value = modifier:country_government_wages_mult
+                    multiply = 0.95
+                }
+            }
+        }
+    }
+    if = {
+        limit = {
+            NOT = {
+                modifier:country_military_wages_mult = 0.00
+            }
+        }
+        change_local_variable = {
+            name = lroai_building_barracks_expenses
+            divide = {
+                value = 1
+                add = {
+                    value = modifier:country_military_wages_mult
+                    multiply = 0.60
+                }
+            }
+        }
+        change_local_variable = {
+            name = lroai_building_naval_base_expenses
+            divide = {
+                value = 1
+                add = {
+                    value = modifier:country_military_wages_mult
+                    multiply = 0.60
+                }
+            }
+        }
+    }
+
+    set_variable = {
+        name = lroai_building_university_spending
+        value = local_var:lroai_building_university_expenses
+    }
+    set_variable = {
+        name = lroai_building_construction_sector_spending
+        value = local_var:lroai_building_construction_sector_expenses
+    }
+    set_variable = {
+        name = lroai_building_barracks_spending
+        value = local_var:lroai_building_barracks_expenses
+    }
+    set_variable = {
+        name = lroai_building_naval_base_spending
+        value = local_var:lroai_building_naval_base_expenses
+    }
+}
+
+# Track how many iterations of weekly loop were performed in this main iteration and schedule next if needed
+lroai_count_and_schedule_iterations_of_weekly_loop = {
+    if = {
+        limit = {
+            $day_1_of_main_loop$ = yes
+        }
+        remove_variable = lroai_performed_iterations_of_weekly_loop
+    }
+
+    # Track number of performed weekly loop iterations and schedule next if it's not last week of main iteration
+    lroai_add_to_variable = {
+        name = lroai_performed_iterations_of_weekly_loop
+        value = 1
+    }
+    if = {
+        limit = {
+            var:lroai_performed_iterations_of_weekly_loop < lroai_weeks_in_iteration
+        }
+        trigger_event = {
+            id = lroai_weekly_loop_events.1
+            days = 7
+        }
+    }
+}
+
+
+# Budget surplus is calculated as a treasury delta. For any additional values previous week data is used
+# because treasury delta is a byproduct of previous week income and expenses and not this week ones.
+lroai_calculate_building_construction_sector_expenses_per_point = {
+
+    if = { limit = { NOT = {has_variable = lroai_previous_cost_per_construction_point} }
+        set_variable = {
+            name = lroai_previous_cost_per_construction_point
+            value = lroai_expected_ceiling_cost_per_construction_point
+        }
+     }
+
+    set_variable = {
+        name = lroai_temporary_cost_per_construction_point
+        value = {
+            value = var:lroai_building_construction_sector_spending
+            divide = lroai_non_free_usage_of_construction_points_value
+        }
+    }
+    if = {
+        limit = {
+            OR = {
+                lroai_construction_points_current <= lroai_base_construction_value
+                construction_queue_num_queued_government_levels = 0
+            }
+        }
+            #do nothing
+    }
+    else_if = {
+        limit = {var:lroai_temporary_cost_per_construction_point > var:lroai_previous_cost_per_construction_point}
+
+        set_variable = {
+            name = lroai_previous_cost_per_construction_point
+            value = {
+                value = var:lroai_previous_cost_per_construction_point
+                multiply = 0.9
+                add = {
+                    value = var:lroai_temporary_cost_per_construction_point
+                    multiply = 0.1
+                }
+                min = 200
+            }
+        }
+    }
+    else = {
+        set_variable = {
+            name = lroai_previous_cost_per_construction_point
+            value = {
+                value = var:lroai_previous_cost_per_construction_point
+                multiply = 0.95
+                add = {
+                    value = var:lroai_temporary_cost_per_construction_point
+                    multiply = 0.05
+                }
+                min = 200
+            }
+        }
+    }
+}
+
+lroai_clear_weekly_loop_variables = {
+    remove_variable = lroai_building_university_spending
+    remove_variable = lroai_building_barracks_spending
+    remove_variable = lroai_building_naval_base_spending
+}
+
+lroai_invite_intelligentsia_agitator = {
+    if = {
+        limit = {
+            OR = {
+                This = c:BIC
+                This = c:CHI
+                This = c:RUS
+                This = c:AUS
+                This = c:TUR
+                This = c:SPA
+                This = c:USA
+                This = c:JAP
+                This = c:KOR
+            }
+            empty_agitator_slots > 0
+            not = {
+                any_scope_character = {
+                    has_role = agitator
+                    is_interest_group_type = ig_intelligentsia
+                }
+            }
+            is_player = no
+        }
+        save_temporary_scope_as = lroai_current_country
+        random_character_in_exile_pool = {
+            limit = {
+                is_interest_group_type = ig_intelligentsia
+            }
+            transfer_character = scope:lroai_current_country
+        }
+    }
+}
+
+lroai_invite_industrialists_agitator = {
+    if = {
+        limit = {
+            OR = {
+                This = c:BIC
+                This = c:CHI
+                This = c:RUS
+                This = c:AUS
+                This = c:TUR
+                This = c:USA
+                This = c:SPA
+                This = c:JAP
+                This = c:KOR
+            }
+            empty_agitator_slots > 0
+            not = {
+                any_scope_character = {
+                    has_role = agitator
+                    is_interest_group_type = ig_industrialists
+                }
+            }
+            is_player = no
+        }
+        save_temporary_scope_as = lroai_current_country
+        random_character_in_exile_pool = {
+            limit = {
+                is_interest_group_type = ig_industrialists
+            }
+            transfer_character = scope:lroai_current_country
+        }
+    }
+}

@@ -75,7 +75,7 @@
 				building="building_paper_mills"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_universal" }
 			}
 			create_building={
 				building="building_furniture_manufacturies"
@@ -323,7 +323,7 @@
 				building="building_paper_mills"
 				level=1
 				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_universal" }
 			}
 		}
 	}
@@ -641,7 +641,7 @@
 				building="building_paper_mills"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_universal" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -691,7 +691,7 @@
 				building="building_paper_mills"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_universal" }
 			}
 			create_building={
 				building="building_glassworks"
@@ -789,7 +789,7 @@
 				building="building_paper_mills"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_universal" }
 			}				
 			create_building={
 				building="building_furniture_manufacturies"
@@ -1267,7 +1267,7 @@
 				building="building_paper_mills"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_paper_mills" }
+				activate_production_methods={ "pm_pulp_pressing" "pm_automation_disabled" "pm_merchant_guilds_building_universal" }
 			}			
 			create_building={
 				building="building_textile_mills"

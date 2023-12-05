@@ -1,4 +1,13 @@
-﻿pmg_filtering_building_lead_mine = {
+﻿pmg_filtering_building_iron_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_filtering
+		pm_filtering_iron_mine
+		pm_advanced_filtering_iron_mine
+	}
+}
+
+pmg_filtering_building_lead_mine = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_no_filtering
@@ -15,16 +24,16 @@ pmg_filtering_building_sulfur_mine = {
 		pm_advanced_filtering_sulfur_mine
 	}
 }
-#
-#pmg_filtering_building_copper_mine = {
-#	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-#	production_methods = {
-#		pm_no_filtering
-#		pm_filtering_copper_mine
-#		pm_advanced_filtering_copper_mine
-#	}
-#}
-#
+
+pmg_filtering_building_copper_mine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_filtering
+		pm_filtering_copper_mine
+		pm_advanced_filtering_copper_mine
+	}
+}
+
 
 
 pmg_mining_equipment_building_copper_mine = {

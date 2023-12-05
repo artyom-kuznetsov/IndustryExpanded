@@ -12,6 +12,7 @@ This mod contains new buildings, goods, production methods and other various twe
 - Road networks
 - Ore filtering
 - New technologies
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]
 
 
 [h1]Localization and Compatibility[/h1]
@@ -24,3 +25,4 @@ Not recommended to use with mods changing PMs or buildings.
 [h1]Credits[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url] - for some GFX and inspiration.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971224629]Weight of Rule[/url] - for forestry building idea and icon.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] - for integration and being so kind.

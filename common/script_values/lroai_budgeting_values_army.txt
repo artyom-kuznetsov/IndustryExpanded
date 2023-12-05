@@ -1,0 +1,66 @@
+﻿# ----------------
+# Battalion target
+# ----------------
+
+lroai_building_barracks_spending_target = {
+    value       = lroai_military_expense_ideal
+    multiply    = lroai_building_barracks_vs_naval_base_share
+}
+
+lroai_building_barracks_spending_excess = {
+    value = lroai_building_barracks_spending_target
+    multiply = 1.20
+    add = 1000
+}
+
+lroai_building_barracks_spending_ceiling = {
+    value = lroai_building_barracks_spending_target
+    multiply = 1.40
+}
+
+lroai_building_barracks_spending_value = {
+    if = {
+        limit = {
+            has_variable = lroai_building_barracks_spending
+        }
+        value = var:lroai_building_barracks_spending
+    }
+    else = {
+        value = lroai_building_barracks_spending_target
+        multiply = 1.10
+    }
+    min = 0
+    max = 1000000000 #billion
+}
+
+
+lroai_building_barracks_spending_target_70 = {
+    value = lroai_building_barracks_spending_target
+    multiply = 0.7
+}
+
+lroai_building_barracks_spending_target_75= {
+    value = lroai_building_barracks_spending_target
+    multiply = 0.75
+}
+
+lroai_building_barracks_spending_target_80 = {
+    value = lroai_building_barracks_spending_target
+    multiply = 0.8
+}
+
+lroai_building_barracks_spending_target_85 = {
+    value = lroai_building_barracks_spending_target
+    multiply = 0.85
+}
+
+lroai_bbuilding_arracks_spending_target_90 = {
+    value = lroai_building_barracks_spending_target
+    multiply = 0.9
+}
+
+lroai_building_barracks_spending_target_95 = {
+    value = lroai_building_barracks_spending_target
+    multiply = 0.95
+}
+

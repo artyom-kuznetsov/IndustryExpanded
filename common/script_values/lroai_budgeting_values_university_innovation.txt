@@ -1,0 +1,48 @@
+﻿# -----------------
+# University target
+# -----------------
+
+lroai_building_university_spending_share = {
+    value = 0.15
+}
+
+lroai_building_university_spending_target = {
+    value = lroai_revenue_left_for_construction_military
+    multiply = lroai_building_university_spending_share
+}
+
+lroai_building_university_spending_target_90 = {
+    value = lroai_building_university_spending_target
+    multiply = 0.90
+}
+
+lroai_building_university_spending_target_80 = {
+    value = lroai_building_university_spending_target
+    multiply = 0.80
+}
+lroai_building_university_spending_target_70 = {
+    value = lroai_building_university_spending_target
+    multiply = 0.70
+}
+
+lroai_building_university_spending_target_60 = {
+    value = lroai_building_university_spending_target
+    multiply = 0.60
+}
+
+
+lroai_building_university_spending_value = {
+    if = {
+        limit = {
+            has_variable = lroai_building_university_spending
+            var:lroai_building_university_spending > 0
+        }
+        value = var:lroai_building_university_spending
+    }
+    else = {
+        value = lroai_building_university_spending_target
+    }
+    min = 0
+    max = 1000000000 #billion
+}
+}

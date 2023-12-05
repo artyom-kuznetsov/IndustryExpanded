@@ -1,4 +1,4 @@
-pmg_forestry_production_base = {
+﻿pmg_forestry_production_base = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_simple_forestry_forestry

@@ -18,6 +18,7 @@ pm_filtering_lead_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
+			goods_input_machine_parts_add = 1
 			goods_output_lead_add = -10
 			
 			# output goods
@@ -41,6 +42,8 @@ pm_advanced_filtering_lead_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
+			goods_input_machine_parts_add = 1
+			goods_input_fertilizer_add = 2
 			goods_output_lead_add = -20
 			
 			# output goods
@@ -65,6 +68,7 @@ pm_filtering_sulfur_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
+			goods_input_machine_parts_add = 1
 			goods_output_sulfur_add = -9
 			
 			# output goods
@@ -88,6 +92,8 @@ pm_advanced_filtering_sulfur_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
+			goods_input_machine_parts_add = 1
+			goods_input_fertilizer_add = 2
 			goods_output_sulfur_add = -18
 			
 			# output goods
@@ -284,6 +290,56 @@ pm_diesel_pump_building_iron_mine = {
 			building_employment_laborers_add = 2000
 			building_employment_machinists_add = 1500
 			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_filtering_iron_mine = {
+	texture = "gfx/interface/icons/production_method_icons/filtering.dds"
+	
+	unlocking_technologies = {
+		bessemer_process
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_pump_building_iron_mine
+		pm_condensing_engine_pump_building_iron_mine
+		pm_diesel_pump_building_iron_mine
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 1
+			goods_output_iron_add = -9		# 300
+			
+			# output goods
+			goods_output_copper_add = 12			# 300
+		}
+	}
+}
+
+pm_advanced_filtering_iron_mine = {
+	texture = "gfx/interface/icons/production_method_icons/advanced_filtering.dds"
+	
+	unlocking_technologies = {
+		open_hearth_process
+	}
+	
+	unlocking_production_methods = {
+		pm_condensing_engine_pump_building_iron_mine
+		pm_diesel_pump_building_iron_mine
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 1
+			goods_input_fertilizer_add = 2
+			goods_output_iron_add = -15		# 600
+			
+			# output goods
+			goods_output_copper_add = 20			# 600
 		}
 	}
 }
@@ -761,3 +817,56 @@ pm_dynamite_building_copper_mine = {
 		}
 	}
 }	
+pm_no_filtering = {
+	texture = "gfx/interface/icons/production_method_icons/filtering_disabled.dds"
+}
+
+pm_filtering_copper_mine = {
+	texture = "gfx/interface/icons/production_method_icons/filtering.dds"
+	
+	unlocking_technologies = {
+		bessemer_process
+	}
+	
+	unlocking_production_methods = {
+		pm_atmospheric_engine_pump_building_copper_mine
+		pm_condensing_engine_pump_building_copper_mine
+		pm_diesel_pump_building_copper_mine
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 1
+			goods_output_copper_add = -12		# 300
+			
+			# output goods
+			goods_output_iron_add = 9			# 300
+		}
+	}
+}
+
+pm_advanced_filtering_copper_mine = {
+	texture = "gfx/interface/icons/production_method_icons/advanced_filtering.dds"
+	
+	unlocking_technologies = {
+		open_hearth_process
+	}
+	
+	unlocking_production_methods = {
+		pm_condensing_engine_pump_building_copper_mine
+		pm_diesel_pump_building_copper_mine
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 1
+			goods_input_fertilizer_add = 2
+			goods_output_copper_add = -20		# 600
+			
+			# output goods
+			goods_output_iron_add = 15			# 600
+		}
+	}
+}

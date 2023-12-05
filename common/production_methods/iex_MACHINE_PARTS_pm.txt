@@ -53,7 +53,7 @@ pm_rotary_machines = {
 }
 
 pm_belt_transmission_machines = {
-	texture = "gfx/interface/icons/production_method_icons/coke_battery.dds"
+	texture = "gfx/interface/icons/production_method_icons/steamworks.dds"
 	
 	state_modifiers = {
 		workforce_scaled = {

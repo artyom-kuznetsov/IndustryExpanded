@@ -79,13 +79,6 @@ pm_rayon = {
 			goods_output_dye_add = -20
 			goods_output_silk_add = 40	# PROFIT 0
 		}
-
-		level_scaled = {
-			# employment
-			building_employment_laborers_add = -1000
-			building_employment_machinists_add = 500
-			building_employment_engineers_add = 500
-		}
 	}
 }
 
@@ -104,13 +97,6 @@ pm_rayon_focus = {
 			# output goods
 			goods_output_dye_add = -30	# -1200
 			goods_output_silk_add = 60	# 2400 
-		}
-
-		level_scaled = {
-			# employment
-			building_employment_laborers_add = -1000
-			building_employment_machinists_add = 500
-			building_employment_engineers_add = 500
 		}
 	}
 }

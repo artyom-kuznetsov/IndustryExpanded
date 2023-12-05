@@ -292,7 +292,17 @@
  pm_rotary_press:0 "Ротационный пресс"
  pm_automatic_press:0 "Автоматический пресс"
  pm_automation_disabled_solid:0 "Нет автоматизации"
+ pmg_automation_building_lategame_industry:0 "$pmg_automation$"
  
  pm_bronze_tools:0 "Бронзовые инструменты"
  automatic_machines:0 "Автоматические механизмы"
  automatic_machines_desc:0 "Компактные и мощные механизмы позволили создать очень эффективное производство в некоторых отраслях."
+ pmg_automation_building_solid:0 "$pmg_automation$"
+ 
+ pmg_filtering_building_iron_mine:0 "$pmg_filtering_building_lead_mine$"
+ pm_filtering_iron_mine:0 "$pm_filtering_lead_mine$"
+ pm_advanced_filtering_iron_mine:0 "$pm_advanced_filtering_lead_mine$"
+ pmg_filtering_building_copper_mine:0 "$pmg_filtering_building_lead_mine$"
+ pm_filtering_copper_mine:0 "$pm_filtering_lead_mine$"
+ pm_advanced_filtering_copper_mine:0 "$pm_advanced_filtering_lead_mine$"
+ 

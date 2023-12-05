@@ -1,4 +1,7 @@
 [h1]v9.0[/h1]
+[b]That's where the real content starts coming in![/b]
+-Integrated LRoAI, AI nations are much more sustainable now. You don't need to run original LRoAI with IEX.
+
 -Added new goods: Machine Parts and Copper
 -Added Copper Mine
 -Added Machine Parts Factory
@@ -7,17 +10,22 @@
 [i]Automation was reworked and standardized for most buildings. Instead of 3-4 automation PMs, there are now 6.[/i]
 -Added new technologies: Mechanical Production, Electrification, Assembly Lines, Automatic Machines
 -Added automation for Chemical Plants and Explosives Factory.
+-Added automation for Electrics Industries
 -Added Bronze Tools PM for tooling workshops.
+-Added Ore Filtering for Iron Mines, allowing to redirect to Copper.
+-Added Ore Filtering for Copper Mines, allowing to redirect to Iron.
+-Added automation for Synthetic Plants. Rayon PMs don't affect employment anymore.
 -Lumber Mill building is back with a rework. 
 -Tweaked Distilleries, Steel Mills, Artillery Foundries employment and/or PMs.
 -Rebalanced Motor Industries PMs, latter ones now use machine parts.
--Redone "No secondary" icon for Food Industries.
 -Electronics Industries now uses copper for telephone production, rather than iron.
 -Power Plants now use copper, reworked employment. Added automation PMG.
 -Reshuffled Market Access Price Impact modifiers among techs.
 -Increased max innovation investment cap 50 >> 60.
 -Chemical Plants and Artillery Foundries now use copper.
 -Steam Threshing Machines PMs for grain farms now use Machine Parts.
+-Ore Filtering now uses chemicals and/or machine parts.
+-Redone most new Food Industries PM icons.
 
 [h1]v8.1[/h1]
 -Road Network now also gives a state infrastructure % buff.

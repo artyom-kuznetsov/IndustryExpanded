@@ -1,0 +1,66 @@
+﻿# ------------------
+# Bureaucracy target
+# ------------------
+
+
+lroai_bureaucracy_produced = {
+    value = modifier:country_bureaucracy_add
+    multiply = {
+        value = modifier:country_bureaucracy_mult
+        add = 1
+    }
+}
+
+lroai_bureaucracy_usage = {
+    value = lroai_bureaucracy_produced
+    subtract = bureaucracy
+}
+
+lroai_bureaucracy_load = {
+    value = lroai_bureaucracy_produced
+    divide = lroai_bureaucracy_usage
+}
+
+
+
+
+lroai_bureaucracy_produced_value = {
+     value  = root.produced_bureaucracy
+}
+
+lroai_bureaucracy_available_value = {
+    value   = root.bureaucracy
+}
+
+lroai_bureaucracy_required_value = {
+    value       = root.produced_bureaucracy
+    subtract    = root.bureaucracy
+}
+
+lroai_bureaucracy_required_value_critical = {
+    value =  lroai_bureaucracy_required_value
+    add =  20
+}
+
+lroai_bureaucracy_required_value_ceiling_high = {
+    value =  lroai_bureaucracy_required_value
+    multiply = 1.05
+    add = 30
+}
+
+lroai_bureaucracy_required_value_ceiling_medium = {
+    value =  lroai_bureaucracy_required_value
+    multiply = 1.10
+    add = 40
+}
+
+lroai_bureaucracy_required_value_ceiling_low = {
+    value =  lroai_bureaucracy_required_value
+    multiply = 1.15
+    add = 50
+}
+
+lroai_bureaucracy_required_value_ceiling_downsize= {
+    value =  lroai_bureaucracy_required_value
+    multiply = 1.3
+}

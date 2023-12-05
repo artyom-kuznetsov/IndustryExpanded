@@ -127,7 +127,7 @@ pm_creamery = {
 
 # CANNING
 pm_fish_canning = {
-	texture = "gfx/interface/icons/production_method_icons/simple_fishing.dds"
+	texture = "gfx/interface/icons/production_method_icons/canning_fish.dds"
 	
 	unlocking_technologies = {
 		canneries
@@ -153,7 +153,7 @@ pm_fish_canning = {
 }
 
 pm_fruit_canning = {
-	texture = "gfx/interface/icons/production_method_icons/fruit_canning.dds"
+	texture = "gfx/interface/icons/production_method_icons/canning_fruit.dds"
 	
 	unlocking_technologies = {
 		canneries
@@ -179,7 +179,7 @@ pm_fruit_canning = {
 }
 
 pm_meat_canning = {
-	texture = "gfx/interface/icons/production_method_icons/meat_canning.dds"
+	texture = "gfx/interface/icons/production_method_icons/canning_meat.dds"
 	
 	unlocking_technologies = {
 		canneries
@@ -205,7 +205,7 @@ pm_meat_canning = {
 }
 
 pm_extended_fish_canning = {
-	texture = "gfx/interface/icons/production_method_icons/extended_fish.dds"
+	texture = "gfx/interface/icons/production_method_icons/canning_vacuum_fish.dds"
 	
 	unlocking_technologies = {
 		vacuum_canning
@@ -232,7 +232,7 @@ pm_extended_fish_canning = {
 }
 
 pm_extended_fruit_canning = {
-	texture = "gfx/interface/icons/production_method_icons/extended_fruit.dds"
+	texture = "gfx/interface/icons/production_method_icons/canning_vacuum_fruit.dds"
 	
 	unlocking_technologies = {
 		vacuum_canning
@@ -260,7 +260,7 @@ pm_extended_fruit_canning = {
 }
 
 pm_extended_meat_canning = {
-	texture = "gfx/interface/icons/production_method_icons/extended_meat.dds"
+	texture = "gfx/interface/icons/production_method_icons/vaccum_canning.dds"
 	
 	unlocking_technologies = {
 		vacuum_canning

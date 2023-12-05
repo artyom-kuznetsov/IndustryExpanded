@@ -1,0 +1,787 @@
+﻿lroai_renew_modifier = {
+    remove_modifier = $name$
+    add_modifier = {
+        name = $name$
+        days = $days$
+    }
+}
+
+lroai_renew_variable = {
+    remove_variable = $name$
+    set_variable = {
+        name = $name$
+        days = $days$
+    }
+}
+
+lroai_add_to_variable = {
+    if = {
+        limit = {
+            NOT = {
+                has_variable = $name$
+            }
+        }
+        set_variable = {
+            name = $name$
+            value = $value$
+        }
+    }
+    else = {
+        change_variable = {
+            name = $name$
+            add = $value$
+        }
+    }
+}
+
+lroai_add_to_local_variable = {
+    if = {
+        limit = {
+            NOT = {
+                has_local_variable = $name$
+            }
+        }
+        set_local_variable = {
+            name = $name$
+            value = $value$
+        }
+    }
+    else = {
+        change_local_variable = {
+            name = $name$
+            add = $value$
+        }
+    }
+}
+
+# There's no trigger to check if an agriculture resource is available in the state as of 1.2.2.
+# As a workaround, a custom solution is used that stores data about resources as a variable in state region scope.
+# Check happens during initialization of a new game and then periodically, but not really often.
+lroai_check_agriculture_resources_in_state_regions = {
+    if = {
+        limit = {
+            OR = {
+                NOT = {
+                    has_global_variable = lroai_date_of_last_check_of_agriculture_resources
+                }
+                lroai_days_since_agriculture_resources_were_checked >= 365
+            }
+        }
+        set_global_variable = {
+            name = lroai_date_of_last_check_of_agriculture_resources
+            value = game_date
+        }
+        every_state_region = {
+            limit = {
+                is_state_region_land = yes
+                NOT = {
+                    has_variable = lroai_available_agriculture_resources
+                }
+            }
+            set_local_variable = {
+                name = lroai_added_arable_land
+                value = 0
+            }
+
+            # Arable land is added preemptively to check resources through creating building
+            while = {
+                limit = {
+                    local_var:lroai_added_arable_land < 100
+                    any_scope_state = {
+                        free_arable_land < 2
+                    }
+                }
+                add_arable_land = 1
+                change_local_variable = {
+                    name = lroai_added_arable_land
+                    add = 1
+                }
+            }
+
+            # As this is (hopefully) a temporary solution, code below is not integrated into attribute delivery system
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_rye_farm cipher = 1 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_wheat_farm cipher = 2 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_rice_farm cipher = 3 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_maize_farm cipher = 4 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_millet_farm cipher = 5 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_livestock_ranch cipher = 10 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_cotton_plantation cipher = 20 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_dye_plantation cipher = 100 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_silk_plantation cipher = 200 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_banana_plantation cipher = 1000 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_sugar_plantation cipher = 2000 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_tea_plantation cipher = 10000 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_coffee_plantation cipher = 20000 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_tobacco_plantation cipher = 100000 }
+            lroai_check_if_state_region_has_agriculture_resource = { key = building_opium_plantation cipher = 200000 }
+
+            # Added arable land is removed
+            while = {
+                limit = {
+                    local_var:lroai_added_arable_land > 0
+                }
+                add_arable_land = -1
+                change_local_variable = {
+                    name = lroai_added_arable_land
+                    subtract = 1
+                }
+            }
+        }
+    }
+}
+
+# First check if such building already exists in the state, otherwise try to create it and check if it may be expanded.
+lroai_check_if_state_region_has_agriculture_resource = {
+    if = {
+        limit = {
+            any_scope_state = {
+                any_scope_building = {
+                    is_building_type = $key$
+                }
+            }
+        }
+        lroai_add_to_variable = {
+            name = lroai_available_agriculture_resources
+            value = $cipher$
+        }
+    }
+    else = {
+        every_scope_state = {
+            limit = {
+                free_arable_land >= 2
+            }
+            if = {
+                limit = {
+                    NOT = {
+                        has_local_variable = lroai_agriculture_resource_was_found
+                    }
+                }
+                create_building = {
+                    building = $key$
+                    level = 1
+                }
+                if = {
+                    limit = {
+                        any_scope_building = {
+                            is_building_type = $key$
+                            can_queue_building_levels = 1
+                        }
+                    }
+                    state_region = {
+                        lroai_add_to_variable = {
+                            name = lroai_available_agriculture_resources
+                            value = $cipher$
+                        }
+                    }
+                    set_local_variable = lroai_agriculture_resource_was_found
+                }
+                remove_building = $key$
+            }
+        }
+        remove_local_variable = lroai_agriculture_resource_was_found
+    }
+}
+
+# At game start we should give every country date of next iteration.
+# A lot of weightning is done to ensure even distribution and to reduce load in first months of the game.
+# while = { random_country = { } } is used instead of every_country = { } to avoid results being deterministic.
+# TODO rework fixed days into usage of values such as lroai_days_in_the_iteration
+lroai_set_date_of_next_iteration_for_all_countries = {
+    if = {
+        limit = {
+            NOT = {
+                has_global_variable = lroai_order_of_countries_was_determined
+            }
+        }
+        set_global_variable = lroai_order_of_countries_was_determined
+
+        # First distribute 14 biggest countries on uneven days in {1, 28}
+        set_local_variable = {
+            name = lroai_amount_of_states
+            value = 1
+        }
+        while = {
+            limit = {
+                any_country = {
+                    lroai_is_country_allowed = yes
+                    any_scope_state = {
+                        count >= local_var:lroai_amount_of_states
+                    }
+                    count > 14
+                }
+            }
+            change_local_variable = {
+                name = lroai_amount_of_states
+                add = 1
+            }
+        }
+        set_local_variable = {
+            name = lroai_date_of_next_iteration_offset
+            value = 1
+        }
+        while = {
+            limit = {
+                any_country = {
+                    lroai_is_country_allowed = yes
+                    any_scope_state = {
+                        count >= local_var:lroai_amount_of_states
+                    }
+                    NOT = {
+                        has_variable = lroai_date_of_next_iteration
+                    }
+                }
+            }
+            random_country = {
+                limit = {
+                    lroai_is_country_allowed = yes
+                    any_scope_state = {
+                        count >= local_var:lroai_amount_of_states
+                    }
+                    NOT = {
+                        has_variable = lroai_date_of_next_iteration
+                    }
+                }
+                set_variable = {
+                    name = lroai_date_of_next_iteration
+                    value = {
+                        value = game_date
+                        add = local_var:lroai_date_of_next_iteration_offset
+                    }
+                }
+            }
+            change_local_variable = {
+                name = lroai_date_of_next_iteration_offset
+                add = 2
+            }
+        }
+
+        # Then distribute 14 biggest countries left on even days in {1, 28}
+        set_local_variable = {
+            name = lroai_amount_of_states
+            value = 1
+        }
+        while = {
+            limit = {
+                any_country = {
+                    lroai_is_country_allowed = yes
+                    any_scope_state = {
+                        count >= local_var:lroai_amount_of_states
+                    }
+                    count > 28
+                }
+            }
+            change_local_variable = {
+                name = lroai_amount_of_states
+                add = 1
+            }
+        }
+        set_local_variable = {
+            name = lroai_date_of_next_iteration_offset
+            value = 2
+        }
+        while = {
+            limit = {
+                any_country = {
+                    lroai_is_country_allowed = yes
+                    any_scope_state = {
+                        count >= local_var:lroai_amount_of_states
+                    }
+                    NOT = {
+                        has_variable = lroai_date_of_next_iteration
+                    }
+                }
+            }
+            random_country = {
+                limit = {
+                    lroai_is_country_allowed = yes
+                    any_scope_state = {
+                        count >= local_var:lroai_amount_of_states
+                    }
+                    NOT = {
+                        has_variable = lroai_date_of_next_iteration
+                    }
+                }
+                set_variable = {
+                    name = lroai_date_of_next_iteration
+                    value = {
+                        value = game_date
+                        add = local_var:lroai_date_of_next_iteration_offset
+                    }
+                }
+            }
+            change_local_variable = {
+                name = lroai_date_of_next_iteration_offset
+                add = 2
+            }
+        }
+
+        # Then distibute all the players and countries over country rank 2 in days {1, 28}
+        set_local_variable = {
+            name = lroai_date_of_next_iteration_offset
+            value = 1
+        }
+        while = {
+            limit = {
+                any_country = {
+                    lroai_is_country_allowed = yes
+                    OR = {
+                        is_player = yes
+                        country_rank > 2
+                    }
+                    NOT = {
+                        has_variable = lroai_date_of_next_iteration
+                    }
+                }
+            }
+            random_country = {
+                limit = {
+                    lroai_is_country_allowed = yes
+                    OR = {
+                        is_player = yes
+                        country_rank > 2
+                    }
+                    NOT = {
+                        has_variable = lroai_date_of_next_iteration
+                    }
+                }
+                set_variable = {
+                    name = lroai_date_of_next_iteration
+                    value = {
+                        value = game_date
+                        add = local_var:lroai_date_of_next_iteration_offset
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    local_var:lroai_date_of_next_iteration_offset >= 28
+                }
+                change_local_variable = {
+                    name = lroai_date_of_next_iteration_offset
+                    subtract = 27
+                }
+            }
+            else = {
+                change_local_variable = {
+                    name = lroai_date_of_next_iteration_offset
+                    add = 1
+                }
+            }
+        }
+
+        # Then distibute all the countries over country rank 1 in days {29, 56}
+        set_local_variable = {
+            name = lroai_date_of_next_iteration_offset
+            value = 29
+        }
+        while = {
+            limit = {
+                any_country = {
+                    lroai_is_country_allowed = yes
+                    country_rank > 1
+                    NOT = {
+                        has_variable = lroai_date_of_next_iteration
+                    }
+                }
+            }
+            random_country = {
+                limit = {
+                    lroai_is_country_allowed = yes
+                    country_rank > 1
+                    NOT = {
+                        has_variable = lroai_date_of_next_iteration
+                    }
+                }
+                set_variable = {
+                    name = lroai_date_of_next_iteration
+                    value = {
+                        value = game_date
+                        add = local_var:lroai_date_of_next_iteration_offset
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    local_var:lroai_date_of_next_iteration_offset >= 56
+                }
+                change_local_variable = {
+                    name = lroai_date_of_next_iteration_offset
+                    subtract = 27
+                }
+            }
+            else = {
+                change_local_variable = {
+                    name = lroai_date_of_next_iteration_offset
+                    add = 1
+                }
+            }
+        }
+
+        # Then distibute everything what's left in days {57, 84}
+        set_local_variable = {
+            name = lroai_date_of_next_iteration_offset
+            value = 57
+        }
+        while = {
+            limit = {
+                any_country = {
+                    lroai_is_country_allowed = yes
+                    NOT = {
+                        has_variable = lroai_date_of_next_iteration
+                    }
+                }
+            }
+            random_country = {
+                limit = {
+                    lroai_is_country_allowed = yes
+                    NOT = {
+                        has_variable = lroai_date_of_next_iteration
+                    }
+                }
+                set_variable = {
+                    name = lroai_date_of_next_iteration
+                    value = {
+                        value = game_date
+                        add = local_var:lroai_date_of_next_iteration_offset
+                    }
+                }
+            }
+            if = {
+                limit = {
+                    local_var:lroai_date_of_next_iteration_offset >= 84
+                }
+                change_local_variable = {
+                    name = lroai_date_of_next_iteration_offset
+                    subtract = 27
+                }
+            }
+            else = {
+                change_local_variable = {
+                    name = lroai_date_of_next_iteration_offset
+                    add = 1
+                }
+            }
+        }
+    }
+}
+
+# $zero$ parameter controls behaviour between input and array when either of them have value equal to 0.
+# 1 = add, same behaviour as if it was any other value, input is just added to array as usual.
+# 2 - overwrite, input value of 0 will erase all other values in array, and non-0 input will overwrite array if it's 0.
+# 3 = ignore, array is untouched, potentially even stays uninitialized.
+lroai_add_local_variable_to_array_variable = {
+
+    if = {
+        limit = {
+            OR = {
+                $zero$ != 3
+                local_var:$input$ != 0
+            }
+        }
+
+        # Create output variable if it doesn't exist
+        if = {
+            limit = {
+                NOT = {
+                    has_variable = $output$
+                }
+            }
+            set_variable = {
+                name = $output$
+                value = 0
+            }
+        }
+        else = {
+
+            # If input or output contains no value, zero it so we basically overwrite it with input
+            if = {
+                limit = {
+                    $zero$ = 2
+                    OR = {
+                        local_var:$input$ = 0
+                        AND = {
+                            var:$output$ < 1
+                            var:$output$ > -1
+                        }
+                    }
+                }
+                set_variable = {
+                    name = $output$
+                    value = 0
+                }
+            }
+            else = {
+
+                # If there is some value, make space for a new value first, starting with counting how much
+                # elements the array contains as of now
+                set_local_variable = {
+                    name = lroai_num_elements_in_array
+                    value = {
+                        if = {
+                            limit = {
+                                var:$output$ < 0
+                            }
+                            value = 0
+                            subtract = {
+                                value = var:$output$
+                                subtract = {
+                                    value = var:$output$
+                                    ceiling = yes
+                                }
+                            }
+                        }
+                        else = {
+                            value = var:$output$
+                            subtract = {
+                                value = var:$output$
+                                floor = yes
+                            }
+                        }
+                        multiply = 100
+                    }
+                }
+
+                # Remove enough elements so we could fit a new one, usually - 1 out - 1 in
+                while = {
+                    limit = {
+                        local_var:lroai_num_elements_in_array >= $elements$
+                    }
+                    change_variable = {
+                        name = $output$
+                        subtract = {
+
+                            # Get sum of all the values
+                            value = {
+                                value = var:$output$
+                                if = {
+                                    limit = {
+                                        var:$output$ < 0
+                                    }
+                                    ceiling = yes
+                                }
+                                else = {
+                                    floor = yes
+                                }
+                            }
+
+                            # Divide if by number of elements in array to get average value
+                            divide = local_var:lroai_num_elements_in_array
+
+                            # Don't forget to round it cause , part is not used in value
+                            round = yes
+                        }
+                    }
+
+                    # We manipulate only this and not counter in array itself cause it will be floored
+                    # anyways when we'll add new value and this local variable will be used in its place.
+                    change_local_variable = {
+                        name = lroai_num_elements_in_array
+                        subtract = 1
+                    }
+                }
+            }
+        }
+
+        set_variable = {
+            name = $output$
+            value = {
+                value = var:$output$
+                if = {
+                    limit = {
+                        var:$output$ < 0
+                    }
+                    ceiling = yes
+                }
+                else = {
+                    floor = yes
+                }
+                add = {
+                    value = local_var:$input$
+                    round = yes
+                    max = {
+                        value = 2147483647
+                        divide = $elements$
+                    }
+                    min = {
+                        value = -2147483647
+                        divide = $elements$
+                    }
+                }
+            }
+        }
+
+        if = {
+            limit = {
+                NOT = {
+                    has_local_variable = lroai_num_elements_in_array
+                }
+            }
+            set_local_variable = {
+                name = lroai_num_elements_in_array
+                value = 0
+            }
+        }
+        change_local_variable = {
+            name = lroai_num_elements_in_array
+            add = 1
+        }
+        if = {
+            limit = {
+                var:$output$ < 0
+            }
+            change_variable = {
+                name = $output$
+                subtract = {
+                    value = local_var:lroai_num_elements_in_array
+                    divide = 100
+                }
+            }
+        }
+        else = {
+            change_variable = {
+                name = $output$
+                add = {
+                    value = local_var:lroai_num_elements_in_array
+                    divide = 100
+                }
+            }
+        }
+        
+        remove_local_variable = lroai_num_elements_in_array
+    }
+
+    # Garbage collection
+    if = {
+        limit = {
+            $cleanup$ = yes
+        }
+        remove_local_variable = $input$
+    }
+}
+
+lroai_clear_country_cycle_variables = {
+    remove_variable = lroai_date_of_next_iteration
+
+    every_scope_state = {
+        clear_variable_list = lroai_ongoing_constructions
+    }
+    lroai_clear_weekly_loop_variables = yes
+    
+    remove_variable = lroai_median_construction_efficiency
+}
+
+lroai_clear_country_iteration_variables = {
+
+    remove_variable = lroai_median_building_productivity
+    
+    remove_variable = lroai_num_states_of_market_capital_coastline
+    clear_variable_list = lroai_states_of_market_capital_coastline
+    clear_variable_list = lroai_coastline_of_overseas_lands
+    clear_variable_list = lroai_safe_to_delete_ports_in_overseas_lands
+
+
+    
+    remove_variable = lroai_tried_special_buildings
+    
+    lroai_perform_for_every_building_type = {
+        effect = 9 # lroai_clear_building_type_variables
+    }
+}
+
+lroai_clear_building_type_variables = {
+    remove_variable = lroai_building_type_$id$_collected_data
+    clear_variable_list = lroai_building_type_$id$_allocation_1
+    clear_variable_list = lroai_building_type_$id$_allocation_2
+    clear_variable_list = lroai_building_type_$id$_allocation_3
+    clear_variable_list = lroai_building_type_$id$_allocation_4
+    clear_variable_list = lroai_building_type_$id$_allocation_5
+    clear_variable_list = lroai_building_type_$id$_allocation_6
+    clear_variable_list = lroai_building_type_$id$_allocation_7
+    clear_variable_list = lroai_building_type_$id$_allocation_8
+    clear_variable_list = lroai_building_type_$id$_allocation_9
+    clear_variable_list = lroai_building_type_$id$_allocation_10
+}
+
+lroai_add_to_building_type_counter = {
+    if = {
+        limit = {
+            NOT = {
+                has_variable = lroai_building_type_$counter$_collected_data
+            }
+        }
+        set_variable = {
+            name = lroai_building_type_$counter$_collected_data
+            value = {
+                value = $value$
+                multiply = 10000000
+            }
+        }
+    }
+    else = {
+        change_variable = {
+            name = lroai_building_type_$counter$_collected_data
+            add = {
+                value = $value$
+                multiply = 10000000
+            }
+        }
+    }
+}
+
+lroai_perform_for_building_type = {
+    switch = {
+        trigger = $effect$
+        1 = {
+            lroai_collect_data_for_all_buildings_of_type = {
+                key = $key$
+                id = $id$
+                counter = $counter$
+            }
+        }
+        5 = {
+            lroai_check_priority_of_building = {
+                key = $key$
+                id = $id$
+                counter = $counter$
+                allocate = $allocate$
+                limit = $limit$
+            }
+        }
+        6 = {
+            lroai_compare_building_priority_with_current_highest = {
+                id = $id$
+            }
+        }
+        7 = {
+            lroai_add_to_list_of_buildings_with_highest_priority = {
+                id = $id$
+                order = $order$
+            }
+        }
+        8 = {
+            if = {
+                limit = {
+                    $id$ = lroai_buildings_with_highest_priority_id
+                }
+                root = {
+                    lroai_choose_states_to_start_construction = {
+                        key = $key$
+                        id = $id$
+                        class = $class$
+                        counter = $counter$
+                        scaling = $scaling$
+                        branching = $branching$
+                        allocate = $allocate$
+                        workforce = $workforce$
+                        limit = $limit$
+                    }
+                }
+            }
+        }
+        9 = {
+            lroai_clear_building_type_variables = {
+                id = $id$
+            }
+        }
+    }
+}

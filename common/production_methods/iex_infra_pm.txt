@@ -1,7 +1,6 @@
 ﻿
 pm_dirt_roads = {
 	texture = "gfx/interface/icons/production_method_icons/dirt_roads.dds"
-	pollution_generation = 0
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -25,7 +24,6 @@ pm_dirt_roads = {
 
 pm_gravel_roads = {
 	texture = "gfx/interface/icons/production_method_icons/gravel_roads.dds"
-	pollution_generation = 0
 	
 	unlocking_technologies = {
 		gravel_roads

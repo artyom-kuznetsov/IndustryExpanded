@@ -69,7 +69,7 @@ cotton_gin = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 100
 	}
 }
 
@@ -84,17 +84,7 @@ lathe = {
 	}
 	
 	ai_weight = {
-		value = 1
-		
-		if = {
-			limit = { 
-				OR = {
-					 has_strategy = ai_strategy_industrial_expansion
-					 has_strategy = ai_strategy_resource_expansion
-				}
-			}
-			add = 1
-		}		
+		value = 100
 	}
 }
 
@@ -111,7 +101,7 @@ distillation = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 3
 	}
 }
 
@@ -126,7 +116,7 @@ steelworking = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 3
 		
 		if = {
 			limit = { 
@@ -151,7 +141,7 @@ prospecting = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 3
 	}
 }
 
@@ -168,7 +158,7 @@ crystal_glass = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 3
 	}
 }
 
@@ -211,7 +201,7 @@ fractional_distillation = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 3
 	}
 }
 
@@ -226,7 +216,7 @@ canneries = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 100
 	}
 }
 
@@ -242,7 +232,7 @@ watertube_boiler = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 20
 	}
 }
 
@@ -258,17 +248,7 @@ atmospheric_engine = {
 	}
 	
 	ai_weight = {
-		value = 1
-		
-		if = {
-			limit = { 
-				OR = {
-					 has_strategy = ai_strategy_industrial_expansion
-					 has_strategy = ai_strategy_resource_expansion
-				}
-			}
-			add = 2
-		}	
+		value = 100
 	}
 }
 
@@ -290,17 +270,7 @@ railways = {
 	}
 	
 	ai_weight = {
-		value = 2 # Important tech for everyone
-		
-		if = {
-			limit = { 
-				OR = {
-					 has_strategy = ai_strategy_industrial_expansion
-					 has_strategy = ai_strategy_resource_expansion
-				}
-			}
-			add = 2
-		}		
+		value = 1000
 	}
 }
 
@@ -316,7 +286,7 @@ chemical_bleaching = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 3
 	}
 }
 
@@ -339,7 +309,7 @@ nitroglycerin = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 3
 	}
 }
 
@@ -355,7 +325,7 @@ bessemer_process = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 3
 		
 		if = {
 			limit = { 
@@ -377,7 +347,7 @@ baking_powder = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 3
 	}
 }
 
@@ -398,14 +368,7 @@ mechanized_workshops = {
 	}
 	
 	ai_weight = {
-		value = 1
-		
-		if = {
-			limit = { 
-				 has_strategy = ai_strategy_industrial_expansion
-			}
-			add = 1
-		}		
+		value = 100
 	}
 }
 
@@ -422,30 +385,7 @@ mechanical_tools = {
 	}
 	
 	ai_weight = {
-		value = 1		
-	}
-}
-
-mechanical_production = {
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/mechanical_production.dds"
-	category = production
-	
-	
-	unlocking_technologies = {
-		mechanical_tools
-		atmospheric_engine
-	}
-	
-	ai_weight = {
-		value = 1
-		
-		if = {
-			limit = { 
-				 has_strategy = ai_strategy_industrial_expansion
-			}
-			add = 1
-		}		
+		value = 100
 	}
 }
 
@@ -463,7 +403,7 @@ improved_fertilizer = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 2
 	}
 }
 
@@ -480,16 +420,6 @@ steam_donkey = {
 	
 	ai_weight = {
 		value = 1
-		
-		if = {
-			limit = { 
-				OR = {
-					 has_strategy = ai_strategy_industrial_expansion
-					 has_strategy = ai_strategy_resource_expansion
-				}
-			}
-			add = 2
-		}	
 	}	
 }
 
@@ -511,7 +441,7 @@ dynamite = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 2
 	}
 }
 
@@ -528,16 +458,6 @@ rubber_mastication = {
 	
 	ai_weight = {
 		value = 1
-		
-		if = {
-			limit = { 
-				OR = {
-					 has_strategy = ai_strategy_industrial_expansion
-					 has_strategy = ai_strategy_resource_expansion
-				}
-			}
-			add = 3
-		}	
 	}
 }	
 
@@ -553,7 +473,7 @@ rotary_valve_engine = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 2
 	}
 }
 
@@ -572,7 +492,7 @@ reinforced_concrete = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 2
 	}
 }
 
@@ -588,16 +508,6 @@ threshing_machine = {
 	
 	ai_weight = {
 		value = 1
-		
-		if = {
-			limit = { 
-				OR = {
-					has_strategy = ai_strategy_agricultural_expansion 
-					has_strategy = ai_strategy_plantation_economy
-				}
-			}
-			add = 1
-		}	
 	}
 }
 
@@ -615,16 +525,6 @@ pumpjacks = {
 	
 	ai_weight = {
 		value = 1
-		
-		if = {
-			limit = { 
-				OR = {
-					 has_strategy = ai_strategy_industrial_expansion
-					 has_strategy = ai_strategy_resource_expansion
-				}
-			}
-			add = 2
-		}	
 	}
 }
 
@@ -654,7 +554,7 @@ open_hearth_process = {
 	}
 	
 	ai_weight = {
-		value = 1
+		value = 2
 	}
 }
 
@@ -741,16 +641,6 @@ electrical_generation = {
 	
 	ai_weight = {
 		value = 1
-		
-		if = {
-			limit = { 
-				OR = {
-					 has_strategy = ai_strategy_industrial_expansion
-					 has_strategy = ai_strategy_resource_expansion
-				}
-			}
-			add = 2
-		}	
 	}
 }
 
@@ -770,16 +660,6 @@ electrification = {
 	
 	ai_weight = {
 		value = 1
-		
-		if = {
-			limit = { 
-				OR = {
-					 has_strategy = ai_strategy_industrial_expansion
-					 has_strategy = ai_strategy_resource_expansion
-				}
-			}
-			add = 2
-		}	
 	}
 }
 
