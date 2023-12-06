@@ -354,6 +354,8 @@ building_power_plant = {
 	
 	required_construction = construction_cost_very_high
 
+	ai_value = 3000
+	
 	possible = {
 		error_check = {
 			severity = fail
