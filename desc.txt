@@ -1,5 +1,5 @@
 [h1]Warning! Beta! Things may be unbalanced or unfinished![/h1]
-Main branch [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]is here[/url].
+Main branch [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]is here[/url]. This branch will become obsolete after version full release!
 
 
 [img]https://cdn.discordapp.com/attachments/896957883772706816/1126509901859000391/IEX.png[/img]
