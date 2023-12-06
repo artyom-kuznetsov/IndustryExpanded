@@ -2261,7 +2261,7 @@ lroai_allocate_building_forestry = {
 # Road network
 # -------
 
-lroai_consider_building_railway = {
+lroai_consider_building_road_network = {
     has_technology_researched = urban_planning
     OR = {
         is_player = no
@@ -2297,6 +2297,81 @@ lroai_evaluate_building_road_network = {
         }
         6 = {
             any_scope_state = {
+                sg:transportation = {
+                    state_goods_pricier > 50
+                }
+                any_scope_building = {
+                    is_building_type = building_road_network
+                    level > 0
+                    occupancy > 0.95
+                    is_under_construction = no
+                }
+            }
+        }
+        fallback = {
+            always = no
+        }
+    }
+}
+
+lroai_sanction_building_road_network = {
+    lroai_sanction_infrastructure = {
+        key = building_road_network
+    }
+    OR = {
+        AND = {
+            lroai_infrastructure_balance_percent < 1.05
+            OR = {
+                NOT = {
+                    any_scope_building = {
+                        is_building_type = building_road_network
+                    }
+                }
+                any_scope_building = {
+                    is_building_type = building_road_network
+                    level > 0
+                    occupancy > 0.95
+                    is_under_construction = no
+                }
+            }
+        }
+        AND = {
+            sg:transportation = {
+                state_goods_pricier > 50
+            }
+            any_scope_building = {
+                is_building_type = building_road_network
+                level > 0
+                occupancy > 0.95
+                is_under_construction = no
+            }
+        }
+    }
+}
+
+lroai_allocate_building_road_network = {
+    switch = {
+        trigger = $aptitude$
+        1 = {
+            AND = {
+                lroai_infrastructure_balance_percent < 1.05
+                OR = {
+                    NOT = {
+                        any_scope_building = {
+                            is_building_type = building_road_network
+                        }
+                    }
+                    any_scope_building = {
+                        is_building_type = building_road_network
+                        level > 0
+                        occupancy > 0.95
+                        is_under_construction = no
+                    }
+                }
+            }
+        }
+        2 = {
+            AND = {
                 sg:transportation = {
                     state_goods_pricier > 50
                 }

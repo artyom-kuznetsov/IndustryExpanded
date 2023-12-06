@@ -19,8 +19,8 @@
 [img]https://i.imgur.com/rz12Uyw.png [/img]
 [b]Китайская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url] (создано сообществом)
 Мод создан для версии игры [b]v1.5.10[/b]
-Должен запускаться нормально с [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] (IEX нужно поставить [b]ниже[/b] по порядку загрузки.
-Не требует запуска [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url].
+Должен запускаться нормально с [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] (IEX нужно поставить [b]ниже[/b] по порядку загрузки.)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] интегрирован, НЕ ЗАПУСКАЙТЕ ЕГО ВМЕСТЕ С ЭТИМ МОДОМ.
 Не рекомендуется использовать с модами, изменяющими историю зданий или ресурсов.
 Не рекомендуется использовать с модами, изменяющими методы производства или постройки.
 

@@ -20,8 +20,8 @@ This mod contains new buildings, goods, production methods and other various twe
 [img]https://i.imgur.com/rz12Uyw.png[/img]
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
 Mod is made for game version [b]v1.5.10[/b]
-Should run normally with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] (IEX has to be placed [b]below[/b] in loading order.
-Doesn't need [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] enabled.
+Should run normally with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] (IEX has to be placed [b]lower[/b] in loading order.)
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] is integrated, DON'T RUN THESE TWO TOGETHER.
 Not recommended to use with mods, changing building or resource history.
 Not recommended to use with mods changing PMs or buildings.
 
@@ -29,3 +29,4 @@ Not recommended to use with mods changing PMs or buildings.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url] - for some GFX and inspiration.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971224629]Weight of Rule[/url] - for forestry building idea and icon.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] - for integration and being so kind.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] - For some minor features.

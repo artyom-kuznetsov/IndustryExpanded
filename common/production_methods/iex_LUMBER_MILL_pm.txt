@@ -4,7 +4,7 @@
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 4 # 200
+			goods_input_tools_add = 5 # 200
 			goods_input_wood_add = 40 # 800 # TOTAL 1000
 			
 			# output goods
@@ -56,7 +56,7 @@ pm_electrical_saw_lm = {
 	texture = "gfx/interface/icons/production_method_icons/electric_saw_lumber_mill.dds"
 	
 	unlocking_technologies = {
-		electrical_generation
+		automatic_machines
 	}
 	
 	building_modifiers = {

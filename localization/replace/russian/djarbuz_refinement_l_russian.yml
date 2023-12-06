@@ -217,7 +217,7 @@
  pmg_base_building_lumber_mill:0 "$pm_base$"
  pm_manual_sawing_lm:0 "Ручная обработка"
  pm_powered_sawing_lm:0 "Деревообрабатывающие станки"
- pm_electrical_saw_lm:0 "Электрифицированная пила"
+ pm_electrical_saw_lm:0 "Электрические станки"
  
  pmg_secondary_building_lumber_mill:0 "Вторичная обработка"
  pm_no_secondary_treatment:0 "Нет вторичной обработки"

@@ -1,6 +1,6 @@
 [h1]v9.0[/h1]
 [b]That's where the real content starts coming in![/b]
--Integrated LRoAI, AI nations are much more sustainable now. You don't need to run original LRoAI with IEX.
+-Integrated LRoAI, AI nations are much more sustainable now. You don't need to run original LRoAI with IEX to have an effect.
 
 -Added new goods: Machine Parts and Copper
 -Added Copper Mine
@@ -8,6 +8,8 @@
 [i]Machine parts will be used everywhere, often instead of tools, but mainly automation and mining.[/i]
 -Automation Rework
 [i]Automation was reworked and standardized for most buildings. Instead of 3-4 automation PMs, there are now 6.[/i]
+-Lumber Mill building is back.
+[i]Lumber Mills are now the only source of Hardwood.[/i]
 -Added new technologies: Mechanical Production, Electrification, Assembly Lines, Automatic Machines
 -Added automation for Chemical Plants and Explosives Factory.
 -Added automation for Electrics Industries
@@ -15,7 +17,6 @@
 -Added Ore Filtering for Iron Mines, allowing to redirect to Copper.
 -Added Ore Filtering for Copper Mines, allowing to redirect to Iron.
 -Added automation for Synthetic Plants. Rayon PMs don't affect employment anymore.
--Lumber Mill building is back with a rework. 
 -Tweaked Distilleries, Steel Mills, Artillery Foundries employment and/or PMs.
 -Rebalanced Motor Industries PMs, latter ones now use machine parts.
 -Electronics Industries now uses copper for telephone production, rather than iron.
@@ -26,6 +27,8 @@
 -Steam Threshing Machines PMs for grain farms now use Machine Parts.
 -Ore Filtering now uses chemicals and/or machine parts.
 -Redone most new Food Industries PM icons.
+-Buffed Private Schools
+-Nerfed Religious Schools
 
 [h1]v8.1[/h1]
 -Road Network now also gives a state infrastructure % buff.

@@ -217,7 +217,7 @@
  pmg_base_building_lumber_mill:0 "$pm_base$"
  pm_manual_sawing_lm:0 "Manual Processing"
  pm_powered_sawing_lm:0 "Woodworking Machines"
- pm_electrical_saw_lm:0 "Electrical Saw"
+ pm_electrical_saw_lm:0 "Electric Machines"
  
  pmg_secondary_building_lumber_mill:0 "Secondary Treatment"
  pm_no_secondary_treatment:0 "No Secondary Treatment"
