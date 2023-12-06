@@ -57,7 +57,7 @@ pm_automation_watertube_boiler = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.03
+			building_throughput_add = 0.04
 		}
 	}
 }
@@ -92,7 +92,7 @@ pm_automation_pneumatic_conveyor = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.04
+			building_throughput_add = 0.05
 		}
 	}
 }
@@ -127,7 +127,7 @@ pm_automation_electric_drive = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.05
+			building_throughput_add = 0.07
 		}
 	}
 }
@@ -163,7 +163,7 @@ pm_automation_conveyor_production = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.06
+			building_throughput_add = 0.08
 		}
 	}
 }
@@ -199,7 +199,7 @@ pm_automation_assembly_lines = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.08
+			building_throughput_add = 0.1
 		}
 	}
 }
