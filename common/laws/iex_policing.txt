@@ -105,6 +105,7 @@ law_dedicated_police = {
 
 	institution = institution_police
 	institution_modifier = {
+		interest_group_ig_petty_bourgeoisie_pol_str_mult = 0.10
 		state_radicals_from_sol_change_mult = -0.05
 	}
 	

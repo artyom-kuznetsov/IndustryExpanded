@@ -10,7 +10,7 @@ pm_hydroelectric_plant = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_engines_add = 9			# 540
+			goods_input_engines_add = 8			# 540
 			goods_input_copper_add = 8			# 240 	# TOTAL 800
 			
 			goods_output_electricity_add = 50	# 1500	# PROFIT 700
@@ -41,9 +41,9 @@ pm_coal-fired_plant = {
 		workforce_scaled = {
 			goods_input_engines_add = 10		# 600
 			goods_input_copper_add = 10			# 300
-			goods_input_coal_add = 30			# 900	# TOTAL 1800
+			goods_input_coal_add = 25			# 750	# TOTAL 1650
 			
-			goods_output_electricity_add = 100	# 3000	# PROFIT 1200
+			goods_output_electricity_add = 100	# 3000	# PROFIT 1350
 		}
 
 		level_scaled = {
@@ -71,9 +71,9 @@ pm_oil-fired_plant = {
 		workforce_scaled = {
 			goods_input_engines_add = 15		# 900
 			goods_input_copper_add = 10			# 300
-			goods_input_oil_add = 40			# 1600		# TOTAL 2700
+			goods_input_oil_add = 35			# 1400		# TOTAL 2500
 			
-			goods_output_electricity_add = 150	# 4500		# PROFIT 1800
+			goods_output_electricity_add = 150	# 4500		# PROFIT 2000
 		}
 
 		level_scaled = {
@@ -124,7 +124,7 @@ pm_automation_automatic_power_plant = {
 	texture = "gfx/interface/icons/production_method_icons/combustion_derricks.dds"
 	
 	unlocking_technologies = {
-		steam_turbine
+		automatic_machines
 	}
 
 	disallowing_laws = {
@@ -140,8 +140,8 @@ pm_automation_automatic_power_plant = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 10		# 500
-			goods_input_electricity_add = 5			# 150 # TOTAL 650
+			goods_input_machine_parts_add = 8		# 400
+			goods_output_electricity_add = -5			# 150 # TOTAL 550
 		}
 
 		level_scaled = {

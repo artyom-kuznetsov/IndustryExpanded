@@ -1,7 +1,6 @@
 [h1]Warning! Beta! Things may be unbalanced or unfinished![/h1]
 Main branch [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]is here[/url]. This branch will become obsolete after version full release!
 
-
 [img]https://cdn.discordapp.com/attachments/896957883772706816/1126509901859000391/IEX.png[/img]
 A mod focused on goods, building, production methods and variability expansion, improvement and balancing.
 
@@ -13,6 +12,7 @@ This mod contains new buildings, goods, production methods and other various twe
 - Ore filtering
 - Improved and extended automation
 - New technologies
+- Migration improvements
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]
 
 

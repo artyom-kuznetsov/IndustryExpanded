@@ -51,7 +51,7 @@ pm_patent_stills = {
 	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
 	
 	unlocking_technologies = {
-		mechanical_production
+		crystal_glass
 	}
 	
 	building_modifiers = {

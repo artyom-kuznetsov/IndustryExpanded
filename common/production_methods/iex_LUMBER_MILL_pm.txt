@@ -41,7 +41,7 @@ pm_powered_sawing_lm = {
 			goods_input_wood_add = 50 			# 1000 # TOTAL 1550
 			
 			# output goods
-			goods_output_hardwood_add = 65 # 2600 # PROFIT 1050
+			goods_output_hardwood_add = 70 # 2800 # PROFIT 1250
 		}
 
 		level_scaled = {
@@ -56,7 +56,7 @@ pm_electrical_saw_lm = {
 	texture = "gfx/interface/icons/production_method_icons/electric_saw_lumber_mill.dds"
 	
 	unlocking_technologies = {
-		automatic_machines
+		electrical_capacitors
 	}
 	
 	building_modifiers = {
@@ -68,7 +68,7 @@ pm_electrical_saw_lm = {
 			goods_input_wood_add = 60			# 1200 # TOTAL 2100
 			
 			# output goods
-			goods_output_hardwood_add = 90	# 3600 # PROFIT 1500
+			goods_output_hardwood_add = 95	# 3800 # PROFIT 1700
 		}
 
 		level_scaled = {

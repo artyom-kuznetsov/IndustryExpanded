@@ -3,7 +3,7 @@
 -Integrated LRoAI, AI nations are much more sustainable now. You don't need to run original LRoAI with IEX to have an effect.
 
 -Added new goods: Machine Parts and Copper
--Added Copper Mine
+-Added Copper Mines
 -Added Machine Parts Factory
 [i]Machine parts will be used everywhere, often instead of tools, but mainly automation and mining.[/i]
 -Automation Rework
@@ -22,13 +22,16 @@
 -Electronics Industries now uses copper for telephone production, rather than iron.
 -Power Plants now use copper, reworked employment. Added automation PMG.
 -Reshuffled Market Access Price Impact modifiers among techs.
+-Moved Patent Stills to Crystal Glass tech.
 -Increased max innovation investment cap 50 >> 60.
 -Chemical Plants and Artillery Foundries now use copper.
 -Steam Threshing Machines PMs for grain farms now use Machine Parts.
 -Ore Filtering now uses chemicals and/or machine parts.
 -Redone most new Food Industries PM icons.
--Buffed Private Schools
--Nerfed Religious Schools
+-Buffed Private Schools.
+-Nerfed Religious Schools.
+-Latter Road Network PMs give less infrastructure buffs.
+-Added mineral resources in Ethiopia: Oil, Gold, Sulfur, Coal.
 
 [h1]v8.1[/h1]
 -Road Network now also gives a state infrastructure % buff.

@@ -122,6 +122,7 @@ STATE_ERITREA = {
     capped_resources = {
         bg_iron_mining = 15
         bg_fishing = 5
+		bg_copper_mining = 18
     }
     naval_exit_id = 3047
 }

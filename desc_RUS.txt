@@ -12,6 +12,7 @@
 - Фильтрация руды
 - Улучшенная и более обширная автоматизация
 - Новые технологии
+- Улучшения миграции
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]
 
 
