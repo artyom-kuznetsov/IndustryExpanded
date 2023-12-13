@@ -1,0 +1,55 @@
+﻿
+pm_traditional_looms = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+}
+
+pm_mechanized_looms = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_looms.dds"
+	
+	unlocking_technologies = {
+		mechanized_workshops
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5				# x40 =  200
+		}
+
+		level_scaled = {
+			# profit = -200 (break-even when annual laborer wage > 6.9)
+			building_employment_laborers_add = -1500
+		}
+	}
+}
+
+pm_automatic_power_looms = {
+	texture = "gfx/interface/icons/production_method_icons/automatic_power_looms.dds"
+	
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5				# x40 =  200
+			goods_input_electricity_add = 10			# x30 =  300
+		}
+
+		level_scaled = {
+			# profit = -500 (break-even when annual laborer wage > 10.4)
+			building_employment_laborers_add = -3000
+		}
+	}
+
+	required_input_goods = electricity
+}

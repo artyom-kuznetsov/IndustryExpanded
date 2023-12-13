@@ -7,7 +7,7 @@
 -Added Machine Parts Factory
 [i]Machine parts will be used everywhere, often instead of tools, but mainly automation and mining.[/i]
 -Automation Rework
-[i]Automation was reworked and standardized for most buildings. Instead of 3-4 automation PMs, there are now 6.[/i]
+[i]Automation has been reworked and standardized for most buildings. Instead of 3-4 automation PMs, there are now 6.[/i]
 -Lumber Mill building is back.
 [i]Lumber Mills are now the only source of Hardwood.[/i]
 -Added new technologies: Mechanical Production, Electrification, Assembly Lines, Automatic Machines

@@ -5,7 +5,7 @@
 	PRODUCTION_BUILDING_NO_AVAILABLE_WORKFORCE_FACTOR = 0.1 # Total weight is multiplied by this if the state lacks enough workforce to staff the building
 	PRODUCTION_BUILDING_INPUT_NO_LOCAL_PRODUCTION_FACTOR = -0.25 # Add this value to a building for each unit of money worth of goods consumed that are not produced in the state but *are* produced by buildings in the market
 	PRODUCTION_BUILDING_OUTPUT_NO_LOCAL_CONSUMPTION_FACTOR = -0.25 # Add this value to a building for each unit of money worth of goods produced that are not consumed in the state but *are* consumed by buildings in the market
-	PRODUCTION_BUILDING_OUTPUT_NEW_GOODS_FACTOR = 2.0 # Add this value to a building for each unit of money worth of goods that currently isn't available in our market but the AI wants to prioritize
+	PRODUCTION_BUILDING_OUTPUT_NEW_GOODS_FACTOR = 100.0 # Add this value to a building for each unit of money worth of goods that currently isn't available in our market but the AI wants to prioritize
 	PRODUCTION_BUILDING_OUTPUT_WANTED_INDUSTRIAL_GOODS_FACTOR = 0.4 # Add this value to a building for each unit of money worth of industrial goods that aren't overproduced in the country and are used by buildings
 	PRODUCTION_BUILDING_OUTPUT_WANTED_MILITARY_GOODS_FACTOR = 0.4 # Add this value to a building for each unit of money worth of military goods that aren't overproduced in the country and are used by buildings
 	PRODUCTION_BUILDING_DISFAVORED_GOODS_FACTOR = -0.25 # Add this value to a building for each unit of money worth of building goods output that the AI disfavors
@@ -30,6 +30,11 @@ NEconomy = {
 	TRADE_ROUTE_AUTO_INCREASE_ACCEPTABLE_REVENUE_DIFFERENCE = 1.05 # Multiply revenue of new trade route level by this for the purpose of considering whether it's OK to auto-increase level (means that trade routes can level up even when slightly decreasing overall revenue)
 	TRADE_ROUTE_AUTO_REDUCTION_ACCEPTABLE_REVENUE_DIFFERENCE = 1.2 # Multiply revenue of current trade route level by this for the purpose of considering whether we should auto-decrease level (means that trade routes won't level down just for the purpose of a small revenue increase)
 
+}
+
+NMilitary = {
+	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MIN = 0.0025 # 0.05 	# The minimum percentage of manpower a unit can lose each week due to attrition
+	MANPOWER_LOST_DUE_TO_ATTRITION_PER_WEEK_MAX = 0.1 	# The maximum percentage of manpower a unit can lose each week due to attrition
 }
 
 NPops = {
