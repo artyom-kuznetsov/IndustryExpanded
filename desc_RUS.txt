@@ -1,6 +1,4 @@
-[h1]Внимание! Бета-версия! Что-то может быть несбалансированным или не доделанным![/h1]
-Основная ветка [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]здесь[/url]. Эта ветка устареет после полного выхода версии!
-
+[b]Пожалуйста, сообщайте о любых найденных багах или проблемах в моде! Также не стесняйтесь предлагать свои идеи.[/b]
 [img]https://cdn.discordapp.com/attachments/896957883772706816/1126509901859000391/IEX.png[/img]
 Мод, направленный на расширение количества методов производства, вариативности, их улучшение и балансировку.
 
@@ -13,15 +11,16 @@
 - Улучшенная и более обширная автоматизация
 - Новые технологии
 - Улучшения миграции
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]
+- Изменения к авторитету от законов, например, полиция даёт авторитет.
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] (скоро будет)
 
 
 [h1]Локализация и совместимость[/h1]
 [img]https://i.imgur.com/rz12Uyw.png [/img]
 [b]Китайская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url] (создано сообществом)
-Мод создан для версии игры [b]v1.5.10[/b]
+Мод создан для версии игры [b]v1.5.12[/b]
 Должен запускаться нормально с [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] (IEX нужно поставить [b]ниже[/b] по порядку загрузки.)
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] интегрирован, НЕ ЗАПУСКАЙТЕ ЕГО ВМЕСТЕ С ЭТИМ МОДОМ.
+Не совместим с [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url], но в будущем он будет интегрирован.
 Не рекомендуется использовать с модами, изменяющими историю зданий или ресурсов.
 Не рекомендуется использовать с модами, изменяющими методы производства или постройки.
 
@@ -30,3 +29,4 @@
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971224629]Weight of Rule[/url] - за идею постойки "лесничество" и её иконку.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] - за интеграцию и непомерную доброту.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] - за некоторые мелкие фичи.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url] - за идею.

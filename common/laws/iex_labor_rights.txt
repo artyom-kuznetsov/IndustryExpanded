@@ -9,8 +9,6 @@ law_no_workers_rights = {
 	
 	progressiveness = 0
 	
-	modifier = {	
-	}
 	
 	possible_political_movements = {
 		law_regulatory_bodies
@@ -41,6 +39,10 @@ law_regulatory_bodies = {
 		labor_movement
 	}
 
+	modifier = {	
+		country_authority_mult = -0.1
+	}
+	
 	institution = institution_workplace_safety
 	
 	possible_political_movements = {
@@ -92,6 +94,10 @@ law_worker_protections = {
 
 	progressiveness = 100
 
+	modifier = {	
+		country_authority_mult = -0.15
+	}
+	
 	unlocking_technologies = {
 		human_rights
 	}

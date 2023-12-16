@@ -306,3 +306,12 @@
  pm_filtering_copper_mine:0 "$pm_filtering_lead_mine$"
  pm_advanced_filtering_copper_mine:0 "$pm_advanced_filtering_lead_mine$"
  
+ pmg_automation_building_railway:0 "$pmg_automation$"
+ pm_automation_hydraulic_cranes:0 "Hydraulic Cranes"
+ pm_automation_gantry_cranes:0 "Gantry Cranes"
+ pm_automation_modern_cranes:0 "Modern Cranes"
+ pm_automation_no_cranes:0 "Manual Loading"
+ pm_automation_hydraulic_cranes_shipyard:0 "$pm_automation_hydraulic_cranes$"
+ pm_automation_gantry_cranes_shipyard:0 "$pm_automation_gantry_cranes$"
+ pm_automation_modern_cranes_shipyard:0 "$pm_automation_modern_cranes$"
+ pmg_automation_building_shipyard:0 "$pmg_automation$"

@@ -122,3 +122,142 @@ pm_asphalt_roads = {
 		}
 	}
 }
+
+### RAILROAD ###
+pm_early_trains = {
+	texture = "gfx/interface/icons/production_method_icons/experimental_trains.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 5 # 300
+			goods_input_coal_add = 2 # 60
+			goods_output_transportation_add = 20 # 600
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 750
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 20
+			state_pollution_generation_add = 25
+		}
+	}
+}
+
+pm_steam_trains = {
+	texture = "gfx/interface/icons/production_method_icons/trains_steam.dds"
+
+	unlocking_technologies = {
+		steel_railway_cars
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 5 # 300
+			goods_input_coal_add = 5 # 150
+			goods_output_transportation_add = 25 # 750
+		}
+		level_scaled = {
+			building_employment_laborers_add = 2500
+			building_employment_machinists_add = 1500
+			building_employment_clerks_add = 750
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 25
+			state_pollution_generation_add = 20
+		}
+	}
+}
+
+pm_electric_trains = {
+	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
+	
+	unlocking_technologies = {
+		electric_railway
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 5 # 300
+			goods_input_electricity_add = 10 # 300
+			goods_output_transportation_add = 35 # 1050
+		}
+		level_scaled = {
+			building_employment_laborers_add = 2250
+			building_employment_machinists_add = 1750
+			building_employment_clerks_add = 750
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 30
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_diesel_trains = {
+	texture = "gfx/interface/icons/production_method_icons/trains_diesel.dds"	
+	unlocking_technologies = {
+		compression_ignition
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 5 # 300
+			goods_input_oil_add = 10 # 400
+			goods_output_transportation_add = 40 # 1200
+		}
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 2000
+			building_employment_clerks_add = 750
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 40
+			state_pollution_generation_add = 15
+		}
+	}
+}
+
+pm_no_passenger_trains = {
+	texture = "gfx/interface/icons/production_method_icons/no_passenger_trains.dds"
+}
+
+pm_wooden_passenger_carriages = {
+	texture = "gfx/interface/icons/production_method_icons/passenger_trains.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wood_add = 8				# 240
+			goods_output_transportation_add = 10	# 300
+		}
+	}			
+}
+
+pm_steel_passenger_carriages = {
+	texture = "gfx/interface/icons/production_method_icons/passenger_carriages.dds"
+
+	unlocking_technologies = {
+		steel_railway_cars
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 5				# 250
+			goods_output_transportation_add = 15	# 450
+		}
+	}			
+}

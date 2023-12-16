@@ -49,6 +49,7 @@ law_local_police = {
 	institution_modifier = {
 		interest_group_ig_landowners_pol_str_mult = 0.10
 		state_turmoil_effects_mult = -0.05
+		country_authority_add = 25
 	}
 	
 	possible_political_movements = {
@@ -107,6 +108,7 @@ law_dedicated_police = {
 	institution_modifier = {
 		interest_group_ig_petty_bourgeoisie_pol_str_mult = 0.10
 		state_radicals_from_sol_change_mult = -0.05
+		country_authority_add = 20
 	}
 	
 	possible_political_movements = {
@@ -187,6 +189,7 @@ law_militarized_police = {
 		state_radicals_from_discrimination_mult = -0.05
 		interest_group_ig_armed_forces_pol_str_mult = 0.10
 		state_mortality_turmoil_mult = 0.004
+		country_authority_add = 30
 	}
 	
 	possible_political_movements = {

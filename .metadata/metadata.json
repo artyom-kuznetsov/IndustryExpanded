@@ -1,9 +1,9 @@
 {
-  "name" : "(1.5) Industry Expanded v9.0 BETA",
+  "name" : "(1.5) Industry Expanded v9.0",
   "picture" : "thumbnail.png",
   "id" : "",
   "version" : "9.0",
-  "supported_game_version" : "1.5.10",
+  "supported_game_version" : "1.5.12",
   "short_description" : "An Industry Expansion Mod",
   "tags" : [],
   "relationships" : [],

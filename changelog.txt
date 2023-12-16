@@ -32,6 +32,7 @@
 -Nerfed Religious Schools.
 -Latter Road Network PMs give less infrastructure buffs.
 -Added mineral resources in Ethiopia: Oil, Gold, Sulfur, Coal.
+-Added Authority to several laws, like the Law and Authority mod.
 
 [h1]v8.1[/h1]
 -Road Network now also gives a state infrastructure % buff.

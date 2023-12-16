@@ -1,0 +1,63 @@
+﻿
+pm_military_shipbuilding_steam_2 = {
+	texture = "gfx/interface/icons/production_method_icons/military_shipbuilding_steam_2.dds"
+	
+	unlocking_technologies = {
+		arc_welding
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			#input
+			goods_input_steel_add = 50
+			goods_input_electricity_add = 35
+			goods_input_engines_add = 15
+
+			# output goods
+			goods_output_ironclads_add = 70
+		}
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+
+	required_input_goods = electricity
+}			
+
+pm_arc_welding_shipbuilding = {
+	texture = "gfx/interface/icons/production_method_icons/arc_welded_steam_ships.dds"
+	
+	unlocking_technologies = {
+		arc_welding
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 30
+			goods_input_electricity_add = 30
+			goods_input_engines_add = 10
+			
+			# output goods
+			goods_output_steamers_add = 80
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+
+	required_input_goods = electricity
+}

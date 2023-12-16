@@ -85,11 +85,6 @@ pm_wine_production = {
 		fractional_distillation				
 	}
 	
-	unlocking_production_methods = {
-		pm_pot_stills
-		pm_patent_stills
-	}
-	
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods

@@ -47,6 +47,7 @@ law_national_guard = {
 	institution_modifier = {
 		state_conscription_rate_add = 0.005
 		political_movement_radicalism_mult = -0.05
+		country_authority_add = 20
 	}
 	
 	possible_political_movements = {
@@ -107,6 +108,7 @@ law_secret_police = {
 	institution_modifier = {
 		country_suppression_ig_attraction_mult = -0.05
 		political_movement_radicalism_mult = -0.1
+		country_authority_add = 20
 	}
 	
 	possible_political_movements = {
