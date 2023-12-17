@@ -1,7 +1,10 @@
+[h1]v9.1[/h1]
+-You can't enable Electric Drive and Gantry Cranes PMs in states with no electricity supply.
+-Automation PMs for Railways now require less goods
+
+
 [h1]v9.0[/h1]
 [b]That's where the real content starts coming in![/b]
--Integrated LRoAI, AI nations are much more sustainable now. You don't need to run original LRoAI with IEX to have an effect.
-
 -Added new goods: Machine Parts and Copper
 -Added Copper Mines
 -Added Machine Parts Factory
@@ -13,6 +16,8 @@
 -Added new technologies: Mechanical Production, Electrification, Assembly Lines, Automatic Machines
 -Added automation for Chemical Plants and Explosives Factory.
 -Added automation for Electrics Industries
+-Added automation for Railways
+-Added automation for Shipyards
 -Added Bronze Tools PM for tooling workshops.
 -Added Ore Filtering for Iron Mines, allowing to redirect to Copper.
 -Added Ore Filtering for Copper Mines, allowing to redirect to Iron.

@@ -130,6 +130,7 @@ pm_automation_electric_drive = {
 			building_throughput_add = 0.07
 		}
 	}
+	required_input_goods = electricity
 }
 
 pm_automation_conveyor_production = {
@@ -383,8 +384,8 @@ pm_automation_hydraulic_cranes = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 4	# 200
-			goods_input_coal_add = 5			# 150 # TOTAL 350
+			goods_input_machine_parts_add = 3	# 150
+			goods_input_coal_add = 4			# 120 # TOTAL 270
 		}
 
 		level_scaled = {
@@ -417,8 +418,8 @@ pm_automation_gantry_cranes = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 5	# 250
-			goods_input_electricity_add = 6		# 180 # TOTAL 430
+			goods_input_machine_parts_add = 4	# 200
+			goods_input_electricity_add = 5		# 150 # TOTAL 350
 		}
 
 		level_scaled = {
@@ -430,6 +431,7 @@ pm_automation_gantry_cranes = {
 			building_throughput_add = 0.07
 		}
 	}
+	required_input_goods = electricity
 }
 
 pm_automation_modern_cranes = {
@@ -452,13 +454,13 @@ pm_automation_modern_cranes = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 8	# 400
-			goods_input_oil_add = 5				# 250 # TOTAL 650
+			goods_input_machine_parts_add = 5	# 250
+			goods_input_oil_add = 4				# 200 # TOTAL 450
 		}
 
 		level_scaled = {
 			building_employment_laborers_add = -2000
-			building_employment_clerks_add = -500
+			building_employment_clerks_add = -375
 		}
 		
 		unscaled = {
@@ -533,6 +535,7 @@ pm_automation_gantry_cranes_shipyard = {
 			building_throughput_add = 0.07
 		}
 	}
+	required_input_goods = electricity
 }
 
 pm_automation_modern_cranes_shipyard = {
