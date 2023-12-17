@@ -1,6 +1,7 @@
 [h1]v9.1[/h1]
 -You can't enable Electric Drive and Gantry Cranes PMs in states with no electricity supply.
--Automation PMs for Railways now require less goods
+-Automation PMs for Railways now require less goods.
+-Pops now want to consume Electricity for heating much more.
 
 
 [h1]v9.0[/h1]
