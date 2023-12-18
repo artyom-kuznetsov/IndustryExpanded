@@ -27,6 +27,10 @@ pm_powered_sawing_lm = {
 		}
 	}
 
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
 	
 	unlocking_technologies = {
 		mechanical_production

@@ -1,7 +1,15 @@
 [h1]v9.1[/h1]
+-Added new companies: Colored Metals Conglomerate (Copper and Machine Parts bonus) and Lumber Union (Lumber Mill, Logging Camp and Forestry bonus)
+-Added Distilleries bonus for most grocery companies.
+-New "Governance from Above" modifier is applied to any country which is not independent. It increases law enactment chance and decreases enactment time, making it easier to manage subject laws. AI countries only.
+-Reworked Automation for Electronics Industries. Doesn't reduce non-existent employment anymore.
 -You can't enable Electric Drive and Gantry Cranes PMs in states with no electricity supply.
 -Automation PMs for Railways now require less goods.
 -Pops now want to consume Electricity for heating much more.
+-Council Republic now gives Trade Unions pop attraction instead of political strengh bonus.
+-Can't use Woodworking Machines PM with industry banned.
+-Increased copper potentials in South America, India, Africa and Indonesia.
+-Added discoverable mineral potential to Madagascar. Added Oil to Madagascar. Based on historical data.
 
 
 [h1]v9.0[/h1]

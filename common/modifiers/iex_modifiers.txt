@@ -57,3 +57,9 @@ base_values = {
 	
 	unit_experience_gain_add = 1.0
 }
+
+iex_is_subject_modifier = {
+	country_law_enactment_time_mult = -0.5
+	country_law_enactment_success_add = 0.2
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
+}

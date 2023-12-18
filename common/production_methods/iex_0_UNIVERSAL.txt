@@ -205,6 +205,79 @@ pm_automation_assembly_lines = {
 	}
 }
 
+### LATEGAME AUTOMATION ###
+
+pm_automation_conveyor_production_late = {
+	texture = "gfx/interface/icons/production_method_icons/conveyor_production.dds"
+	
+	unlocking_technologies = {
+		conveyors
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 3	# 150
+			goods_input_oil_add = 1				# 50
+			goods_input_electricity_add = 5		# 150	# TOTAL 350
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -750
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.05
+		}
+	}
+}
+
+pm_automation_assembly_lines_late = {
+	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
+	
+	unlocking_technologies = {
+		assembly_lines
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 5	# 250
+			goods_input_oil_add = 2				# 100
+			goods_input_electricity_add = 10	# 300 # TOTAL 650
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1500
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+
 
 ### SOLID AUTOMATION ###
 
@@ -419,7 +492,7 @@ pm_automation_gantry_cranes = {
 		workforce_scaled = {
 			# input goods
 			goods_input_machine_parts_add = 4	# 200
-			goods_input_electricity_add = 5		# 150 # TOTAL 350
+			goods_input_electricity_add = 4		# 120 # TOTAL 320
 		}
 
 		level_scaled = {
@@ -454,8 +527,8 @@ pm_automation_modern_cranes = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 5	# 250
-			goods_input_oil_add = 4				# 200 # TOTAL 450
+			goods_input_machine_parts_add = 4	# 200
+			goods_input_oil_add = 4				# 200 # TOTAL 400
 		}
 
 		level_scaled = {

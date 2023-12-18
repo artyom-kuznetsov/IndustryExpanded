@@ -353,7 +353,7 @@ STATE_PERM = {
         bg_coal_mining = 80
         bg_iron_mining = 75
         bg_logging = 25
-		bg_copper_mining = 16
+		bg_copper_mining = 30
     }
     resource = {
         type = "bg_oil_extraction"

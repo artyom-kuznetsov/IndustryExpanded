@@ -1,0 +1,79 @@
+﻿
+company_iex_colored_metals = {
+	icon = "gfx/interface/icons/company_icons/basic_steel.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_heavy.dds"
+	
+	uses_dynamic_naming = yes
+	
+	dynamic_company_type_names = {
+		"dynamic_company_type_company"
+		"dynamic_company_type_consortium"
+		"dynamic_company_type_corporation"
+		"dynamic_company_type_conglomerate"
+		"dynamic_company_type_syndicate"
+		"dynamic_company_type_combine"
+		"dynamic_company_type_guild"
+	}
+	
+	building_types = {
+		building_copper_mine
+		building_machine_parts_factory
+	}
+
+	possible = { 
+		any_scope_state = {
+			any_scope_building = {
+				OR = {
+					is_building_type = building_copper_mine
+					is_building_type = building_machine_parts_factories
+				}
+				level >= 5
+			}
+		}
+	}
+	
+	prosperity_modifier = {		
+		building_power_plant_throughput_add = 0.05
+		country_convoys_capacity_mult = 0.1
+	}	
+}
+
+company_iex_lumber_union = {
+	icon = "gfx/interface/icons/company_icons/basic_forestry.dds"
+	background = "gfx/interface/icons/company_icons/company_backgrounds/comp_illu_manufacturing_light.dds"
+	
+	uses_dynamic_naming = yes
+	
+	dynamic_company_type_names = {
+		"dynamic_company_type_company"
+		"dynamic_company_type_consortium"
+		"dynamic_company_type_corporation"
+		"dynamic_company_type_conglomerate"
+		"dynamic_company_type_syndicate"
+		"dynamic_company_type_combine"
+		"dynamic_company_type_guild"
+	}
+	
+	building_types = {
+		building_copper_mine
+		building_machine_parts_factory
+	}
+
+	possible = { 
+		any_scope_state = {
+			any_scope_building = {
+				OR = {
+					is_building_type = building_lumber_mill
+					is_building_type = building_logging_camp
+					is_building_type = building_forestry
+				}
+				level >= 10
+			}
+		}
+	}
+	
+	prosperity_modifier = {		
+		building_chemical_plants_throughput_add = 0.1
+		building_military_shipyards_throughput_add = 0.05
+	}	
+}

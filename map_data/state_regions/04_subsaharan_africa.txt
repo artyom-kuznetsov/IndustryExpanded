@@ -696,6 +696,14 @@ STATE_SOUTH_MADAGASCAR = {
         type = "bg_rubber"
         undiscovered_amount = 16
     }
+    resource = {
+        type = "bg_oil_extraction"
+        undiscovered_amount = 10
+    }
+    resource = {
+        type = "bg_iron_mining"
+        undiscovered_amount = 30
+    }
     naval_exit_id = 3107
 }
 
@@ -720,6 +728,10 @@ STATE_NORTH_MADAGASCAR = {
         type = "bg_rubber"
         undiscovered_amount = 16
     }
+    resource = {
+        type = "bg_iron_mining"
+        undiscovered_amount = 20
+    }
     naval_exit_id = 3107
 }
 
@@ -737,7 +749,7 @@ STATE_UGANDA = {
     arable_resources = { "bg_millet_farms" "bg_livestock_ranches" "bg_coffee_plantations" "bg_cotton_plantations" "bg_dye_plantations" "bg_tea_plantations" "bg_tobacco_plantations" "bg_sugar_plantations" "bg_banana_plantations" "bg_vineyard_plantations" }
     capped_resources = {
         bg_logging = 20
-		bg_copper_mining = 5
+		bg_copper_mining = 16
     }
     resource = {
         type = "bg_rubber"
@@ -882,7 +894,7 @@ STATE_CONGO = {
         bg_coal_mining = 48
         bg_logging = 25
         bg_fishing = 4
-		bg_copper_mining = 5
+		bg_copper_mining = 20
     }
     resource = {
         type = "bg_rubber"
@@ -910,7 +922,7 @@ STATE_CONGO_ORIENTALE = {
     capped_resources = {
         bg_coal_mining = 44
         bg_logging = 23
-		bg_copper_mining = 5
+		bg_copper_mining = 10
     }
     resource = {
         type = "bg_rubber"
@@ -1027,7 +1039,7 @@ STATE_SOUTH_ANGOLA = {
         bg_logging = 5
         bg_fishing = 7
         bg_whaling = 4
-		bg_copper_mining = 10
+		bg_copper_mining = 20
     }
     resource = {
         type = "bg_rubber"
@@ -1191,7 +1203,7 @@ STATE_NAMAQUALAND = {
         bg_coal_mining = 32
         bg_logging = 4
         bg_fishing = 7
-		bg_copper_mining = 20
+		bg_copper_mining = 30
     }
     naval_exit_id = 3105
 }
@@ -1356,7 +1368,7 @@ STATE_BOTSWANA = {
     capped_resources = {
         bg_coal_mining = 48
         bg_logging = 5
-		bg_copper_mining = 10
+		bg_copper_mining = 20
     }
 }
 

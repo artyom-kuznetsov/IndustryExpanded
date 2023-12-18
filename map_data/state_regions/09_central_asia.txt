@@ -409,7 +409,7 @@ STATE_BALUCHISTAN = {
         bg_lead_mining = 18
         bg_logging = 2
         bg_fishing = 5
-		bg_copper_mining = 10
+		bg_copper_mining = 16
     }
     naval_exit_id = 3048
 }
