@@ -325,7 +325,5 @@
  company_iex_lumber_union_dynamic_name_tag_singular:0 "Lumber"
  company_iex_lumber_union_dynamic_name_tag_plural:0 "Forestries"
  
- iex_is_subject_modifier:0 "Governance from Above"
- 
  pm_automation_conveyor_production_late:0 "$pm_automation_conveyor_production$"
  pm_automation_assembly_lines_late:0 "$pm_automation_assembly_lines$"
