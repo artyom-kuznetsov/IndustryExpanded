@@ -327,3 +327,14 @@
  
  pm_automation_conveyor_production_late:0 "$pm_automation_conveyor_production$"
  pm_automation_assembly_lines_late:0 "$pm_automation_assembly_lines$"
+ 
+ pmg_automation_building_3000:0 "$pmg_automation$"
+ pm_automation_hydraulic_cranes_3000:0 "$pm_automation_hydraulic_cranes$"
+ pm_automation_gantry_cranes_3000:0 "$pm_automation_gantry_cranes$"
+ pm_automation_modern_cranes_3000:0 "$pm_automation_modern_cranes$"
+ 
+ building_iron_mine_discovered_resource:0 "Iron"
+ building_lead_mine_discovered_resource:0 "Lead"
+ building_coal_mine_discovered_resource:0 "Coal"
+ building_copper_mine_discovered_resource:0 "Copper"
+ building_sulfur_mine_discovered_resource:0 "Sulfur"

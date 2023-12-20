@@ -462,7 +462,7 @@ pm_automation_hydraulic_cranes = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -1000
+			building_employment_laborers_add = -1500
 		}
 		
 		unscaled = {
@@ -496,7 +496,7 @@ pm_automation_gantry_cranes = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -1250
+			building_employment_laborers_add = -2000
 			building_employment_clerks_add = -250
 		}
 		
@@ -532,7 +532,7 @@ pm_automation_modern_cranes = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -2000
+			building_employment_laborers_add = -3000
 			building_employment_clerks_add = -375
 		}
 		
@@ -562,8 +562,8 @@ pm_automation_hydraulic_cranes_shipyard = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 4	# 200
-			goods_input_coal_add = 5			# 150 # TOTAL 350
+			goods_input_machine_parts_add = 3	# 250
+			goods_input_coal_add = 4			# 120 # TOTAL 270
 		}
 
 		level_scaled = {
@@ -596,8 +596,8 @@ pm_automation_gantry_cranes_shipyard = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 5	# 250
-			goods_input_electricity_add = 6		# 180 # TOTAL 430
+			goods_input_machine_parts_add = 4	# 200
+			goods_input_electricity_add = 5		# 150 # TOTAL 350
 		}
 
 		level_scaled = {
@@ -637,6 +637,109 @@ pm_automation_modern_cranes_shipyard = {
 
 		level_scaled = {
 			building_employment_laborers_add = -2000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+pm_automation_hydraulic_cranes_3000 = {
+	texture = "gfx/interface/icons/production_method_icons/green_hydraulic_cranes.dds"
+	
+	unlocking_technologies = {
+		hydraulic_cranes
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 4	# 200
+			goods_input_coal_add = 4			# 120 # TOTAL 320
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.03
+		}
+	}
+}
+
+pm_automation_gantry_cranes_3000 = {
+	texture = "gfx/interface/icons/production_method_icons/green_gantry_cranes.dds"
+	
+	unlocking_technologies = {
+		gantry_cranes
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 6	# 300
+			goods_input_electricity_add = 10	# 300 # TOTAL 600
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.07
+		}
+	}
+	required_input_goods = electricity
+}
+
+pm_automation_modern_cranes_3000 = {
+	texture = "gfx/interface/icons/production_method_icons/green_modern_cranes.dds"
+	
+	unlocking_technologies = {
+		concrete_dockyards
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 8
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 8	# 400
+			goods_input_oil_add = 8				# 400 # TOTAL 800
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -3000
 		}
 		
 		unscaled = {

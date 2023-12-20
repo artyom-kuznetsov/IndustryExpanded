@@ -8,7 +8,9 @@
 -Council Republic now gives Trade Unions pop attraction instead of political strengh bonus.
 -Can't use Woodworking Machines PM with industry banned.
 -Increased copper potentials in South America, India, Africa and Indonesia.
--Added discoverable mineral potential to Madagascar. Added Oil to Madagascar. Based on historical data.
+-Added discoverable mineral potential to Madagascar. Added Oil to Madagascar.
+-Added crane automation for Construction Sectors.
+-Lowered railroad machinist employment to make it more profitable.
 
 
 [h1]v9.0[/h1]
