@@ -609,6 +609,7 @@ STATE_NIGER = {
         bg_coal_mining = 36
         bg_lead_mining = 18
         bg_sulfur_mining = 24
+		bg_copper_mining = 24
     }
     resource = {
         type = "bg_oil_extraction"
@@ -628,9 +629,6 @@ STATE_CHAD = {
     wood = "x815967"
     arable_land = 30
     arable_resources = { "bg_livestock_ranches" }
-	capped_resources = {
-		bg_copper_mining = 5
-	}
     resource = {
         type = "bg_oil_extraction"
         undiscovered_amount = 10

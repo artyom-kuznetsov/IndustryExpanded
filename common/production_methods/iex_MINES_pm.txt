@@ -748,7 +748,7 @@ pm_diesel_pump_building_copper_mine = {
 			goods_input_oil_add = 5
 			
 			# output goods
-			goods_output_copper_add = 75
+			goods_output_copper_add = 90		#
 		}
 
 		level_scaled = {

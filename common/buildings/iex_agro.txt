@@ -6,7 +6,7 @@
 	levels_per_mesh = 0
 	
 	unlocking_technologies = {
-		intensive_agriculture
+		improved_fertilizer
 	}
 
 	production_method_groups = {
@@ -17,6 +17,30 @@
 		pmg_ownership_capital_building_normal
 	}
 
-	required_construction = construction_cost_medium
+	required_construction = construction_cost_high
 	
+	can_build_private = {
+		error_check = {
+			severity = fail
+			
+			NOT = {
+				any_scope_building = {
+					is_building_type = building_logging_camp
+					can_queue_building_levels = 1
+				}
+			}
+		}
+	}
+	can_build_government = {
+		error_check = {
+			severity = fail
+			
+			NOT = {
+				any_scope_building = {
+					is_building_type = building_logging_camp
+					can_queue_building_levels = 1
+				}
+			}
+		}
+	}
 }

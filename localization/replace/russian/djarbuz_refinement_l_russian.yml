@@ -327,3 +327,22 @@
  
  pm_automation_conveyor_production_late:0 "$pm_automation_conveyor_production$"
  pm_automation_assembly_lines_late:0 "$pm_automation_assembly_lines$"
+ 
+ pmg_automation_building_3000:0 "$pmg_automation$"
+ pm_automation_hydraulic_cranes_3000:0 "$pm_automation_hydraulic_cranes$"
+ pm_automation_gantry_cranes_3000:0 "$pm_automation_gantry_cranes$"
+ pm_automation_modern_cranes_3000:0 "$pm_automation_modern_cranes$"
+ 
+ building_iron_mine_discovered_resource:0 "Железо"
+ building_lead_mine_discovered_resource:0 "Свинец"
+ building_coal_mine_discovered_resource:0 "Уголь"
+ building_copper_mine_discovered_resource:0 "Медь"
+ building_sulfur_mine_discovered_resource:0 "Сера"
+ 
+ # v9.2.3
+ decree_child_care:0 "Расширенная забота о детях"
+ decree_child_care_desc:0 "Различные финансируемые государством программы, такие как льготы, бесплатное образование, пособия и прочие преимущества."
+ 
+ # v10.0
+ pm_high_speed_electric_trains:0 "Скоростные электропоезда"
+ pm_high_speed_diesel_trains:0 "Скоростные тепловозы"

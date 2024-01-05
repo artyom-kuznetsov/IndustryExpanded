@@ -1,0 +1,27 @@
+﻿
+decree_child_care = {
+	texture = "gfx/interface/icons/decree/health.dds"
+	unlocking_technologies = {
+		human_rights
+	}
+	
+	unlocking_laws = {
+		law_private_health_insurance
+		law_public_health_insurance
+	}
+	
+	#disallowing_laws = {
+	#	law_child_labor_allowed
+	#}
+	
+	modifier = {
+		state_tax_waste_add = 0.5
+		state_birth_rate_mult = 0.05
+		state_mortality_mult = -0.05
+	}
+	cost = 200
+	
+	ai_weight = {
+		value = 0
+	}
+}

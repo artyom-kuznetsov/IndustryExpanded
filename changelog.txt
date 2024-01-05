@@ -1,3 +1,34 @@
+[h1]v10.0[/h1]
+[b]Features[/b]
+-Added High-Speed Electric/Diesel Trains PMs, which are slightly better than vanilla Diesel Trains.
+-Diesel Trains PM is now as efficient as Electric Trains. Moved from Compression Ignition to Combustion Engine tech.
+-Price range is now up to 95% of base price, instead of 75%.
+
+[b]Tweaks[/b]
+-Good shortage penalties disappear quicker when raw goods are received.
+-A little bit enhanced autonomous investment logic.
+
+[h1]v9.2.3[/h1]
+-National Guard institution now increases Armed Forces pop attraction.
+-Secret Police institution now increases Petite Bourgeoisie and Armed Forces pop attraction.
+-Finished the Child Care decree.
+-Forestries are moved to improved fertilizer tech.
+-Forestries can't be built if Logging Camps can be expanded in a state. Building cost is increased (600 >> 800).
+-Fixed missing russian loc.
+
+[h1]v9.2.2[/h1]
+-Can't build Machine Parts Factory with Industry Banned law.
+-Fix Diesel Pump PM for Copper Mines didn't have increased output compared to Condensing Engine Pump.
+
+
+[h1]v9.2[/h1]
+-Removed Copper from Chad.
+-Added Copper to Niger.
+-Women's Suffrage now gives -50 authority.
+-Propertied Women now gives additional +3% birth rate.
+-Women in the Workforce doesn't give penalty to birth rate.
+-Fixed v9.1 company issues.
+
 [h1]v9.1[/h1]
 -Added new companies: Colored Metals Conglomerate (Copper and Machine Parts bonus) and Lumber Union (Lumber Mill, Logging Camp and Forestry bonus)
 -Added Distilleries bonus for most grocery companies.

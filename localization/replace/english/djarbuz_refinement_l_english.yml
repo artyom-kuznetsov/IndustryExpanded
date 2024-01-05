@@ -338,3 +338,11 @@
  building_coal_mine_discovered_resource:0 "Coal"
  building_copper_mine_discovered_resource:0 "Copper"
  building_sulfur_mine_discovered_resource:0 "Sulfur"
+ 
+ # v9.2.3
+ decree_child_care:0 "Extensive Child Care"
+ decree_child_care_desc:0 "Extensive state-funded child care programs, featuring exemptions, free education, grants and other benefits."
+ 
+ # v10.0
+ pm_high_speed_electric_trains:0 "High-Speed Electric Trains"
+ pm_high_speed_diesel_trains:0 "High-Speed Diesel Trains"

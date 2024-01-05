@@ -19,6 +19,7 @@ This mod contains new buildings, goods, production methods and other various twe
 [img]https://i.imgur.com/rz12Uyw.png[/img]
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
 Mod is made for game version [b]v1.5.12[/b]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Industry Expanded & Morgenröte Compatch[/url]
 Should run normally with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] (IEX has to be placed [b]lower[/b] in loading order.)
 Not compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url], but it will be integrated in the future.
 Not recommended to use with mods, changing building or resource history.
@@ -30,4 +31,5 @@ Not recommended to use with mods changing PMs or buildings.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] - for integration and being so kind.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] - for some minor features.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url] - for the idea.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url] - for a decree icon.
 

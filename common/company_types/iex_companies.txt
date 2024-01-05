@@ -17,7 +17,7 @@ company_iex_colored_metals = {
 	
 	building_types = {
 		building_copper_mine
-		building_machine_parts_factory
+		building_machine_parts_factories
 	}
 
 	possible = { 
@@ -55,8 +55,9 @@ company_iex_lumber_union = {
 	}
 	
 	building_types = {
-		building_copper_mine
-		building_machine_parts_factory
+		building_lumber_mill
+		building_logging_camp
+		building_forestry
 	}
 
 	possible = { 

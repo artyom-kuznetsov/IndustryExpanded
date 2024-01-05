@@ -19,6 +19,7 @@
 [img]https://i.imgur.com/rz12Uyw.png [/img]
 [b]Китайская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url] (создано сообществом)
 Мод создан для версии игры [b]v1.5.12[/b]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Industry Expanded & Morgenrote Compatch[/url]
 Должен запускаться нормально с [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] (IEX нужно поставить [b]ниже[/b] по порядку загрузки.)
 Не совместим с [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url], но в будущем он будет интегрирован.
 Не рекомендуется использовать с модами, изменяющими историю зданий или ресурсов.
@@ -30,3 +31,4 @@
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] - за интеграцию и непомерную доброту.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] - за некоторые мелкие фичи.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url] - за идею.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url] - за иконку указа.
