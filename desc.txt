@@ -19,11 +19,13 @@ This mod contains new buildings, goods, production methods and other various twe
 [img]https://i.imgur.com/rz12Uyw.png[/img]
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
 Mod is made for game version [b]v1.5.12[/b]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Industry Expanded & Morgenröte Compatch[/url]
+Can be used with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2889925770]Morgenröte[/url] if using a [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Compatibility Patch[/url]
 Should run normally with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] (IEX has to be placed [b]lower[/b] in loading order.)
 Not compatible with [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url], but it will be integrated in the future.
 Not recommended to use with mods, changing building or resource history.
 Not recommended to use with mods changing PMs or buildings.
+
+[img]https://i.imgur.com/aNDO8WK.gif[/img]
 
 [h1]Credits[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url] - for some GFX and inspiration.
