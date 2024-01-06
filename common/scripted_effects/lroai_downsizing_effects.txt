@@ -39,22 +39,22 @@
             }
         }
         
-        # Barracks
-        if = {
-            limit = {
-                lroai_building_barracks_spending_value >= lroai_building_barracks_spending_excess
-            }
-            random_scope_state = {
-                limit = {
-                    lroai_downsize_barracks = yes
-                }
-                set_variable = {
-                    name = lroai_building_barracks_level
-                    value = 0
-                }
-                remove_building = building_barracks
-            }
-        }
+        ## Barracks
+        #if = {
+        #    limit = {
+        #        lroai_building_barracks_spending_value >= lroai_building_barracks_spending_excess
+        #    }
+        #    random_scope_state = {
+        #        limit = {
+        #            lroai_downsize_barracks = yes
+        #        }
+        #        set_variable = {
+        #            name = lroai_building_barracks_level
+        #            value = 0
+        #        }
+        #        remove_building = building_barracks
+        #    }
+        #}
     
         # Naval base
         if = {
