@@ -1,0 +1,50 @@
+﻿
+pm_fructose = {
+	texture = "gfx/interface/icons/production_method_icons/fruit_base.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fruit_add = 20		# 600
+			goods_input_grain_add = 10		# 300	# TOTAL 800
+			
+			# output goods
+			goods_output_sugar_add = 60		# 1800	# PROFIT 1000
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_saccharin = {
+	texture = "gfx/interface/icons/production_method_icons/vaccum_brine_electrolysis.dds"
+	
+	unlocking_technologies = {
+		saccharin
+	}	
+	
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_coal_add = 30		# 900
+			goods_input_sulfur_add = 10		# 500
+			
+			# output goods
+			goods_output_sugar_add = 100	# 3000	# PROFIT 1700
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}

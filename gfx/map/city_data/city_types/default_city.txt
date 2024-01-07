@@ -81,4 +81,5 @@ default_city = {
 	building_machine_parts_factories = {"tools_manufactory_01_mesh"}
 	building_lumber_mill = {"tools_manufactory_01_mesh"}
 	building_distillery = {"generic_manufactory_01_mesh"}
+	building_sugar_substitute_factory = {"generic_manufactory_01_mesh"}
 }

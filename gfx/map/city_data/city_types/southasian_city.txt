@@ -75,4 +75,5 @@
 	building_machine_parts_factories = {"arabic_factory_tools_01_mesh"}
 	building_lumber_mill = {"arabic_factory_tools_01_mesh"}
 	building_distillery = {"arabic_factory_01_mesh"}
+	building_sugar_substitute_factory = {"arabic_factory_01_mesh"}
 }

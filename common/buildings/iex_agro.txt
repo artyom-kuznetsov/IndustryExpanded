@@ -21,26 +21,8 @@
 	
 	can_build_private = {
 		error_check = {
-			severity = fail
-			
-			NOT = {
-				any_scope_building = {
-					is_building_type = building_logging_camp
-					can_queue_building_levels = 1
-				}
-			}
-		}
-	}
-	can_build_government = {
-		error_check = {
-			severity = fail
-			
-			NOT = {
-				any_scope_building = {
-					is_building_type = building_logging_camp
-					can_queue_building_levels = 1
-				}
-			}
+			severity = potential
+			always = no
 		}
 	}
 }

@@ -37,6 +37,26 @@ building_distillery = {
 		pmg_ownership_capital_building_liquor_industry
 	}
 
+	required_construction = construction_cost_medium
+	
+}
+
+building_sugar_substitute_factory = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/sugar_factory.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		fructose
+	}
+
+	production_method_groups = {
+		pmg_sugar_sub_base
+		pmg_automation_building_solid
+		pmg_ownership_capital_building_universal
+	}
+
 	required_construction = construction_cost_high
 	
 }

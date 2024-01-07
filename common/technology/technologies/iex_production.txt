@@ -629,6 +629,35 @@ shift_work = {
 	}
 }
 
+fructose = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/fructose.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		shift_work
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
+saccharin = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/saccharin.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		fructose
+		automatic_bottle_blowers
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
 steel_railway_cars = {
 	# Unlocks Steel Passenger Carriages PM and Armored Cars PM in Railways
 	# Unlocks Tanker Cars PM in Oil Rig buildings

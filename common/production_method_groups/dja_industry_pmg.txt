@@ -16,6 +16,14 @@ pmg_automation_building_paper_mill = {
 	}
 }
 
+pmg_sugar_sub_base = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_fructose
+		pm_saccharin
+	}
+}
+
 pmg_base_building_tooling_workshops = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
