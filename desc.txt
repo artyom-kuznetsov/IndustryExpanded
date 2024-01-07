@@ -4,14 +4,15 @@ A mod focused on goods, building, production methods and variability expansion, 
 
 This mod contains new buildings, goods, production methods and other various tweaks. Among them:
 - Machine parts
+- Sugar Substitutes
 - Useful whaling
 - Viable isolationism
-- Road networks
+- Teamster offices (Infra before railroads)
 - Ore filtering
 - Improved and extended automation
 - New technologies
 - Migration improvements
-- Changes to Authority from laws, e.g., policing gives authority.
+- Changes to Authority from laws (e.g., policing gives authority)
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] (coming soon)
 
 
