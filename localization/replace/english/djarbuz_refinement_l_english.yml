@@ -346,3 +346,15 @@
  # v10.0
  pm_high_speed_electric_trains:0 "High-Speed Electric Trains"
  pm_high_speed_diesel_trains:0 "High-Speed Diesel Trains"
+ 
+ building_sugar_substitute_factory:0 "Sugar Substitute Factory"
+ pmg_sugar_sub_base:0 "$pm_base$"
+ pm_fructose:0 "Fructose"
+ pm_saccharin:0 "Saccharin"
+ 
+ fructose:0 "Fructose"
+ fructose_desc:0 "Fructose is a natural sweetener, extracted from fruit."
+ saccharin:0 "Saccharin"
+ saccharin_desc:0 "Saccharin is an artificial sweetener, produced from acids, containing sulfur and carbon."
+ 
+ assembly_lines_desc:0 "An assembly line is a manufacturing process in which parts are added as the semi-finished assembly moves from workstation to workstation where the parts are added in sequence until the final assembly is produced."

@@ -2,6 +2,8 @@
 [b]Features[/b]
 -Added High-Speed Electric/Diesel Trains PMs, which are slightly better than vanilla Diesel Trains.
 -Diesel Trains PM is now as efficient as Electric Trains. Moved from Compression Ignition to Combustion Engine tech.
+-Added new building - Sugar Substitute Factory, which, obviously, produces sugar.
+-Added new technologies - Fructose and Saccharin, with respective production methods for Sugar Sub Factory.
 -Price range is now up to 95% of base price, instead of 75%.
 
 [b]Tweaks[/b]
