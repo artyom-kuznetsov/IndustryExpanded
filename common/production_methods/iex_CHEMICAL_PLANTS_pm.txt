@@ -87,3 +87,47 @@ pm_nitrogen_fixation = {
 		}
 	}
 }
+
+# SYNTHETIC DYE
+
+pm_no_dye = {
+	texture = "gfx/interface/icons/production_method_icons/filtering_disabled.dds"
+	
+}
+
+pm_ink_flower_dye_production = {
+	texture = "gfx/interface/icons/production_method_icons/ink_floral_dyes.dds"
+
+	unlocking_technologies = {
+		chemical_bleaching
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 16			# 640
+			goods_output_fertilizer_add = -32	# 960	# 1600
+
+			goods_output_dye_add = 40			# 1600	# NO PROFIT
+		}
+	}
+}
+
+pm_dye_production = {
+	texture = "gfx/interface/icons/production_method_icons/filtering.dds"
+	
+	unlocking_technologies = {
+		aniline
+	}
+
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 24			# 1200
+			goods_output_fertilizer_add = -40	# 1200	# 2400
+
+			# output goods
+			goods_output_dye_add = 60			# 2400
+		}
+	}
+}

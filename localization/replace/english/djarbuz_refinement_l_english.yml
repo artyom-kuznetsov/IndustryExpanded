@@ -358,3 +358,16 @@
  saccharin_desc:0 "Saccharin is an artificial sweetener, produced from acids, containing sulfur and carbon."
  
  assembly_lines_desc:0 "An assembly line is a manufacturing process in which parts are added as the semi-finished assembly moves from workstation to workstation where the parts are added in sequence until the final assembly is produced."
+ 
+ modifier_goods_output_paper_mult:0 "Building @paper! Paper output"
+ modifier_goods_output_paper_mult_desc:0 "A bonus or penalty to the amount of @paper! Paper produced by buildings"
+ modifier_goods_output_transportation_mult:0 "Building @transportation! Transportation output"
+ modifier_goods_output_transportation_mult_desc:0 "A bonus or penalty to the amount of @transportation! Transportation produced by buildings"
+ 
+ oil:0 "Crude Oil"
+ fuel:0 "Fuel"
+ 
+ pmg_synthetic_rubber:0 "Synthetic Rubber"
+ pm_no_synthetic_rubber:0 "No Synthetic Rubber"
+ synthetic_rubber:0 "Synthetic Rubber"
+ synthetic_rubber_desc:0 "With new production methods, we do not have to rely on natural sources of rubber."

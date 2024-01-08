@@ -64,7 +64,7 @@ pm_rotary_press = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.05
+			goods_output_paper_mult = 0.04
 		}
 	}
 }
@@ -98,7 +98,7 @@ pm_automatic_press = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.1
+			goods_output_paper_mult = 0.08
 		}
 	}
 }

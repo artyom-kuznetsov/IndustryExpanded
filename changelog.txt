@@ -12,6 +12,9 @@
 -Reduced trade route bureaucracy cost.
 -Price range is now up to 95% of base price, instead of 75%.
 -All state trait hardwood output modifiers changed to logging throughput (not useless anymore).
+-Increadsed automation throughput bonuses.
+-Railroad automation PMs now give transportation output modifier and infrastructure buff, instead of throughput.
+-Paper Mills automation PMs now give paper output modifier, instead of throughput.
 
 
 [h1]v9.2.4[/h1]

@@ -91,3 +91,34 @@ building_machine_parts_factories = {
 		}
 	}
 }
+
+#building_oil_refinery = {
+#	building_group = bg_heavy_industry
+#	texture = "gfx/interface/icons/building_icons/oil_refinery.dds"
+#	city_type = city
+#	levels_per_mesh = 5
+#	
+#	unlocking_technologies = {
+#		atmospheric_engine
+#	}
+#
+#	production_method_groups = {
+#		pmg_base_machine_parts
+#		pmg_boilers
+#		pmg_automation_building_industry
+#		pmg_ownership_capital_building_universal
+#	}
+#
+#	required_construction = construction_cost_high
+#	
+#	possible = {
+#		error_check = {
+#			severity = fail
+#			this = {
+#				owner = { 
+#					NOT = { has_law = law_type:law_industry_banned } 
+#				}
+#			}
+#		}
+#	}
+#}

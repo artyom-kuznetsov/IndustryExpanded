@@ -115,7 +115,7 @@ pm_automation_water_pumps = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.05
+			goods_output_electricity_mult = 0.05
 		}
 	}
 }
@@ -149,7 +149,7 @@ pm_automation_automatic_power_plant = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.08
+			goods_output_electricity_mult = 0.1
 		}
 	}
 }

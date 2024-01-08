@@ -83,19 +83,27 @@ pmg_base_building_motor_industry = {
 }
 
 pmg_synthetic_dyes = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
+		pm_no_dye
 		pm_ink_flower_dye_production
 		pm_dye_production
 	}
 }
 
 pmg_synthetic_silk = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_rayon
+	}
+}
+
+pmg_synthetic_rubber = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_no_artificial_fibers
-		pm_rayon
-		pm_rayon_focus
+		pm_no_synthetic_rubber
+		pm_isoprene
+		pm_bytadiene
 	}
 }
 

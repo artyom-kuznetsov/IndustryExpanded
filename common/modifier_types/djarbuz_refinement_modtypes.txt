@@ -34,3 +34,14 @@ goods_output_machine_parts_mult = {
 	good = yes
 	percent = yes
 }
+
+
+goods_output_paper_mult = {
+	good = yes
+	percent = yes
+}
+
+goods_output_transportation_mult = {
+	good = yes
+	percent = yes
+}

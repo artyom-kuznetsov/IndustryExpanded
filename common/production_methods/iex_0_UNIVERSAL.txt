@@ -22,7 +22,7 @@ pm_automation_working_tools = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.02
+			building_throughput_add = 0.04
 		}
 	}
 }
@@ -57,7 +57,7 @@ pm_automation_watertube_boiler = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.04
+			building_throughput_add = 0.08
 		}
 	}
 }
@@ -92,7 +92,7 @@ pm_automation_pneumatic_conveyor = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.05
+			building_throughput_add = 0.12
 		}
 	}
 }
@@ -127,7 +127,7 @@ pm_automation_electric_drive = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.07
+			building_throughput_add = 0.14
 		}
 	}
 	required_input_goods = electricity
@@ -164,7 +164,7 @@ pm_automation_conveyor_production = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.08
+			building_throughput_add = 0.17
 		}
 	}
 }
@@ -200,7 +200,7 @@ pm_automation_assembly_lines = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.1
+			building_throughput_add = 0.2
 		}
 	}
 }
@@ -237,7 +237,7 @@ pm_automation_conveyor_production_late = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.05
+			building_throughput_add = 0.1
 		}
 	}
 }
@@ -272,7 +272,7 @@ pm_automation_assembly_lines_late = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.1
+			building_throughput_add = 0.2
 		}
 	}
 }
@@ -315,7 +315,7 @@ pm_mixing_machines = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.02
+			building_throughput_add = 0.05
 		}
 	}
 }
@@ -349,7 +349,7 @@ pm_centrifuge = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.05
+			building_throughput_add = 0.1
 		}
 	}
 }
@@ -466,7 +466,8 @@ pm_automation_hydraulic_cranes = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.03
+			state_infrastructure_add = 4
+			goods_output_transportation_mult = 0.04
 		}
 	}
 }
@@ -492,7 +493,7 @@ pm_automation_gantry_cranes = {
 		workforce_scaled = {
 			# input goods
 			goods_input_machine_parts_add = 4	# 200
-			goods_input_electricity_add = 4		# 120 # TOTAL 320
+			goods_input_electricity_add = 5		# 150 # TOTAL 350
 		}
 
 		level_scaled = {
@@ -501,7 +502,8 @@ pm_automation_gantry_cranes = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.07
+			state_infrastructure_add = 8
+			goods_output_transportation_mult = 0.07
 		}
 	}
 	required_input_goods = electricity
@@ -528,7 +530,7 @@ pm_automation_modern_cranes = {
 		workforce_scaled = {
 			# input goods
 			goods_input_machine_parts_add = 4	# 200
-			goods_input_oil_add = 4				# 200 # TOTAL 400
+			goods_input_oil_add = 5				# 250 # TOTAL 450
 		}
 
 		level_scaled = {
@@ -537,7 +539,8 @@ pm_automation_modern_cranes = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.1
+			state_infrastructure_add = 12
+			goods_output_transportation_mult = 0.1
 		}
 	}
 }
@@ -571,7 +574,7 @@ pm_automation_hydraulic_cranes_shipyard = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.03
+			building_throughput_add = 0.05
 		}
 	}
 }
@@ -605,7 +608,7 @@ pm_automation_gantry_cranes_shipyard = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.07
+			building_throughput_add = 0.1
 		}
 	}
 	required_input_goods = electricity
@@ -640,7 +643,7 @@ pm_automation_modern_cranes_shipyard = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.1
+			building_throughput_add = 0.2
 		}
 	}
 }
@@ -674,7 +677,7 @@ pm_automation_hydraulic_cranes_3000 = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.03
+			building_throughput_add = 0.05
 		}
 	}
 }
@@ -708,7 +711,7 @@ pm_automation_gantry_cranes_3000 = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.07
+			building_throughput_add = 0.1
 		}
 	}
 	required_input_goods = electricity
@@ -743,7 +746,7 @@ pm_automation_modern_cranes_3000 = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.1
+			building_throughput_add = 0.2
 		}
 	}
 }
