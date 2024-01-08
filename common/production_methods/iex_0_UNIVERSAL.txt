@@ -451,6 +451,7 @@ pm_automation_hydraulic_cranes = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
+			state_infrastructure_add = 4
 		}
 	}
 
@@ -466,7 +467,6 @@ pm_automation_hydraulic_cranes = {
 		}
 		
 		unscaled = {
-			state_infrastructure_add = 4
 			goods_output_transportation_mult = 0.04
 		}
 	}
@@ -486,6 +486,7 @@ pm_automation_gantry_cranes = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 5
+			state_infrastructure_add = 8
 		}
 	}
 
@@ -502,7 +503,6 @@ pm_automation_gantry_cranes = {
 		}
 		
 		unscaled = {
-			state_infrastructure_add = 8
 			goods_output_transportation_mult = 0.07
 		}
 	}
@@ -523,6 +523,7 @@ pm_automation_modern_cranes = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 8
+			state_infrastructure_add = 12
 		}
 	}
 
@@ -539,7 +540,6 @@ pm_automation_modern_cranes = {
 		}
 		
 		unscaled = {
-			state_infrastructure_add = 12
 			goods_output_transportation_mult = 0.1
 		}
 	}

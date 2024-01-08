@@ -367,7 +367,10 @@
  oil:0 "Crude Oil"
  fuel:0 "Fuel"
  
+ pm_no_dye:0 "No Dyes"
  pmg_synthetic_rubber:0 "Synthetic Rubber"
  pm_no_synthetic_rubber:0 "No Synthetic Rubber"
+ pm_isoprene:0 "Isoprene"
+ pm_bytadiene:0 "Bytadiene"
  synthetic_rubber:0 "Synthetic Rubber"
  synthetic_rubber_desc:0 "With new production methods, we do not have to rely on natural sources of rubber."

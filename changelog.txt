@@ -4,18 +4,26 @@
 -Diesel Trains PM is now as efficient as Electric Trains. Moved from Compression Ignition to Combustion Engine tech.
 -Added new building - Sugar Substitute Factory, which, obviously, produces sugar.
 -Added new technologies - Fructose and Saccharin, with respective production methods for Sugar Sub Factory.
+-Synthetic Rubber:
+Synthetic dyes are now produced with a secondary PM in Chemical Plants. PMs are still unlocked from chemical bleaching and aniline techs. Synthetic dye production does not generate additional profit.
+Synthetics Plants primary PM is silk now; Secondary PM can produce synthetic rubber with respective techs researched. Synthetic rubber production does not generate additional profit. 
+Added new tech - Synthetic Rubber.
 
 [b]Tweaks[/b]
 -Good shortage penalties disappear quicker when raw goods are received.
--A little bit enhanced autonomous investment logic.
--A little bit enhanced trade logic and AI.
 -Reduced trade route bureaucracy cost.
 -Price range is now up to 95% of base price, instead of 75%.
--All state trait hardwood output modifiers changed to logging throughput (not useless anymore).
 -Increadsed automation throughput bonuses.
 -Railroad automation PMs now give transportation output modifier and infrastructure buff, instead of throughput.
--Paper Mills automation PMs now give paper output modifier, instead of throughput.
+-Paper Mills and Power Plants automation PMs now give output modifiers, instead of throughput.
+-Added max weekly construction progress to several techs. Total combined modifier is +20.
 
+[b]Fixes and smaller changes[/b]
+-All state trait hardwood output modifiers changed to logging throughput (not useless anymore).
+-Passenger carriages require a bit less goods.
+-A little bit enhanced autonomous investment logic.
+-A little bit enhanced trade logic and AI.
+-Reworked Natural Dye PM icon.
 
 [h1]v9.2.4[/h1]
 -Fixed missing city meshes.
