@@ -47,7 +47,7 @@ pm_isoprene = {
 		workforce_scaled = {
 			goods_input_sulfur_add = 4	# 200
 			goods_input_oil_add = 20	# 800
-			goods_input_silk_add = -30	# 1200	# 2200
+			goods_output_silk_add = -30	# 1200	# 2200
 			
 			goods_output_rubber_add = 55	# 2200	# NO PROFIT	
 		}
@@ -64,7 +64,7 @@ pm_bytadiene = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_oil_add = 30	# 1200
-			goods_input_silk_add = -55	# 2400	# 3400
+			goods_output_silk_add = -55	# 2400	# 3400
 			
 			goods_output_rubber_add = 85	# 3400	# NO PROFIT	
 		}

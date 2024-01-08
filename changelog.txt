@@ -16,7 +16,7 @@ Added new tech - Synthetic Rubber.
 -Increadsed automation throughput bonuses.
 -Railroad automation PMs now give transportation output modifier and infrastructure buff, instead of throughput.
 -Paper Mills and Power Plants automation PMs now give output modifiers, instead of throughput.
--Added max weekly construction progress to several techs. Total combined modifier is +20.
+-Added max weekly construction progress to several techs. Total combined modifier is +30.
 
 [b]Fixes and smaller changes[/b]
 -All state trait hardwood output modifiers changed to logging throughput (not useless anymore).
