@@ -8,6 +8,8 @@
 [b]Tweaks[/b]
 -Good shortage penalties disappear quicker when raw goods are received.
 -A little bit enhanced autonomous investment logic.
+-A little bit enhanced trade logic and AI.
+-Reduced trade route bureaucracy cost.
 -Price range is now up to 95% of base price, instead of 75%.
 -All state trait hardwood output modifiers changed to logging throughput (not useless anymore).
 

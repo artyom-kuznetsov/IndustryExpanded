@@ -1,4 +1,15 @@
 ﻿NAI = {
+	NUM_DAYS_TO_REMEMBER_FAILED_TRADE = 45 # 90
+	TRADE_ROUTE_ACCEPTABLE_SPENDING = 0.05	# 0.002
+	TRADE_ROUTE_MARKET_RANDOM_FACTOR = 0.5	# 1
+	TRADE_ROUTE_GOODS_RANDOM_FACTOR = 0.5	# 1
+	TRADE_ROUTE_EXPORT_VS_IMPORT_TOLERANCE = 25 # 3
+	TRADE_ROUTE_REPLACE_THRESHOLD = 3.0		# 5
+	TRADE_ROUTE_REDUCE_SHORTAGE_MULT = 20	# 10
+	TRADE_ROUTE_IMPORT_SCORE_MULT = 5.0 	# 1	# How much does AI multiply score of import routes
+	TRADE_ROUTE_EXPORT_SCORE_MULT = 10.0	# 1.5 # How much does AI multiply score of export routes
+	
+	
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_RANDOM_FACTOR_MULT = 0.5 			# Multiplies PRODUCTION_BUILDING_RANDOM_FACTOR for autonomous investment pool constructions
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_PROFIT_FACTOR_MULT = 4 			# Multiplies PRODUCTION_BUILDING_GOODS_PROFIT_FACTOR for autonomous investment pool constructions
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_BELOW_DESIRED_INFRASTRUCTURE_FACTOR_MULT = 8 # Multiplies PRODUCTION_BUILDING_BELOW_DESIRED_INFRASTRUCTURE_FACTOR for autonomous investment pool constructions
@@ -34,12 +45,17 @@ NCountry = {
 NEconomy = {
 	TRADE_ROUTE_AUTO_INCREASE_ACCEPTABLE_REVENUE_DIFFERENCE = 1.05 # Multiply revenue of new trade route level by this for the purpose of considering whether it's OK to auto-increase level (means that trade routes can level up even when slightly decreasing overall revenue)
 	TRADE_ROUTE_AUTO_REDUCTION_ACCEPTABLE_REVENUE_DIFFERENCE = 1.2 # Multiply revenue of current trade route level by this for the purpose of considering whether we should auto-decrease level (means that trade routes won't level down just for the purpose of a small revenue increase)
-
+	TRADE_ROUTE_BUREAUCRACY_COST = 10	# 20					# The cost in BUR per trade route
+	TRADE_ROUTE_MIN_TOTAL_IMPORTS = 1	# 5					# This amount of a good can always be imported to a market even if there is no demand
+	TRADE_ROUTE_AUTO_INCREASE_EMPLOYMENT_THRESHOLD = 0.75	# 0.9 	# If trade route has this much of its max staffing level employed, it can automatically increase its level
+	TRADE_ROUTE_AUTO_REDUCTION_EMPLOYMENT_THRESHOLD = 0.6	# 0.75 	# If trade route has less than this of its max staffing level employed and could not hire anyone last week, it can automatically decrease its level
+	
 	MIN_RAISE_TO_HIRE = 0.05					# The minimum required increase in wages for an employee to switch jobs (1.0 = +100% = x2)
 	
 	PRICE_RANGE = 0.95
 	GOODS_SHORTAGE_PENALTY_DECREASE_SPEED = 0.05  						# Goods shortage penalty goes down by this fraction of GOODS_SHORTAGE_PENALTY_MAX each day
 	GOODS_SHORTAGE_PENALTY_MIN = 0.01			# Goods shortage penalty can't be lower than this if there is any shortage
+	
 	
 }
 
