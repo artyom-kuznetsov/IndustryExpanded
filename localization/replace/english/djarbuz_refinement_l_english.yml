@@ -374,3 +374,18 @@
  pm_bytadiene:0 "Bytadiene"
  synthetic_rubber:0 "Synthetic Rubber"
  synthetic_rubber_desc:0 "With new production methods, we do not have to rely on natural sources of rubber."
+ 
+ pm_no_sheep:0 "No Sheep"
+ pm_sheep_focus:0 "Sheep Focus"
+ 
+ pm_rayon:0 "Early Rayon Production"
+ pm_rayon_modern:0 "Rayon Production"
+ pm_extended_rubber_facilities:0 "Extended Rubber Facilities"
+ 
+ common_synthetic_polymers:0 "Common Synthetic Polymers"
+ common_synthetic_polymers_desc:0 "With the advances in synthetic material production technologies, high quality fabrics, rubbers and other limited materials become much easier to obtain."
+ 
+ pmg_auto_hauling_plantation:0 "Hauling"
+ pm_manual_hauling:0 "Manual Hauling"
+ pm_steam_donkey_iex:0 "Steam Donkey"
+ pm_hauling_trucks:0 "Hauling Trucks"

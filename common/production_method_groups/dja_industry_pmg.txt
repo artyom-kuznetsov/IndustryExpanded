@@ -95,6 +95,7 @@ pmg_synthetic_silk = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_rayon
+		pm_rayon_modern
 	}
 }
 
@@ -104,6 +105,7 @@ pmg_synthetic_rubber = {
 		pm_no_synthetic_rubber
 		pm_isoprene
 		pm_bytadiene
+		pm_extended_rubber_facilities
 	}
 }
 

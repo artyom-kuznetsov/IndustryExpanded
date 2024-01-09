@@ -750,3 +750,71 @@ pm_automation_modern_cranes_3000 = {
 		}
 	}
 }
+
+
+### PLANTATIONS ###
+
+pm_manual_hauling = {
+	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
+}
+
+
+pm_steam_donkey_iex = {
+	texture = "gfx/interface/icons/production_method_icons/steam_donkey.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+		
+	unlocking_technologies = {
+		steam_donkey
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+		
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_engines_add = 1	# 60
+			goods_input_coal_add = 4	# 120	# 180
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+
+
+pm_hauling_trucks = {
+	texture = "gfx/interface/icons/production_method_icons/hauling_truck.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+		
+	unlocking_technologies = {
+		mechanized_farming
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+		
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods					
+			goods_input_automobiles_add = 1		# 100
+			goods_input_oil_add = 3				# 120	# TOTAL 220
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+		}
+	}
+}
+

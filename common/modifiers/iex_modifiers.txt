@@ -57,3 +57,9 @@ base_values = {
 	
 	unit_experience_gain_add = 1.0
 }
+
+efficient_bureaucracy = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
+	state_construction_mult = 0.10
+	country_law_enactment_time_mult = -0.25
+}

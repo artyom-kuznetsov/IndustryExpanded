@@ -11,6 +11,15 @@
 	}
 }
 
+pmg_auto_hauling_plantation = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_manual_hauling
+		pm_steam_donkey_iex
+		pm_hauling_trucks
+	}
+}
+
 pmg_automation_building_lategame_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
