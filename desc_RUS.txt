@@ -3,29 +3,38 @@
 Мод, направленный на расширение количества методов производства, вариативности, их улучшение и балансировку.
 
 Этот мод содержит новые здания, товары, методы производства и другие различные настройки. Среди них:
+- Новые технологии
 - Механизмы
+- Синтетическая резина
 - Сахарозаменители
 - Полезный китобойный промысел
 - Жизнеспособный изоляционизм
 - Офисы грузоперевозок (Инфраструктура до ЖД)
 - Фильтрация руды
 - Улучшенная и более обширная автоматизация
-- Новые технологии
 - Улучшения миграции
 - Изменения к авторитету от законов, например, полиция даёт авторитет.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] (скоро будет)
 
+[h1]Проблемы[/h1]
+Существует проблема, что медные шахты видны в меню постройки любого региона, даже если построить их нельзя.
+Это происходит из-за мер, принятых для совместимости с модами, меняющими карту, и я не нашёл способа поправить это (могло быть и хуже - медные шахты были бы в секции сельского хозяйства).
 
 [h1]Локализация и совместимость[/h1]
 [img]https://i.imgur.com/rz12Uyw.png [/img]
 [b]Китайская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url] (создано сообществом)
 Мод создан для версии игры [b]v1.5.12[/b]
+
+[h2]Совместимость с картами![/h2]
+Industry Expanded теперь совместим с модами, меняющими данные карты:
+Это означает, что IEX может быть запущен вместе с любым альт-хист модом, который меняет границы, или даже ресурсы.
+Всё, что от вас требуется для совместимости - поставить IEX [b]ВЫШЕ[/b] мода на карту в порядке загрузки.
+
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2889925770]Morgenrote[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]патч совместимости[/url].
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]Victoria Tweaks Mod[/url]: [i]Should[/i] run normally (IEX has to be placed [b]lower[/b] in loading order).
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3105695948]Power Plants+[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]патч совместимости[/url].
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3129482793]The Invisible Hand[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3132751423]патч совместимости[/url].
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]: Не совместим.
-Не рекомендуется использовать с модами, изменяющими историю зданий или ресурсов.
 Не рекомендуется использовать с модами, изменяющими методы производства или постройки.
 
 [img]https://i.imgur.com/aNDO8WK.gif[/img]

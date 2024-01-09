@@ -389,3 +389,12 @@
  pm_manual_hauling:0 "Перевозка вручную"
  pm_steam_donkey_iex:0 "Паровой тягач"
  pm_hauling_trucks:0 "Перевозки грузовиками"
+ 
+ modifier_state_building_copper_mine_max_level_add:0 "к макс. уровню медных шахт."
+ 
+ state_trait_tiny_copper_field:0 "Крошечное медное месторождение"
+ state_trait_small_copper_field:0 "Маленькое медное месторождение"
+ state_trait_medium_copper_field:0 "Среднее медное месторождение"
+ state_trait_large_copper_field:0 "Крупное медное месторождение"
+ state_trait_huge_copper_field:0 "Огромное медное месторождение"
+ state_trait_gigantic_copper_field:0 "Гигантское медное месторождение"

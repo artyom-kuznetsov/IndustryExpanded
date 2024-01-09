@@ -389,3 +389,12 @@
  pm_manual_hauling:0 "Manual Hauling"
  pm_steam_donkey_iex:0 "Steam Donkey"
  pm_hauling_trucks:0 "Hauling Trucks"
+ 
+ modifier_state_building_copper_mine_max_level_add:0 "Copper Mine Max Level"
+ 
+ state_trait_tiny_copper_field:0 "Tiny Copper Field"
+ state_trait_small_copper_field:0 "Small Copper Field"
+ state_trait_medium_copper_field:0 "Medium Copper Field"
+ state_trait_large_copper_field:0 "Large Copper Field"
+ state_trait_huge_copper_field:0 "Huge Copper Field"
+ state_trait_gigantic_copper_field:0 "Gigantic Copper Field"
