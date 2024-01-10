@@ -779,7 +779,7 @@ synthetic_rubber = {
 	category = production
 	
 	unlocking_technologies = {	
-		refining
+		#refining
 		art_silk
 	}
 	
@@ -795,7 +795,7 @@ common_synthetic_polymers = {
 	
 	unlocking_technologies = {	
 		synthetic_rubber
-		refining
+		#refining
 	}
 	
 	ai_weight = {

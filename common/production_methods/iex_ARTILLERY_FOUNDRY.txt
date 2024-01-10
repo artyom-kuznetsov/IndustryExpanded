@@ -97,7 +97,7 @@ pm_recoiled_barrels = {
 			goods_input_copper_add = 25			# 1500
 			goods_input_machine_parts_add = 10	# 500
 			goods_input_tools_add = 20			# 800
-			goods_input_oil_add = 10			# 400	# TOTAL 3200
+			goods_input_fuel_add = 8			# 400	# TOTAL 3200
 
 			# output goods
 			goods_output_artillery_add = 90		# 6300	# PROFIT 3100

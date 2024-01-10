@@ -15,6 +15,7 @@ Added new building - Oil Refinery, which is unlocked by a new tech.
 It consumes oil and produces 2 new goods: Refined Fuel and Plastics.
 Refined Fuel will be consumed by most PMs that earlier used oil, Plastics will be widely used in late-game production.
 -Added new PM to produce telephones.
+-Added a new PM to produce tools. Nerfed machined steel tools a bit.
 
 [b]Tweaks[/b]
 -Good shortage penalties disappear quicker when raw goods are received.

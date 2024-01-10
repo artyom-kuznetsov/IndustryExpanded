@@ -91,12 +91,12 @@ pm_bytadiene = {
 	texture = "gfx/interface/icons/production_method_icons/bytadiene.dds"
 	
 	unlocking_technologies = {
-		nitrogen_fixation
+		common_synthetic_polymers
 	}
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_oil_add = 30	# 1200
+			goods_input_fuel_add = 24	# 1200
 			goods_output_silk_add = -55	# 2400	# 3400
 			
 			goods_output_rubber_add = 85	# 3400	# NO PROFIT	
@@ -113,7 +113,7 @@ pm_extended_rubber_facilities = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_oil_add = 40		# 1800
+			goods_input_fuel_add = 36		# 1800
 			goods_output_silk_add = -80		# 3200	# 5000
 			
 			goods_output_rubber_add = 125	# 5000	# NO PROFIT	

@@ -183,7 +183,7 @@ pm_diesel_pump_building_coal_mine = {
 			# input goods
 			goods_input_tools_add = 10			# 400
 			goods_input_machine_parts_add = 6	# 300
-			goods_input_oil_add = 5				# 200 # TOTAL 900
+			goods_input_fuel_add = 4			# 200 # TOTAL 900
 			
 			# output goods
 			goods_output_coal_add = 90			# 2700 # PROFIT 1800
@@ -280,7 +280,7 @@ pm_diesel_pump_building_iron_mine = {
 			# input goods
 			goods_input_tools_add = 10
 			goods_input_machine_parts_add = 8
-			goods_input_oil_add = 5
+			goods_input_oil_add = 4
 			
 			# output goods
 			goods_output_iron_add = 75
@@ -424,7 +424,7 @@ pm_diesel_pump_building_lead_mine = {
 			# input goods
 			goods_input_tools_add = 10
 			goods_input_machine_parts_add = 8
-			goods_input_oil_add = 5
+			goods_input_oil_add = 4
 			
 			# output goods
 			goods_output_lead_add = 75
@@ -518,7 +518,7 @@ pm_diesel_pump_building_sulfur_mine = {
 			# input goods
 			goods_input_tools_add = 10
 			goods_input_machine_parts_add = 8
-			goods_input_oil_add = 5
+			goods_input_oil_add = 4
 			
 			# output goods
 			goods_output_sulfur_add = 80
@@ -624,7 +624,7 @@ pm_diesel_pump_building_gold_mine = {
 			# input goods
 			goods_input_tools_add = 10
 			goods_input_machine_parts_add = 8
-			goods_input_oil_add = 5
+			goods_input_oil_add = 4
 			
 			# output goods
 			goods_output_gold_add = 45
@@ -745,7 +745,7 @@ pm_diesel_pump_building_copper_mine = {
 			# input goods
 			goods_input_tools_add = 10
 			goods_input_machine_parts_add = 8
-			goods_input_oil_add = 5
+			goods_input_oil_add = 4
 			
 			# output goods
 			goods_output_copper_add = 90		#

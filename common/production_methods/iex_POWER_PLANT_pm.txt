@@ -71,7 +71,7 @@ pm_oil-fired_plant = {
 		workforce_scaled = {
 			goods_input_engines_add = 15		# 900
 			goods_input_copper_add = 10			# 300
-			goods_input_oil_add = 35			# 1400		# TOTAL 2500
+			goods_input_fuel_add = 28			# 1400		# TOTAL 2500
 			
 			goods_output_electricity_add = 150	# 4500		# PROFIT 2000
 		}

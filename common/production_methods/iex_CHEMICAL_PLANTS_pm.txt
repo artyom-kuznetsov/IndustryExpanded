@@ -72,7 +72,7 @@ pm_nitrogen_fixation = {
 		workforce_scaled = {
 			# input goods
 			goods_input_sulfur_add = 40
-			goods_input_oil_add = 20
+			goods_input_fuel_add = 16
 			goods_input_copper_add = 40
 
 			# output goods
