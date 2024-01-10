@@ -14,6 +14,7 @@ Added new techs - Synthetic Rubber and Common Synthetic Polymers.
 Added new building - Oil Refinery, which is unlocked by a new tech.
 It consumes oil and produces 2 new goods: Refined Fuel and Plastics.
 Refined Fuel will be consumed by most PMs that earlier used oil, Plastics will be widely used in late-game production.
+-Added new PM to produce telephones.
 
 [b]Tweaks[/b]
 -Good shortage penalties disappear quicker when raw goods are received.
@@ -32,6 +33,7 @@ Refined Fuel will be consumed by most PMs that earlier used oil, Plastics will b
 -A little bit enhanced trade logic and AI.
 -Reworked Natural Dye PM icon.
 -Reworked Railway and Power Plants auto-expansion rules.
+-Made ceramics almost non-profitable.
 
 [h1]v9.2.4[/h1]
 -Fixed missing city meshes.

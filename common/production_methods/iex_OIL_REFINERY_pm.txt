@@ -34,9 +34,9 @@ pm_thermal_cracking = {
 		}
 	}
 
-	#unlocking_technologies = {
-	#	improved_fertilizer
-	#}
+	unlocking_technologies = {
+		oil_turbine
+	}
 	
 	building_modifiers = {
 		workforce_scaled = {
@@ -101,10 +101,6 @@ pm_plastic_focus = {
 
 	unlocking_production_methods = {
 		pm_thermal_cracking
-	}
-
-	unlocking_technologies = {
-		plastics
 	}
 
 	building_modifiers = {

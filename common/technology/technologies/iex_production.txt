@@ -154,7 +154,7 @@ crystal_glass = {
 	category = production
 	
 	unlocking_technologies = {
-		fractional_distillation
+		lathe
 	}
 	
 	ai_weight = {
@@ -282,7 +282,7 @@ chemical_bleaching = {
 	category = production
 
 	unlocking_technologies = {	
-		fractional_distillation
+		crystal_glass
 	}
 	
 	ai_weight = {
@@ -475,8 +475,7 @@ rubber_mastication = {
 	category = production
 	
 	unlocking_technologies = {	
-		fractional_distillation
-		chemical_bleaching
+		nitroglycerin
 	}
 	
 	ai_weight = {
@@ -635,7 +634,7 @@ shift_work = {
 	}
 	
 	unlocking_technologies = {	
-		baking_powder
+		mechanized_workshops
 	}
 	
 	ai_weight = {
@@ -650,6 +649,7 @@ fructose = {
 	
 	unlocking_technologies = {	
 		vacuum_canning
+		shift_work
 	}
 	
 	ai_weight = {
@@ -779,6 +779,7 @@ synthetic_rubber = {
 	category = production
 	
 	unlocking_technologies = {	
+		refining
 		art_silk
 	}
 	
@@ -794,7 +795,7 @@ common_synthetic_polymers = {
 	
 	unlocking_technologies = {	
 		synthetic_rubber
-		plastics
+		refining
 	}
 	
 	ai_weight = {
@@ -809,7 +810,7 @@ automatic_bottle_blowers = {
 	category = production
 	
 	unlocking_technologies = {	
-		vulcanization
+		open_hearth_process
 	}
 	
 	ai_weight = {
@@ -824,7 +825,7 @@ conveyors = {
 	category = production
 	
 	unlocking_technologies = {	
-		vulcanization
+		#vulcanization
 		shift_work
 		electrical_generation
 	}
@@ -1023,6 +1024,7 @@ plastics = {
 	category = production
 	
 	unlocking_technologies = {	
+		refining
 		automatic_bottle_blowers
 	}
 	
@@ -1080,8 +1082,7 @@ telephone = {
 	category = production
 	
 	unlocking_technologies = {
-		shift_work
-		electrical_generation
+		electrification
 	}
 	
 	ai_weight = {
@@ -1129,7 +1130,7 @@ oil_turbine = {
 	category = production
 	
 	unlocking_technologies = {	
-		steam_turbine
+		refining
 	}
 	
 	ai_weight = {

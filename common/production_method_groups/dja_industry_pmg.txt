@@ -32,6 +32,7 @@ pmg_base_building_tooling_workshops = {
 		pm_pig_iron
 		pm_steel
 		pm_rubber_grips
+		pm_plastic_machined_tools
 	}
 }
 
