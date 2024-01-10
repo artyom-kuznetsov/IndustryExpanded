@@ -398,3 +398,8 @@
  state_trait_large_copper_field:0 "Large Copper Field"
  state_trait_huge_copper_field:0 "Huge Copper Field"
  state_trait_gigantic_copper_field:0 "Gigantic Copper Field"
+ 
+ pmg_synthetic_dyes:0 "Dye Production"
+ 
+ pm_tractors_rice:0 "$pm_tractors$"
+ pm_compression_ignition_tractors_rice:0 "$pm_compression_ignition_tractors$"

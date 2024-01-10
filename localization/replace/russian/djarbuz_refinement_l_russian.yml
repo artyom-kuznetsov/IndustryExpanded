@@ -398,3 +398,8 @@
  state_trait_large_copper_field:0 "Крупное медное месторождение"
  state_trait_huge_copper_field:0 "Огромное медное месторождение"
  state_trait_gigantic_copper_field:0 "Гигантское медное месторождение"
+ 
+ pmg_synthetic_dyes:0 "Производство красителей"
+ 
+ pm_tractors_rice:0 "$pm_tractors$"
+ pm_compression_ignition_tractors_rice:0 "$pm_compression_ignition_tractors$"

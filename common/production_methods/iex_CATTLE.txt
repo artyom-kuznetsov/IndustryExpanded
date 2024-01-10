@@ -146,6 +146,7 @@ pm_sheep_farms = {
 	#}	
 	
 	unlocking_production_methods = {
+		pm_butchering_tools
 		pm_slaughterhouses
 		pm_mechanized_slaughtering
 	}

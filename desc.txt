@@ -3,18 +3,22 @@
 A mod focused on goods, building, production methods and variability expansion, improvement and balancing.
 
 This mod contains new buildings, goods, production methods and other various tweaks. Among them:
+- New technologies
 - Machine parts
+- Synthetic rubber
 - Sugar Substitutes
 - Useful whaling
 - Viable isolationism
 - Teamster offices (Infra before railroads)
 - Ore filtering
 - Improved and extended automation
-- New technologies
 - Migration improvements
 - Changes to Authority from laws (e.g., policing gives authority)
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] (coming soon)
 
+[h1]Issues[/h1]
+There is an issue of copper mines appearing in every state building list, even if it is not buildable. 
+It happens because of "map-compatibility" measures and I have not found a way to avoid it (it could be worse - copper mines would be in the "agriculture" section).
 
 [h1]Localization and Compatibility[/h1]
 [img]https://i.imgur.com/rz12Uyw.png[/img]

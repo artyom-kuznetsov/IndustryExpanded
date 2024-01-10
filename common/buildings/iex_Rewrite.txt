@@ -1,4 +1,29 @@
 ﻿
+building_rice_farm = {
+	building_group = bg_rice_farms
+	
+	texture = "gfx/interface/icons/building_icons/rice_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_rice_farm
+		pmg_secondary_building_rice_farm
+		pmg_auto_hauling_plantation
+		pmg_harvesting_process_building_rice_farm
+		pmg_ownership_land_building_rice_farm
+	}
+
+	required_construction = construction_cost_low
+	
+	terrain_manipulator = farmland_rice
+}
+
 building_construction_sector = {
 	building_group = bg_construction
 	texture = "gfx/interface/icons/building_icons/construction_camp.dds"
