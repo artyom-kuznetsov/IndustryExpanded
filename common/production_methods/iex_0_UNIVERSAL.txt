@@ -809,7 +809,8 @@ pm_hauling_trucks = {
 		workforce_scaled = {
 			# input goods					
 			goods_input_automobiles_add = 1		# 100
-			goods_input_oil_add = 3				# 120	# TOTAL 220
+			goods_input_transportation_add = 2	# 60
+			goods_input_oil_add = 2				# 80	# TOTAL 240
 		}
 
 		level_scaled = {

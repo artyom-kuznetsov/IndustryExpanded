@@ -53,6 +53,24 @@ pmg_secondary_building_lumber_mill = {
 	}
 }
 
+pmg_base_oil_refinery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_oil_distillation
+		pm_thermal_cracking
+	}
+}
+
+pmg_plastics = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_plastics
+		pm_plastics_production
+		pm_extensive_plastic_production
+		pm_plastic_focus
+	}
+}
+
 pmg_base_machine_parts = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
@@ -184,5 +202,14 @@ pmg_canning = {
 		pm_extended_fish_canning
 		pm_extended_fruit_canning
 		pm_extended_meat_canning
+	}
+}
+
+
+pmg_telephones_category = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_telephones
+		pm_plastic_telephones
 	}
 }

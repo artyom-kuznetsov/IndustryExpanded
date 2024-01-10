@@ -1,0 +1,117 @@
+﻿
+pm_oil_distillation = {
+	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_oil_add = 50			# 2000
+			goods_input_electricity_add = 10	# 300	# TOTAL 2300
+
+			# output goods
+			goods_output_fuel_add = 65			# 3250 # PROFIT 950
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 2500
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_thermal_cracking = {
+	texture = "gfx/interface/icons/production_method_icons/vaccum_evaporation.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 25
+		}
+	}
+
+	#unlocking_technologies = {
+	#	improved_fertilizer
+	#}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_oil_add = 60			# 2400
+			goods_input_electricity_add = 15	# 450	# TOTAL 2850
+
+			# output goods
+			goods_output_fuel_add = 90			# 4500 # PROFIT 1650
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+# PLASTICS
+
+pm_no_plastics = {
+	texture = "gfx/interface/icons/production_method_icons/filtering_disabled.dds"
+	
+}
+
+pm_plastics_production = {
+	texture = "gfx/interface/icons/production_method_icons/plastics.dds"
+
+	unlocking_technologies = {
+		plastics
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_fuel_add = -30
+
+			goods_output_plastics_add = 30	# NO PROFIT
+		}
+	}
+}
+
+pm_extensive_plastic_production = {
+	texture = "gfx/interface/icons/production_method_icons/plastics_extensive.dds"
+
+	unlocking_technologies = {
+		plastics
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_fuel_add = -50
+
+			goods_output_plastics_add = 50	# NO PROFIT
+		}
+	}
+}
+
+pm_plastic_focus = {
+	texture = "gfx/interface/icons/production_method_icons/plastics_focus.dds"
+
+	unlocking_production_methods = {
+		pm_thermal_cracking
+	}
+
+	unlocking_technologies = {
+		plastics
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_fuel_add = -70
+
+			goods_output_plastics_add = 70	# NO PROFIT
+		}
+	}
+}

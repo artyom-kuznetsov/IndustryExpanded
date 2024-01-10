@@ -366,6 +366,14 @@
  
  oil:0 "Сырая нефть"
  fuel:0 "Топливо"
+ modifier_goods_output_fuel_add:0 "выпуск @fuel! топлива за каждый уровень"
+ modifier_goods_output_fuel_add_desc:0 "Количество @fuel! топлива, выпускаемых сооружениями"
+ modifier_goods_input_fuel_add_desc:0 "Количество @fuel! топлива, потребляемых сооружениями"
+ modifier_goods_input_fuel_add:0 "потребление @fuel! топлива за каждый уровень"
+ modifier_goods_output_fuel_mult:0 "Выпуск @fuel! топлива сооружением"
+ modifier_goods_output_fuel_mult_desc:0 "Бонус или штраф к выпуску @fuel! топлива сооружением"
+ trade_route_import_lens_option_fuel_tooltip:0 "Проложить торговый путь импорта $fuel$"
+ trade_route_export_lens_option_fuel_tooltip:0 "Проложить торговый путь экспорта $fuel$"
  
  pm_no_dye:0 "Нет красителей"
  pmg_synthetic_rubber:0 "Синтетическая резина"
@@ -403,3 +411,20 @@
  
  pm_tractors_rice:0 "$pm_tractors$"
  pm_compression_ignition_tractors_rice:0 "$pm_compression_ignition_tractors$"
+ 
+ building_oil_refinery:0 "Нефтеперерабатывающий завод"
+ pmg_base_oil_refinery:0 "Процесс переработки"
+ pmg_plastics:0 "Производство пластмасс"
+ 
+ plastics:0 "Пластмассы"
+ modifier_goods_output_plastics_add:0 "выпуск @plastics! пластмасс за каждый уровень"
+ modifier_goods_output_plastics_add_desc:0 "Количество @plastics! пластмасс, выпускаемых сооружениями"
+ modifier_goods_input_plastics_add_desc:0 "Количество @plastics! пластмасс, потребляемых сооружениями"
+ modifier_goods_input_plastics_add:0 "потребление @plastics! пластмасс за каждый уровень"
+ modifier_goods_output_plastics_mult:0 "Выпуск @plastics! пластмасс сооружением"
+ modifier_goods_output_plastics_mult_desc:0 "Бонус или штраф к выпуску @plastics! пластмасс сооружением"
+ trade_route_import_lens_option_plastics_tooltip:0 "Проложить торговый путь импорта $plastics$"
+ trade_route_export_lens_option_plastics_tooltip:0 "Проложить торговый путь экспорта $plastics$"
+ 
+ refining:0 "Обработка нефти"
+ refining_desc:0 "Процессы переработки нефти превращают сырую нефть в готовую продукцию, включая горюче-смазочные материалы для автомобильных, судовых и авиационных двигателей."

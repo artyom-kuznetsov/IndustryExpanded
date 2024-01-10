@@ -1,14 +1,19 @@
 [h1]v10.0[/h1]
-[b]Features[/b]
+[h2]Features[/h2]
 -Added High-Speed Electric/Diesel Trains PMs, which are slightly better than vanilla Diesel Trains.
 -Diesel Trains PM is now as efficient as Electric Trains. Moved from Compression Ignition to Combustion Engine tech.
 -Added new building - Sugar Substitute Factory, which, obviously, produces sugar.
 -Added new technologies - Fructose and Saccharin, with respective production methods for Sugar Sub Factory.
--Added hauling automation for all plantations with 2 PMs - Steam Donkey and Hauling Trucks.
--Synthetic Rubber:
+-Added hauling automation for all plantations along with 2 PMs - Steam Donkey and Hauling Trucks.
+-Added hauling automation for Rice Farms. Reworked Rice Farms employment and added more Harvesting Process automation PMs.
+[b]-Synthetic Rubber:[/b]
 Synthetic dyes are now produced with a secondary PM in Chemical Plants. PMs are still unlocked from chemical bleaching and aniline techs. Synthetic dye production does not generate additional profit.
 Synthetics Plants primary PM is silk now; Secondary PM can produce synthetic rubber with respective techs researched. Synthetic rubber production does not generate additional profit. 
 Added new techs - Synthetic Rubber and Common Synthetic Polymers.
+[b]-Oil Refining:[/b]
+Added new building - Oil Refinery, which is unlocked by a new tech.
+It consumes oil and produces 2 new goods: Refined Fuel and Plastics.
+Refined Fuel will be consumed by most PMs that earlier used oil, Plastics will be widely used in late-game production.
 
 [b]Tweaks[/b]
 -Good shortage penalties disappear quicker when raw goods are received.

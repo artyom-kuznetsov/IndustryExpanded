@@ -551,6 +551,20 @@ pumpjacks = {
 	}
 }
 
+refining = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/refining.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		pumpjacks
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
 aniline = {
 	# Unlocks Synthetic Plants building
 	era = era_3

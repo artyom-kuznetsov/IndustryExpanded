@@ -18,3 +18,23 @@ texticon = {
 		fontsize = 18
 	}
 }
+
+texticon = {
+	icon = fuel
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/fuel.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}
+
+texticon = {
+	icon = plastics
+	iconsize = {
+		texture = "gfx/interface/icons/goods_icons/plastics.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

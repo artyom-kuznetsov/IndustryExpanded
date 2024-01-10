@@ -3,12 +3,37 @@ pm_telephones = {
 	texture = "gfx/interface/icons/production_method_icons/telephones.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_copper_add = 20
-			goods_input_rubber_add = 20
-			goods_input_lead_add = 20
-			goods_input_tools_add = 10
+			goods_input_copper_add = 20		# 600
+			goods_input_rubber_add = 20		# 800
+			goods_input_lead_add = 20		# 800
+			goods_input_tools_add = 10		# 400	# 2600
 			
-			goods_output_telephones_add = 60
+			goods_output_telephones_add = 55		# 3850	# PROFIT 1250
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_plastic_telephones = {
+	texture = "gfx/interface/icons/production_method_icons/telephones_plastic.dds"
+	
+	unlocking_technologies = {
+		radio
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_copper_add = 20		# 600
+			goods_input_rubber_add = 20		# 800
+			goods_input_lead_add = 20		# 800
+			goods_input_tools_add = 10		# 400	# 2600
+			
+			goods_output_telephones_add = 55		# 3850	# PROFIT 1250
 		}
 
 		level_scaled = {
@@ -30,15 +55,10 @@ pm_radios = {
 	}	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_electricity_add = 50
-			goods_output_telephones_add = -20
-			goods_output_radios_add = 40
-		}
-		
-		level_scaled = {
-			building_employment_engineers_add = 500
+			goods_input_plastics_add = 30		# 1500
+			goods_output_telephones_add = -20	# 1400	# TOTAL 2900
+			
+			goods_output_radios_add = 36		# 2880	# LOSS 20
 		}
 	}
-
-	required_input_goods = electricity
 }

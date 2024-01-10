@@ -51,3 +51,35 @@ goods_output_transportation_mult = {
 	good = yes
 	percent = yes
 }
+
+goods_output_plastics_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_plastics_add = {
+	good = no
+	percent = no	
+}
+
+goods_output_plastics_mult = {
+	good = yes
+	percent = yes
+}
+
+
+goods_output_fuel_add = {
+	good = yes
+	percent = no
+}
+
+goods_input_fuel_add = {
+	good = no
+	percent = no	
+}
+
+goods_output_fuel_mult = {
+	good = yes
+	percent = yes
+}
+

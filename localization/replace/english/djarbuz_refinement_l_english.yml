@@ -365,7 +365,15 @@
  modifier_goods_output_transportation_mult_desc:0 "A bonus or penalty to the amount of @transportation! Transportation produced by buildings"
  
  oil:0 "Crude Oil"
- fuel:0 "Fuel"
+ fuel:0 "Refined Fuel"
+ modifier_goods_output_fuel_add:0 "@fuel! Refined Fuel output per level"
+ modifier_goods_output_fuel_add_desc:0 "The amount of @fuel! Refined Fuel produced by buildings"
+ modifier_goods_input_fuel_add_desc:0 "The amount of @fuel! Refined Fuel consumed by buildings"
+ modifier_goods_input_fuel_add:0 "@fuel! Refined Fuel input per level"
+ modifier_goods_output_fuel_mult:0 "Building @fuel! Refined Fuel output"
+ modifier_goods_output_fuel_mult_desc:0 "A bonus or penalty to the amount of @fuel! output produced by buildings"
+ trade_route_import_lens_option_fuel_tooltip:0 "Establish a $fuel$ import trade route"
+ trade_route_export_lens_option_fuel_tooltip:0 "Establish a $fuel$ export trade route"
  
  pm_no_dye:0 "No Dyes"
  pmg_synthetic_rubber:0 "Synthetic Rubber"
@@ -403,3 +411,27 @@
  
  pm_tractors_rice:0 "$pm_tractors$"
  pm_compression_ignition_tractors_rice:0 "$pm_compression_ignition_tractors$"
+ 
+ building_oil_refinery:0 "Oil Refinery"
+ pmg_base_oil_refinery:0 "Refining Process"
+ pmg_plastics:0 "Plastics Production"
+ 
+ plastics:0 "Plastics"
+ modifier_goods_output_plastics_add:0 "@plastics! Plastics output per level"
+ modifier_goods_output_plastics_add_desc:0 "The amount of @plastics! Plastics produced by buildings"
+ modifier_goods_input_plastics_add_desc:0 "The amount of @plastics! Plastics consumed by buildings"
+ modifier_goods_input_plastics_add:0 "@plastics! Plastics input per level"
+ modifier_goods_output_plastics_mult:0 "Building @plastics! Plastics output"
+ modifier_goods_output_plastics_mult_desc:0 "A bonus or penalty to the amount of @plastics! output produced by buildings"
+ trade_route_import_lens_option_plastics_tooltip:0 "Establish a $plastics$ import trade route"
+ trade_route_export_lens_option_plastics_tooltip:0 "Establish a $plastics$ export trade route"
+ 
+ refining:0 "Oil Processing"
+ refining_desc:0 "Oil refining processes transform crude oils into finished products, including fuels and lubricants for automotive, ship and aircraft engines."
+ 
+ pm_oil_distillation:0 "Distillation"
+ pm_thermal_cracking:0 "Thermal Cracking"
+  pm_no_plastics:0 "No Plastics Production"
+  pm_plastics_production:0 "Limited Plastics Production"
+  pm_extensive_plastic_production:0 "Extensive Plastics Production"
+  pm_plastic_focus:0 "Plastics Production Focus"
