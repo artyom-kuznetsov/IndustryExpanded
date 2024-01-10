@@ -129,8 +129,8 @@ pm_plastic_machined_tools = {
 
 		level_scaled = {
 			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 1000
-			building_employment_engineers_add = 500
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 750
 		}
 	}
 }

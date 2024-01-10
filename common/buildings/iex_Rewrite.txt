@@ -241,7 +241,7 @@ building_motor_industry = {
 
 	production_method_groups = {
 		pmg_base_building_motor_industry
-		pmg_automobile_production
+		#pmg_automobile_production
 		pmg_automation_building_industry
 		pmg_ownership_capital_building_motor_industry
 	}

@@ -69,18 +69,18 @@ pm_electric_engines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 25			# 1250
+			goods_input_steel_add = 30			# 1500
 			goods_input_machine_parts_add = 10	# 500
-			goods_input_electricity_add = 20	# 600 # TOTAL 2350
+			goods_input_electricity_add = 5		# 150	# 2150
 			
 			# output goods
-			goods_output_engines_add = 80		# 4800 # PROFIT 2450
+			goods_output_engines_add = 75		# 4500 # PROFIT 2350
 		}
 
 		level_scaled = {
 			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 1500
-			building_employment_engineers_add = 1000
+			building_employment_machinists_add = 1750
+			building_employment_engineers_add = 750
 		}
 	}
 
@@ -105,16 +105,17 @@ pm_diesel_engines = {
 			# input goods
 			goods_input_steel_add = 40			# 2000
 			goods_input_machine_parts_add = 20	# 1000
-			goods_input_oil_add = 35			# 1400	# TOTAL 4450
+			goods_input_electricity_add = 10	# 300
+			goods_input_fuel_add = 20			# 1000	# TOTAL 4300
 			
 			# output goods
-			goods_output_engines_add = 120		# 7200	# PROFIT 2750
+			goods_output_engines_add = 115		# 6900	# PROFIT 2600
 		}
 
 		level_scaled = {
 			building_employment_laborers_add = 3000
 			building_employment_machinists_add = 1500
-			building_employment_engineers_add = 1500
+			building_employment_engineers_add = 1000
 		}
 	}
 }

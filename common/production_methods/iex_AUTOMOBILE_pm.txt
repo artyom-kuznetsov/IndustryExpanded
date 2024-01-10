@@ -1,0 +1,65 @@
+﻿
+pm_automobile_production_early = {
+	texture = "gfx/interface/icons/production_method_icons/automobiles.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	#unlocking_technologies = { 
+	#	combustion_engine
+	#}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_rubber_add = 20				# 800
+			goods_input_machine_parts_add = 10		# 500	
+			goods_input_steel_add = 15				# 750	# TOTAL 2050
+
+			# output goods
+			goods_output_automobiles_add = 40		# 4000	# PROFIT 1950
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_automobile_production_late = {
+	texture = "gfx/interface/icons/production_method_icons/automobiles.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	unlocking_technologies = { 
+		compression_ignition
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_rubber_add = 20				# 800
+			goods_input_plastics_add = 15			# 750
+			goods_input_machine_parts_add = 15		# 750	
+			goods_input_steel_add = 20				# 1000	# TOTAL 3300
+
+			# output goods
+			goods_output_automobiles_add = 60		# 6000	# PROFIT 2700
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}

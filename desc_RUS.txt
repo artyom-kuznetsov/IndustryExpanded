@@ -5,6 +5,8 @@
 Этот мод содержит новые здания, товары, методы производства и другие различные настройки. Среди них:
 - Новые технологии
 - Механизмы
+- Нефтяная промышленность
+- Пластмассы
 - Синтетическая резина
 - Сахарозаменители
 - Полезный китобойный промысел
@@ -12,6 +14,7 @@
 - Офисы грузоперевозок (Инфраструктура до ЖД)
 - Фильтрация руды
 - Улучшенная и более обширная автоматизация
+- Раздельное производство товаров, которым это больше всего требовалось.
 - Улучшения миграции
 - Изменения к авторитету от законов, например, полиция даёт авторитет.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] (скоро будет)
@@ -30,6 +33,7 @@ Industry Expanded теперь совместим с модами, меняющими данные карты:
 Это означает, что IEX может быть запущен вместе с любым альт-хист модом, который меняет границы, или даже ресурсы.
 Всё, что от вас требуется для совместимости - поставить IEX [b]ВЫШЕ[/b] мода на карту в порядке загрузки.
 
+[h2]Совместимость с модами[/h2]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2889925770]Morgenrote[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]патч совместимости[/url].
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]Victoria Tweaks Mod[/url]: [i]Should[/i] run normally (IEX has to be placed [b]lower[/b] in loading order).
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3105695948]Power Plants+[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]патч совместимости[/url].
@@ -48,4 +52,5 @@ Industry Expanded теперь совместим с модами, меняющими данные карты:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url] - за идею.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2887414439]Teamster Office[/url] - за идею.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url] - за иконку указа.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url] - за пару иконок построек.
 

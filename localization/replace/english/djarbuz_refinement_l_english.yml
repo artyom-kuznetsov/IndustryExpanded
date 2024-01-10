@@ -438,3 +438,10 @@
  
  pm_plastic_telephones:0 "Plastic Telephones"
  pm_plastic_machined_tools:0 "Plastic Machined Tools"
+ 
+ building_automobile_industry:0 "Automobile Industries"
+ pm_automobile_production_early:0 "Early Automobile Production"
+ pm_automobile_production_late:0 "Automobile Production"
+ 
+ pm_electric_engines:0 "High-Pressure Engines"
+ pm_diesel_engines:0 "Complex Engines"

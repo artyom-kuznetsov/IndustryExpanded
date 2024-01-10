@@ -1,4 +1,12 @@
-﻿pmg_automation_building_solid = {
+﻿pmg_automobile_production = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_automobile_production_early
+		pm_automobile_production_late
+	}
+}
+
+pmg_automation_building_solid = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_automation_disabled_solid

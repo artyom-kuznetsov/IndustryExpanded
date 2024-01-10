@@ -5,6 +5,8 @@ A mod focused on goods, building, production methods and variability expansion, 
 This mod contains new buildings, goods, production methods and other various tweaks. Among them:
 - New technologies
 - Machine parts
+- Oil Industry
+- Plastics
 - Synthetic rubber
 - Sugar Substitutes
 - Useful whaling
@@ -12,6 +14,7 @@ This mod contains new buildings, goods, production methods and other various twe
 - Teamster offices (Infra before railroads)
 - Ore filtering
 - Improved and extended automation
+- Split production of goods that needed it most.
 - Migration improvements
 - Changes to Authority from laws (e.g., policing gives authority)
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] (coming soon)
@@ -49,4 +52,5 @@ Not recommended to use with mods changing PMs or buildings.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url] - for the idea.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2887414439]Teamster Office[/url] - for the idea.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url] - for a decree icon.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url] - for a few building icons.
 
