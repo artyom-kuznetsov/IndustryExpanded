@@ -11,7 +11,7 @@ This mod contains new buildings, goods, production methods and other various twe
 - Sugar Substitutes
 - Useful whaling
 - Viable isolationism
-- Teamster offices (Infra before railroads)
+- Road Networks (Infra before railroads)
 - Ore filtering
 - Improved and extended automation
 - Split production of goods that needed it most.

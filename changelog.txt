@@ -28,6 +28,7 @@ Refined Fuel will be consumed by most PMs that earlier used oil, Plastics will b
 -Added max weekly construction progress to several techs. Total combined modifier is +30.
 -Reworked Motor Industries.
 -Rebalanced Livestock Ranches.
+-Slightly reduced research cost of era 3, 4 and 5 techs.
 
 [b]Fixes and smaller changes[/b]
 -All state trait hardwood output modifiers changed to logging throughput (not useless anymore).
