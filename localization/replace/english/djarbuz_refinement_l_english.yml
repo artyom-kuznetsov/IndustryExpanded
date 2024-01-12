@@ -445,3 +445,8 @@
  
  pm_electric_engines:0 "High-Pressure Engines"
  pm_diesel_engines:0 "Complex Engines"
+ 
+ pmg_petcoke:0 "Petcoke Production"
+ pm_no_petcoke:0 "No Petcoke"
+ pm_petcoke:0 "Petcoke Production"
+ pm_coal_liquefaction:0 "Coal Liquefaction"

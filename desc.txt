@@ -30,7 +30,7 @@ Mod is made for game version [b]v1.5.12[/b]
 
 [h2]Map-Compatible![/h2]
 Industry Expanded is now compatible with mods that change map data:
-This means, that IEX can be ran together with any alt-history mod that changes borders or even resources.
+This means, that IEX can be ran together with most alt-history mod that changes borders or even resources.
 All you have to do for compatibility is to place IEX [b]ABOVE[/b] the map mod.
 
 [h2]Mod Compatibility[/h2]

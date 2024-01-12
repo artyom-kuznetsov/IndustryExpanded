@@ -45,7 +45,8 @@ pm_thermal_cracking = {
 			goods_input_electricity_add = 15	# 450	# TOTAL 2850
 
 			# output goods
-			goods_output_fuel_add = 90			# 4500 # PROFIT 1650
+			goods_output_fuel_add = 80			# 4000 
+			goods_output_sulfur_add = 10		# 500 # TOTAL 4500 # PROFIT 1650
 		}
 
 		level_scaled = {
@@ -60,7 +61,7 @@ pm_thermal_cracking = {
 # PLASTICS
 
 pm_no_plastics = {
-	texture = "gfx/interface/icons/production_method_icons/filtering_disabled.dds"
+	texture = "gfx/interface/icons/production_method_icons/no_plastics.dds"
 	
 }
 
@@ -108,6 +109,48 @@ pm_plastic_focus = {
 			goods_output_fuel_add = -70
 
 			goods_output_plastics_add = 70	# NO PROFIT
+		}
+	}
+}
+
+### PETCOKE
+
+pm_no_petcoke = {
+	texture = "gfx/interface/icons/production_method_icons/no_petcoke.dds"
+	
+}
+
+pm_petcoke = {
+	texture = "gfx/interface/icons/production_method_icons/petcoke.dds"
+	
+	unlocking_technologies = {
+		steam_turbine
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_fuel_add = -25	# 1500
+
+			goods_output_coal_add = 50	# 1500	# NO PROFIT
+		}
+	}
+}
+
+pm_coal_liquefaction = {
+	texture = "gfx/interface/icons/production_method_icons/coal_liquefaction.dds"
+	
+	unlocking_technologies = {
+		common_synthetic_polymers
+	}
+	
+	unlocking_production_methods = {
+		pm_thermal_cracking
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = -27	# 1080
+			goods_input_coal_add = 36	# 1080	# NO PROFIT
 		}
 	}
 }
