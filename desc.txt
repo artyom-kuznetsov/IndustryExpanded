@@ -30,7 +30,7 @@ Mod is made for game version [b]v1.5.12[/b]
 
 [h2]Map-Compatible![/h2]
 Industry Expanded is now compatible with mods that change map data:
-This means, that IEX can be ran together with most alt-history mod that changes borders or even resources.
+This means, that IEX can be ran together with most alt-history mods that change borders or even resources.
 All you have to do for compatibility is to place IEX [b]ABOVE[/b] the map mod.
 
 [h2]Mod Compatibility[/h2]
@@ -39,7 +39,9 @@ All you have to do for compatibility is to place IEX [b]ABOVE[/b] the map mod.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3105695948]Power Plants+[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Compatch[/url] required.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3129482793]The Invisible Hand[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3132751423]Compatch[/url] required.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]: Not compatible.
-Not recommended to use with mods changing PMs or buildings.
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3099941455]Modern borders 1.5[/url]: Compatible.
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3118003368]Divergences[/url]: Some copper fields missing, otherwise [i]kinda[/i] compatible.
+Not recommended to use with mods changing PMs, technologies or buildings.
 
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
 
@@ -50,7 +52,6 @@ Not recommended to use with mods changing PMs or buildings.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] - for some minor features.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3133935511]Global Trade[/url] - for some minor features.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url] - for the idea.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2887414439]Teamster Office[/url] - for the idea.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url] - for a decree icon.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url] - for a few building icons.
 
