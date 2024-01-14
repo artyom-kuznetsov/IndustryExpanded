@@ -121,7 +121,7 @@ pm_automation_water_pumps = {
 }
 
 pm_automation_automatic_power_plant = {
-	texture = "gfx/interface/icons/production_method_icons/combustion_derricks.dds"
+	texture = "gfx/interface/icons/production_method_icons/power_plant_automatic.dds"
 	
 	unlocking_technologies = {
 		automatic_machines

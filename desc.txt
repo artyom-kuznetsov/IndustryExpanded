@@ -38,6 +38,7 @@ All you have to do for compatibility is to place IEX [b]ABOVE[/b] the map mod.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]Victoria Tweaks Mod[/url]: [i]Should[/i] run normally (IEX has to be placed [b]lower[/b] in loading order).
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3105695948]Power Plants+[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Compatch[/url] required.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3129482793]The Invisible Hand[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3132751423]Compatch[/url] required.
+- [url=https://steamcommunity.com/workshop/filedetails/?id=2932134122]Better Politics Mod[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Compatch[/url] required.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]: Not compatible.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3099941455]Modern borders 1.5[/url]: Compatible.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3118003368]Divergences[/url]: Some copper fields missing, otherwise [i]kinda[/i] compatible.

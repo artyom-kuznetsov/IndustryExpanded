@@ -1,3 +1,11 @@
+[h1]v10.1[/h1]
+-Power Plants automation PMs are actually green now.
+-"Bytadiene" renamed to Butadiene
+-Added copper to Yangseo and Gwanbuk states of Korea.
+-Road Maintainance decree now gives +5% MAPI.
+
+
+
 [h1]v10.0[/h1]
 [h2]Features[/h2]
 -Added High-Speed Electric/Diesel Trains PMs, which are slightly better than vanilla Diesel Trains.
