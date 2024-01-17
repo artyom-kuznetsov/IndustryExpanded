@@ -129,7 +129,7 @@ pm_early_trains = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_engines_add = 5 # 300
+			goods_input_engines_add = 4 # 300
 			goods_input_coal_add = 2 # 60
 			goods_output_transportation_add = 20 # 600
 		}
@@ -158,8 +158,8 @@ pm_steam_trains = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_engines_add = 5 # 300
-			goods_input_coal_add = 5 # 150
-			goods_output_transportation_add = 25 # 750
+			goods_input_coal_add = 4 # 120		 # TOTAL 420
+			goods_output_transportation_add = 30 # 900			# PROFIT 580
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3500
@@ -185,9 +185,9 @@ pm_electric_trains = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_engines_add = 5 # 300
-			goods_input_electricity_add = 10 # 300
-			goods_output_transportation_add = 35 # 1050
+			goods_input_engines_add = 5 			# 300
+			goods_input_electricity_add = 8 		# 240	# TOTAL 540
+			goods_output_transportation_add = 40 	# 1200	# PROFIT 660
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3250
@@ -198,7 +198,7 @@ pm_electric_trains = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 30
+			state_infrastructure_add = 35
 		}
 	}
 
@@ -214,9 +214,9 @@ pm_diesel_trains = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_engines_add = 5 			# 300
-			goods_input_oil_add = 7.5 				# 300
+			goods_input_oil_add = 6 				# 240	# TOTAL 549
 			
-			goods_output_transportation_add = 35 	# 1050	# PROFT 650
+			goods_output_transportation_add = 40 	# 1200	# PROFT 660
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3250
@@ -227,7 +227,7 @@ pm_diesel_trains = {
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 30
+			state_infrastructure_add = 35
 			state_pollution_generation_add = 10
 		}
 	}
@@ -244,10 +244,9 @@ pm_high_speed_electric_trains = {
 		workforce_scaled = {
 			goods_input_engines_add = 5 			# 300
 			goods_input_radios_add = 1 				# 80
-			goods_input_telephones_add = 1 			# 70
-			goods_input_electricity_add = 10 		# 300	# 750
+			goods_input_electricity_add = 10 		# 300	# 680
 			
-			goods_output_transportation_add = 50 	# 1500	# PROFIT 750
+			goods_output_transportation_add = 50 	# 1500	# PROFIT 820
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000
@@ -276,10 +275,9 @@ pm_high_speed_diesel_trains = {
 		workforce_scaled = {
 			goods_input_engines_add = 5 			# 300
 			goods_input_radios_add = 1 				# 80
-			goods_input_telephones_add = 1 			# 70
-			goods_input_fuel_add = 6 				# 300	# TOTAL 750
+			goods_input_fuel_add = 6 				# 300	# TOTAL 680
 			
-			goods_output_transportation_add = 50	# 1500	# PROFIT 750
+			goods_output_transportation_add = 50	# 1500	# PROFIT 820
 		}
 		level_scaled = {
 			building_employment_laborers_add = 3000

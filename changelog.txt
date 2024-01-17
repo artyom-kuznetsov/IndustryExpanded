@@ -1,8 +1,17 @@
+[h1]v10.2[/h1]
+-Nerfed machined steel tools a bit more, buffed plastic machined tools.
+-Tweaked women rights birth rate modifiers again.
+-Creamery PM is now unlocked by Fructose tech.
+-Synthetic Dyes are not extremely expensive in sulfur anymore.
+-All railroad PMs are a bit more profitable.
+
+
 [h1]v10.1[/h1]
 -Power Plants automation PMs are actually green now.
 -"Bytadiene" renamed to Butadiene
 -Added copper to Yangseo and Gwanbuk states of Korea.
 -Road Maintainance decree now gives +5% MAPI.
+-Added Hauling Automation to Vineyard Plantation.
 
 
 

@@ -104,7 +104,7 @@ pm_creamery = {
 	texture = "gfx/interface/icons/production_method_icons/creamery.dds"
 	
 	unlocking_technologies = {
-		shift_work
+		fructose
 	}				
 	
 	building_modifiers = {

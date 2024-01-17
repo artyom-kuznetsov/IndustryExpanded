@@ -458,8 +458,8 @@ pm_automation_hydraulic_cranes = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 3	# 150
-			goods_input_coal_add = 4			# 120 # TOTAL 270
+			goods_input_machine_parts_add = 2	# 100
+			goods_input_coal_add = 3			# 90 # TOTAL 190
 		}
 
 		level_scaled = {
@@ -493,8 +493,8 @@ pm_automation_gantry_cranes = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 4	# 200
-			goods_input_electricity_add = 4		# 120 # TOTAL 320
+			goods_input_machine_parts_add = 3	# 150
+			goods_input_electricity_add = 3		# 90 # TOTAL 240
 		}
 
 		level_scaled = {
@@ -530,8 +530,8 @@ pm_automation_modern_cranes = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 4	# 200
-			goods_input_fuel_add = 5			# 250 # TOTAL 450
+			goods_input_machine_parts_add = 3	# 150
+			goods_input_fuel_add = 3			# 150 # TOTAL 300
 		}
 
 		level_scaled = {

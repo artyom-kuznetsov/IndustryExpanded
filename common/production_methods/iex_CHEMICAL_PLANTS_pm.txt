@@ -123,8 +123,7 @@ pm_dye_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_sulfur_add = 24			# 1200
-			goods_output_fertilizer_add = -40	# 1200	# 2400
+			goods_output_fertilizer_add = -80	# 1200	# 2400
 
 			# output goods
 			goods_output_dye_add = 60			# 2400

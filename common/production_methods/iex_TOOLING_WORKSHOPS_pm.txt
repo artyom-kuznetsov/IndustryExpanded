@@ -101,7 +101,7 @@ pm_rubber_grips = {
 			goods_input_steel_add = 30		# 1500	# TOTAL 2300
 			
 			# output goods
-			goods_output_tools_add = 110	# 4400	# PROFIT 2100
+			goods_output_tools_add = 105	# 4200	# PROFIT 1900
 		}
 
 		level_scaled = {
@@ -124,7 +124,7 @@ pm_plastic_machined_tools = {
 			goods_input_steel_add = 30		# 1500	# TOTAL 2500
 			
 			# output goods
-			goods_output_tools_add = 120	# 4800	# PROFIT 2300
+			goods_output_tools_add = 125	# 5000	# PROFIT 2500
 		}
 
 		level_scaled = {

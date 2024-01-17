@@ -450,3 +450,7 @@
  pm_no_petcoke:0 "No Petcoke"
  pm_petcoke:0 "Petcoke Production"
  pm_coal_liquefaction:0 "Coal Liquefaction"
+ 
+ # v10.1
+ modifier_goods_input_fuel_mult:0 "Building @fuel! Refined Fuel input"
+ modifier_goods_input_fuel_mult_desc:0 "A bonus or penalty to the amount of @fuel! output consumed by buildings"

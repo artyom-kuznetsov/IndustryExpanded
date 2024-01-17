@@ -58,7 +58,7 @@ law_women_own_property = {
 
 	modifier = {
 		state_working_adult_ratio_add = 0.05
-		state_birth_rate_mult = 0.03
+		state_birth_rate_mult = 0.02
 	}
 	
 	possible_political_movements = {
@@ -142,6 +142,7 @@ law_women_in_the_workplace = {
 
 	modifier = {
 		state_working_adult_ratio_add = 0.1
+		state_birth_rate_mult = -0.02
 	}
 	
 	possible_political_movements = {
