@@ -196,6 +196,9 @@
 		s:STATE_GUANGXI = { add_state_trait = state_trait_small_copper_field }
 		s:STATE_SARIWON = { add_state_trait = state_trait_small_copper_field }
 		s:STATE_PYONGYANG = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_KANTO = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_SHIKOKU = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_KYUSHU = { add_state_trait = state_trait_medium_copper_field }
 		
 		## INDONESIA
 		s:STATE_MOLUCCAS = { add_state_trait = state_trait_small_copper_field }

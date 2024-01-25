@@ -1,4 +1,5 @@
 [h1]v10.2[/h1]
+-Added copper potentials to Japan.
 -Nerfed machined steel tools a bit more, buffed plastic machined tools.
 -Tweaked women rights birth rate modifiers again.
 -Creamery PM is now unlocked by Fructose tech.
