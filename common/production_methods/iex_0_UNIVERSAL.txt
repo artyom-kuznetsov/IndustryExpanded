@@ -307,7 +307,7 @@ pm_mixing_machines = {
 		workforce_scaled = {
 			# input goods
 			goods_input_machine_parts_add = 2	# 100
-			goods_input_coal_add = 5			# 150 # TOTAL 250
+			goods_input_coal_add = 4			# 120 # TOTAL 220
 		}
 
 		level_scaled = {
@@ -340,8 +340,8 @@ pm_centrifuge = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 4	# 200
-			goods_input_electricity_add = 10	# 300 # TOTAL 500
+			goods_input_machine_parts_add = 3	# 150
+			goods_input_electricity_add = 8		# 240 # TOTAL 390
 		}
 
 		level_scaled = {

@@ -1,3 +1,9 @@
+[h1]v10.3[/h1]
+-Reduced Mixing Machines PM coal consumption.
+-Reworked Combustion Engine PM for Oil Rigs.
+-Fixed Copper Mines couldn't be funded using investment pool.
+-Improved Power Plants auto-expansion rule.
+
 [h1]v10.2[/h1]
 -Added copper potentials to Japan.
 -Nerfed machined steel tools a bit more, buffed plastic machined tools.

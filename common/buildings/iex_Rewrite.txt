@@ -424,7 +424,7 @@ building_power_plant = {
 	should_auto_expand = { 
 		occupancy >= 0.8
 		OR = {
-			cash_reserves_ratio > 0.5
+			cash_reserves_ratio > 0.2
 			is_subsidized = yes
 		}
 		state = {

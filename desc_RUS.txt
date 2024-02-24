@@ -24,8 +24,9 @@
 Это происходит из-за мер, принятых для совместимости с модами, меняющими карту, и я не нашёл способа поправить это (могло быть и хуже - медные шахты были бы в секции сельского хозяйства).
 
 [h1]Локализация и совместимость[/h1]
-[img]https://i.imgur.com/rz12Uyw.png [/img]
+[img]https://i.imgur.com/4KTCuuj.png[/img]
 [b]Китайская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url] (создано сообществом)
+[b]Корейская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (создано сообществом)
 Мод создан для версии игры [b]v1.5.12[/b]
 
 [h2]Совместимость с картами![/h2]

@@ -5,12 +5,15 @@
 }
 
 bg_copper_mining = {
+	parent_group = bg_mining
+	
 	category = rural
+	
 	economy_of_scale = yes
 	
-	always_possible = yes
+	discoverable_resource = no
 	
-	default_building = building_copper_mine
+	capped_by_resources = yes
 	
 	lens = mine
 	
@@ -26,8 +29,10 @@ bg_copper_mining = {
 	economy_of_scale_ai_factor = 2.0
 	
 	can_use_slaves = yes
-	capped_by_resources = yes
-	#discoverable_resource = yes
+	
+	default_building = building_copper_mine
+	
+	always_possible = yes
 }
 
 bg_mining = {

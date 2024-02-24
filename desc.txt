@@ -24,8 +24,9 @@ There is an issue of copper mines appearing in every state building list, even i
 It happens because of "map-compatibility" measures and I have not found a way to avoid it (it could be worse - copper mines would be in the "agriculture" section).
 
 [h1]Localization and Compatibility[/h1]
-[img]https://i.imgur.com/rz12Uyw.png[/img]
+[img]https://i.imgur.com/4KTCuuj.png[/img]
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
+[b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (Community-made)
 Mod is made for game version [b]v1.5.12[/b]
 
 [h2]Map-Compatible![/h2]
