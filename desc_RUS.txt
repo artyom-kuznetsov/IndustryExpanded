@@ -27,7 +27,7 @@
 [img]https://i.imgur.com/4KTCuuj.png[/img]
 [b]Китайская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url] (создано сообществом)
 [b]Корейская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (создано сообществом)
-Мод создан для версии игры [b]v1.5.12[/b]
+Мод создан для версии игры [b]v1.6.1[/b]
 
 [h2]Совместимость с картами![/h2]
 Industry Expanded теперь совместим с модами, меняющими данные карты:
@@ -35,6 +35,7 @@ Industry Expanded теперь совместим с модами, меняющими данные карты:
 Всё, что от вас требуется для совместимости - поставить IEX [b]ВЫШЕ[/b] мода на карту в порядке загрузки.
 
 [h2]Совместимость с модами[/h2]
+[b]Помните, что некоторые патчи могут быть не обновлены и могут сломать игру![/b]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2889925770]Morgenrote[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]патч совместимости[/url].
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]Victoria Tweaks Mod[/url]: [i]должен[/i] работать нормально (IEX нужно поставить [b]ниже[/b] в порядке загрузки).
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3105695948]Power Plants+[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]патч совместимости[/url].

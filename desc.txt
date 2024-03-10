@@ -27,7 +27,7 @@ It happens because of "map-compatibility" measures and I have not found a way to
 [img]https://i.imgur.com/4KTCuuj.png[/img]
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
 [b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (Community-made)
-Mod is made for game version [b]v1.5.12[/b]
+Mod is made for game version [b]v1.6.1[/b]
 
 [h2]Map-Compatible![/h2]
 Industry Expanded is now compatible with mods that change map data:
@@ -35,6 +35,7 @@ This means, that IEX can be ran together with most alt-history mods that change 
 All you have to do for compatibility is to place IEX [b]ABOVE[/b] the map mod.
 
 [h2]Mod Compatibility[/h2]
+[b]Note that some compatibility patches may not be updated and may break the game![/b]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2889925770]Morgenröte[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Compatch[/url] required.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]Victoria Tweaks Mod[/url]: [i]Should[/i] run normally (IEX has to be placed [b]lower[/b] in loading order).
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3105695948]Power Plants+[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Compatch[/url] required.
