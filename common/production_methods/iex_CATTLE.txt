@@ -131,8 +131,8 @@ pm_sheep_focus = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_meat_add = -16		# 480
-			goods_output_fabric_add = 24	# 480	# NO PROFIT
+			goods_output_meat_add = -20		# 600
+			goods_output_fabric_add = 30	# 600	# NO PROFIT
 		}
 	}
 }
@@ -153,8 +153,8 @@ pm_sheep_farms = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_meat_add = -24		# 720
-			goods_output_fabric_add = 36	# 720	# NO PROFIT
+			goods_output_meat_add = -28		# 840
+			goods_output_fabric_add = 42	# 840	# NO PROFIT
 		}
 	}
 }
@@ -173,8 +173,8 @@ pm_intensive_grazing_ranch = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_meat_add = -36		# 1080
-			goods_output_fabric_add = 54	# 1080	# NO PROFIT
+			goods_output_meat_add = -44		# 1320
+			goods_output_fabric_add = 66	# 1320	# NO PROFIT
 		}
 	}
 }

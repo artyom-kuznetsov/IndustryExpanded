@@ -4,6 +4,7 @@
 -Reworked Combustion Engine PM for Oil Rigs.
 -Fixed Copper Mines couldn't be funded using investment pool.
 -Improved Power Plants auto-expansion rule.
+-Tweaked Ranches wool gathering PMs.
 
 [h1]v10.2[/h1]
 -Added copper potentials to Japan.
