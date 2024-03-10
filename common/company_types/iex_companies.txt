@@ -27,7 +27,7 @@ company_iex_colored_metals = {
 					is_building_type = building_copper_mine
 					is_building_type = building_machine_parts_factories
 				}
-				level >= 5
+				level >= 3
 			}
 		}
 	}
@@ -68,7 +68,7 @@ company_iex_lumber_union = {
 					is_building_type = building_logging_camp
 					is_building_type = building_forestry
 				}
-				level >= 10
+				level >= 3
 			}
 		}
 	}

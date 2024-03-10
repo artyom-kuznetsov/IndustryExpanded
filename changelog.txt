@@ -1,4 +1,5 @@
 [h1]v10.3[/h1]
+-Victoria 3 1.6 compatibility.
 -Reduced Mixing Machines PM coal consumption.
 -Reworked Combustion Engine PM for Oil Rigs.
 -Fixed Copper Mines couldn't be funded using investment pool.

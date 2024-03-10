@@ -9,6 +9,8 @@ law_no_workers_rights = {
 	
 	progressiveness = 0
 	
+	modifier = {	
+	}
 	
 	possible_political_movements = {
 		law_regulatory_bodies

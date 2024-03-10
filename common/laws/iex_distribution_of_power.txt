@@ -15,7 +15,24 @@ law_autocracy = {
 	}
 
 	on_activate = {
-		deactivate_law = law_type:law_elected_bureaucrats
+		if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				has_law = law_type:law_monarchy
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_appointed_bureaucrats
+		}
+		else_if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_hereditary_bureaucrats
+		}
 		scripted_effect_parties_disappearence = yes
 		clear_legal_single_party = yes
 		if = {
@@ -70,7 +87,15 @@ law_autocracy = {
 
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
-
+		
+		if = {
+			limit = { 
+				has_journal_entry = je_government_petition
+				has_variable = desired_law_var
+                scope:law = var:desired_law_var
+			}
+			add = 750
+		}
 	}
 }
 
@@ -148,7 +173,15 @@ law_technocracy = {
 
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
-
+		
+		if = {
+			limit = { 
+				has_journal_entry = je_government_petition
+				has_variable = desired_law_var
+                scope:law = var:desired_law_var
+			}
+			add = 750
+		}
 	}
 }
 
@@ -160,7 +193,24 @@ law_oligarchy = {
 	progressiveness = -50
 
 	on_activate = {
-		deactivate_law = law_type:law_elected_bureaucrats
+		if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				has_law = law_type:law_monarchy
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_appointed_bureaucrats
+		}
+		else_if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_hereditary_bureaucrats
+		}
 		scripted_effect_parties_disappearence = yes
 		clear_legal_single_party = yes
 		if = {
@@ -220,7 +270,14 @@ law_oligarchy = {
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
 		
-
+		if = {
+			limit = { 
+				has_journal_entry = je_government_petition
+				has_variable = desired_law_var
+                scope:law = var:desired_law_var
+			}
+			add = 750
+		}
 	}
 }
 
@@ -240,7 +297,24 @@ law_elder_council = {
 	}
 	
 	on_activate = {
-		deactivate_law = law_type:law_elected_bureaucrats
+		if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				has_law = law_type:law_monarchy
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_appointed_bureaucrats
+		}
+		else_if = {
+			limit = {
+				has_law = law_type:law_elected_bureaucrats
+				NOT = {
+					has_law = law_type:law_monarchy
+				}
+			}
+			deactivate_law = law_type:law_elected_bureaucrats
+			activate_law = law_type:law_hereditary_bureaucrats
+		}
 		scripted_effect_parties_disappearence = yes
 		clear_legal_single_party = yes
 		if = {
@@ -274,6 +348,15 @@ law_elder_council = {
 
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
+		
+		if = {
+			limit = { 
+				has_journal_entry = je_government_petition
+				has_variable = desired_law_var
+                scope:law = var:desired_law_var
+			}
+			add = 750
+		}
 	}
 }
 
@@ -348,14 +431,6 @@ law_landed_voting = {
 		}
 	}
 
-	ai_will_do = {
-	    NOR = {
-	        has_law = law_type:law_wealth_voting
-	        has_law = law_type:law_census_voting
-	        has_law = law_type:law_universal_suffrage
-	    }
-	}
-
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
 		
@@ -367,16 +442,6 @@ law_landed_voting = {
 			}
 			add = 750
 		}
-
-		if = {
-            limit = {
-                OR = {
-                     has_law = law_type:law_autocracy
-                     has_law = law_type:law_oligarchy
-                 }
-            }
-            add = 10000
-        }
 	}
 }
 
@@ -444,13 +509,6 @@ law_wealth_voting = {
 		}
 	}
 
-	ai_will_do = {
-    	    NOR = {
-    	        has_law = law_type:law_census_voting
-    	        has_law = law_type:law_universal_suffrage
-    	    }
-    	}
-
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
 		
@@ -462,17 +520,6 @@ law_wealth_voting = {
 			}
 			add = 750
 		}
-
-		if = {
-            limit = {
-                OR = {
-                     has_law = law_type:law_autocracy
-                     has_law = law_type:law_oligarchy
-                     has_law = law_type:law_landed_voting
-                 }
-            }
-            add = 10000
-        }
 	}
 }
 
@@ -538,12 +585,6 @@ law_census_voting = {
 			}
 		}
 	}
-
-	ai_will_do = {
-    	    NOR = {
-    	        has_law = law_type:law_universal_suffrage
-    	    }
-    	}
 	
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
@@ -556,18 +597,6 @@ law_census_voting = {
 			}
 			add = 750
 		}
-
-		if = {
-            limit = {
-                OR = {
-                     has_law = law_type:law_autocracy
-                     has_law = law_type:law_oligarchy
-                     has_law = law_type:law_landed_voting
-                     has_law = law_type:law_wealth_voting
-                 }
-            }
-            add = 10000
-        }
 	}
 }
 
@@ -653,19 +682,6 @@ law_universal_suffrage = {
 			}
 			add = 750
 		}
-
-		if = {
-            limit = {
-                OR = {
-                     has_law = law_type:law_autocracy
-                     has_law = law_type:law_oligarchy
-                     has_law = law_type:law_landed_voting
-                     has_law = law_type:law_wealth_voting
-                     has_law = law_type:law_census_voting
-                 }
-            }
-            add = 10000
-        }
 	}
 }
 

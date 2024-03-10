@@ -71,7 +71,7 @@ pm_tractors = {
 }
 
 pm_compression_ignition_tractors = {
-	texture = "gfx/interface/icons/production_method_icons/tractors.dds"
+	texture = "gfx/interface/icons/production_method_icons/compression_ignition_tractors.dds"
 
 	state_modifiers = {
 		workforce_scaled = {

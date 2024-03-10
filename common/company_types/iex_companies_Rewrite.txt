@@ -33,7 +33,7 @@ company_san_miguel = {
 					is_building_type = building_food_industry
 					is_building_type = building_distillery
 				}
-				level >= 10
+				level >= 3
 			}
 		}
 		has_technology_researched = corporate_charters
@@ -83,7 +83,7 @@ company_chr_hansens = {
 					is_building_type = building_distillery
 					is_building_type = building_chemical_plants
 				}
-				level >= 10
+				level >= 3
 			}
 		}
 	}
@@ -123,7 +123,7 @@ company_vodka_monopoly = {
 					is_building_type = building_food_industry
 					is_building_type = building_distillery
 				}
-				level >= 5
+				level >= 3
 			}
 		}			
 	}
@@ -165,7 +165,7 @@ company_basic_food = {
 					is_building_type = building_food_industry
 					is_building_type = building_distillery
 				}
-				level >= 5
+				level >= 3
 			}
 		}
 	}
