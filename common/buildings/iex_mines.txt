@@ -10,6 +10,22 @@
 		shaft_mining
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:iron = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
 	production_method_groups = {
 		pmg_mining_equipment_building_iron_mine
 		pmg_explosives_building_iron_mine
@@ -31,6 +47,21 @@ building_lead_mine = {
 		shaft_mining
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:lead = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
 	production_method_groups = {
 		pmg_mining_equipment_building_lead_mine
 		pmg_explosives_building_lead_mine
@@ -52,6 +83,21 @@ building_sulfur_mine = {
 		shaft_mining
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:sulfur = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
 	production_method_groups = {
 		pmg_mining_equipment_building_sulfur_mine
 		pmg_explosives_building_sulfur_mine
@@ -74,6 +120,21 @@ building_copper_mine = {
 		shaft_mining
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:copper = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
 	production_method_groups = {
 		pmg_mining_equipment_building_copper_mine
 		pmg_explosives_building_copper_mine

@@ -38,7 +38,7 @@
 			add = {
 				value = literacy_rate
 				subtract = 0.2
-				multiply = 40
+				multiply = 20
 				desc = "QUALIFICATIONS_LITERACY_FACTOR"
 			}
 			if = {

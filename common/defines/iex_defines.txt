@@ -66,11 +66,10 @@ NMilitary = {
 NPops = {
 	MIGRATION_UNEMPLOYMENT_MULT = 25.0							# Amount of migration from SoL is increased by this when a pop is unemployed
 	MIGRATION_PULL_FROM_AVAILABLE_EMPLOYMENT = 1.5			# Migration pull is increased by for each 10k available non subsistence jobs
-	MIGRATION_MAX_PER_STATE_BASE = 500							# No more than this amount of people can move from or to a state in a single week (base)	
+	MIGRATION_MAX_PER_STATE_BASE = 2000							# No more than this amount of people can move from or to a state in a single week (base)	
 	MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION = 0.05	# Max emigration per week is clamped to this fraction of a state's population
 	
-	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_ORIGIN_FRACTION = 0.1	# The amount of unemployed workers in a state * this value is added to how many people can move from it (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
-	MIGRATION_MAX_PER_STATE_BASE = 1000							# No more than this amount of people can move from or to a state in a single week (base)	
+	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_ORIGIN_FRACTION = 0.5	# The amount of unemployed workers in a state * this value is added to how many people can move from it (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
 	
 	ASSIMILATION_RATE = 0.01					# Percentage of pops who will Assimilate into a different Culture each month, if eligible
 	MIN_ASSIMILATION = 1						# If there is any assmiliation at least this many people will assimilate

@@ -77,4 +77,7 @@
 	building_lumber_mill = {"asian_tools_manufactory_01_mesh"}
 	building_distillery = {"asian_manufactory_01_mesh"}
 	building_sugar_substitute_factory = {"asian_manufactory_01_mesh"}
+	building_copper_mine = {
+		"asian_colonial_manufactory_01_mesh"
+	}
 }

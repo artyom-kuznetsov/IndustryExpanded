@@ -1,3 +1,12 @@
+[h1]v10.4[/h1]
+-Added machine parts and copper priorities to AI strategies. This [i]should[/i] make AI build them more.
+-Reduced low SoL negative impact on capitalist/aristocrat qualifications.
+-Buffed Lumber Mills
+-Fixed various russian localization issues
+-Fixed no localization for fuel input multiplier
+-Various buildings now should auto-expand if good's market price is higher than base price.
+-Fixed Copper Mines didn't have a mesh.
+
 [h1]v10.3[/h1]
 -Victoria 3 1.6 compatibility.
 -Reduced Mixing Machines PM coal consumption.

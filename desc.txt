@@ -9,6 +9,7 @@ This mod contains new buildings, goods, production methods and other various twe
 - Plastics
 - Synthetic rubber
 - Sugar Substitutes
+- Improved auto-expansion
 - Useful whaling
 - Viable isolationism
 - Road Networks (Infra before railroads)
@@ -27,7 +28,7 @@ It happens because of "map-compatibility" measures and I have not found a way to
 [img]https://i.imgur.com/4KTCuuj.png[/img]
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
 [b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (Community-made)
-Mod is made for game version [b]v1.6.1[/b]
+Mod is made for game version [b]v1.6.2[/b]
 
 [h2]Map-Compatible![/h2]
 Industry Expanded is now compatible with mods that change map data:
@@ -39,7 +40,6 @@ All you have to do for compatibility is to place IEX [b]ABOVE[/b] the map mod.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2889925770]Morgenröte[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Compatch[/url] required.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]Victoria Tweaks Mod[/url]: [i]Should[/i] run normally (IEX has to be placed [b]lower[/b] in loading order).
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3105695948]Power Plants+[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Compatch[/url] required.
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3129482793]The Invisible Hand[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3132751423]Compatch[/url] required.
 - [url=https://steamcommunity.com/workshop/filedetails/?id=2932134122]Better Politics Mod[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Compatch[/url] required.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]: Not compatible.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3099941455]Modern borders 1.5[/url]: Compatible.

@@ -80,7 +80,7 @@ goods_input_fuel_add = {
 
 goods_input_fuel_mult = {
 	good = no
-	percent = no	
+	percent = yes
 }
 
 goods_output_fuel_mult = {

@@ -28,7 +28,7 @@ building_road_network = {
 			owner = {
 				market = {
 					mg:transportation = { 
-						market_goods_pricier > 0.5 
+						market_goods_pricier > 0.01
 					}
 				}
 			}

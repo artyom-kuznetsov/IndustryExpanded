@@ -77,4 +77,7 @@
 	building_lumber_mill = {"african_tools_manufactory_01_mesh"}
 	building_distillery = {"african_manufactory_01_mesh"}
 	building_sugar_substitute_factory = {"african_manufactory_01_mesh"}
+	building_copper_mine = {
+		"african_colonial_manufactory_01_mesh"
+	}
 }

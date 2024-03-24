@@ -8,7 +8,7 @@
 			goods_input_wood_add = 40 # 800 # TOTAL 1000
 			
 			# output goods
-			goods_output_hardwood_add = 40 # 1600 # PROFIT 600
+			goods_output_hardwood_add = 45 # 1800 # PROFIT 800
 		}
 
 		level_scaled = {
@@ -45,7 +45,7 @@ pm_powered_sawing_lm = {
 			goods_input_wood_add = 50 			# 1000 # TOTAL 1550
 			
 			# output goods
-			goods_output_hardwood_add = 70 # 2800 # PROFIT 1250
+			goods_output_hardwood_add = 75 # 3000 # PROFIT 1450
 		}
 
 		level_scaled = {
@@ -72,7 +72,7 @@ pm_electrical_saw_lm = {
 			goods_input_wood_add = 60			# 1200 # TOTAL 2100
 			
 			# output goods
-			goods_output_hardwood_add = 95	# 3800 # PROFIT 1700
+			goods_output_hardwood_add = 100		# 4000 # PROFIT 1900
 		}
 
 		level_scaled = {

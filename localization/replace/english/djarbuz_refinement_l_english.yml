@@ -340,7 +340,7 @@
  building_sulfur_mine_discovered_resource:0 "Sulfur"
  
  # v9.2.3
- decree_child_care:0 "Extensive Child Care"
+ decree_child_care:0 "Healthcare Subsidies"
  decree_child_care_desc:0 "Extensive state-funded child care programs, featuring exemptions, free education, grants and other benefits."
  
  # v10.0
@@ -372,6 +372,8 @@
  modifier_goods_input_fuel_add:0 "@fuel! Refined Fuel input per level"
  modifier_goods_output_fuel_mult:0 "Building @fuel! Refined Fuel output"
  modifier_goods_output_fuel_mult_desc:0 "A bonus or penalty to the amount of @fuel! output produced by buildings"
+ modifier_goods_input_fuel_mult:0 "Building @fuel! Refined Fuel input"
+ modifier_goods_input_fuel_mult_desc:0 "A bonus or penalty to the amount of @fuel! output consumed by buildings"
  trade_route_import_lens_option_fuel_tooltip:0 "Establish a $fuel$ import trade route"
  trade_route_export_lens_option_fuel_tooltip:0 "Establish a $fuel$ export trade route"
  

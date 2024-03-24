@@ -188,7 +188,7 @@
  pm_rayon_focus:0 "Упор на вискозное волокно"
  
  # v7.3
- pmg_filtering_building_lead_mine:0 "$pmg_filtering_building_lead_mine$"
+ pmg_filtering_building_sulfur_mine:0 "$pmg_filtering_building_lead_mine$"
  pm_filtering_sulfur_mine:0 "$pm_filtering_lead_mine$"
  pm_advanced_filtering_sulfur_mine:0 "$pm_advanced_filtering_lead_mine$"
  machine_parts:0 "Механизмы"
@@ -257,7 +257,7 @@
  conveyors:0 "Электрические конвейеры"
  assembly_lines:0 "Производственные линии"
  
- machine_parts:0 "Медь"
+ copper:0 "Медь"
  modifier_goods_output_copper_add:0 "выпуск @copper! меди за каждый уровень"
  modifier_goods_output_copper_add_desc:0 "Количество @copper! меди, выпускаемых сооружениями"
  modifier_goods_input_copper_add_desc:0 "Количество @copper! меди, потребляемых сооружениями"
@@ -340,7 +340,7 @@
  building_sulfur_mine_discovered_resource:0 "Сера"
  
  # v9.2.3
- decree_child_care:0 "Расширенная забота о детях"
+ decree_child_care:0 "Субсидии здравоохранения"
  decree_child_care_desc:0 "Различные финансируемые государством программы, такие как льготы, бесплатное образование, пособия и прочие преимущества."
  
  # v10.0
@@ -372,6 +372,8 @@
  modifier_goods_input_fuel_add:0 "потребление @fuel! топлива за каждый уровень"
  modifier_goods_output_fuel_mult:0 "Выпуск @fuel! топлива сооружением"
  modifier_goods_output_fuel_mult_desc:0 "Бонус или штраф к выпуску @fuel! топлива сооружением"
+ modifier_goods_input_fuel_mult:0 "Потребление @fuel! топлива"
+ modifier_goods_input_fuel_mult_desc:0 "Бонус или штраф к потреблению @fuel! топлива сооружением"
  trade_route_import_lens_option_fuel_tooltip:0 "Проложить торговый путь импорта $fuel$"
  trade_route_export_lens_option_fuel_tooltip:0 "Проложить торговый путь экспорта $fuel$"
  

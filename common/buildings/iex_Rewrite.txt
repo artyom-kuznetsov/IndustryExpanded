@@ -142,6 +142,22 @@ building_food_industry = {
 		pmg_ownership_capital_building_food_industry
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:groceries = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
 	required_construction = construction_cost_high
 	
 }
@@ -165,6 +181,22 @@ building_explosives_factory = {
 
 	required_construction = construction_cost_very_high
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:explosives = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
 	possible = {
 		error_check = {
 			severity = fail
@@ -220,6 +252,22 @@ building_paper_mills = {
 	city_type = city
 	levels_per_mesh = 5
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:paper = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
 	production_method_groups = {
 		pmg_base_building_paper_mills
 		pmg_automation_building_paper_mill
@@ -248,6 +296,22 @@ building_motor_industry = {
 	
 	required_construction = construction_cost_very_high
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:engines = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+
 	possible = {
 		error_check = {
 			severity = fail
@@ -271,6 +335,22 @@ building_tooling_workshops = {
 	city_type = city
 	levels_per_mesh = 5
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:tools = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
 	production_method_groups = {
 		pmg_base_building_tooling_workshops
 		pmg_automation_building_industry
@@ -296,6 +376,22 @@ building_munition_plants = {
 		pmg_base_building_munition_plants
 		pmg_automation_building_industry
 		pmg_ownership_capital_building_munition_plants
+	}
+	
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:ammunition = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
 	}
 	
 	required_construction = construction_cost_very_high
@@ -342,6 +438,22 @@ building_arms_industry = {
 		gunsmithing
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:small_arms = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
 	production_method_groups = {
 		pmg_firearms_manufacturing
 		pmg_automation_building_industry
@@ -361,6 +473,22 @@ building_artillery_foundries = {
 		gunsmithing
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:artillery = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
 	production_method_groups = {
 		pmg_foundries
 		pmg_automation_building_industry
@@ -388,6 +516,22 @@ building_steel_mills = {
 	
 	required_construction = construction_cost_very_high
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:steel = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
 	possible = {
 		error_check = {
 			severity = fail
@@ -465,6 +609,22 @@ building_shipyards = {
 		pmg_ownership_capital_building_shipyards
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:clippers = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
 	required_construction = construction_cost_high
 	
 	possible = {
@@ -490,6 +650,22 @@ building_military_shipyards = {
 		pmg_ownership_capital_building_military_shipyards
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:manowars = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
 	required_construction = construction_cost_very_high
 	
 	possible = {
@@ -498,4 +674,39 @@ building_military_shipyards = {
 			is_coastal = yes
 		}
 	}	
+}
+
+building_glassworks = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/glassworks.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_glassworks
+		pmg_luxury_building_glassworks
+		pmg_glassblowing
+		pmg_ownership_capital_building_glassworks
+	}
+	
+	should_auto_expand = { 
+		occupancy >= 0.8
+		OR = {
+			owner = {
+				market = {
+					mg:glass = { 
+						market_goods_pricier > 0.01
+					}
+				}
+			}
+			state.market_access < 1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	required_construction = construction_cost_high
 }

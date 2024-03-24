@@ -9,6 +9,7 @@
 - Пластмассы
 - Синтетическая резина
 - Сахарозаменители
+- Улучшенное авто-расширение
 - Полезный китобойный промысел
 - Жизнеспособный изоляционизм
 - Дорожные сети (Инфраструктура до ЖД)
@@ -27,7 +28,7 @@
 [img]https://i.imgur.com/4KTCuuj.png[/img]
 [b]Китайская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url] (создано сообществом)
 [b]Корейская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (создано сообществом)
-Мод создан для версии игры [b]v1.6.1[/b]
+Мод создан для версии игры [b]v1.6.2[/b]
 
 [h2]Совместимость с картами![/h2]
 Industry Expanded теперь совместим с модами, меняющими данные карты:
@@ -39,7 +40,6 @@ Industry Expanded теперь совместим с модами, меняющими данные карты:
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2889925770]Morgenrote[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]патч совместимости[/url].
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]Victoria Tweaks Mod[/url]: [i]должен[/i] работать нормально (IEX нужно поставить [b]ниже[/b] в порядке загрузки).
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3105695948]Power Plants+[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]патч совместимости[/url].
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3129482793]The Invisible Hand[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3132751423]патч совместимости[/url].
 - [url=https://steamcommunity.com/workshop/filedetails/?id=2932134122]Better Politics Mod[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]патч совместимости[/url].
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]: Не совместим.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3099941455]Modern borders 1.5[/url]: Совместим.
