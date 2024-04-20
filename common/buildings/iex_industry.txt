@@ -15,7 +15,7 @@ building_lumber_mill = {
 		OR = {
 			owner = {
 				market = {
-					mg:lumber = { 
+					mg:hardwood = { 
 						market_goods_pricier > 0.01
 					}
 				}

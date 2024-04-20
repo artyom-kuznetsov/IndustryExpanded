@@ -49,12 +49,13 @@ Not recommended to use with mods changing PMs, technologies or buildings.
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
 
 [h1]Credits[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url] - for some GFX and inspiration.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971224629]Weight of Rule[/url] - for forestry building idea and icon.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] - for integration and being so kind.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] - for some minor features.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3133935511]Global Trade[/url] - for some minor features.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url] - for the idea.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url] - for a decree icon.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url] - for a few building icons.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971224629]Weight of Rule[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3133935511]Global Trade[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3208201549]Keep Your Powder Dry[/url]
 

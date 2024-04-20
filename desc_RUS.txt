@@ -49,12 +49,13 @@ Industry Expanded теперь совместим с модами, мен€ющими данные карты:
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
 
 [h1]Ѕлагодарности[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url] - за некоторую графику и вдохновение.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971224629]Weight of Rule[/url] - за идею постойки "лесничество" и еЄ иконку.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] - за интеграцию и непомерную доброту.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url] - за некоторые мелкие фичи.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3133935511]Global Trade[/url] - за некоторые мелкие фичи.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url] - за идею.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url] - за иконку указа.
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url] - за пару иконок построек.
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971224629]Weight of Rule[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3133935511]Global Trade[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3208201549]Keep Your Powder Dry[/url]
 

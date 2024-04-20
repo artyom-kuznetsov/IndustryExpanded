@@ -258,10 +258,9 @@ pm_high_speed_electric_trains = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 50
+			state_pollution_generation_add = 10
 		}
 	}
-
-	required_input_goods = electricity
 }
 
 pm_high_speed_diesel_trains = {

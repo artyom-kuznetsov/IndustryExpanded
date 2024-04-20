@@ -1,3 +1,9 @@
+[h1]v10.5[/h1]
+-Fixed high-speed diesel trains needed electricity and didn't produce pollution.
+-Fixed "Full Chemical Treatment" PM for Lumber Mills could be activated without state electricity supply.
+-Fixed Lumber Mills couldn't auto-expand.
+-Moved "Patent Stills" PM from Crystal Glass tech to Shift Work tech.
+
 [h1]v10.4[/h1]
 -Added machine parts and copper priorities to AI strategies. This [i]should[/i] make AI build them more.
 -Reduced low SoL negative impact on capitalist/aristocrat qualifications.

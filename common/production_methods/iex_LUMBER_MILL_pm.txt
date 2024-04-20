@@ -152,6 +152,7 @@ pm_full_chemical_treatment = {
 			building_employment_engineers_add = 125
 		}
 	}
+	required_input_goods = electricity
 
 }
 
