@@ -14,7 +14,7 @@
 		pmg_forestry_trees
 		pmg_equipment
 		pmg_transportation_building_forestry
-		pmg_ownership_capital_building_normal
+		pmg_ownership_capital_building_universal
 	}
 
 	required_construction = construction_cost_high

@@ -3,6 +3,7 @@
 -Fixed "Full Chemical Treatment" PM for Lumber Mills could be activated without state electricity supply.
 -Fixed Lumber Mills couldn't auto-expand.
 -Moved "Patent Stills" PM from Crystal Glass tech to Shift Work tech.
+-Fixed forestry ownership PMG localization.
 
 [h1]v10.4[/h1]
 -Added machine parts and copper priorities to AI strategies. This [i]should[/i] make AI build them more.
