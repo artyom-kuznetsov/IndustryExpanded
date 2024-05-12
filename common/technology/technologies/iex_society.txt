@@ -54,6 +54,10 @@ gravel_roads = {
 	unlocking_technologies = {
 		urban_planning
 	}
+	
+	ai_weight = {
+		value = 2 # Important in general
+	}
 }
 rationalism = {
 	# Unlocks Freedom of Conscience - Church and State Law
