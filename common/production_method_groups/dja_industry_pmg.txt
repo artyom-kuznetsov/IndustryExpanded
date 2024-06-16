@@ -24,6 +24,18 @@ pmg_automation_building_paper_mill = {
 	}
 }
 
+pmg_assembly_paper = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_handcrafting_paper
+		pm_workingtools_paper
+		pm_watertube_paper
+		pm_pneumatic_paper
+		pm_electric_drive_paper
+		pm_assembly_paper
+	}
+}
+
 pmg_sugar_sub_base = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
@@ -146,7 +158,7 @@ pmg_synthetic_rubber = {
 	}
 }
 
-pmg_base_building_paper_mills = {
+pmg_base_paper = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_pulp_pressing

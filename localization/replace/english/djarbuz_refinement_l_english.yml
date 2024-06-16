@@ -456,3 +456,30 @@
  # v10.1
  modifier_goods_input_fuel_mult:0 "Building @fuel! Refined Fuel input"
  modifier_goods_input_fuel_mult_desc:0 "A bonus or penalty to the amount of @fuel! output consumed by buildings"
+ 
+ # v11.0
+ state_trait_iex_difficult_terrain:0 "Difficult Terrain"
+ state_trait_iex_very_difficult_terrain:0 "Very Difficult Terrain"
+ state_trait_densely_forested_terrain:0 "Densely Forested Terrain"
+ 
+ company_iex_refining_concern:0 "Refining Concern"
+ company_iex_refining_concern_dynamic_name_tag_singular:0 "Fuel"
+ company_iex_refining_concern_dynamic_name_tag_plural:0 "Fuel"
+ 
+ pm_handcrafting_main:0 "Hand Crafting"
+ pm_workingtools_main:0 "Working Tools"
+ pm_watertube_main:0 "Water-tube Boiler"
+ pm_pneumatic_main:0 "Pneumatic Machines"
+ pm_electric_drive_main:0 "Electric Drive"
+ pm_assembly_main:0 "Assembly Line"
+ 
+ pm_handcrafting_paper:0 "$pm_handcrafting_main$"
+ pm_workingtools_paper:0 "$pm_workingtools_main$"
+ pm_watertube_paper:0 "$pm_watertube_main$"
+ pm_pneumatic_paper:0 "Pneumatic Press"
+ pm_electric_drive_paper:0 "$pm_electric_drive_main$"
+ pm_assembly_paper:0 "Automatic Press"
+ 
+ pmg_assembly_main:0 "Assembly Method"
+ pmg_assembly_paper:0 "Treatment Method"
+ pmg_base_paper:0 "Base"

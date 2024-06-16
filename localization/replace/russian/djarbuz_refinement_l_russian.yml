@@ -452,3 +452,34 @@
  pm_no_petcoke:0 "Нет производства нефтяного кокса"
  pm_petcoke:0 "Производство нефтяного кокса"
  pm_coal_liquefaction:0 "Сжижение угля"
+ 
+ # v10.1
+ modifier_goods_input_fuel_mult:0 "Потребление @fuel! топлива постройкой"
+ modifier_goods_input_fuel_mult_desc:0 "Бонус или штраф к количеству @fuel! топлива, потребляемого постройками."
+ 
+ # v11.0
+ state_trait_iex_difficult_terrain:0 "Сложная местность"
+ state_trait_iex_very_difficult_terrain:0 "Крайне сложная местность"
+ state_trait_densely_forested_terrain:0 "Густо заросшая местность"
+ 
+ company_iex_refining_concern:0 "Перерабатывающий концерн"
+ company_iex_refining_concern_dynamic_name_tag_singular:0 "Топливо"
+ company_iex_refining_concern_dynamic_name_tag_plural:0 "Топливо"
+ 
+ pm_handcrafting_main:0 "Ручная сборка"
+ pm_workingtools_main:0 "Рабочие инструменты"
+ pm_watertube_main:0 "Водотрубный котёл"
+ pm_pneumatic_main:0 "Пневматические машины"
+ pm_electric_drive_main:0 "Электроприводы"
+ pm_assembly_main:0 "Сборочная линия"
+ 
+ pm_handcrafting_paper:0 "$pm_handcrafting_main$"
+ pm_workingtools_paper:0 "$pm_workingtools_main$"
+ pm_watertube_paper:0 "$pm_watertube_main$"
+ pm_pneumatic_paper:0 "Пневматический пресс"
+ pm_electric_drive_paper:0 "$pm_electric_drive_main$"
+ pm_assembly_paper:0 "Автоматический пресс"
+ 
+ pmg_assembly_main:0 "Метод сборки"
+ pmg_assembly_paper:0 "Метод обработки"
+ pmg_base_paper:0 "Основа"

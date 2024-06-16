@@ -1,3 +1,23 @@
+[h1]v11.0[/h1]
+[h2]Global PM Rework[/h2]
+Production methods were reworked for most of the industrial buildings to fit the following scheme:
+[i]- PM1: Assembly Method (tools, basic materials and equipment used to manufacture the good)[/i]
+[i]- PM2: Base (materials used to increase the output)[/i]
+For example, now you can apply your advanced technology to produce more paper more efficiently, though you don't have any sulfur. But if you get sulfur, you can further increase your paper production efficiency.
+[h2]Other Features[/h2]
+-Construction efficiency debuffs in densely forested states can now be negated by researching [b]Steam Donkey[/b]
+-Construction efficiency debuffs in mountainous states can now be negated by researching [b]Dynamite[/b] and [b]Pneumatic Tools[/b].
+-Added a [b]Refining Concern[/b] company, providing buffs to Oil Refineries, Sugar Substitute Factories and Synthetic Plants.
+[h2]Tweaks[/h2]
+-Electricity is now a non-local trade good.
+-Oil Streetlights PM now provides infrastructure.
+-Nerfed [b]Promote Social Mobility[/b] decree, but reduced authority cost.
+-Reworked Electric Streetlights PM.
+-Increased base max Road Network level by 1.
+-Increased base tech spread from 25 to 40.
+-Increased university innovation output.
+-Reduced employment of officers for earlier training methods.
+
 [h1]v10.5[/h1]
 -Fixed high-speed diesel trains needed electricity and didn't produce pollution.
 -Fixed "Full Chemical Treatment" PM for Lumber Mills could be activated without state electricity supply.

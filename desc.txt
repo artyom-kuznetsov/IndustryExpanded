@@ -18,7 +18,6 @@ This mod contains new buildings, goods, production methods and other various twe
 - Split production of goods that needed it most.
 - Migration improvements
 - Changes to Authority from laws (e.g., policing gives authority)
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url] (coming soon)
 
 [h1]Issues[/h1]
 There is an issue of copper mines appearing in every state building list, even if it is not buildable. 
@@ -38,6 +37,8 @@ All you have to do for compatibility is to place IEX [b]ABOVE[/b] the map mod.
 [h2]Mod Compatibility[/h2]
 [b]Note that some compatibility patches may not be updated and may break the game![/b]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2889925770]Morgenröte[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Compatch[/url] required.
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]Anbeeld's Stockpile Economy[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]Compatch[/url] required.
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3249216882]I.R.O.N. - improved mining[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]Compatch[/url] required.
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]Victoria Tweaks Mod[/url]: [i]Should[/i] run normally (IEX has to be placed [b]lower[/b] in loading order).
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3105695948]Power Plants+[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Compatch[/url] required.
 - [url=https://steamcommunity.com/workshop/filedetails/?id=2932134122]Better Politics Mod[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Compatch[/url] required.

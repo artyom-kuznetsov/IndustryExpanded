@@ -1,4 +1,47 @@
-﻿
+﻿### POWER ###
+pm_no_power = {
+	texture = "gfx/interface/icons/production_method_icons/no_power.dds"
+}
+
+pm_steam_power = {
+	texture = "gfx/interface/icons/production_method_icons/steam_power.dds"
+	
+	unlocking_technologies = {
+		watertube_boiler
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_machine_parts_add = 5	# 250
+			goods_input_coal_add = 5			# 150 # TOTAL 400
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.05
+		}
+	}
+}
+
+pm_electrification = {
+	texture = "gfx/interface/icons/production_method_icons/electric_power.dds"
+	
+	unlocking_technologies = {
+		watertube_boiler
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_electricity_add = 10	# 300
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.08
+		}
+	}
+}
+
 ### AUTOMATION ###
 pm_automation_disabled = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"

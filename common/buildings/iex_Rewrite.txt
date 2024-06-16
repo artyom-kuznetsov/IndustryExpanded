@@ -269,8 +269,8 @@ building_paper_mills = {
 	}
 	
 	production_method_groups = {
-		pmg_base_building_paper_mills
-		pmg_automation_building_paper_mill
+		pmg_assembly_paper
+		pmg_base_paper
 		pmg_ownership_capital_building_universal
 	}
 	
