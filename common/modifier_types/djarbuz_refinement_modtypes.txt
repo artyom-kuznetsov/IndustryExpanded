@@ -26,6 +26,11 @@ goods_output_copper_mult = {
 	percent = yes
 }
 
+goods_input_copper_mult = {
+	good = no
+	percent = yes
+}
+
 goods_output_machine_parts_add = {
 	good = yes
 	percent = no

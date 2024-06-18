@@ -24,6 +24,39 @@ pmg_foundries = {
 	}
 }
 
+pmg_assembly_machine = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handcrafting_machine
+		pm_workingtools_machine
+		pm_watertube_machine
+		pm_pneumatic_machine
+		pm_electric_drive_machine
+		pm_assembly_machine
+	}
+}
+
+pmg_base_machine_parts = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simplified_machines
+		pm_proprietary_machines
+		pm_rotary_machines
+		pm_belt_transmission_machines
+		pm_compact_machines
+		pm_automatic_machines
+	}
+}
+
+pmg_boilers = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_boilers
+		pm_low_pressure_boilers
+		pm_high_pressure_boilers
+	}
+}
+
 pmg_automobile_production = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
@@ -125,25 +158,6 @@ pmg_plastics = {
 		pm_plastics_production
 		pm_extensive_plastic_production
 		pm_plastic_focus
-	}
-}
-
-pmg_base_machine_parts = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_iron_machine_parts
-		pm_rotary_machines
-		pm_belt_transmission_machines
-		pm_automatic_machines
-	}
-}
-
-pmg_boilers = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_boilers
-		pm_low_pressure_boilers
-		pm_high_pressure_boilers
 	}
 }
 

@@ -495,4 +495,20 @@
  pm_electric_drive_artillery:0 "$pm_electric_drive_main$"
  pm_assembly_artillery:0 "$pm_assembly_main$"
  
- MILITARY_INDUSTRIES_POTENTIAL:0 "Владение военно-промышленными строениями"
+ pmg_assembly_machine:0 "$pmg_assembly_main$"
+ pm_handcrafting_machine:0 "$pm_handcrafting_main$"
+ pm_workingtools_machine:0 "$pm_workingtools_main$"
+ pm_watertube_machine:0 "$pm_watertube_main$"
+ pm_pneumatic_machine:0 "$pm_pneumatic_main$"
+ pm_electric_drive_machine:0 "$pm_electric_drive_main$"
+ pm_assembly_machine:0 "$pm_assembly_main$"
+ 
+ pm_simplified_machines:0 "Упрощённые машины"
+ pm_proprietary_machines:0 "Проприетарные машины"
+ #pm_rotary_machines Already present
+ #pm_belt_transmission_machines Already present
+ pm_compact_machines:0 "Компактные машины"
+ #pm_automatic_machines Already Present
+ 
+ modifier_goods_input_copper_mult:0 "Потребление @copper! меди"
+ 

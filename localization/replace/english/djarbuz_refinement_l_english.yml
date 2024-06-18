@@ -233,7 +233,7 @@
  
  pmg_automation_building_industry:0 "$pmg_automation$"
  pmg_base_machine_parts:0 "$pm_base$"
- building_machine_parts_factories:0 "Machine Parts Factory"
+ building_machine_parts_factories:0 "Machine Parts Factories"
  
  pm_iron_machine_parts:0 "Proprietary Machines"
  pm_rotary_machines:0 "Rotary Machines"
@@ -495,4 +495,19 @@
  pm_electric_drive_artillery:0 "$pm_electric_drive_main$"
  pm_assembly_artillery:0 "$pm_assembly_main$"
  
- MILITARY_INDUSTRIES_POTENTIAL:0 "Military-Industrial Building Ownership"
+ pmg_assembly_machine:0 "$pmg_assembly_main$"
+ pm_handcrafting_machine:0 "$pm_handcrafting_main$"
+ pm_workingtools_machine:0 "$pm_workingtools_main$"
+ pm_watertube_machine:0 "$pm_watertube_main$"
+ pm_pneumatic_machine:0 "$pm_pneumatic_main$"
+ pm_electric_drive_machine:0 "$pm_electric_drive_main$"
+ pm_assembly_machine:0 "$pm_assembly_main$"
+ 
+ pm_simplified_machines:0 "Simplified Machines"
+ pm_proprietary_machines:0 "Proprietary Machines"
+ #pm_rotary_machines Already present
+ #pm_belt_transmission_machines Already present
+ pm_compact_machines:0 "Compact Machines"
+ #pm_automatic_machines Already Present
+ 
+ modifier_goods_input_copper_mult:0 "@copper! Copper input"
