@@ -2,22 +2,21 @@
 [img]https://cdn.discordapp.com/attachments/896957883772706816/1126509901859000391/IEX.png[/img]
 A mod focused on goods, building, production methods and variability expansion, improvement and balancing.
 
-This mod contains new buildings, goods, production methods and other various tweaks. Among them:
-- New technologies
-- Machine parts
-- Oil Industry
-- Plastics
-- Synthetic rubber
-- Sugar Substitutes
-- Improved auto-expansion
-- Useful whaling
-- Viable isolationism
-- Road Networks (Infra before railroads)
-- Ore filtering
-- Improved and extended automation
-- Split production of goods that needed it most.
-- Migration improvements
-- Changes to Authority from laws (e.g., policing gives authority)
+Industry Expanded is a big mod, touching many aspects of the game.
+IEX allows you to build your industry more flexibly: lack of a certain resource is not as harsh anymore, thanks to features like Ore Filtering and overall PM variability, for example:
+Artillery production needs copper, but if you don't have it, you can use just iron/steel, resulting in less efficient production, but it's viable! You can use (previously useless in early game) oil for streetlights and paper production, instead of using sulfur.
+Many buildings that needed to be, were seperated (for example, grocery and liquor, engines and automobiles).
+This mod features a vast expansion in buildings and technologies, such as:
+[b]- Machine Parts[/b], needed for automation and manufacturing of many goods.
+[b]- Copper[/b] (no comments needed how valuable this is).
+[b]- Oil Industry[/b], as well as [b]Synthetic Rubber[/b] and [b]Plastics[/b] production.
+[b]- Synthetic Industry[/b]
+[b]- Road Networks[/b], allowing you to increase infrastructure capacity before inventing railroads.
+Industry Expanded changes many laws and institutions to be more logical or better gameplay-wise. Various institutions give you authority, while certain laws consume it. Isolationism is not just a debuff now.
+Capitalists, employed in military-industrial buildings now tend to support Armed Forces, to represent military-industrial interests.
+Qualifications and migration logic were also adjusted;
+
+[i]Auto-Expand is now good too![/i]
 
 [h1]Issues[/h1]
 There is an issue of copper mines appearing in every state building list, even if it is not buildable. 
@@ -27,6 +26,7 @@ It happens because of "map-compatibility" measures and I have not found a way to
 [img]https://i.imgur.com/4KTCuuj.png[/img]
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
 [b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (Community-made)
+[b]Japanese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url] (Community-made)
 Mod is made for game version [b]v1.6.2[/b]
 
 [h2]Map-Compatible![/h2]
@@ -35,16 +35,15 @@ This means, that IEX can be ran together with most alt-history mods that change 
 All you have to do for compatibility is to place IEX [b]ABOVE[/b] the map mod.
 
 [h2]Mod Compatibility[/h2]
-[b]Note that some compatibility patches may not be updated and may break the game![/b]
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2889925770]Morgenröte[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Compatch[/url] required.
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]Anbeeld's Stockpile Economy[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]Compatch[/url] required.
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3249216882]I.R.O.N. - improved mining[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]Compatch[/url] required.
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]Victoria Tweaks Mod[/url]: [i]Should[/i] run normally (IEX has to be placed [b]lower[/b] in loading order).
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3105695948]Power Plants+[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Compatch[/url] required.
-- [url=https://steamcommunity.com/workshop/filedetails/?id=2932134122]Better Politics Mod[/url]: [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Compatch[/url] required.
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]: Not compatible.
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3099941455]Modern borders 1.5[/url]: Compatible.
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3118003368]Divergences[/url]: Some copper fields missing, otherwise [i]kinda[/i] compatible.
+[b]Existing Compatibility Patches that I am aware of:[/b]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Industry Expanded & Morgenröte Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]IEX + ASE Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]Compatch[/url][/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Power Plants Plus & Industry Expanded Compatibility Patch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Industry Expanded & Better Politics Mod Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3254346454]LLWA + MR + IEX +E&F Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3268981751&searchtext=iex]VC + IEX 10.5 compatch[/url]
+Please note that I am not responsible for ANY of these compatches. If you encounter any issues, you should contact their authors.
 Not recommended to use with mods changing PMs, technologies or buildings.
 
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
@@ -58,5 +57,4 @@ Not recommended to use with mods changing PMs, technologies or buildings.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3208201549]Keep Your Powder Dry[/url]
 

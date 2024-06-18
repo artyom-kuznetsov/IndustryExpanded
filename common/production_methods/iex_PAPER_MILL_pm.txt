@@ -35,7 +35,7 @@ pm_watertube_paper = {
 	texture = "gfx/interface/icons/production_method_icons/watertube_main.dds"
 	
 	unlocking_technologies = {
-		watertube_boiler
+		mechanical_production
 	}
 	
 	state_modifiers = {

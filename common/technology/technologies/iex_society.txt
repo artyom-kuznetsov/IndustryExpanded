@@ -1197,6 +1197,7 @@ identification_documents = {
 	modifier = {
 		state_tax_capacity_add = 25
 		country_institution_home_affairs_max_investment_add = 1
+		country_law_enactment_time_mult = -0.1
 	}
 	
 	unlocking_technologies = {

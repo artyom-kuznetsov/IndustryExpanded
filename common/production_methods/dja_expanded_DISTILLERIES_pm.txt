@@ -81,10 +81,6 @@ pm_no_wine_production = {
 pm_wine_production = {
 	texture = "gfx/interface/icons/production_method_icons/wine_production.dds"
 
-	unlocking_technologies = {
-		fractional_distillation				
-	}
-	
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
@@ -99,10 +95,6 @@ pm_wine_production = {
 
 pm_wine_focus = {
 	texture = "gfx/interface/icons/production_method_icons/wine_focus.dds"
-
-	unlocking_technologies = {
-		crystal_glass
-	}
 	
 	building_modifiers = {
 		workforce_scaled = {
@@ -120,6 +112,7 @@ pm_publicly_traded_building_liquor = {
 	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
 
 	unlocking_production_methods = {
+		pm_pot_stills
 		pm_patent_stills
 	}
 	

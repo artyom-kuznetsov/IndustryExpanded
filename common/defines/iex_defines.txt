@@ -51,6 +51,7 @@ NEconomy = {
 	TRADE_ROUTE_AUTO_REDUCTION_EMPLOYMENT_THRESHOLD = 0.6	# 0.75 	# If trade route has less than this of its max staffing level employed and could not hire anyone last week, it can automatically decrease its level
 	
 	PRICE_RANGE = 0.95
+	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.7
 	GOODS_SHORTAGE_PENALTY_DECREASE_SPEED = 0.05  						# Goods shortage penalty goes down by this fraction of GOODS_SHORTAGE_PENALTY_MAX each day
 	GOODS_SHORTAGE_PENALTY_MIN = 0.01			# Goods shortage penalty can't be lower than this if there is any shortage
 	

@@ -8,6 +8,7 @@
 - Нефтяная промышленность
 - Пластмассы
 - Синтетическая резина
+- Политическое влияние военно-промышленного комплекса
 - Сахарозаменители
 - Улучшенное авто-расширение
 - Полезный китобойный промысел
@@ -27,6 +28,7 @@
 [img]https://i.imgur.com/4KTCuuj.png[/img]
 [b]Китайская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url] (создано сообществом)
 [b]Корейская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (создано сообществом)
+[b]Японская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url] (создано сообществом)
 Мод создан для версии игры [b]v1.6.2[/b]
 
 [h2]Совместимость с картами![/h2]
@@ -35,17 +37,16 @@ Industry Expanded теперь совместим с модами, меняющими данные карты:
 Всё, что от вас требуется для совместимости - поставить IEX [b]ВЫШЕ[/b] мода на карту в порядке загрузки.
 
 [h2]Совместимость с модами[/h2]
-[b]Помните, что некоторые патчи могут быть не обновлены и могут сломать игру![/b]
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2889925770]Morgenrote[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]патч совместимости[/url].
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3249228964]Anbeeld's Stockpile Economy[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]патч совместимости[/url].
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3249216882]I.R.O.N. - improved mining[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]патч совместимости[/url].
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]Victoria Tweaks Mod[/url]: [i]должен[/i] работать нормально (IEX нужно поставить [b]ниже[/b] в порядке загрузки).
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3105695948]Power Plants+[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]патч совместимости[/url].
-- [url=https://steamcommunity.com/workshop/filedetails/?id=2932134122]Better Politics Mod[/url]: требуется [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]патч совместимости[/url].
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]: Не совместим.
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3099941455]Modern borders 1.5[/url]: Совместим.
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3118003368]Divergences[/url]: Некоторые медные месторождения пропали, в остальном [i]вроде[/i] совместим.
-Не рекомендуется использовать с модами, изменяющими методы производства, технологии или постройки.
+[b]Существующие патчи совместимости о которых я в курсе:[/b]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Industry Expanded & Morgenrote Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]IEX + ASE Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]Compatch[/url][/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Power Plants Plus & Industry Expanded Compatibility Patch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Industry Expanded & Better Politics Mod Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3254346454]LLWA + MR + IEX +E&F Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3268981751&searchtext=iex]VC + IEX 10.5 compatch[/url]
+Пожалуйста, помните, что я не ответственнен ни за один из этих патчей совместимости. Если у вас возникнут какие-либо проблемы, свяжитесь с их авторами.
+Не рекомендуется использовать с модами, изменяющими постройки и методы производства.
 
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
 
@@ -58,5 +59,4 @@ Industry Expanded теперь совместим с модами, меняющими данные карты:
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3208201549]Keep Your Powder Dry[/url]
 

@@ -475,7 +475,7 @@
  
  pm_handcrafting_paper:0 "$pm_handcrafting_main$"
  pm_workingtools_paper:0 "$pm_workingtools_main$"
- pm_watertube_paper:0 "$pm_watertube_main$"
+ pm_watertube_paper:0 "Механический пресс"
  pm_pneumatic_paper:0 "Пневматический пресс"
  pm_electric_drive_paper:0 "$pm_electric_drive_main$"
  pm_assembly_paper:0 "Автоматический пресс"
@@ -483,3 +483,16 @@
  pmg_assembly_main:0 "Метод сборки"
  pmg_assembly_paper:0 "Метод обработки"
  pmg_base_paper:0 "Основа"
+ 
+ pm_wrought_iron_cannons:0 "Чугунные орудия"
+ pm_steel_breech_loaders:0 "Стальные казнозарядные орудия"
+ 
+ pmg_assembly_artillery:0 "$pmg_assembly_main$"
+ pm_handcrafting_artillery:0 "$pm_handcrafting_main$"
+ pm_workingtools_artillery:0 "$pm_workingtools_main$"
+ pm_watertube_artillery:0 "$pm_watertube_main$"
+ pm_pneumatic_artillery:0 "$pm_pneumatic_main$"
+ pm_electric_drive_artillery:0 "$pm_electric_drive_main$"
+ pm_assembly_artillery:0 "$pm_assembly_main$"
+ 
+ MILITARY_INDUSTRIES_POTENTIAL:0 "Владение военно-промышленными строениями"

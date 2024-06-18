@@ -372,7 +372,7 @@
  modifier_goods_input_fuel_add:0 "@fuel! Refined Fuel input per level"
  modifier_goods_output_fuel_mult:0 "Building @fuel! Refined Fuel output"
  modifier_goods_output_fuel_mult_desc:0 "A bonus or penalty to the amount of @fuel! output produced by buildings"
- modifier_goods_input_fuel_mult:0 "Building @fuel! Refined Fuel input"
+ modifier_goods_input_fuel_mult:0 "@fuel! Refined Fuel input"
  modifier_goods_input_fuel_mult_desc:0 "A bonus or penalty to the amount of @fuel! output consumed by buildings"
  trade_route_import_lens_option_fuel_tooltip:0 "Establish a $fuel$ import trade route"
  trade_route_export_lens_option_fuel_tooltip:0 "Establish a $fuel$ export trade route"
@@ -475,7 +475,7 @@
  
  pm_handcrafting_paper:0 "$pm_handcrafting_main$"
  pm_workingtools_paper:0 "$pm_workingtools_main$"
- pm_watertube_paper:0 "$pm_watertube_main$"
+ pm_watertube_paper:0 "Mechanical Press"
  pm_pneumatic_paper:0 "Pneumatic Press"
  pm_electric_drive_paper:0 "$pm_electric_drive_main$"
  pm_assembly_paper:0 "Automatic Press"
@@ -483,3 +483,16 @@
  pmg_assembly_main:0 "Assembly Method"
  pmg_assembly_paper:0 "Treatment Method"
  pmg_base_paper:0 "Base"
+ 
+ pm_wrought_iron_cannons:0 "Wrought Iron Cannons"
+ pm_steel_breech_loaders:0 "Steel Breech Loaders"
+ 
+ pmg_assembly_artillery:0 "$pmg_assembly_main$"
+ pm_handcrafting_artillery:0 "$pm_handcrafting_main$"
+ pm_workingtools_artillery:0 "$pm_workingtools_main$"
+ pm_watertube_artillery:0 "$pm_watertube_main$"
+ pm_pneumatic_artillery:0 "$pm_pneumatic_main$"
+ pm_electric_drive_artillery:0 "$pm_electric_drive_main$"
+ pm_assembly_artillery:0 "$pm_assembly_main$"
+ 
+ MILITARY_INDUSTRIES_POTENTIAL:0 "Military-Industrial Building Ownership"

@@ -1,4 +1,30 @@
-﻿pmg_automobile_production = {
+﻿pmg_assembly_artillery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handcrafting_artillery
+		pm_workingtools_artillery
+		pm_watertube_artillery
+		pm_pneumatic_artillery
+		pm_electric_drive_artillery
+		pm_assembly_artillery
+	}
+}
+
+pmg_foundries = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_wrought_iron_cannons
+		pm_cannons
+		pm_smoothbores
+		pm_steel_breech_loaders
+		pm_breech_loaders
+		pm_recoiled_barrels
+	}
+}
+
+pmg_automobile_production = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_automobile_production_early
@@ -25,7 +51,7 @@ pmg_automation_building_paper_mill = {
 }
 
 pmg_assembly_paper = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_handcrafting_paper
 		pm_workingtools_paper
@@ -242,5 +268,15 @@ pmg_telephones_category = {
 	production_methods = {
 		pm_telephones
 		pm_plastic_telephones
+	}
+}
+
+pmg_explosives_building_chemical_plants = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_leblanc_process
+		pm_ammonia-soda_process
+		pm_vacuum_evaporation
+		pm_brine_electrolysis
 	}
 }

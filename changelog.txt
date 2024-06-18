@@ -5,18 +5,26 @@ Production methods were reworked for most of the industrial buildings to fit the
 [i]- PM2: Base (materials used to increase the output)[/i]
 For example, now you can apply your advanced technology to produce more paper more efficiently, though you don't have any sulfur. But if you get sulfur, you can further increase your paper production efficiency.
 [h2]Other Features[/h2]
+-[b]Military-Industrial Complex:[/b] Owner pops employed in military factories (arty, small arms, munitions, shipyards) can now join Armed Forces IG, boosting its influence from military production.
+-Added an option to produce Artillery without Copper using 2 new PMs (less efficiently, though)
 -Construction efficiency debuffs in densely forested states can now be negated by researching [b]Steam Donkey[/b]
 -Construction efficiency debuffs in mountainous states can now be negated by researching [b]Dynamite[/b] and [b]Pneumatic Tools[/b].
 -Added a [b]Refining Concern[/b] company, providing buffs to Oil Refineries, Sugar Substitute Factories and Synthetic Plants.
 [h2]Tweaks[/h2]
 -Electricity is now a non-local trade good.
+-Output shortage penalty now comes if any input good is 30% above base price, rather than 50%.
 -Oil Streetlights PM now provides infrastructure.
 -Nerfed [b]Promote Social Mobility[/b] decree, but reduced authority cost.
 -Reworked Electric Streetlights PM.
+-Halved Barracks construction cost.
 -Increased base max Road Network level by 1.
 -Increased base tech spread from 25 to 40.
 -Increased university innovation output.
+-Added -10% enactment time to [b]Identification Documents[/b] tech.
 -Reduced employment of officers for earlier training methods.
+-Publicly Traded PM for [b]Distilleries[/b] is available with Pot Stills PM, not only Patent.
+-Combustion Engine Derricks PM now uses Fuel instead of Crude Oil.
+-Wine production for Distilleries is available without tech requirements.
 
 [h1]v10.5[/h1]
 -Fixed high-speed diesel trains needed electricity and didn't produce pollution.
