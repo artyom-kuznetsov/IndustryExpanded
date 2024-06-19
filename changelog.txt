@@ -7,7 +7,7 @@ For example, now you can apply your advanced technology to produce more paper mo
 [h2]Military-Industrial Complex[/h2] 
 Owner pops employed in military factories (arty, small arms, munitions, shipyards) can now join Armed Forces IG, boosting its influence from military production.
 [h2]Secondary Education[/h2]
-A new institution was added, [b]Secondary Education[/b]. You can use it to improve literacy of your pops. The institution is unlocked by a new law group, which becomes accessible after researching respective technology in the society tech tree.
+A new institution was added, [b]Secondary Education[/b]. You can use it to improve literacy of your pops. The institution is unlocked by a new law group, which becomes accessible after researching respective technology in the society tech tree. Many ideologies that should, now DO care about education system.
 [h2]Other Features[/h2]
 -Construction efficiency debuffs in densely forested states can now be negated by researching [b]Steam Donkey[/b]
 -Construction efficiency debuffs in mountainous states can now be negated by researching [b]Dynamite[/b] and [b]Pneumatic Tools[/b].
