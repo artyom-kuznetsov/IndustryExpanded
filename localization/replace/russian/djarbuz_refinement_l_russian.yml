@@ -481,7 +481,7 @@
  pm_assembly_paper:0 "Автоматический пресс"
  
  pmg_assembly_main:0 "Метод сборки"
- pmg_assembly_paper:0 "Метод обработки"
+ pmg_assembly_paper:0 "Способ обработки"
  pmg_base_paper:0 "Основа"
  
  pm_wrought_iron_cannons:0 "Чугунные орудия"
@@ -511,4 +511,8 @@
  #pm_automatic_machines Already Present
  
  modifier_goods_input_copper_mult:0 "Потребление @copper! меди"
+ 
+ pmg_distillation_fuel:0 "Способ обработки"
+ pm_synthetic_diversion:0 "Ответвление синтетической нефти"
+ pm_synthetic_oil:0 "Производство синтетической нефти"
  

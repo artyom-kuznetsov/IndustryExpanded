@@ -164,9 +164,8 @@ building_oil_refinery = {
 	}
 
 	production_method_groups = {
-		pmg_base_oil_refinery
+		pmg_distillation_fuel
 		pmg_plastics
-		pmg_petcoke
 		pmg_automation_building_solid
 		pmg_ownership_capital_building_universal
 	}

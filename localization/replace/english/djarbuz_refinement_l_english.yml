@@ -511,3 +511,7 @@
  #pm_automatic_machines Already Present
  
  modifier_goods_input_copper_mult:0 "@copper! Copper input"
+ 
+ pmg_distillation_fuel:0 "Treatment Method"
+ pm_synthetic_diversion:0 "Synthetic Oil Diversion"
+ pm_synthetic_oil:0 "Synthetic Oil Production"
