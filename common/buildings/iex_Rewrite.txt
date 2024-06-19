@@ -1,4 +1,25 @@
 ﻿
+building_textile_mills = {
+	building_group = bg_light_industry
+	texture = "gfx/interface/icons/building_icons/textile_industry.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_sewing_textile
+		pmg_fabric_textile
+		pmg_dyes_textile
+		pmg_automation_building_textile_mills
+		pmg_ownership_capital_building_universal
+	}
+	
+	required_construction = construction_cost_high
+}
+
 building_barracks = {
 	building_group = bg_army
 	recruits_combat_units = yes

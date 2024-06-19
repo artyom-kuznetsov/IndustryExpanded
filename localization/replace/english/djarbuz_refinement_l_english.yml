@@ -511,7 +511,47 @@
  #pm_automatic_machines Already Present
  
  modifier_goods_input_copper_mult:0 "@copper! Copper input"
+ modifier_goods_input_copper_mult_desc:0 "A modifier of Copper consumption by building."
  
  pmg_distillation_fuel:0 "Treatment Method"
  pm_synthetic_diversion:0 "Synthetic Oil Diversion"
  pm_synthetic_oil:0 "Synthetic Oil Production"
+ 
+ pmg_sewing_textile:0 "Sewing"
+ pm_handsewing:0 "Handsewn Clothes"
+ pm_workshops:0 "Sewing Workshops"
+ pmg_fabric_textile:0 "Fabric"
+ pm_simple_fabric:0 "Simple Fabric"
+ pmg_dyes_textile:0 "Dyes"
+ pm_dyed_clothes:0 "Dyed Clothes"
+ pm_dyed_clothes_2:0 "Dye Workshops"
+ 
+ pmg_sewing_luxury:0 "$pmg_sewing_textile$"
+ pm_handsewing_luxury:0 "$pm_handsewing$"
+ pm_workshops_luxury:0 "$pm_workshops$"
+ pmg_fabric_luxury:0 "$pmg_fabric_textile$"
+ pmg_dyes_luxury:0 "$pmg_dyes_textile$"
+ pm_dyed_clothes_luxury:0 "$pm_dyed_clothes$"
+ pm_dyed_clothes_2_luxury:0 "$pm_dyed_clothes_2$"
+ building_luxury_clothes_factories:0 "Luxury Clothes Factories"
+ pm_sewing_machines_luxury:0 "$pm_sewing_machines$"
+ pm_electric_sewing_machines_luxury:0 "$pm_electric_sewing_machines$"
+ pm_craftsman_sewing_luxury:0 "$pm_craftsman_sewing$"
+ pm_elastics_luxury:0 "$pm_elastics$"
+ 
+ secondary_education:0 "Secondary Education"
+ secondary_education_desc:0 "After finishing primary education, there are a lot of professions to study."
+ institution_schools:0 "Primary Education"
+ institution_schools_2:0 "Secondary Education"
+ institution_schools_2_desc:0 "The nation's secondary school system, ensuring growth in literacy."
+ 
+ law_no_secondary_education:0 "No Secondary Schools"
+ law_no_secondary_education_desc:0 "We don't have any schools to improve qualifications."
+ law_privately_funded_secondary_education:0 "Privately Funded Secondary Education"
+ law_privately_funded_secondary_education_desc:0 "Wealthy citizens can acquire better degrees in secondary schools."
+ law_state_funded_secondary_education:0 "State Funded Secondary Education"
+ law_state_funded_secondary_education_desc:0 "Colleges and universities are open for anyone eager to study."
+ lawgroup_secondary_education:0 "Secondary Education"
+ modifier_country_institution_schools_2_max_investment_add:0 "Max $institution_schools_2$ [concept_institution] Investment"
+ modifier_country_institution_schools_2_max_investment_add_desc:0 "A bonus or penalty to the maximum investment level of the $institution_schools_2$ [concept_institution]"
+ 

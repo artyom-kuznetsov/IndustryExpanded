@@ -6,6 +6,8 @@ Production methods were reworked for many industrial buildings to fit the follow
 For example, now you can apply your advanced technology to produce more paper more efficiently, though you don't have any sulfur. But if you get sulfur, you can further increase your paper production efficiency.
 [h2]Military-Industrial Complex[/h2] 
 Owner pops employed in military factories (arty, small arms, munitions, shipyards) can now join Armed Forces IG, boosting its influence from military production.
+[h2]Secondary Education[/h2]
+A new institution was added, [b]Secondary Education[/b]. You can use it to improve literacy of your pops. The institution is unlocked by a new law group, which becomes accessible after researching respective technology in the society tech tree.
 [h2]Other Features[/h2]
 -Construction efficiency debuffs in densely forested states can now be negated by researching [b]Steam Donkey[/b]
 -Construction efficiency debuffs in mountainous states can now be negated by researching [b]Dynamite[/b] and [b]Pneumatic Tools[/b].
@@ -13,6 +15,7 @@ Owner pops employed in military factories (arty, small arms, munitions, shipyard
 -Reworked Machine Parts Factories, added 2 new PMs - Simplified Machines and Compact Machines. Can now be produced without Copper.
 -Added an option to produce Artillery without Copper using 2 new PMs (less efficiently than WITH)
 -Oil Refineries now have option to produce synthetic oil only.
+-Added Luxury Clothes Factories as a seperate building. Completely reworked textile mills.
 [h2]Tweaks[/h2]
 -Electricity is now a non-local trade good.
 -Output shortage penalty now comes if any input good is 30% above base price, rather than 50%.

@@ -511,8 +511,47 @@
  #pm_automatic_machines Already Present
  
  modifier_goods_input_copper_mult:0 "Потребление @copper! меди"
+ modifier_goods_input_copper_mult_desc:0 "Модификатор потребления меди постройкой."
  
  pmg_distillation_fuel:0 "Способ обработки"
  pm_synthetic_diversion:0 "Ответвление синтетической нефти"
  pm_synthetic_oil:0 "Производство синтетической нефти"
+ 
+ pmg_sewing_textile:0 "Шитьё"
+ pm_handsewing:0 "Ручное шитьё"
+ pm_workshops:0 "Ткацкие мастерские"
+ pmg_fabric_textile:0 "Ткани"
+ pm_simple_fabric:0 "Простые ткани"
+ pmg_dyes_textile:0 "Красители"
+ pm_dyed_clothes:0 "Применение красителей"
+ pm_dyed_clothes_2:0 "Красильные мастерские"
+ 
+ pmg_sewing_luxury:0 "$pmg_sewing_textile$"
+ pm_handsewing_luxury:0 "$pm_handsewing$"
+ pm_workshops_luxury:0 "$pm_workshops$"
+ pmg_fabric_luxury:0 "$pmg_fabric_textile$"
+ pmg_dyes_luxury:0 "$pmg_dyes_textile$"
+ pm_dyed_clothes_luxury:0 "$pm_dyed_clothes$"
+ pm_dyed_clothes_2_luxury:0 "$pm_dyed_clothes_2$"
+ building_luxury_clothes_factories:0 "Фабрики роскошной одежды"
+ pm_sewing_machines_luxury:0 "$pm_sewing_machines$"
+ pm_electric_sewing_machines_luxury:0 "$pm_electric_sewing_machines$"
+ pm_craftsman_sewing_luxury:0 "$pm_craftsman_sewing$"
+ pm_elastics_luxury:0 "$pm_elastics$"
+ 
+ secondary_education:0 "Специальное образование"
+ secondary_education_desc:0 "После окончания основного образования, в мире полно профессий, которые можно постигнуть."
+ institution_schools:0 "Основное образование"
+ institution_schools_2:0 "Специальное образование"
+ institution_schools_2_desc:0 "Национальная система среднего образования, обеспечивающая рост грамотности."
+ 
+ law_no_secondary_education:0 "Нет специального образования"
+ law_no_secondary_education_desc:0 "У нас нет никаких учебных заведений по повышению квалификации."
+ law_privately_funded_secondary_education:0 "Частные училища"
+ law_privately_funded_secondary_education_desc:0 "Состоятельные граждане могут получить высшее образование в средних школах."
+ law_state_funded_secondary_education:0 "Всеобщее специальное образование"
+ law_state_funded_secondary_education_desc:0 "Колледжи и университеты открыты для всех, кто хочет учиться."
+ lawgroup_secondary_education:0 "Специальное образование"
+ modifier_country_institution_schools_2_max_investment_add:0 "к максимальным вложениям в [Concept('concept_institution', 'институт')] «$institution_schools_2$»"
+ modifier_country_institution_schools_2_max_investment_add_desc:0 "Бонус или штраф к максимальному уровню [Concept('concept_institution', 'института')] «$institution_schools_2$»."
  

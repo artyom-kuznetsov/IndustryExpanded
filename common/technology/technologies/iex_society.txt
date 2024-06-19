@@ -31,6 +31,7 @@ urban_planning = {
 		country_max_weekly_construction_progress_add = 5
 		market_land_trade_capacity_add = 10
 		state_building_road_network_max_level_add = 2
+		state_market_access_price_impact = 0.02
 	}
 	
 	unlocking_technologies = {
@@ -196,7 +197,7 @@ corporate_charters = {
 	
 	modifier = {
 		country_max_companies_add = 1
-		state_market_access_price_impact = 0.025
+		state_market_access_price_impact = 0.02
 	}	
 	
 	unlocking_technologies = {
@@ -471,7 +472,7 @@ stone_roads = {
 	
 	modifier = {
 		state_building_road_network_max_level_add = 1
-		state_market_access_price_impact = 0.025
+		state_market_access_price_impact = 0.02
 	}
 	
 	unlocking_technologies = {
@@ -581,7 +582,7 @@ joint_stock_companies = {
 	modifier = {
 		country_max_companies_add = 1
 		state_urbanization_per_level_mult = -0.1
-		state_market_access_price_impact = 0.025
+		state_market_access_price_impact = 0.02
 	}	
 	
 	unlocking_technologies = {
@@ -610,7 +611,28 @@ dialectics = {
 	}
 	
 	ai_weight = {
-		value = 2
+		value = 5
+	}
+}
+
+secondary_education = {
+	# Unlocks Philosophy Department PM in Universities
+	
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/secondary_education.dds"
+	category = society
+	
+	modifier = {
+		state_education_access_wealth_add = 0.005
+		country_institution_schools_2_max_investment_add = 2
+	}
+	
+	unlocking_technologies = {
+		dialectics
+	}
+	
+	ai_weight = {
+		value = 5
 	}
 }
 
@@ -762,7 +784,7 @@ postal_savings = {
 		state_farmers_investment_pool_efficiency_mult = 0.15
 		state_shopkeepers_investment_pool_efficiency_mult = 0.15
 		building_cash_reserves_mult = 0.2
-		state_market_access_price_impact = 0.025
+		state_market_access_price_impact = 0.02
 	}
 	
 	unlocking_technologies = {
@@ -1134,7 +1156,7 @@ investment_banks = {
 	modifier = {
 		country_max_companies_add = 1
 		state_urbanization_per_level_mult = -0.15
-		state_market_access_price_impact = 0.025
+		state_market_access_price_impact = 0.02
 	}	
 	
 	unlocking_technologies = {
@@ -1175,11 +1197,12 @@ philosophical_pragmatism = {
 	modifier = {
 		country_influence_mult = 0.1
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
-		state_assimilation_mult = 0.1
+		country_institution_schools_2_max_investment_add = 1
 	}
 	
 	unlocking_technologies = {
 		psychiatry
+		secondary_education
 	}
 	
 	ai_weight = {
@@ -1239,7 +1262,7 @@ zeppelins = {
 	category = society
 	
 	modifier = {
-		state_market_access_price_impact = 0.025
+		state_market_access_price_impact = 0.02
 	}
 	
 	unlocking_technologies = {
@@ -1537,7 +1560,7 @@ macroeconomics = {
 	
 	modifier = {
 		country_max_companies_add = 1
-		state_market_access_price_impact = 0.025
+		state_market_access_price_impact = 0.02
 	}
 	
 	unlocking_technologies = {
@@ -1558,6 +1581,7 @@ behaviorism = {
 	modifier = {
 		country_influence_mult = 0.1
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
+		country_institution_schools_2_max_investment_add = 1
 	}
 	
 	unlocking_technologies = {
@@ -1576,6 +1600,10 @@ analytical_philosophy = {
 	
 	unlocking_technologies = {
 		psychoanalysis
+	}
+	
+	modifier = {
+		country_institution_schools_2_max_investment_add = 1
 	}
 	
 	ai_weight = {

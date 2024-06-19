@@ -948,10 +948,10 @@
 				activate_production_methods={ "pm_forest_glass" "pm_ceramics" "pm_manual_glassblowing" "pm_merchant_guilds_building_glassworks" }
 			}
 			create_building={
-				building="building_textile_mills"
+				building="building_luxury_clothes_factories"
 				level=8
 				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_craftsman_sewing" "pm_traditional_looms" "pm_merchant_guilds_building_textile_mills" }
+				activate_production_methods={ "pm_dyed_clothes_luxury" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_craftsman_sewing_luxury" }
 			}
 			create_building={
 				building="building_tea_plantation"

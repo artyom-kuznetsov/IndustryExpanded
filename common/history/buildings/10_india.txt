@@ -122,10 +122,10 @@
 				activate_production_methods={ "pm_wooden_buildings" }
 			}
 			create_building={
-				building="building_textile_mills"
+				building="building_luxury_clothes_factories"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
+				activate_production_methods={ "pm_dyed_clothes_luxury" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_craftsman_sewing_luxury" }
 			}
 			create_building={
 				building="building_lumber_mill"

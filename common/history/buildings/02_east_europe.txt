@@ -84,10 +84,10 @@
 				activate_production_methods={ "pm_scholastic_education" "pm_religious_academia" }
 			}
 			create_building={
-				building="building_textile_mills"
+				building="building_luxury_clothes_factories"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_handsewn_clothes" "pm_merchant_guilds_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
+				activate_production_methods={ "pm_dyed_clothes_luxury" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_craftsman_sewing_luxury" }
 			}
 			create_building={
 				building="building_furniture_manufacturies"
@@ -615,7 +615,7 @@
 				building="building_textile_mills"
 				level=8
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_universal" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -727,7 +727,7 @@
 				building="building_textile_mills"
 				level=2
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_universal" }
 			}
 			create_building={
 				building="building_logging_camp"

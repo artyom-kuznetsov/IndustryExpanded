@@ -1,4 +1,59 @@
-﻿pmg_assembly_artillery = {
+﻿pmg_sewing_luxury = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handsewing_luxury
+		pm_workshops_luxury
+		pm_sewing_machines_luxury
+		pm_electric_sewing_machines_luxury
+	}
+}
+
+pmg_fabric_luxury = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_craftsman_sewing_luxury
+		pm_elastics_luxury
+	}
+}
+
+pmg_dyes_luxury = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_dye
+		pm_dyed_clothes_luxury
+		pm_dyed_clothes_2_luxury
+	}
+}
+
+pmg_sewing_textile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handsewing
+		pm_workshops
+		pm_sewing_machines
+		pm_electric_sewing_machines
+	}
+}
+
+pmg_fabric_textile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_fabric
+		pm_craftsman_sewing
+		pm_elastics
+	}
+}
+
+pmg_dyes_textile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_dye
+		pm_dyed_clothes
+		pm_dyed_clothes_2
+	}
+}
+
+pmg_assembly_artillery = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_handcrafting_artillery
@@ -11,7 +66,7 @@
 }
 
 pmg_foundries = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 
 	production_methods = {

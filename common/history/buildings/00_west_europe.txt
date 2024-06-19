@@ -565,9 +565,15 @@
 			}
 			create_building={
 				building="building_textile_mills"
-				level=23
+				level=11
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_privately_owned_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
+				activate_production_methods={ "pm_dye_workshops" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_craftsman_sewing" }
+			}
+			create_building={
+				building="building_luxury_clothes_factories"
+				level=12
+				reserves=1
+				activate_production_methods={ "pm_dyed_clothes_luxury" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_craftsman_sewing_luxury" }
 			}
 			create_building={
 				building="building_shipyards"
@@ -629,9 +635,15 @@
 			}
 			create_building={
 				building="building_textile_mills"
-				level=20
+				level=10
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_universal" }
+			}
+			create_building={
+				building="building_luxury_clothes_factories"
+				level=10
+				reserves=1
+				activate_production_methods={ "pm_dyed_clothes_luxury" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_craftsman_sewing_luxury" }
 			}
 			create_building={
 				building="building_construction_sector"
@@ -753,7 +765,7 @@
 				building="building_textile_mills"
 				level=8
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_privately_owned_building_textile_mills" "pm_traditional_looms" "pm_no_luxury_clothes" }
+				activate_production_methods={ "pm_dye_workshops" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_no_luxury_clothes" }
 			}
 			create_building={
 				building="building_steel_mills"
@@ -849,9 +861,15 @@
 			}
 			create_building={
 				building="building_textile_mills"
-				level=22
+				level=10
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_privately_owned_building_textile_mills" "pm_traditional_looms" "pm_no_luxury_clothes" }
+				activate_production_methods={ "pm_dye_workshops" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_no_luxury_clothes" }
+			}
+			create_building={
+				building="building_luxury_clothes_factories"
+				level=12
+				reserves=1
+				activate_production_methods={ "pm_dyed_clothes_luxury" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_craftsman_sewing_luxury" }
 			}
 			create_building={
 				building="building_artillery_foundries"
@@ -1027,7 +1045,7 @@
 				building="building_textile_mills"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_privately_owned_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
+				activate_production_methods={ "pm_dye_workshops" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
 			create_building={
 				building="building_shipyards"
@@ -1339,7 +1357,7 @@
 				building="building_textile_mills"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_privately_owned_building_textile_mills" "pm_traditional_looms" "pm_craftsman_sewing" }
+				activate_production_methods={ "pm_dye_workshops" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_craftsman_sewing" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -1403,7 +1421,7 @@
 				building="building_textile_mills"
 				level=8
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_universal" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -1486,10 +1504,10 @@
 				activate_production_methods={ "pm_vertical_filing_cabinets" "pm_professional_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
-				building="building_textile_mills"
+				building="building_luxury_clothes_factories"
 				level=7
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_dyed_clothes_luxury" "pm_privately_owned_building_universal" "pm_traditional_looms" "pm_craftsman_sewing_luxury" }
 			}
 			create_building={
 				building="building_paper_mills"
@@ -1605,7 +1623,7 @@
 				building="building_textile_mills"
 				level=5
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_universal" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -1701,7 +1719,7 @@
 				building="building_textile_mills"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_dye_workshops" "pm_craftsman_sewing" "pm_traditional_looms" "pm_privately_owned_building_universal" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -2067,7 +2085,7 @@
 				building="building_textile_mills"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_craftsman_sewing" "pm_dye_workshops" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_craftsman_sewing" "pm_dye_workshops" "pm_traditional_looms" "pm_privately_owned_building_universal" }
 			}
 			create_building={
 				building="building_food_industry"
@@ -2331,7 +2349,7 @@
 				building="building_textile_mills"
 				level=4
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_universal" }
 			}
 			create_building={
 				building="building_furniture_manufacturies"
@@ -2933,7 +2951,7 @@
 				building="building_textile_mills"
 				level=3
 				reserves=1
-				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_textile_mills" }
+				activate_production_methods={ "pm_dye_workshops" "pm_no_luxury_clothes" "pm_traditional_looms" "pm_privately_owned_building_universal" }
 			}
 			create_building={
 				building="building_coal_mine"
