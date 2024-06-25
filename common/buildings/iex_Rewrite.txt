@@ -5,6 +5,8 @@ building_textile_mills = {
 	city_type = city
 	levels_per_mesh = 5
 	
+	ai_nationalization_desire = -0.25 # AI is generally fine with privatizing consumer goods industries
+	
 	unlocking_technologies = {
 		manufacturies
 	}
@@ -18,6 +20,9 @@ building_textile_mills = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_barracks = {
@@ -39,6 +44,8 @@ building_barracks = {
 	}
 
 	required_construction = construction_cost_50
+	
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_military.dds"
 }
 
 building_rice_farm = {
@@ -58,12 +65,14 @@ building_rice_farm = {
 		pmg_secondary_building_rice_farm
 		pmg_auto_hauling_plantation
 		pmg_harvesting_process_building_rice_farm
-		pmg_ownership_land_building_rice_farm
 	}
 
 	required_construction = construction_cost_low
 	
 	terrain_manipulator = farmland_rice
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 building_construction_sector = {
@@ -84,6 +93,8 @@ building_construction_sector = {
 	}
 	
 	ai_value = 2000 # Construction sector should generally be preferred over other equal-priority spending items
+	
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 building_logging_camp = {
@@ -96,11 +107,12 @@ building_logging_camp = {
 
 	production_method_groups = {
 		pmg_base_building_logging_camp
-		#pmg_hardwood
 		pmg_equipment
 		pmg_transportation_building_logging_camp
-		pmg_ownership_capital_building_logging_camp
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
 
 building_electrics_industry = {
@@ -117,7 +129,6 @@ building_electrics_industry = {
 		pmg_telephones_category
 		pmg_radios_category
 		pmg_automation_building_lategame_industry
-		pmg_ownership_capital_building_electrics_industry
 	}
 	
 	required_construction = construction_cost_very_high
@@ -132,6 +143,9 @@ building_electrics_industry = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_synthetics_plants = {
@@ -149,7 +163,6 @@ building_synthetics_plants = {
 		pmg_synthetic_silk
 		pmg_synthetic_rubber
 		pmg_automation_building_solid
-		pmg_ownership_capital_building_synthetics_plants
 	}
 	
 	required_construction = construction_cost_high
@@ -164,6 +177,9 @@ building_synthetics_plants = {
 			}
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_food_industry = {
@@ -181,7 +197,6 @@ building_food_industry = {
 		pmg_food_secondary
 		pmg_canning
 		pmg_automation_building_food_industry
-		pmg_ownership_capital_building_food_industry
 	}
 
 	should_auto_expand = { 
@@ -201,6 +216,9 @@ building_food_industry = {
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 	
 }
 
@@ -218,7 +236,6 @@ building_explosives_factory = {
 	production_method_groups = {
 		pmg_explosives_building_chemical_plants
 		pmg_automation_building_solid
-		pmg_ownership_capital_building_explosives_factory
 	}
 
 	required_construction = construction_cost_very_high
@@ -240,15 +257,13 @@ building_explosives_factory = {
 	}
 	
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = { 
-					NOT = { has_law = law_type:law_industry_banned } 
-				}
-			}
+		owner = {
+			NOT = { has_law = law_type:law_industry_banned } 
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_chemical_plants = {
@@ -272,15 +287,13 @@ building_chemical_plants = {
 	required_construction = construction_cost_very_high
 
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = { 
-					NOT = { has_law = law_type:law_industry_banned } 
-				}
-			}
+		owner = {
+			NOT = { has_law = law_type:law_industry_banned } 
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_paper_mills = {
@@ -313,10 +326,12 @@ building_paper_mills = {
 	production_method_groups = {
 		pmg_assembly_paper
 		pmg_base_paper
-		pmg_ownership_capital_building_universal
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_motor_industry = {
@@ -333,7 +348,6 @@ building_motor_industry = {
 		pmg_base_building_motor_industry
 		#pmg_automobile_production
 		pmg_automation_building_industry
-		pmg_ownership_capital_building_motor_industry
 	}
 	
 	required_construction = construction_cost_very_high
@@ -355,15 +369,13 @@ building_motor_industry = {
 	}
 
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = { 
-					NOT = { has_law = law_type:law_industry_banned } 
-				}
-			}
+		owner = {
+			NOT = { has_law = law_type:law_industry_banned }
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_tooling_workshops = {
@@ -396,12 +408,14 @@ building_tooling_workshops = {
 	production_method_groups = {
 		pmg_base_building_tooling_workshops
 		pmg_automation_building_industry
-		pmg_ownership_capital_building_tooling_workshops
 	}
 
 	required_construction = construction_cost_high
 	
 	ai_value = 2000 # Tools are very important
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_munition_plants = {
@@ -417,7 +431,6 @@ building_munition_plants = {
 	production_method_groups = {
 		pmg_base_building_munition_plants
 		pmg_automation_building_industry
-		pmg_ownership_capital_building_munition_plants
 	}
 	
 	should_auto_expand = { 
@@ -439,15 +452,13 @@ building_munition_plants = {
 	required_construction = construction_cost_very_high
 
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = { 
-					NOT = { has_law = law_type:law_industry_banned } 
-				}
-			}
+		owner = {
+			NOT = { has_law = law_type:law_industry_banned } 
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_furniture_manufacturies = {
@@ -464,10 +475,12 @@ building_furniture_manufacturies = {
 		pmg_base_building_furniture_manufacturies
 		pmg_luxury_building_furniture_manufacturies
 		pmg_automation_building_industry
-		pmg_ownership_capital_building_furniture_manufacturies
 	}
 
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }
 
 building_arms_industry = {
@@ -499,10 +512,12 @@ building_arms_industry = {
 	production_method_groups = {
 		pmg_firearms_manufacturing
 		pmg_automation_building_industry
-		pmg_ownership_capital_building_arms_industry
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_artillery_foundries = {
@@ -534,10 +549,12 @@ building_artillery_foundries = {
 	production_method_groups = {
 		pmg_assembly_artillery
 		pmg_foundries
-		pmg_ownership_capital_building_universal
 	}
 	
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_steel_mills = {
@@ -553,7 +570,6 @@ building_steel_mills = {
 	production_method_groups = {
 		pmg_steelmaking_process
 		pmg_automation_building_industry
-		pmg_ownership_capital_building_steel_mills
 	}
 	
 	required_construction = construction_cost_very_high
@@ -575,15 +591,13 @@ building_steel_mills = {
 	}
 	
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = { 
-					NOT = { has_law = law_type:law_industry_banned } 
-				}
-			}
+		owner = {
+			NOT = { has_law = law_type:law_industry_banned } 
 		}
 	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
 building_power_plant = {
@@ -600,7 +614,6 @@ building_power_plant = {
 	production_method_groups = {
 		pmg_base_building_power_plant
 		pmg_automation_building_power_plant
-		pmg_ownership_capital_building_power_plant
 	}
 	
 	required_construction = construction_cost_very_high
@@ -624,15 +637,14 @@ building_power_plant = {
 	}
 	
 	possible = {
-		error_check = {
-			severity = fail
-			this = {
-				owner = { 
-					NOT = { has_law = law_type:law_industry_banned } 
-				}
-			}
+		owner = {
+			NOT = { has_law = law_type:law_industry_banned } 
 		}
 	}
+	
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
 }
 
 
@@ -648,7 +660,6 @@ building_shipyards = {
 	production_method_groups = {
 		pmg_base_building_shipyards
 		pmg_automation_building_shipyard
-		pmg_ownership_capital_building_shipyards
 	}
 
 	should_auto_expand = { 
@@ -670,11 +681,11 @@ building_shipyards = {
 	required_construction = construction_cost_high
 	
 	possible = {
-		error_check = {
-			severity = fail
-			is_coastal = yes
-		}
-	}	
+		is_coastal = yes
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_harbour.dds"
 }
 
 building_military_shipyards = {
@@ -689,7 +700,6 @@ building_military_shipyards = {
 	production_method_groups = {
 		pmg_military_base
 		pmg_automation_building_shipyard
-		pmg_ownership_capital_building_military_shipyards
 	}
 
 	should_auto_expand = { 
@@ -711,11 +721,11 @@ building_military_shipyards = {
 	required_construction = construction_cost_very_high
 	
 	possible = {
-		error_check = {
-			severity = fail
-			is_coastal = yes
-		}
-	}	
+		is_coastal = yes
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_harbour.dds"
 }
 
 building_glassworks = {
@@ -751,4 +761,7 @@ building_glassworks = {
 
 	}
 	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
 }

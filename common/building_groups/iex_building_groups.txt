@@ -2,6 +2,7 @@
 	parent_group = bg_agriculture
 	cash_reserves_max = 25000
 	always_possible = yes
+	foreign_investment_ai_factor = 0.1
 }
 
 bg_copper_mining = {
@@ -33,6 +34,7 @@ bg_copper_mining = {
 	default_building = building_copper_mine
 	
 	always_possible = yes
+	foreign_investment_ai_factor = 1.0
 }
 
 bg_mining = {
@@ -56,4 +58,5 @@ bg_mining = {
 	}
 	
 	economy_of_scale_ai_factor = 2.0
+	foreign_investment_ai_factor = 1.0
 }
