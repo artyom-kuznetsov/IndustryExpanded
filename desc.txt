@@ -27,7 +27,7 @@ It happens because of "map-compatibility" measures and I have not found a way to
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
 [b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (Community-made)
 [b]Japanese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url] (Community-made)
-Mod is made for game version [b]v1.6.2[/b]
+Mod is made for game version [b]v1.7.5[/b]
 
 [h2]Map-Compatible![/h2]
 Industry Expanded is now compatible with mods that change map data:

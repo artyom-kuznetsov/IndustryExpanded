@@ -1,5 +1,5 @@
 [h1]v11.0[/h1]
-[h2]Global Industry Rework[/h2]
+[h2]Industry Rework[/h2]
 Production methods were reworked for some industrial buildings to fit the following scheme:
 [i]- PM1: Assembly Method (tools, equipment, power and additional materials used to manufacture the good)[/i]
 [i]- PM2: Base (materials used for the main output)[/i]
