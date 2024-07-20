@@ -114,7 +114,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_hardwood" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
@@ -191,7 +191,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -364,7 +364,7 @@
 					building={
 						type="building_financial_district"
 						country="c:SWE"
-						levels=3
+						levels=2
 						region="STATE_NORRLAND"
 					}
 				}
@@ -383,6 +383,19 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_fishing_trawlers" "pm_unrefrigerated"  }
+			}
+			create_building={
+				building="building_lumber_mill"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:RUS"
+						levels=1
+						region="STATE_MOSCOW"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_manual_sawing_lm" }
 			}
 		}
 	}
@@ -588,7 +601,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_tooling_workshops"
@@ -657,7 +670,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_port"
@@ -743,7 +756,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -1278,7 +1291,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_port"
@@ -1494,7 +1507,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_whaling_station"
@@ -2167,7 +2180,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -2311,7 +2324,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_port"
@@ -2972,7 +2985,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_coal_mine"
@@ -3094,7 +3107,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_munition_plants"
@@ -3298,7 +3311,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -3515,7 +3528,7 @@
 					building={
 						type="building_financial_district"
 						country="c:FRA"
-						levels=2
+						levels=1
 						region="STATE_AUVERGNE_LIMOUSIN"
 					}
 					building={
@@ -3526,7 +3539,20 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_lumber_mill"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:FRA"
+						levels=2
+						region="STATE_AUVERGNE_LIMOUSIN"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_manual_sawing_lm" }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -3603,7 +3629,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -3708,7 +3734,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_iron_mine"
@@ -3795,7 +3821,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_vineyard_plantation"
@@ -3970,7 +3996,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
@@ -4006,7 +4032,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -4423,7 +4449,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_simple_forestry" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -4618,7 +4644,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_railway"
@@ -4773,7 +4799,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_fishing_wharf"
@@ -4989,6 +5015,19 @@
 				activate_production_methods={ "pm_horizontal_drawer_cabinets" "pm_hereditary_bureaucrats" "pm_religious_bureaucrats" }
 			}
 			create_building={
+				building="building_lumber_mill"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:AUS"
+						levels=4
+						region="STATE_AUSTRIA"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_manual_sawing_lm" }
+			}
+			create_building={
 				building="building_arms_industry"
 				add_ownership={
 					building={
@@ -5073,25 +5112,6 @@
 				}
 				reserves=1
 				activate_production_methods={ "pm_atmospheric_engine_pump_building_iron_mine" "pm_no_explosives" "pm_no_steam_automation" "pm_road_carts"  }
-			}
-			create_building={
-				building="building_logging_camp"
-				add_ownership={
-					building={
-						type="building_logging_camp"
-						country="c:AUS"
-						levels=2
-						region="STATE_BOHEMIA"
-					}
-					building={
-						type="building_financial_district"
-						country="c:AUS"
-						levels=1
-						region="STATE_AUSTRIA"
-					}
-				}
-				reserves=1
-				activate_production_methods={ "pm_hardwood" "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -5185,7 +5205,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_wheat_farm"
@@ -5393,7 +5413,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_port"
@@ -5510,7 +5530,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" }
 			}
 		}
 	}
@@ -5821,12 +5841,25 @@
 					building={
 						type="building_financial_district"
 						country="c:PRU"
-						levels=5
+						levels=2
 						region="STATE_ANHALT"
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
+			}
+			create_building={
+				building="building_lumber_mill"
+				add_ownership={
+					building={
+						type="building_manor_house"
+						country="c:PRU"
+						levels=3
+						region="STATE_ANHALT"
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_manual_sawing_lm" }
 			}
 			create_building={
 				building="building_rye_farm"
@@ -6240,7 +6273,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 		region_state:LUB={
@@ -6421,7 +6454,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 		region_state:HOH={
@@ -6525,7 +6558,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
@@ -6813,7 +6846,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}
@@ -6918,7 +6951,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" }
 			}
 		}
 	}
@@ -7318,7 +7351,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 		region_state:NAS={
@@ -7359,7 +7392,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 		region_state:WLD={
@@ -7635,7 +7668,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 		}
 	}

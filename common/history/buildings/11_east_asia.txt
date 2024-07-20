@@ -189,7 +189,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_opium_plantation"
@@ -588,7 +588,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -618,7 +618,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_saw_mills"  "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_livestock_ranch"
@@ -1703,7 +1703,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_saw_mills" "pm_hardwood" "pm_no_equipment" "pm_road_carts"  }
+				activate_production_methods={ "pm_saw_mills" "pm_no_equipment" "pm_road_carts"  }
 			}
 			create_building={
 				building="building_rice_farm"
@@ -2991,7 +2991,7 @@
 					}
 				}
 				reserves=1
-				activate_production_methods={ "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" "pm_hardwood" }
+				activate_production_methods={ "pm_simple_forestry"  "pm_no_equipment" "pm_road_carts" }
 			}
 			create_building={
 				building="building_livestock_ranch"
