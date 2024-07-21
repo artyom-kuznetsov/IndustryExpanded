@@ -131,6 +131,7 @@ building_luxury_clothes_factories_throughput_add = {
 }
 
 goods_input_fuel_mult = {
+	decimals=0
 	color=bad
 	percent = yes
 	game_data={
@@ -139,6 +140,7 @@ goods_input_fuel_mult = {
 }
 
 goods_output_fuel_mult = {
+	decimals=0
 	color=good
 	percent = yes
 	game_data={
