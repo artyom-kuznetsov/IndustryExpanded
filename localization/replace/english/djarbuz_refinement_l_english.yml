@@ -561,3 +561,4 @@
  iron:0 "Metals"
  steel:0 "Alloys"
  building_iron_mine:0 "Metal Mines"
+ building_steel_mills:0 "Alloy Foundries"
