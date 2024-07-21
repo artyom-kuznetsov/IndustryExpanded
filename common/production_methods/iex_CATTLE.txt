@@ -216,7 +216,7 @@ pm_electric_fencing = {
 		}
 	}
 
-	required_input_goods = electricity
+	
 }
 
 pm_unrefrigerated = {
@@ -240,7 +240,7 @@ pm_refrigerated_storage_building_livestock_ranch = {
 		}
 	}
 
-	required_input_goods = electricity
+	
 }
 
 pm_refrigerated_rail_cars_building_livestock_ranch = {
@@ -261,5 +261,5 @@ pm_refrigerated_rail_cars_building_livestock_ranch = {
 		}
 	}
 
-	required_input_goods = electricity
+	
 }

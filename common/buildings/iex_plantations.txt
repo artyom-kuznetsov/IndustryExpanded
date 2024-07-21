@@ -107,16 +107,10 @@ building_opium_plantation = {
 	}
 	
 	can_build_government = {
-		error_check = {
-			severity = fail
-			owner = { NOT = { is_banning_goods = g:opium } }
-		}
+		owner = { NOT = { is_banning_goods = g:opium } }
 	}
 	can_build_private = {
-		error_check = {
-			severity = fail
-			owner = { NOT = { is_banning_goods = g:opium } }
-		}
+		owner = { NOT = { is_banning_goods = g:opium } }
 	}	
 	ownership_type = self
 

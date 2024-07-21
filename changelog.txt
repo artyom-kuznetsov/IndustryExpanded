@@ -1,3 +1,10 @@
+[h1]v11.1[/h1]
+-Removed ownership PMGs from buildings where they remained.
+-Fixed missing modifiers from technologies.
+-Fixed some critical errors.
+-Fixed some loc issues.
+
+
 [h1]v11.0[/h1]
 [h2]Industry Rework[/h2]
 Production methods were reworked for some industrial buildings to fit the following scheme:

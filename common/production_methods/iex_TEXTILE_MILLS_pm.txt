@@ -51,5 +51,5 @@ pm_automatic_power_looms = {
 		}
 	}
 
-	required_input_goods = electricity
+	
 }

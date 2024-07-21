@@ -161,7 +161,7 @@
  stone_roads_desc:0 "Прокладка дороги из каменных кирпичей позволяет значительно улучшить гладкость дороги и продлить срок ее службы."
  gravel_roads_desc:0 "Если вы засыплете дорогу щебнем и тщательно все утрамбуете, то получите более прочное и комфортное покрытие, чем просто земля."
  
- modifier_state_building_road_network_max_level_add:0 "к макс. уровню дорожной сети"
+ state_building_road_network_max_level_add:0 "к макс. уровню дорожной сети"
     # Military Shipyards
  building_military_shipyards:0 "Военные верфи"
  pm_military_shipbuilding_wooden:0 "Парусные линкоры"
@@ -400,7 +400,7 @@
  pm_steam_donkey_iex:0 "Паровой тягач"
  pm_hauling_trucks:0 "Перевозки грузовиками"
  
- modifier_state_building_copper_mine_max_level_add:0 "к макс. уровню медных шахт."
+ state_building_copper_mine_max_level_add:0 "к макс. уровню медных шахт."
  
  state_trait_tiny_copper_field:0 "Крошечное медное месторождение"
  state_trait_small_copper_field:0 "Маленькое медное месторождение"

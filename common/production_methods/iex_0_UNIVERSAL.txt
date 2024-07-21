@@ -173,7 +173,7 @@ pm_automation_electric_drive = {
 			building_throughput_add = 0.14
 		}
 	}
-	required_input_goods = electricity
+	
 }
 
 pm_automation_conveyor_production = {
@@ -397,82 +397,6 @@ pm_centrifuge = {
 	}
 }
 
-### OWNERSHIP ###
-
-pm_privately_owned_building_universal = {
-	texture = "gfx/interface/icons/production_method_icons/privately_owned.dds"
-
-	disallowing_laws = {
-		law_command_economy
-		law_cooperative_ownership
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_capitalists_add = 100
-		}
-		unscaled = {
-			building_capitalists_shares_add = 10
-		}
-	}
-}
-
-pm_publicly_traded_building_universal = {
-	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
-
-	unlocking_technologies = {
-		mutual_funds
-	}
-
-	disallowing_laws = {
-		law_command_economy
-		law_cooperative_ownership
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_capitalists_add = 150
-		}
-		unscaled = {
-			building_capitalists_shares_add = 10
-		}
-	}
-}
-
-pm_government_run_building_universal = {
-	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
-	
-	unlocking_laws = {
-		law_command_economy
-	}
-	
-	building_modifiers = {
-		level_scaled = {
-			building_employment_bureaucrats_add = 150
-		}
-		unscaled = {
-			building_government_shares_add = 1
-		}
-	}
-}
-
-pm_worker_cooperative_building_universal = {
-	texture = "gfx/interface/icons/production_method_icons/worker_cooperative.dds"
-
-	unlocking_laws = {
-		law_cooperative_ownership
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_shopkeepers_add = 250
-		}
-		unscaled = {
-			building_workforce_shares_add = 1
-		}
-	}
-}
-
 ### AUTOMATION CRANES ###
 
 pm_automation_no_cranes = {
@@ -549,7 +473,7 @@ pm_automation_gantry_cranes = {
 			goods_output_transportation_mult = 0.07
 		}
 	}
-	required_input_goods = electricity
+	
 }
 
 pm_automation_modern_cranes = {
@@ -654,7 +578,7 @@ pm_automation_gantry_cranes_shipyard = {
 			building_throughput_add = 0.1
 		}
 	}
-	required_input_goods = electricity
+	
 }
 
 pm_automation_modern_cranes_shipyard = {
@@ -757,7 +681,7 @@ pm_automation_gantry_cranes_3000 = {
 			building_throughput_add = 0.1
 		}
 	}
-	required_input_goods = electricity
+	
 }
 
 pm_automation_modern_cranes_3000 = {

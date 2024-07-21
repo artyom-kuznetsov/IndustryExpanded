@@ -1,4 +1,7 @@
-﻿
+﻿IEX_is_active_trigger = {
+	always = yes
+}
+
 is_densely_forested = {
 	OR = {
 		has_state_trait = state_trait_amazon_rainforest

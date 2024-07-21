@@ -107,30 +107,3 @@ pm_wine_focus = {
 		}
 	}
 }
-
-pm_publicly_traded_building_liquor = {
-	texture = "gfx/interface/icons/production_method_icons/publicly_traded.dds"
-
-	unlocking_production_methods = {
-		pm_pot_stills
-		pm_patent_stills
-	}
-	
-	disallowing_laws = {
-		law_command_economy
-		law_cooperative_ownership
-	}
-
-	unlocking_technologies = {
-		mutual_funds
-	}
-
-	building_modifiers = {
-		level_scaled = {
-			building_employment_capitalists_add = 150
-		}
-		unscaled = {
-			building_capitalists_shares_add = 10
-		}
-	}
-}

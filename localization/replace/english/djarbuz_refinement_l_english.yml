@@ -161,7 +161,7 @@
  stone_roads_desc:0 "Forming a road of stone bricks allows to significantly improve road smoothness and lenght of life."
  gravel_roads_desc:0 "If you fill up the path with rubble and mash everything thoroughly, you will get a more durable and comfortable coating than just earth."
  
- modifier_state_building_road_network_max_level_add:0 "Road Network Max Level"
+ state_building_road_network_max_level_add:0 "Road Network Max Level"
     # Military Shipyards
  building_military_shipyards:0 "Military Shipyards"
  pm_military_shipbuilding_wooden:0 "Manowars"
@@ -192,12 +192,12 @@
  pm_filtering_sulfur_mine:0 "$pm_filtering_lead_mine$"
  pm_advanced_filtering_sulfur_mine:0 "$pm_advanced_filtering_lead_mine$"
  machine_parts:0 "Machine Parts"
- modifier_goods_output_machine_parts_add:0 "@machine_parts! Machine Parts output per level"
- modifier_goods_output_machine_parts_add_desc:0 "The amount of @machine_parts! Machine Parts produced by buildings"
- modifier_goods_input_machine_parts_add_desc:0 "The amount of @machine_parts! Machine Parts consumed by buildings"
- modifier_goods_input_machine_parts_add:0 "@machine_parts! Machine Parts input per level"
- modifier_goods_output_machine_parts_mult:0 "Building @machine_parts! Machine Parts output"
- modifier_goods_output_machine_parts_mult_desc:0 "A bonus or penalty to the amount of @machine_parts! output produced by buildings"
+ goods_output_machine_parts_add:0 "@machine_parts! Machine Parts output per level"
+ goods_output_machine_parts_add_desc:0 "The amount of @machine_parts! Machine Parts produced by buildings"
+ goods_input_machine_parts_add_desc:0 "The amount of @machine_parts! Machine Parts consumed by buildings"
+ goods_input_machine_parts_add:0 "@machine_parts! Machine Parts input per level"
+ goods_output_machine_parts_mult:0 "Building @machine_parts! Machine Parts output"
+ goods_output_machine_parts_mult_desc:0 "A bonus or penalty to the amount of @machine_parts! output produced by buildings"
  trade_route_import_lens_option_machine_parts_tooltip:0 "Establish a $machine_parts$ import trade route"
  trade_route_export_lens_option_machine_parts_tooltip:0 "Establish a $machine_parts$ export trade route"
  
@@ -400,7 +400,7 @@
  pm_steam_donkey_iex:0 "Steam Donkey"
  pm_hauling_trucks:0 "Hauling Trucks"
  
- modifier_state_building_copper_mine_max_level_add:0 "Copper Mine Max Level"
+ state_building_copper_mine_max_level_add:0 "Copper Mine Max Level"
  
  state_trait_tiny_copper_field:0 "Tiny Copper Field"
  state_trait_small_copper_field:0 "Small Copper Field"
@@ -554,6 +554,6 @@
  lawgroup_secondary_education:0 "Secondary Education"
  modifier_country_institution_schools_2_max_investment_add:0 "Max $institution_schools_2$ [concept_institution] Investment"
  modifier_country_institution_schools_2_max_investment_add_desc:0 "A bonus or penalty to the maximum investment level of the $institution_schools_2$ [concept_institution]"
- modifier_building_textile_mills_throughput_add:0 "$building_luxury_clothes_factories$ building [concept_throughput]"
- modifier_building_textile_mills_throughput_add_desc:0 "A bonus or penalty to both input and output of $building_luxury_clothes_factories$"
+ modifier_building_luxury_clothes_factories_throughput_add:0 "$building_luxury_clothes_factories$ building [concept_throughput]"
+ modifier_building_luxury_clothes_factories_throughput_add_desc:0 "A bonus or penalty to both input and output of $building_luxury_clothes_factories$"
  

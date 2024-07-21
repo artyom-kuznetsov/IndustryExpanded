@@ -17,12 +17,9 @@
 	}
 
 	required_construction = construction_cost_high
-	
+
 	can_build_private = {
-		error_check = {
-			severity = potential
-			always = no
-		}
+		always = no
 	}
 	
 	ownership_type = self

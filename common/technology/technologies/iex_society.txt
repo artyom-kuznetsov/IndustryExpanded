@@ -110,6 +110,11 @@ currency_standards = {
 	
 	ai_weight = {
 		value = 3 # Very important in general
+		
+		if = {
+			limit = { has_journal_entry = je_sick_man_bureaucracy }
+			add = 20
+		}		
 	}
 }
 
@@ -187,6 +192,11 @@ centralization = {
 	
 	ai_weight = {
 		value = 1.5 # Important in general
+		
+		if = {
+			limit = { has_journal_entry = je_age_of_princes }
+			add = 20
+		}				
 	}
 }
 
@@ -258,7 +268,8 @@ colonization = {
 	modifier = {
 		country_institution_colonial_affairs_max_investment_add = 2
 		country_max_declared_interests_add = 1
-	}
+		country_infamy_generation_against_unrecognized_mult = -0.1
+	}	
 	
 	unlocking_technologies = {
 		international_relations
@@ -355,7 +366,7 @@ mass_communication = {
 	}
 	
 	ai_weight = {
-		value = 2 # Important in general
+		value = 1.5 # Important in general
 	}
 }
 
@@ -367,6 +378,7 @@ empiricism = {
 	
 	modifier = {
 		country_influence_mult = 0.1
+		country_diplomatic_play_maneuvers_add = 10
 		country_institution_schools_max_investment_add = 1
 		state_education_access_wealth_add = 0.005
 	}
@@ -401,7 +413,7 @@ egalitarianism = {
 	}
 	
 	ai_weight = {
-		value = 2
+		value = 1
 		
 		if = {
 			limit = { 
@@ -418,7 +430,7 @@ egalitarianism = {
 				}			
 			}
 			add = -0.5
-		}
+		}	
 	}
 }
 
@@ -437,7 +449,7 @@ pharmaceuticals = {
 	}
 	
 	ai_weight = {
-		value = 5
+		value = 1
 	}
 }
 
@@ -530,7 +542,7 @@ organized_sports = {
 	}
 	
 	ai_weight = {
-		value = 2
+		value = 1
 	}
 }
 
@@ -551,7 +563,7 @@ central_archives = {
 	}
 	
 	ai_weight = {
-		value = 2 # Important in general
+		value = 1.5 # Important in general
 	}
 }
 
@@ -570,7 +582,7 @@ central_banking = {
 	}
 	
 	ai_weight = {
-		value = 2
+		value = 1
 	}
 }
 
@@ -643,6 +655,7 @@ psychiatry = {
 	
 	modifier = {
 		country_influence_mult = 0.1
+		country_diplomatic_play_maneuvers_add = 10
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
 		state_conversion_mult = 0.1
 	}
@@ -652,7 +665,7 @@ psychiatry = {
 	}
 	
 	ai_weight = {
-		value = 2
+		value = 1
 	}
 }
 
@@ -671,7 +684,7 @@ realism = {
 	}
 	
 	ai_weight = {
-		value = 2
+		value = 1
 	}
 }
 
@@ -715,7 +728,7 @@ nationalism = {
 					country_has_primary_culture = cu:south_italian
 				}				
 			}
-			add = 3
+			add = 2
 		}	
 		
 		if = {
@@ -752,9 +765,13 @@ labor_movement = {
 		mass_communication
 		egalitarianism
 	}
+
+	on_researched = {
+		set_global_variable = labour_movement_researched
+	}
 	
 	ai_weight = {
-		value = 2
+		value = 1
 		
 		if = {
 			limit = { 
@@ -792,7 +809,7 @@ postal_savings = {
 	}
 	
 	ai_weight = {
-		value = 2
+		value = 1
 	}
 }
 
@@ -920,7 +937,7 @@ steel_frame_buildings = {
 	}
 	
 	ai_weight = {
-		value = 10
+		value = 2 # Important in general
 	}
 }
 
@@ -935,6 +952,7 @@ civilizing_mission = {
 	modifier = {
 		country_institution_colonial_affairs_max_investment_add = 1
 		country_max_declared_interests_add = 1
+		country_infamy_generation_against_unrecognized_mult = -0.25
 	}
 	
 	unlocking_technologies = {
@@ -1026,7 +1044,7 @@ socialism = {
 	}
 	
 	ai_weight = {
-		value = 3
+		value = 1
 		
 		if = {
 			limit = { 
@@ -1144,7 +1162,7 @@ mutual_funds = {
 	}
 	
 	ai_weight = {
-		value = 3
+		value = 1
 	}
 }
 
@@ -1168,7 +1186,6 @@ investment_banks = {
 		value = 2 # important tech
 	}
 }
-
 
 camera = {
 	# Unlocks Photographic Art, Improved Propaganda Centers PMs in Art Academy
@@ -1196,6 +1213,7 @@ philosophical_pragmatism = {
 	
 	modifier = {
 		country_influence_mult = 0.1
+		country_diplomatic_play_maneuvers_add = 10
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
 		country_institution_schools_2_max_investment_add = 1
 	}
@@ -1317,6 +1335,7 @@ central_planning = {
 	
 	modifier = {
 		state_tax_capacity_add = 25
+		country_government_dividends_efficiency_add = 0.05
 	}
 	
 	unlocking_technologies = {
@@ -1416,6 +1435,7 @@ psychoanalysis = {
 	
 	modifier = {
 		country_influence_mult = 0.1
+		country_diplomatic_play_maneuvers_add = 10
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
 		state_conversion_mult = 0.1
 		state_assimilation_mult = 0.1
@@ -1455,8 +1475,8 @@ multilateral_alliances = {
 	category = society
 	
 	modifier = {
-		country_diplomatic_play_maneuvers_add = 25
-		country_allow_multiple_alliances = yes
+		country_infamy_generation_mult = -0.25
+		country_allow_multiple_alliances_bool = yes
 	}
 	
 	unlocking_technologies = {	
@@ -1542,7 +1562,8 @@ modern_financial_instruments = {
 	category = society
 	modifier = {
 		country_minting_mult = 0.1
-		country_loan_interest_rate_add = -0.02		
+		country_loan_interest_rate_add = -0.02	
+		country_government_dividends_efficiency_add = 0.05
 	}
 	unlocking_technologies = {
 		international_exchange_standards
@@ -1580,6 +1601,7 @@ behaviorism = {
 	
 	modifier = {
 		country_influence_mult = 0.1
+		country_diplomatic_play_maneuvers_add = 10
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
 		country_institution_schools_2_max_investment_add = 1
 	}

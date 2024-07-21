@@ -63,7 +63,7 @@ pm_electric_saw_mills_forestry = {
 		}
 	}
 
-	required_input_goods = electricity
+	
 }
 
 pm_timber_trees = {

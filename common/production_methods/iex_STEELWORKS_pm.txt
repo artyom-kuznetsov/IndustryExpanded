@@ -120,5 +120,5 @@ pm_electric_arc_process = {
 		}
 	}
 
-	required_input_goods = electricity
+	
 }

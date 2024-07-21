@@ -58,13 +58,3 @@ pmg_automation_building_3000 = {
 		pm_automation_modern_cranes_3000
 	}
 }
-
-pmg_ownership_capital_building_universal = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_ownership.dds"
-	production_methods = {
-		pm_privately_owned_building_universal
-		pm_publicly_traded_building_universal
-		pm_government_run_building_universal
-		pm_worker_cooperative_building_universal
-	}
-}

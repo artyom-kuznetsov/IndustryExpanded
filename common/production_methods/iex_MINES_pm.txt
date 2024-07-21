@@ -681,7 +681,6 @@ pm_atmospheric_engine_pump_building_copper_mine = {
 		workforce_scaled = {
 			# input goods
 			goods_input_tools_add = 5
-			goods_input_machine_parts_add = 4
 			goods_input_coal_add = 10
 			
 			# output goods
