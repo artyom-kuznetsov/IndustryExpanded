@@ -557,3 +557,7 @@
  modifier_building_luxury_clothes_factories_throughput_add:0 "$building_luxury_clothes_factories$ building [concept_throughput]"
  modifier_building_luxury_clothes_factories_throughput_add_desc:0 "A bonus or penalty to both input and output of $building_luxury_clothes_factories$"
  
+ # v11.2 LITE
+ iron:0 "Metals"
+ steel:0 "Alloys"
+ building_iron_mine:0 "Metal Mines"

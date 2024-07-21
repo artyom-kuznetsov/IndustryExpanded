@@ -8,15 +8,6 @@ state_building_road_network_max_level_add = {
 	}
 }
 
-state_building_copper_mine_max_level_add = {
-	color=good
-	percent = no
-	decimals = 0
-	game_data={
-		ai_value=0
-	}
-}
-
 goods_output_copper_add = {
 	color=good
 	percent = no

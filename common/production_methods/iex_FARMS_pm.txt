@@ -34,8 +34,7 @@ pm_steam_threshers = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods													
-			goods_input_tools_add = 1
-			goods_input_machine_parts_add = 1
+			goods_input_tools_add = 2
 			goods_input_coal_add = 4
 		}
 
@@ -126,8 +125,7 @@ pm_steam_threshers_building_rice_farm = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods													
-			goods_input_tools_add = 2
-			goods_input_machine_parts_add = 2
+			goods_input_tools_add = 3
 			goods_input_coal_add = 8
 		}
 

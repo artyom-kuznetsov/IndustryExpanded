@@ -11,7 +11,7 @@ pm_hydroelectric_plant = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_engines_add = 8			# 540
-			goods_input_copper_add = 8			# 240 	# TOTAL 800
+			goods_input_iron_add = 6			# 240 	# TOTAL 800
 			
 			goods_output_electricity_add = 50	# 1500	# PROFIT 700
 		}
@@ -40,10 +40,10 @@ pm_coal-fired_plant = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_engines_add = 10		# 600
-			goods_input_copper_add = 10			# 300
-			goods_input_coal_add = 25			# 750	# TOTAL 1650
+			goods_input_iron_add = 8			# 320
+			goods_input_coal_add = 25			# 750	# TOTAL 1670
 			
-			goods_output_electricity_add = 100	# 3000	# PROFIT 1350
+			goods_output_electricity_add = 100	# 3000	# PROFIT 1330
 		}
 
 		level_scaled = {
@@ -70,10 +70,10 @@ pm_oil-fired_plant = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_engines_add = 15		# 900
-			goods_input_copper_add = 10			# 300
-			goods_input_fuel_add = 28			# 1400		# TOTAL 2500
+			goods_input_iron_add = 8			# 320
+			goods_input_fuel_add = 28			# 1400		# TOTAL 2520
 			
-			goods_output_electricity_add = 150	# 4500		# PROFIT 2000
+			goods_output_electricity_add = 150	# 4500		# PROFIT 1980
 		}
 
 		level_scaled = {
@@ -106,8 +106,8 @@ pm_automation_water_pumps = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 5	# 250
-			goods_input_coal_add = 5			# 150 # TOTAL 400
+			goods_input_tools_add = 6			# 240
+			goods_input_coal_add = 5			# 150 # TOTAL 390
 		}
 
 		level_scaled = {
@@ -140,7 +140,7 @@ pm_automation_automatic_power_plant = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 8		# 400
+			goods_input_tools_add = 10					# 400
 			goods_output_electricity_add = -5			# 150 # TOTAL 550
 		}
 

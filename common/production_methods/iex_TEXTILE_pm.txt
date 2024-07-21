@@ -42,8 +42,7 @@ pm_sewing_machines = {
 		workforce_scaled = {
 			# input goods
 			goods_input_fabric_add = 10			# 200
-			goods_input_tools_add = 5			# 200
-			goods_input_machine_parts_add = 4	# 200	# TOTAL 600
+			goods_input_tools_add = 10			# 400	# TOTAL 600
 			
 			# output goods
 			goods_output_clothes_add = 35		# 1050	# PROFIT 450
@@ -68,12 +67,11 @@ pm_electric_sewing_machines = {
 		workforce_scaled = {
 			# input goods
 			goods_input_fabric_add = 20			# 400
-			goods_input_tools_add = 5			# 200
-			goods_input_electricity_add = 10	# 300
-			goods_input_machine_parts_add = 5	# 250	# TOTAL 1050
+			goods_input_tools_add = 10			# 400
+			goods_input_electricity_add = 10	# 300	# TOTAL 1100
 			
 			# output goods
-			goods_output_clothes_add = 60		# 1800	# PROFIT 750
+			goods_output_clothes_add = 60		# 1800	# PROFIT 700
 		}
 
 		level_scaled = {
@@ -223,8 +221,7 @@ pm_sewing_machines_luxury = {
 		workforce_scaled = {
 			# input goods
 			goods_input_fabric_add = 10			# 200
-			goods_input_tools_add = 5			# 200
-			goods_input_machine_parts_add = 4	# 200	# TOTAL 600
+			goods_input_tools_add = 10			# 400	# TOTAL 600
 			
 			# output goods
 			goods_output_luxury_clothes_add = 20		# 1200	# PROFIT 600
@@ -250,9 +247,8 @@ pm_electric_sewing_machines_luxury = {
 		workforce_scaled = {
 			# input goods
 			goods_input_fabric_add = 20			# 400
-			goods_input_tools_add = 5			# 200
-			goods_input_electricity_add = 10	# 300
-			goods_input_machine_parts_add = 5	# 250	# TOTAL 1050
+			goods_input_tools_add = 10			# 400
+			goods_input_electricity_add = 10	# 300	# TOTAL 1000
 			
 			# output goods
 			goods_output_luxury_clothes_add = 30 # 1800	# PROFIT 750

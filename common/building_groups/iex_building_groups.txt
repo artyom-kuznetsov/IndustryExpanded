@@ -5,37 +5,6 @@
 	foreign_investment_ai_factor = 0.1
 }
 
-bg_copper_mining = {
-	parent_group = bg_mining
-	
-	category = rural
-	
-	economy_of_scale = yes
-	
-	discoverable_resource = no
-	
-	capped_by_resources = yes
-	
-	lens = mine
-	
-	cash_reserves_max = 25000
-
-	urbanization = 10
-	infrastructure_usage_per_level = 2
-	
-	should_auto_expand = { 
-		default_auto_expand_rule = yes
-	}
-	
-	economy_of_scale_ai_factor = 2.0
-	
-	can_use_slaves = yes
-	
-	default_building = building_copper_mine
-	
-	always_possible = yes
-	foreign_investment_ai_factor = 1.0
-}
 
 bg_mining = {
 	category = rural

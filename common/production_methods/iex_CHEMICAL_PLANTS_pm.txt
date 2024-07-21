@@ -11,7 +11,7 @@ pm_artificial_fertilizers = {
 		workforce_scaled = {
 			# input goods
 			goods_input_sulfur_add = 30			# 1500
-			goods_input_copper_add = 12			# 360
+			goods_input_iron_add = 9			# 360
 
 			# output goods
 			goods_output_fertilizer_add = 90	# 2700 # PROFIT 840
@@ -41,7 +41,7 @@ pm_improved_fertilizer = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_sulfur_add = 30
-			goods_input_copper_add = 40
+			goods_input_iron_add = 30
 
 			# output goods
 			goods_output_fertilizer_add = 140
@@ -73,7 +73,7 @@ pm_nitrogen_fixation = {
 			# input goods
 			goods_input_sulfur_add = 40
 			goods_input_fuel_add = 16
-			goods_input_copper_add = 40
+			goods_input_iron_add = 30
 
 			# output goods
 			goods_output_fertilizer_add = 200

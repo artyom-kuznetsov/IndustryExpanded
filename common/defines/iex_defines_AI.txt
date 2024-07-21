@@ -15,9 +15,6 @@
 	PRODUCTION_BUILDING_AUTONOMOUS_INVESTMENT_BELOW_DESIRED_INFRASTRUCTURE_FACTOR_MULT = 8 # Multiplies PRODUCTION_BUILDING_BELOW_DESIRED_INFRASTRUCTURE_FACTOR for autonomous investment pool constructions
 	
 
-	ECONOMY_OF_SCALE_NATIONALIZED_FRACTION_MULT = 1	# Non-government building economy of scale modifier if multiplied by (1 - the fraction of nationalized levels * this)
-	
-	TICKS_FOR_FULL_SPENDING_UPDATE = 250 # The higher this is, the less often AIs will update their spending priorities 
 	
 	# Below data is used to calculate how much weight the AI places on a production buildingPRODUCTION_BUILDING_BASE_VALUE = 1000 # If no ai_value is scripted in the building
 	PRODUCTION_BUILDING_NO_AVAILABLE_WORKFORCE_FACTOR = 0.1 # Total weight is multiplied by this if the state lacks enough workforce to staff the building

@@ -10,21 +10,21 @@ electricity = {
 	consumption_tax_cost = 200
 }
 
-machine_parts = {
-	texture = "gfx/interface/icons/goods_icons/machine_parts.dds"
-	cost = 50
-	category = industrial
-	
-	prestige_factor = 5
-}
-
-copper = {
-	texture = "gfx/interface/icons/goods_icons/copper.dds"
-	cost = 30
-	category = industrial
-	
-	prestige_factor = 5
-}
+#machine_parts = {
+#	texture = "gfx/interface/icons/goods_icons/machine_parts.dds"
+#	cost = 50
+#	category = industrial
+#	
+#	prestige_factor = 5
+#}
+#
+#copper = {
+#	texture = "gfx/interface/icons/goods_icons/copper.dds"
+#	cost = 30
+#	category = industrial
+#	
+#	prestige_factor = 5
+#}
 
 fuel = {
 	texture = "gfx/interface/icons/goods_icons/fuel.dds"

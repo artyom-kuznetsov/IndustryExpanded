@@ -3,7 +3,7 @@ pm_telephones = {
 	texture = "gfx/interface/icons/production_method_icons/telephones.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_copper_add = 20		# 600
+			goods_input_iron_add = 20		# 600
 			goods_input_rubber_add = 20		# 800
 			goods_input_lead_add = 20		# 800
 			goods_input_tools_add = 10		# 400	# 2600
@@ -28,7 +28,7 @@ pm_plastic_telephones = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_copper_add = 20		# 600
+			goods_input_iron_add = 15		# 600
 			goods_input_rubber_add = 10		# 400
 			goods_input_plastics_add = 20	# 1000
 			goods_input_lead_add = 10		# 400

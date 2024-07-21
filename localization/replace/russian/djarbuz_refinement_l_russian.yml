@@ -556,3 +556,8 @@
  modifier_country_institution_schools_2_max_investment_add_desc:0 "Бонус или штраф к максимальному уровню [Concept('concept_institution', 'института')] «$institution_schools_2$»."
  modifier_building_luxury_clothes_factories_throughput_add:0 "[Concept('concept_throughput', 'Товарооборот')] заводов роскошной одежды"
  modifier_building_luxury_clothes_factories_throughput_add_desc:0 "Бонус или штраф к потреблению и производству заводов роскошной одежды."
+ 
+ # v11.2 LITE
+ iron:0 "Металлы"
+ steel:0 "Сплавы"
+ building_iron_mine:0 "Шахты металлов"

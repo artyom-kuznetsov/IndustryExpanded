@@ -13,8 +13,8 @@ pm_steam_power = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 5	# 250
-			goods_input_coal_add = 5			# 150 # TOTAL 400
+			goods_input_tools_add = 6			# 240
+			goods_input_coal_add = 5			# 150 # TOTAL 390
 		}
 		
 		unscaled = {
@@ -90,9 +90,8 @@ pm_automation_watertube_boiler = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 2			# 80
-			goods_input_machine_parts_add = 2	# 100
-			goods_input_coal_add = 4			# 120 # TOTAL 300
+			goods_input_tools_add = 5			# 200
+			goods_input_coal_add = 4			# 120 # TOTAL 320
 		}
 
 		level_scaled = {
@@ -125,9 +124,8 @@ pm_automation_pneumatic_conveyor = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 3			# 120
-			goods_input_machine_parts_add = 3	# 150
-			goods_input_coal_add = 6			# 180 # TOTAL 450
+			goods_input_tools_add = 8			# 320
+			goods_input_coal_add = 6			# 180 # TOTAL 500
 		}
 
 		level_scaled = {
@@ -160,8 +158,7 @@ pm_automation_electric_drive = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 4			# 160
-			goods_input_machine_parts_add = 4	# 200
+			goods_input_tools_add = 9			# 360
 			goods_input_electricity_add = 8		# 240 # TOTAL 600
 		}
 
@@ -196,10 +193,9 @@ pm_automation_conveyor_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 4			# 160
-			goods_input_machine_parts_add = 5	# 250
-			goods_input_oil_add = 1	# 50
-			goods_input_electricity_add = 10	# 300 # TOTAL 750
+			goods_input_tools_add = 10			# 400
+			goods_input_oil_add = 1				# 40
+			goods_input_electricity_add = 10	# 300 # TOTAL 740
 		}
 
 		level_scaled = {
@@ -232,10 +228,9 @@ pm_automation_assembly_lines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 4			# 120
-			goods_input_machine_parts_add = 6	# 300
+			goods_input_tools_add = 11			# 400
 			goods_input_fuel_add = 2			# 100
-			goods_input_electricity_add = 10	# 300 # TOTAL 850
+			goods_input_electricity_add = 10	# 300 # TOTAL 840
 		}
 
 		level_scaled = {
@@ -270,7 +265,7 @@ pm_automation_conveyor_production_late = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 3	# 150
+			goods_input_tools_add = 4	# 160
 			goods_input_oil_add = 1				# 50
 			goods_input_electricity_add = 5		# 150	# TOTAL 350
 		}
@@ -305,7 +300,7 @@ pm_automation_assembly_lines_late = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 5	# 250
+			goods_input_tools_add = 6			# 240
 			goods_input_fuel_add = 2			# 100
 			goods_input_electricity_add = 10	# 300 # TOTAL 650
 		}
@@ -349,8 +344,8 @@ pm_mixing_machines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 2	# 100
-			goods_input_coal_add = 4			# 120 # TOTAL 220
+			goods_input_tools_add = 3			# 120
+			goods_input_coal_add = 4			# 120 # TOTAL 240
 		}
 
 		level_scaled = {
@@ -383,8 +378,8 @@ pm_centrifuge = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 3	# 150
-			goods_input_electricity_add = 8		# 240 # TOTAL 390
+			goods_input_tools_add = 4			# 160
+			goods_input_electricity_add = 8		# 240 # TOTAL 400
 		}
 
 		level_scaled = {
@@ -425,8 +420,8 @@ pm_automation_hydraulic_cranes = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 2	# 100
-			goods_input_coal_add = 3			# 90 # TOTAL 190
+			goods_input_tools_add = 3			# 120
+			goods_input_coal_add = 3			# 90 # TOTAL 210
 		}
 
 		level_scaled = {
@@ -460,8 +455,8 @@ pm_automation_gantry_cranes = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 3	# 150
-			goods_input_electricity_add = 3		# 90 # TOTAL 240
+			goods_input_tools_add = 4			# 160
+			goods_input_electricity_add = 3		# 90 # TOTAL 250
 		}
 
 		level_scaled = {
@@ -497,8 +492,8 @@ pm_automation_modern_cranes = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 3	# 150
-			goods_input_fuel_add = 3			# 150 # TOTAL 300
+			goods_input_tools_add = 4			# 160
+			goods_input_fuel_add = 3			# 150 # TOTAL 310
 		}
 
 		level_scaled = {
@@ -532,8 +527,8 @@ pm_automation_hydraulic_cranes_shipyard = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 3	# 250
-			goods_input_coal_add = 4			# 120 # TOTAL 270
+			goods_input_tools_add = 4			# 160
+			goods_input_coal_add = 4			# 120 # TOTAL 280
 		}
 
 		level_scaled = {
@@ -566,7 +561,7 @@ pm_automation_gantry_cranes_shipyard = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 4	# 200
+			goods_input_tools_add = 5	# 200
 			goods_input_electricity_add = 5		# 150 # TOTAL 350
 		}
 
@@ -601,7 +596,7 @@ pm_automation_modern_cranes_shipyard = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 5	# 250
+			goods_input_tools_add = 6	# 250
 			goods_input_fuel_add = 5			# 250 # TOTAL 500
 		}
 
@@ -635,7 +630,7 @@ pm_automation_hydraulic_cranes_3000 = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 4	# 200
+			goods_input_tools_add = 5	# 200
 			goods_input_coal_add = 4			# 120 # TOTAL 320
 		}
 
@@ -669,8 +664,8 @@ pm_automation_gantry_cranes_3000 = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 6	# 300
-			goods_input_electricity_add = 8		# 240 # TOTAL 540
+			goods_input_tools_add = 8	# 280
+			goods_input_electricity_add = 8		# 240 # TOTAL 520
 		}
 
 		level_scaled = {
@@ -704,7 +699,7 @@ pm_automation_modern_cranes_3000 = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_machine_parts_add = 8	# 400
+			goods_input_tools_add = 10	# 400
 			goods_input_fuel_add = 6			# 300 # TOTAL 700
 		}
 

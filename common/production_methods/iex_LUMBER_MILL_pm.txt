@@ -39,8 +39,7 @@ pm_powered_sawing_lm = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 5			# 200
-			goods_input_machine_parts_add = 4	# 200
+			goods_input_tools_add = 10			# 400
 			goods_input_coal_add = 5 			# 150
 			goods_input_wood_add = 50 			# 1000 # TOTAL 1550
 			
@@ -66,8 +65,7 @@ pm_electrical_saw_lm = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 10 			# 400
-			goods_input_machine_parts_add = 4	# 200
+			goods_input_tools_add = 15 			# 600
 			goods_input_electricity_add = 10	# 300
 			goods_input_wood_add = 60			# 1200 # TOTAL 2100
 			

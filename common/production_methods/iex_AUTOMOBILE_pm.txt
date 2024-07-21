@@ -15,7 +15,7 @@ pm_automobile_production_early = {
 		workforce_scaled = {
 			# input goods
 			goods_input_rubber_add = 20				# 800
-			goods_input_machine_parts_add = 10		# 500	
+			goods_input_tools_add = 12				# 480	
 			goods_input_steel_add = 15				# 750	# TOTAL 2050
 
 			# output goods
@@ -48,7 +48,7 @@ pm_automobile_production_late = {
 			# input goods
 			goods_input_rubber_add = 20				# 800
 			goods_input_plastics_add = 15			# 750
-			goods_input_machine_parts_add = 15		# 750	
+			goods_input_tools_add = 20				# 800
 			goods_input_steel_add = 20				# 1000	# TOTAL 3300
 
 			# output goods
