@@ -1,3 +1,9 @@
+[h1]v11.2[/h1]
+-Removed Copper and Machine Parts trade goods due to balance issues (mostly AI and a major early game economic slowdown))
+-Iron renamed to Metals, Steel renamed to Alloys, also new icons.
+-Fixed more errors. Mod should be fully playable now.
+
+
 [h1]v11.1[/h1]
 -Removed ownership PMGs from buildings where they remained.
 -Fixed missing modifiers from technologies.

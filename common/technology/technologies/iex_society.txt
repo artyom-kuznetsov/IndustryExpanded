@@ -630,7 +630,7 @@ dialectics = {
 secondary_education = {
 	# Unlocks Philosophy Department PM in Universities
 	
-	era = era_3
+	era = era_2
 	texture = "gfx/interface/icons/invention_icons/secondary_education.dds"
 	category = society
 	
