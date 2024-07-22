@@ -7,8 +7,6 @@ IEX allows you to build your industry more flexibly: lack of a certain resource 
 Artillery production needs copper, but if you don't have it, you can use just iron/steel, resulting in less efficient production, but it's viable! You can use (previously useless in early game) oil for streetlights and paper production, instead of using sulfur.
 Many buildings that needed to be, were seperated (for example, grocery and liquor, engines and automobiles).
 This mod features a vast expansion in buildings and technologies, such as:
-[b]- Machine Parts[/b], needed for automation and manufacturing of many goods.
-[b]- Copper[/b] (no comments needed how valuable this is).
 [b]- Oil Industry[/b], as well as [b]Synthetic Rubber[/b] and [b]Plastics[/b] production.
 [b]- Synthetic Industry[/b]
 [b]- Road Networks[/b], allowing you to increase infrastructure capacity before inventing railroads.
@@ -17,10 +15,6 @@ Capitalists, employed in military-industrial buildings now tend to support Armed
 Qualifications and migration logic were also adjusted;
 
 [i]Auto-Expand is now good too![/i]
-
-[h1]Issues[/h1]
-There is an issue of copper mines appearing in every state building list, even if it is not buildable. 
-It happens because of "map-compatibility" measures and I have not found a way to avoid it (it could be worse - copper mines would be in the "agriculture" section).
 
 [h1]Localization and Compatibility[/h1]
 [img]https://i.imgur.com/4KTCuuj.png[/img]

@@ -393,6 +393,7 @@ building_tooling_workshops = {
 	
 	production_method_groups = {
 		pmg_base_building_tooling_workshops
+		pmg_boilers
 		pmg_automation_building_industry
 	}
 

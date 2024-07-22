@@ -103,15 +103,15 @@ pmg_assembly_machine = {
 #	}
 #}
 #
-#pmg_boilers = {
-#	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-#	production_methods = {
-#		pm_no_boilers
-#		pm_low_pressure_boilers
-#		pm_high_pressure_boilers
-#	}
-#}
-#
+pmg_boilers = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_boilers
+		pm_low_pressure_boilers
+		pm_high_pressure_boilers
+	}
+}
+
 pmg_automobile_production = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
