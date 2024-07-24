@@ -10,6 +10,8 @@ This mod features a vast expansion in buildings and technologies, such as:
 [b]- Oil Industry[/b], as well as [b]Synthetic Rubber[/b] and [b]Plastics[/b] production.
 [b]- Synthetic Industry[/b]
 [b]- Road Networks[/b], allowing you to increase infrastructure capacity before inventing railroads.
+[b]- Difficult Terrain[/b], you can negate construction efficiency debuffs in mountainous/forested states by researching technologies.
+
 Industry Expanded changes many laws and institutions to be more logical or better gameplay-wise. Various institutions give you authority, while certain laws consume it. Isolationism is not just a debuff now.
 Capitalists, employed in military-industrial buildings now tend to support Armed Forces, to represent military-industrial interests.
 Qualifications and migration logic were also adjusted;
@@ -17,16 +19,10 @@ Qualifications and migration logic were also adjusted;
 [i]Auto-Expand is now good too![/i]
 
 [h1]Localization and Compatibility[/h1]
-[img]https://i.imgur.com/4KTCuuj.png[/img]
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
 [b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (Community-made)
 [b]Japanese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url] (Community-made)
 Mod is made for game version [b]v1.7.5[/b]
-
-[h2]Map-Compatible![/h2]
-Industry Expanded is now compatible with mods that change map data:
-This means, that IEX can be ran together with most alt-history mods that change borders or even resources.
-All you have to do for compatibility is to place IEX [b]ABOVE[/b] the map mod.
 
 [h2]Mod Compatibility[/h2]
 [b]Existing Compatibility Patches that I am aware of:[/b]

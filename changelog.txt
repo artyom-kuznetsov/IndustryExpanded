@@ -1,11 +1,17 @@
 [h1]v11.4[/h1]
+-Transportation is now a non-local good (does anyone like microing railroad PMs so they don't drain your budget?)
 -Fixed auto expansion in states with insufficient infrastructure.
 -Reverted base MAPI to 75%. It being 90% was not intentional.
 -USA, UK, Belgium, Prussia and France start with Mechanical Production tech researched.
 -Added starting Luxury Clothes Factories to UK. No starting employment, needs some time to hire.
 -Chainsaws PM now consumes Fuel instead of Oil and gives a little Wood output bonus.
+-IEX doesn't apply "Difficult Terrain" state traits if VTM is active. VTM should be loaded after IEX.
 -Removed +10% construction efficiency from Road Maintainance decree.
-
+[b]Innovation Tweaks:[/b]
+    -Base weekly innovation cap reduced 75 >> 60 (50 in vanilla)
+	-Base weekly innovation increased 50 >> 60
+	-Literacy scaled weekly innovation cap increased 150 >> 180
+	-Literacy scaled weekly tech spread increased 75 >> 90
 
 
 [h1]v11.3[/h1]

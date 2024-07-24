@@ -41,3 +41,14 @@ plastics = {
 	
 	prestige_factor = 5
 }
+
+transportation = {
+	texture = "gfx/interface/icons/goods_icons/transportation.dds"
+	cost = 30
+	category = staple
+	local = no
+
+	prestige_factor = 4
+	
+	consumption_tax_cost = 200
+}

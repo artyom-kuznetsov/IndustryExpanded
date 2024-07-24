@@ -13,6 +13,7 @@
 			limit = {
 				is_difficult_terrain = yes
 				NOT = { has_state_trait = state_trait_iex_difficult_terrain }
+				vtm_is_active_trigger = no
 			}
 			state_region = { add_state_trait = state_trait_iex_difficult_terrain }
 		}
@@ -22,6 +23,7 @@
 			limit = {
 				is_very_difficult_terrain = yes
 				NOT = { has_state_trait = state_trait_iex_very_difficult_terrain }
+				vtm_is_active_trigger = no
 			}
 			state_region = { add_state_trait = state_trait_iex_very_difficult_terrain }
 		}
