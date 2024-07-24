@@ -76,13 +76,13 @@ default_city = {
 	building_arts_academy = {"european_city_academy_01_mesh"}
 	building_skyscraper = {"european_city_centerpiece_skyscraper_01_mesh"}
 	building_barracks = {"european_city_barracks_01_mesh"}
+	building_financial_district = {"european_city_financialdistrict_01_mesh"}
 	
 	
 	building_machine_parts_factories = {"tools_manufactory_01_mesh"}
 	building_lumber_mill = {"tools_manufactory_01_mesh"}
+	building_luxury_clothes_factories = {"tools_manufactory_01_mesh"}
+	building_oil_refinery = {"tools_manufactory_01_mesh"}
 	building_distillery = {"generic_manufactory_01_mesh"}
 	building_sugar_substitute_factory = {"generic_manufactory_01_mesh"}
-	building_copper_mine = {
-		"generic_rural_mining_processing_01_mesh"
-	}
 }

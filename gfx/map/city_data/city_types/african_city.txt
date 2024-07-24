@@ -71,13 +71,14 @@
 	building_arts_academy = {"african_city_academy_01_mesh"}
 	building_skyscraper = {"african_city_centerpiece_skyscraper_01_mesh"}
 	building_barracks = {"african_city_barracks_01_mesh"}
+	building_financial_district = {"african_city_financialdistrict_01_mesh"}
 	
 	
 	building_machine_parts_factories = {"african_tools_manufactory_01_mesh"}
 	building_lumber_mill = {"african_tools_manufactory_01_mesh"}
+	building_luxury_clothes_factories = {"african_tools_manufactory_01_mesh"}
+	building_oil_refinery = {"african_tools_manufactory_01_mesh"}
+	building_automobile_industry = {"arabic_factory_colonial_02_mesh"}
 	building_distillery = {"african_manufactory_01_mesh"}
 	building_sugar_substitute_factory = {"african_manufactory_01_mesh"}
-	building_copper_mine = {
-		"african_colonial_manufactory_01_mesh"
-	}
 }

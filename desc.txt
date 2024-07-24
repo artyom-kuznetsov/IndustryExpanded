@@ -32,11 +32,10 @@ All you have to do for compatibility is to place IEX [b]ABOVE[/b] the map mod.
 [b]Existing Compatibility Patches that I am aware of:[/b]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Industry Expanded & Morgenröte Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]IEX + ASE Compatch[/url]
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]Compatch[/url][/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]IEX + I.R.O.N. Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Power Plants Plus & Industry Expanded Compatibility Patch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Industry Expanded & Better Politics Mod Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3254346454]LLWA + MR + IEX +E&F Compatch[/url]
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3268981751&searchtext=iex]VC + IEX 10.5 compatch[/url]
 Please note that I am not responsible for ANY of these compatches. If you encounter any issues, you should contact their authors.
 Not recommended to use with mods changing PMs, technologies or buildings.
 

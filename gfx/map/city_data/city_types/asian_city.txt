@@ -71,13 +71,13 @@
 	building_arts_academy = {"asian_city_academy_01_mesh"}
 	building_skyscraper = {"asian_city_centerpiece_skyscraper_01_mesh"}
 	building_barracks = {"asian_city_barracks_01_mesh"}
+	building_financial_district = {"asian_city_financialdistrict_01_mesh"}
 	
 	
 	building_machine_parts_factories = {"asian_tools_manufactory_01_mesh"}
 	building_lumber_mill = {"asian_tools_manufactory_01_mesh"}
+	building_luxury_clothes_factories = {"asian_tools_manufactory_01_mesh"}
+	building_oil_refinery = {"asian_tools_manufactory_01_mesh"}
 	building_distillery = {"asian_manufactory_01_mesh"}
 	building_sugar_substitute_factory = {"asian_manufactory_01_mesh"}
-	building_copper_mine = {
-		"asian_colonial_manufactory_01_mesh"
-	}
 }

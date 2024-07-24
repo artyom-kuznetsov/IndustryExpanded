@@ -138,7 +138,7 @@ napoleonic_warfare = {
 		
 		if = {
 			limit = { has_journal_entry = je_sick_man_army }
-			add = 5
+			add = 100
 		}
 	}
 }
@@ -872,7 +872,7 @@ landing_craft = {
 	category = military
 	
 	modifier = {
-		country_ignores_landing_craft_penalty = yes
+		country_ignores_landing_craft_penalty_bool = yes
 	}
 	
 	unlocking_technologies = {	

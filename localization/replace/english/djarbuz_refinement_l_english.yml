@@ -359,10 +359,10 @@
  
  assembly_lines_desc:0 "An assembly line is a manufacturing process in which parts are added as the semi-finished assembly moves from workstation to workstation where the parts are added in sequence until the final assembly is produced."
  
- modifier_goods_output_paper_mult:0 "Building @paper! Paper output"
- modifier_goods_output_paper_mult_desc:0 "A bonus or penalty to the amount of @paper! Paper produced by buildings"
- modifier_goods_output_transportation_mult:0 "Building @transportation! Transportation output"
- modifier_goods_output_transportation_mult_desc:0 "A bonus or penalty to the amount of @transportation! Transportation produced by buildings"
+ goods_output_paper_mult:0 "Building @paper! Paper output"
+ goods_output_paper_mult_desc:0 "A bonus or penalty to the amount of @paper! Paper produced by buildings"
+ goods_output_transportation_mult:0 "Building @transportation! Transportation output"
+ goods_output_transportation_mult_desc:0 "A bonus or penalty to the amount of @transportation! Transportation produced by buildings"
  
  oil:0 "Crude Oil"
  fuel:0 "Refined Fuel"
@@ -562,3 +562,11 @@
  steel:0 "Alloys"
  building_iron_mine:0 "Metal Mines"
  building_steel_mills:0 "Alloy Foundries"
+ 
+ # v11.3
+ pm_tractors_building_rice_farm:0 "$pm_tractors$"
+ pm_compression_ignition_tractors_building_rice_farm:0 "$pm_compression_ignition_tractors$"
+ pm_precision_tools:0 "Increased Luxury Furniture Production"
+ pm_luxury_furniture_focus:0 "Luxury Furniture Focus"
+ pm_electric_ovens_bakery:0 "Electric Ovens"
+ 

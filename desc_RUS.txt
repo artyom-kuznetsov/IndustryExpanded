@@ -32,11 +32,10 @@ Industry Expanded теперь совместим с модами, меняющими данные карты:
 [b]Существующие патчи совместимости о которых я в курсе:[/b]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Industry Expanded & Morgenrote Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]IEX + ASE Compatch[/url]
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]Compatch[/url][/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]IEX + I.R.O.N. Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Power Plants Plus & Industry Expanded Compatibility Patch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Industry Expanded & Better Politics Mod Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3254346454]LLWA + MR + IEX +E&F Compatch[/url]
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3268981751&searchtext=iex]VC + IEX 10.5 compatch[/url]
 Пожалуйста, помните, что я не ответственнен ни за один из этих патчей совместимости. Если у вас возникнут какие-либо проблемы, свяжитесь с их авторами.
 Не рекомендуется использовать с модами, изменяющими постройки и методы производства.
 

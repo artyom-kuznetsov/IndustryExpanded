@@ -53,7 +53,7 @@ pm_steel = {
 			goods_input_steel_add = 20		# 1000	# TOTAL 1600
 			
 			# output goods
-			goods_output_tools_add = 75		# 3000	# PROFIT 1400
+			goods_output_tools_add = 80		# 3200	# PROFIT 1600
 		}
 
 		level_scaled = {
@@ -67,40 +67,17 @@ pm_steel = {
 pm_rubber_grips = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
 	unlocking_technologies = {
-		vulcanization
-	}
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_rubber_add = 20		# 800
-			goods_input_steel_add = 30		# 1500	# TOTAL 2300
-			
-			# output goods
-			goods_output_tools_add = 100	# 4000	# PROFIT 1700
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 1000
-			building_employment_engineers_add = 500
-		}
-	}
-}
-
-pm_plastic_machined_tools = {
-	texture = "gfx/interface/icons/production_method_icons/machined_plastic_tools.dds"
-	unlocking_technologies = {
 		plastics
 	}
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
 			goods_input_plastics_add = 20	# 1000
-			goods_input_rubber_add = 5		# 200
-			goods_input_steel_add = 30		# 1500	# TOTAL 2700
+			goods_input_rubber_add = 10		# 400
+			goods_input_steel_add = 30		# 1500	# TOTAL 2900
 			
 			# output goods
-			goods_output_tools_add = 120	# 4800	# PROFIT 2100
+			goods_output_tools_add = 120	# 4800	# PROFIT 1900
 		}
 
 		level_scaled = {

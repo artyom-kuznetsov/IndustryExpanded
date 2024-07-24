@@ -1,3 +1,29 @@
+[h1]v11.4[/h1]
+-Fixed auto expansion in states with insufficient infrastructure.
+-Reverted base MAPI to 75%. It being 90% was not intentional.
+
+
+
+
+[h1]v11.3[/h1]
+-Reworked automation for Food Industries, added a new PM, unlocked by Steam Turbine.
+-Reworked Furniture Manufactories. Luxury Furniture production can now be adjusted better.
+-Re-Added Tractors for Rice Farms.
+-Adjusted pop growth and migration logic.
+-Adjusted pop needs.
+-Removed one late game PM from Tooling Workshops. It uses both rubber and plastic.
+-Nerfed Privately Funded Secondary Education institution.
+-Fixed Landing Craft tech wouldn't give its bonus.
+-Improved Logging Camps Auto-Expansion logic.
+-Fixed paper and transportation output modifier loc.
+-Fixed missing meshes errors.
+[b]Innovation cap adjustments are back:[/b]
+    - Innovation cap 50 >> 75
+    - Base tech spread 25 >> 40
+
+
+
+
 [h1]v11.2[/h1]
 -Removed Copper and Machine Parts trade goods due to balance issues (mostly AI and a major early game economic slowdown))
 -Iron renamed to Metals, Steel renamed to Alloys, also new icons.

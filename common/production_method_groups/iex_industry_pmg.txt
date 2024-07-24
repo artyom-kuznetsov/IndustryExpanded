@@ -1,10 +1,30 @@
-﻿pmg_sewing_luxury = {
+﻿pmg_automation_building_food_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_manual_dough_processing
+		pm_electric_ovens_bakery
+		pm_automated_bakery
+	}
+}
+
+pmg_sewing_luxury = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_handsewing_luxury
 		pm_workshops_luxury
 		pm_sewing_machines_luxury
 		pm_electric_sewing_machines_luxury
+	}
+}
+
+
+pmg_luxury_building_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_luxuries
+		pm_luxury_furniture
+		pm_precision_tools
+		pm_luxury_furniture_focus
 	}
 }
 
@@ -70,26 +90,24 @@ pmg_foundries = {
 	ai_selection = most_productive
 
 	production_methods = {
-		pm_wrought_iron_cannons
 		pm_cannons
 		pm_smoothbores
-		pm_steel_breech_loaders
 		pm_breech_loaders
 		pm_recoiled_barrels
 	}
 }
 
-pmg_assembly_machine = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_handcrafting_machine
-		pm_workingtools_machine
-		pm_watertube_machine
-		pm_pneumatic_machine
-		pm_electric_drive_machine
-		pm_assembly_machine
-	}
-}
+#pmg_assembly_machine = {
+#	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+#	production_methods = {
+#		pm_handcrafting_machine
+#		pm_workingtools_machine
+#		pm_watertube_machine
+#		pm_pneumatic_machine
+#		pm_electric_drive_machine
+#		pm_assembly_machine
+#	}
+#}
 #
 #pmg_base_machine_parts = {
 #	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
@@ -166,7 +184,6 @@ pmg_base_building_tooling_workshops = {
 		pm_pig_iron
 		pm_steel
 		pm_rubber_grips
-		pm_plastic_machined_tools
 	}
 }
 

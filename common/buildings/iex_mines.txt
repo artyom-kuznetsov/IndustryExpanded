@@ -12,16 +12,14 @@
 
 	should_auto_expand = { 
 		occupancy >= 0.8
-		OR = {
-			owner = {
-				market = {
-					mg:iron = { 
-						market_goods_pricier > 0.01
-					}
+		owner = {
+			market = {
+				mg:iron = { 
+					market_goods_pricier > 0.01
 				}
 			}
-			state.market_access < 1
 		}
+		state.market_access < 1
 		NOT = { is_under_construction = yes }
 
 	}
@@ -50,16 +48,14 @@ building_lead_mine = {
 
 	should_auto_expand = { 
 		occupancy >= 0.8
-		OR = {
-			owner = {
-				market = {
-					mg:lead = { 
-						market_goods_pricier > 0.01
-					}
+		owner = {
+			market = {
+				mg:lead = { 
+					market_goods_pricier > 0.01
 				}
 			}
-			state.market_access < 1
 		}
+		state.market_access = 1
 		NOT = { is_under_construction = yes }
 
 	}
@@ -88,16 +84,14 @@ building_sulfur_mine = {
 
 	should_auto_expand = { 
 		occupancy >= 0.8
-		OR = {
-			owner = {
-				market = {
-					mg:sulfur = { 
-						market_goods_pricier > 0.01
-					}
+		owner = {
+			market = {
+				mg:sulfur = { 
+					market_goods_pricier > 0.01
 				}
 			}
-			state.market_access < 1
 		}
+		state.market_access = 1
 		NOT = { is_under_construction = yes }
 
 	}

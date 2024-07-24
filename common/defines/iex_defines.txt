@@ -25,10 +25,13 @@ NMilitary = {
 }
 
 NPops = {
+	MIGRATION_MAX_PER_STATE_BASE = 500											# No more than this amount of people can move from or to a state in a single week (base)
+	MASS_MIGRATION_ORIGIN_MIN_TURMOIL = 0.2									# Must have at least this much turmoil in cultural homelands to create a migration target
 	MIGRATION_UNEMPLOYMENT_MULT = 25.0							# Amount of migration from SoL is increased by this when a pop is unemployed
 	MIGRATION_PULL_FROM_AVAILABLE_EMPLOYMENT = 1.5			# Migration pull is increased by for each 10k available non subsistence jobs
 	MIGRATION_MAX_PER_STATE_BASE = 2000							# No more than this amount of people can move from or to a state in a single week (base)	
 	MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION = 0.05	# Max emigration per week is clamped to this fraction of a state's population
+	MASS_MIGRATION_COOLDOWN_MONTHS = 60											# How many months before the same culture can mass migrate from a country again
 	
 	MIGRATION_MAX_PER_STATE_UNEMPLOYMENT_ORIGIN_FRACTION = 0.5	# The amount of unemployed workers in a state * this value is added to how many people can move from it (after clamping from MIGRATION_MAX_EMIGRATION_AS_POPULATION_FRACTION)
 	
@@ -48,9 +51,9 @@ NPops = {
 
 ## SoL Thresholds
 @pop_growth_equilibrium_sol = 5		# Equilibrium is pops stop starving and where growth first becomes positive
-@pop_growth_transition_sol = 9 #10     # Transition determines how long birthrate "lags" behind mortality before starting to drop. Setting to same as equilibrium leads to no "lag" (only matters for birthrate)
-@pop_growth_max_sol = 11 #20			# Growth Max is where net growth generally is at it's highest (only matters for mortality)
-@pop_growth_stable_sol = 14 #30			# Stable is where birthrate and mortality stop changing and hit their minimum values
+@pop_growth_transition_sol = 10 #10     # Transition determines how long birthrate "lags" behind mortality before starting to drop. Setting to same as equilibrium leads to no "lag" (only matters for birthrate)
+@pop_growth_max_sol = 15 #20			# Growth Max is where net growth generally is at it's highest (only matters for mortality)
+@pop_growth_stable_sol = 20 #30			# Stable is where birthrate and mortality stop changing and hit their minimum values
 
 ## Others
 @transition_birthrate_mult = 0.95 #1.0		# If you want the birthrate "lag" to go to a higher or lower value than max_birthrate. (you can also just change it directly below)

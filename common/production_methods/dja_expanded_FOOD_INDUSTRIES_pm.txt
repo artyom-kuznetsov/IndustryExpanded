@@ -70,6 +70,55 @@ pm_baking_powder = {
 	}
 }
 
+### AUTOMATION ###
+pm_electric_ovens_bakery = {
+	texture = "gfx/interface/icons/production_method_icons/furnace_automation.dds"
+	
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	unlocking_technologies = {
+		steam_turbine
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5		# 200
+			goods_input_electricity_add = 5	# 150	# TOTAL 350
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1500
+		}
+	}
+}
+
+pm_automated_bakery = {
+	texture = "gfx/interface/icons/production_method_icons/automated_bakery.dds"
+	
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	unlocking_technologies = {
+		dough_rollers
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10		# 400
+			goods_input_electricity_add = 5	# 150	# TOTAL 550
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -3000
+		}
+	}
+}
+
 ### CHEESE
 pm_no_use = { # UNIVERSAL NO USE
 	texture = "gfx/interface/icons/production_method_icons/no_use.dds"

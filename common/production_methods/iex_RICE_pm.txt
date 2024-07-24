@@ -130,7 +130,7 @@ pm_steam_threshers_building_rice_farm = {
 	}
 }
 
-pm_tractors_rice = {
+pm_tractors_building_rice_farm = {
 	texture = "gfx/interface/icons/production_method_icons/tractors.dds"
 
 	state_modifiers = {
@@ -155,7 +155,7 @@ pm_tractors_rice = {
 	}
 }
 
-pm_compression_ignition_tractors_rice = {
+pm_compression_ignition_tractors_building_rice_farm = {
 	texture = "gfx/interface/icons/production_method_icons/tractors.dds"
 
 	state_modifiers = {

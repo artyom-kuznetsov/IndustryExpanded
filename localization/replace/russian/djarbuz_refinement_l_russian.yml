@@ -359,10 +359,10 @@
  
  assembly_lines_desc:0 "Сборочная линия - это производственный процесс, в ходе которого детали добавляются по мере перемещения полуфабриката сборки с рабочей станции на другую рабочую станцию, где детали добавляются последовательно до получения конечного изделия."
  
- modifier_goods_output_paper_mult:0 "Производство @paper! бумаги"
- modifier_goods_output_paper_mult_desc:0 "Бонус или штраф к количеству @paper! бумаги, производимых сооружениями."
- modifier_goods_output_transportation_mult:0 "Производство @transportation! перевозок"
- modifier_goods_output_transportation_mult_desc:0 "Бонус или штраф к количеству @transportation! перевозок, производимых сооружениями."
+ goods_output_paper_mult:0 "Производство @paper! бумаги"
+ goods_output_paper_mult_desc:0 "Бонус или штраф к количеству @paper! бумаги, производимых сооружениями."
+ goods_output_transportation_mult:0 "Производство @transportation! перевозок"
+ goods_output_transportation_mult_desc:0 "Бонус или штраф к количеству @transportation! перевозок, производимых сооружениями."
  
  oil:0 "Сырая нефть"
  fuel:0 "Топливо"
@@ -560,5 +560,12 @@
  # v11.2 LITE
  iron:0 "Металлы"
  steel:0 "Сплавы"
- building_iron_mine:0 "Шахты металлов"
+ building_iron_mine:0 "Металлические шахты"
  building_steel_mills:0 "Металлургические заводы"
+ 
+ # v11.3
+ pm_tractors_building_rice_farm:0 "$pm_tractors$"
+ pm_compression_ignition_tractors_building_rice_farm:0 "$pm_compression_ignition_tractors$"
+ pm_precision_tools:0 "Увеличенное производство роскошной мебели"
+ pm_luxury_furniture_focus:0 "Упор на производство роскошной мебели"
+ pm_electric_ovens_bakery:0 "Электрические духовки"
