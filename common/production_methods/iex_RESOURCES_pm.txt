@@ -101,3 +101,32 @@ pm_advanced_filtering_sulfur_mine = {
 		}
 	}
 }
+
+### LOGGING CAMPS ###
+
+pm_chainsaws = {
+	texture = "gfx/interface/icons/production_method_icons/chainsaws.dds"
+	unlocking_technologies = {
+		combustion_engine
+	}
+	disallowing_laws = {
+		law_industry_banned
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10	# 400
+			goods_input_fuel_add = 5	# 250	# TOTAL 650
+			
+			goods_output_wood_add = 10	# 200	# PROFIT -450
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -1500
+			building_employment_machinists_add = 200
+			building_employment_engineers_add = 200
+		}
+	}
+}
+

@@ -1,7 +1,10 @@
 [h1]v11.4[/h1]
 -Fixed auto expansion in states with insufficient infrastructure.
 -Reverted base MAPI to 75%. It being 90% was not intentional.
-
+-USA, UK, Belgium, Prussia and France start with Mechanical Production tech researched.
+-Added starting Luxury Clothes Factories to UK. No starting employment, needs some time to hire.
+-Chainsaws PM now consumes Fuel instead of Oil and gives a little Wood output bonus.
+-Removed +10% construction efficiency from Road Maintainance decree.
 
 
 

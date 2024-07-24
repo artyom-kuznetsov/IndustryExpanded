@@ -407,17 +407,6 @@ building_tooling_workshops = {
 
 	}
 	
-	can_build_private = {
-		occupancy >= 0.9
-		owner = {
-			market = {
-				mg:tools = { 
-					market_goods_pricier > 0.01
-				}
-			}
-		}
-	}
-	
 	production_method_groups = {
 		pmg_base_building_tooling_workshops
 		pmg_boilers
@@ -448,7 +437,7 @@ building_munition_plants = {
 	}
 	
 	should_auto_expand = { 
-		opancy >= 0.8
+		occupancy >= 0.8
 		owner = {
 			market = {
 				mg:ammunition = { 

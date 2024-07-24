@@ -7,17 +7,6 @@
 	}
 }
 
-pmg_sewing_luxury = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_handsewing_luxury
-		pm_workshops_luxury
-		pm_sewing_machines_luxury
-		pm_electric_sewing_machines_luxury
-	}
-}
-
-
 pmg_luxury_building_furniture_manufacturies = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
@@ -25,6 +14,17 @@ pmg_luxury_building_furniture_manufacturies = {
 		pm_luxury_furniture
 		pm_precision_tools
 		pm_luxury_furniture_focus
+	}
+}
+
+
+pmg_sewing_luxury = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handsewing_luxury
+		pm_workshops_luxury
+		pm_sewing_machines_luxury
+		pm_electric_sewing_machines_luxury
 	}
 }
 
