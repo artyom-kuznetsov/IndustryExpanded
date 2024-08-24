@@ -1,3 +1,8 @@
+[h1]v11.5[/h1]
+-Added "Densely Forested Area" to Indochina.
+-Fixed Power Blocs railway PMs were not available.
+-Reduced goods shortage penalty threshold (shortages will be easier to handle)
+
 [h1]v11.4[/h1]
 -Transportation is now a non-local good (does anyone like microing railroad PMs so they don't drain your budget?)
 -Fixed auto expansion in states with insufficient infrastructure.

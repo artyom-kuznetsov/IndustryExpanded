@@ -2,8 +2,8 @@
 # Global Static Modifiers
 # Global Static Modifiers
 base_values = {
-	country_weekly_innovation_add = 50
-	country_weekly_innovation_max_add = 75
+	country_weekly_innovation_add = 60
+	country_weekly_innovation_max_add = 60
 	country_tech_spread_add = 40
 	
 	country_loan_interest_rate_add = 0.2
@@ -68,4 +68,10 @@ efficient_bureaucracy = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_positive.dds
 	state_construction_mult = 0.10
 	country_law_enactment_time_mult = -0.25
+}
+
+country_literacy_rate = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
+	country_weekly_innovation_max_add = 180
+	country_tech_spread_add = 90
 }

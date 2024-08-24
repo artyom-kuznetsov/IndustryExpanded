@@ -3,8 +3,7 @@
 A mod focused on goods, building, production methods and variability expansion, improvement and balancing.
 
 Industry Expanded is a big mod, touching many aspects of the game.
-IEX allows you to build your industry more flexibly: lack of a certain resource is not as harsh anymore, thanks to features like Ore Filtering and overall PM variability, for example:
-Artillery production needs copper, but if you don't have it, you can use just iron/steel, resulting in less efficient production, but it's viable! You can use (previously useless in early game) oil for streetlights and paper production, instead of using sulfur.
+IEX allows you to build your industry more flexibly: lack of a certain resource is not as harsh anymore, thanks to features like Ore Filtering and overall PM variabilityю
 Many buildings that needed to be, were seperated (for example, grocery and liquor, engines and automobiles).
 This mod features a vast expansion in buildings and technologies, such as:
 [b]- Oil Industry[/b], as well as [b]Synthetic Rubber[/b] and [b]Plastics[/b] production.
@@ -27,11 +26,16 @@ Mod is made for game version [b]v1.7.5[/b]
 [h2]Mod Compatibility[/h2]
 [b]Existing Compatibility Patches that I am aware of:[/b]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Industry Expanded & Morgenröte Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3226286551]Industry Expanded & E&F Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3268981751]VC + IEX Сompatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]IEX + ASE Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]IEX + I.R.O.N. Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Power Plants Plus & Industry Expanded Compatibility Patch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Industry Expanded & Better Politics Mod Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3254346454]LLWA + MR + IEX +E&F Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3316036071]IEX + Free Market Construction Compatch[/url]
+If you make a compatch, let me know so I add to the list!
+
 Please note that I am not responsible for ANY of these compatches. If you encounter any issues, you should contact their authors.
 Not recommended to use with mods changing PMs, technologies or buildings.
 

@@ -22,5 +22,7 @@ pmg_base_building_railway = {
 		pm_diesel_trains
 		pm_high_speed_electric_trains
 		pm_high_speed_diesel_trains
+		pm_electric_trains_principle_transport_3
+		pm_diesel_trains_principle_transport_3
 	}
 }

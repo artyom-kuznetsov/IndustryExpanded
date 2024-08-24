@@ -3,8 +3,7 @@
 Мод, направленный на расширение количества методов производства, вариативности, их улучшение и балансировку.
 
 Industry Expanded - это большой мод, затрагивающий многие аспекты игры.
-IEX позволяет вам строить промышленность более гибким образом: нехватка определённого ресурса не так ужасна, благодаря фичам вроде Фильтрации руды и общей вариативности методов производства, например:
-Производство артиллерии требует меди, но если у вас её нет, вы можете использовать просто железо или сталь, в итоге получая менее эффективное производство, но рабочее! Ранее бесполезная в ранней игре нефть теперь может быть использована для освещения улиц и производства бумаги вместо использования серы.
+IEX позволяет вам строить промышленность более гибким образом: нехватка определённого ресурса не так ужасна, благодаря фичам вроде Фильтрации руды и общей вариативности методов производстваю
 Многие постройки, которым это требовалось, были разделены (например, продукты и спирт, двигатели и автомобили)
 Мод содержит значительные расширения в постройках и технологиях, такие как:
 [b]- Нефтяная промышленность[/b], также [b]Синтетическая резина[/b] и производство[b] Пластика[/b].
@@ -27,11 +26,16 @@ Industry Expanded изменяет многие законы и институты, чтобы они стали более логи
 [h2]Совместимость с модами[/h2]
 [b]Существующие патчи совместимости о которых я в курсе:[/b]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Industry Expanded & Morgenrote Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3226286551]Industry Expanded & E&F Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3268981751]VC + IEX Сompatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]IEX + ASE Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]IEX + I.R.O.N. Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Power Plants Plus & Industry Expanded Compatibility Patch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Industry Expanded & Better Politics Mod Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3254346454]LLWA + MR + IEX +E&F Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3316036071]IEX + Free Market Construction Compatch[/url]
+Если вы сделали патч совместимости, дайте знать, чтобы я добавил его в список!
+
 Пожалуйста, помните, что я не ответственнен ни за один из этих патчей совместимости. Если у вас возникнут какие-либо проблемы, свяжитесь с их авторами.
 Не рекомендуется использовать с модами, изменяющими постройки и методы производства.
 

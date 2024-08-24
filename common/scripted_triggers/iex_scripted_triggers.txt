@@ -11,6 +11,7 @@ is_densely_forested = {
 		has_state_trait = state_trait_burmese_teak
 		has_state_trait = state_trait_borneo_rainforest
 		has_state_trait = state_trait_floridian_wetlands
+		has_state_trait = state_trait_indochinese_forest
 	}
 }
 

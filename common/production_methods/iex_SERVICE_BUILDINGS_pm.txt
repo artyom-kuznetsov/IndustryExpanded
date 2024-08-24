@@ -508,6 +508,76 @@ pm_high_speed_diesel_trains = {
 	
 }
 
+pm_electric_trains_principle_transport_3 = {
+	texture = "gfx/interface/icons/production_method_icons/trains_electric.dds"
+	is_hidden_when_unavailable = yes
+
+	unlocking_principles = {
+		principle_transport_3
+	}
+	
+	unlocking_technologies = {
+		electric_railway
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 6 			# 360
+			goods_input_radios_add = 1 				# 80
+			goods_input_electricity_add = 13.5 		# 410	# TOTAL 850
+			
+			goods_output_transportation_add = 60 	# 1800	# PROFIT 950
+		}
+		level_scaled = {
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 2000
+			building_employment_clerks_add = 750
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 40
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+pm_diesel_trains_principle_transport_3 = {
+	texture = "gfx/interface/icons/production_method_icons/trains_diesel.dds"	
+	is_hidden_when_unavailable = yes
+
+	unlocking_principles = {
+		principle_transport_3
+	}
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_engines_add = 6 			# 360
+			goods_input_fuel_add = 8 				# 400
+			goods_input_radios_add = 1 				# 80
+			goods_output_transportation_add = 60	# 1800	# PROFIT 980
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 750
+		}
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 55
+			state_pollution_generation_add = 20
+		}
+	}
+}
+
 pm_no_passenger_trains = {
 	texture = "gfx/interface/icons/production_method_icons/no_passenger_trains.dds"
 }
