@@ -21,7 +21,7 @@ Industry Expanded измен€ет многие законы и институты, чтобы они стали более логи
 [b] итайска€ локализаци€[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url] (создано сообществом)
 [b] орейска€ локализаци€[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (создано сообществом)
 [b]японска€ локализаци€[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url] (создано сообществом)
-ћод создан дл€ версии игры [b]v1.7.5[/b]
+ћод создан дл€ версии игры [b]v1.7.6[/b]
 
 [h2]—овместимость с модами[/h2]
 [b]—уществующие патчи совместимости о которых € в курсе:[/b]
@@ -50,4 +50,5 @@ Industry Expanded измен€ет многие законы и институты, чтобы они стали более логи
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3146746156]Better Revolution Size[/url]
 

@@ -572,3 +572,8 @@
  
  # v11.5
  pmg_harvesting_process_vineyard:0 "$pmg_harvesting_process$"
+ 
+ # v11.6
+ pm_more_radios:0 "Shift on Radio Production"
+ pm_lotta_radios:0 "Radio Production Focus"
+ pm_plastic_furniture:0 "Home Appliances"

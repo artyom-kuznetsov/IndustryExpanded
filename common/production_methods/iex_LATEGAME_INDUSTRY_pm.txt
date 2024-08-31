@@ -96,13 +96,13 @@ pm_plastic_telephones = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_iron_add = 15		# 600
+			goods_input_iron_add = 10		# 300
 			goods_input_rubber_add = 10		# 400
-			goods_input_plastics_add = 20	# 1000
+			goods_input_plastics_add = 30	# 1500
 			goods_input_lead_add = 10		# 400
-			goods_input_tools_add = 15		# 600	# 3000
+			goods_input_tools_add = 15		# 600	# 3200
 			
-			goods_output_telephones_add = 70		# 4900	# PROFIT 1900
+			goods_output_telephones_add = 75		# 5250	# PROFIT 2050
 		}
 
 		level_scaled = {
@@ -124,10 +124,37 @@ pm_radios = {
 	}	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_plastics_add = 30		# 1500
-			goods_output_telephones_add = -20	# 1400	# TOTAL 2900
+			goods_output_telephones_add = -28	#	1960
 			
-			goods_output_radios_add = 36		# 2880	# LOSS 20
+			goods_output_radios_add = 24		#	1920	# LOSS 40
+		}
+	}
+}
+
+pm_more_radios = {
+	texture = "gfx/interface/icons/production_method_icons/radio_shift.dds"
+	unlocking_technologies = {
+		radio
+	}	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_telephones_add = -38	#	2660
+			
+			goods_output_radios_add = 33		#	2640	# LOSS 20
+		}
+	}
+}
+
+pm_lotta_radios = {
+	texture = "gfx/interface/icons/production_method_icons/radio_focus.dds"
+	unlocking_technologies = {
+		radio
+	}	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_telephones_add = -50	#	3500
+			
+			goods_output_radios_add = 44		#	3520	# PROFIT 20
 		}
 	}
 }

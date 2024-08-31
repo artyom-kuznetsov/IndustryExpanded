@@ -21,7 +21,7 @@ Qualifications and migration logic were also adjusted;
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
 [b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (Community-made)
 [b]Japanese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url] (Community-made)
-Mod is made for game version [b]v1.7.5[/b]
+Mod is made for game version [b]v1.7.6[/b]
 
 [h2]Mod Compatibility[/h2]
 [b]Existing Compatibility Patches that I am aware of:[/b]
@@ -50,4 +50,5 @@ Not recommended to use with mods changing PMs, technologies or buildings.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3146746156]Better Revolution Size[/url]
 
