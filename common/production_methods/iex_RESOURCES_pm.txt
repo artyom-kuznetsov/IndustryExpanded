@@ -121,6 +121,10 @@ pm_chainsaws = {
 			goods_output_wood_add = 10	# 200	# PROFIT -450
 		}
 
+		unscaled = {
+			building_throughput_add = 0.05
+		}
+		
 		level_scaled = {
 			# employment
 			building_employment_laborers_add = -1500

@@ -489,7 +489,10 @@ stone_roads = {
 	
 	unlocking_technologies = {
 		modern_sewerage
-		value = 5 # Important in general
+	}
+	
+	ai_weight = {
+		value = 2 
 	}
 }
 

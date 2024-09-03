@@ -1,9 +1,43 @@
-﻿pmg_automation_building_food_industry = {
+﻿
+pmg_base_building_munition_plants = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_paper_cartridges
+		pm_percussion_caps
+		pm_steel_ammo
+		pm_explosive_shells
+	}
+}
+
+pmg_filler_building_munition_plants = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_gunpowder_filler
+		pm_explosive_filler
+	}
+}
+
+
+pmg_automation_building_food_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_manual_dough_processing
 		pm_electric_ovens_bakery
 		pm_automated_bakery
+	}
+}
+
+pmg_base_building_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handcrafted_furniture
+		pm_lathe
+		pm_mechanized_workshops
+		pm_plastic_furniture
 	}
 }
 
@@ -180,7 +214,6 @@ pmg_base_building_tooling_workshops = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_crude_tools
-		pm_bronze_tools
 		pm_pig_iron
 		pm_steel
 		pm_rubber_grips

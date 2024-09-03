@@ -1,4 +1,195 @@
-﻿### LUMBER MILL ###
+﻿### ARMS INDUSTRIES ###
+
+pm_bolt_action_rifles = {
+	texture = "gfx/interface/icons/production_method_icons/bolt_action_rifles.dds"
+	
+	unlocking_technologies = {
+		bolt_action_rifles
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 20
+			goods_input_hardwood_add = 10
+			goods_input_tools_add = 20
+			goods_input_oil_add = 10
+			
+			# output goods
+			goods_output_small_arms_add = 100
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+
+
+### MUNITIONS PLANTS ###
+pm_paper_cartridges = {
+	texture = "gfx/interface/icons/production_method_icons/percussion_caps.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 10			# 400
+			goods_input_paper_add = 10			# 300	# TOTAL 700	# +GP = 1400
+			
+			# output goods
+			goods_output_ammunition_add = 40	# 2000	# +GP PROFIT 600
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 1000
+		}
+	}
+}
+
+pm_gunpowder_filler = {
+	texture = "gfx/interface/icons/production_method_icons/percussion_caps.dds"
+	
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_coal_add = 10			# 300
+			goods_input_sulfur_add = 8			# 400	# TOTAL 700
+		}
+	}
+}
+
+pm_explosive_filler = {
+	texture = "gfx/interface/icons/production_method_icons/explosive_shells.dds"
+	
+	unlocking_production_methods = {
+		pm_percussion_caps
+		pm_steel_ammo
+		pm_explosive_shells
+	}
+	
+	unlocking_technologies = {
+		nitroglycerin
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_explosives_add = 20			# 1000
+			goods_output_ammunition_add = 12		# 600	# TOTAL 400	
+		}
+	}
+}
+
+pm_percussion_caps = {
+	texture = "gfx/interface/icons/production_method_icons/percussion_caps.dds"
+	
+	unlocking_technologies = {
+		percussion_caps
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_lead_add = 20			# 800
+			
+			# output goods
+			goods_output_ammunition_add = 45	# 2250	# PROFIT 1450
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_steel_ammo = {
+	texture = "gfx/interface/icons/production_method_icons/percussion_caps.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+	
+	unlocking_technologies = {
+		percussion_caps
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_steel_add = 15			# 750
+			
+			# output goods
+			goods_output_ammunition_add = 40	# 2000	# PROFIT 1250
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_explosive_shells = {
+	texture = "gfx/interface/icons/production_method_icons/explosive_shells.dds"
+	
+	unlocking_technologies = {
+		dynamite
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_explosives_add = 10		# 500 (+1000)
+			goods_input_lead_add = 30			# 1200	# TOTAL 2200
+			
+			# output goods
+			goods_output_ammunition_add = 90	# 4500	# PROFIT 2300
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 750
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+
+### LUMBER MILL ###
 pm_manual_sawing_lm = {
 	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"
 	

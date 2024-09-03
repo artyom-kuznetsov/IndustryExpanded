@@ -577,3 +577,9 @@
  pm_more_radios:0 "Уклон в производство радио"
  pm_lotta_radios:0 "Упор на производство радио"
  pm_plastic_furniture:0 "Бытовая техника"
+ 
+ pm_paper_cartridges:0 "Бумажные картриджи"
+ pm_gunpowder_filler:0 "Пороховые заряды"
+ pm_explosive_filler:0 "Наполнение взрывчаткой"
+ pm_steel_ammo:0 "Стальные пули"
+ pmg_filler_building_munition_plants:0 "Наполнитель"

@@ -3,7 +3,7 @@
   "picture" : "thumbnail.png",
   "id" : "",
   "version" : "11.5",
-  "supported_game_version" : "1.7.*",
+  "supported_game_version" : "1.7.6",
   "short_description" : "An Industry Expansion Mod",
   "tags" : [],
   "relationships" : [],

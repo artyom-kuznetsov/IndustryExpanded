@@ -72,6 +72,10 @@ law_protectionism = {
 		stock_exchange
 	}
 	
+	modifier = {
+		country_leverage_resistance_mult = 0.25
+	}
+	
 	tariff_modifier_no_priority = {
 		tariff_export_add = 0.10
 		tariff_import_add = 0.10

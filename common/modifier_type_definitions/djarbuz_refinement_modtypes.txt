@@ -8,63 +8,6 @@ state_building_road_network_max_level_add = {
 	}
 }
 
-goods_output_copper_add = {
-	color=good
-	percent = no
-	game_data={
-		ai_value=0
-	}
-}
-
-goods_input_copper_add = {
-	color=bad
-	percent = no	
-	game_data={
-		ai_value=0
-	}
-}
-
-goods_output_copper_mult = {
-	color=good
-	percent = yes
-	game_data={
-		ai_value=0
-	}
-}
-
-goods_input_copper_mult = {
-	color=bad
-	percent = yes
-	game_data={
-		ai_value=0
-	}
-}
-
-goods_output_machine_parts_add = {
-	color=good
-	percent = no
-	game_data={
-		ai_value=0
-	}
-}
-
-goods_input_machine_parts_add = {
-	color=bad
-	percent = no	
-	game_data={
-		ai_value=0
-	}
-}
-
-goods_output_machine_parts_mult = {
-	color=good
-	percent = yes
-	game_data={
-		ai_value=0
-	}
-}
-
-
 goods_output_paper_mult = {
 	color=good
 	percent = yes

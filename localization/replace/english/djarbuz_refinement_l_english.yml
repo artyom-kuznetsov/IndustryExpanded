@@ -577,3 +577,9 @@
  pm_more_radios:0 "Shift on Radio Production"
  pm_lotta_radios:0 "Radio Production Focus"
  pm_plastic_furniture:0 "Home Appliances"
+ 
+ pm_paper_cartridges:0 "Paper Cartridges"
+ pm_gunpowder_filler:0 "Gunpowder Filler"
+ pm_explosive_filler:0 "Explosive Filler"
+ pm_steel_ammo:0 "Steel Bullets"
+ pmg_filler_building_munition_plants:0 "Filler"
