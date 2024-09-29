@@ -316,9 +316,9 @@ pm_extensive_plastic_production = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_fuel_add = -40
+			goods_output_fuel_add = -50
 
-			goods_output_plastics_add = 40	# NO PROFIT
+			goods_output_plastics_add = 50	# NO PROFIT
 		}
 	}
 }

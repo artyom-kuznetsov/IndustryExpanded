@@ -72,6 +72,6 @@ efficient_bureaucracy = {
 
 country_literacy_rate = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	country_weekly_innovation_max_add = 180
+	country_weekly_innovation_max_add = 200
 	country_tech_spread_add = 90
 }

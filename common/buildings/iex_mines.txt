@@ -19,7 +19,7 @@
 				}
 			}
 		}
-		state.market_access < 1
+		state.market_access = 1
 		NOT = { is_under_construction = yes }
 
 	}
