@@ -5,6 +5,7 @@
 -Diesel Pumps PMs for mines now use refined fuel, instead of oil.
 -Dynamite for Gold Mines now actually increases gold output.
 -Tweaked Oil Refineries PMs.
+-First PM for Arms Industries now uses wood instead of hardwood.
 -Fixed unability to focus on luxury furniture using Home Appliances PM in furniture workshops.
 
 

@@ -331,16 +331,15 @@ pm_plastic_focus = {
 	}
 	
 	unlocking_production_methods = {
-		pm_synthetic_diversion
 		pm_synthetic_oil
 		pm_thermal_cracking
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_fuel_add = -70
+			goods_output_fuel_add = -75
 
-			goods_output_plastics_add = 70	# NO PROFIT
+			goods_output_plastics_add = 75	# NO PROFIT
 		}
 	}
 }
