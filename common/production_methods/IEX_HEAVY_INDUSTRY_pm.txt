@@ -33,7 +33,7 @@ pm_bolt_action_rifles = {
 
 ### MUNITIONS PLANTS ###
 pm_paper_cartridges = {
-	texture = "gfx/interface/icons/production_method_icons/percussion_caps.dds"
+	texture = "gfx/interface/icons/production_method_icons/paper_cartridges.dds"
 	
 	state_modifiers = {
 		workforce_scaled = {
@@ -60,7 +60,7 @@ pm_paper_cartridges = {
 }
 
 pm_gunpowder_filler = {
-	texture = "gfx/interface/icons/production_method_icons/percussion_caps.dds"
+	texture = "gfx/interface/icons/production_method_icons/synthetic_dyes.dds"
 	
 	
 	building_modifiers = {
@@ -73,7 +73,7 @@ pm_gunpowder_filler = {
 }
 
 pm_explosive_filler = {
-	texture = "gfx/interface/icons/production_method_icons/explosive_shells.dds"
+	texture = "gfx/interface/icons/production_method_icons/dynamite.dds"
 	
 	unlocking_production_methods = {
 		pm_percussion_caps
@@ -126,7 +126,7 @@ pm_percussion_caps = {
 }
 
 pm_steel_ammo = {
-	texture = "gfx/interface/icons/production_method_icons/percussion_caps.dds"
+	texture = "gfx/interface/icons/production_method_icons/steel_ammo.dds"
 	
 	state_modifiers = {
 		workforce_scaled = {

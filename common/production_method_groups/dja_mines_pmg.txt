@@ -1,4 +1,13 @@
 ﻿
+pmg_base_building_oil_rig = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_steam_derricks
+		pm_combustion_derricks
+		pm_modern_derricks
+	}
+}
+
 pmg_filtering_building_lead_mine = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {

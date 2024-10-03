@@ -414,7 +414,7 @@
  pm_tractors_rice:0 "$pm_tractors$"
  pm_compression_ignition_tractors_rice:0 "$pm_compression_ignition_tractors$"
  
- building_oil_refinery:0 "Oil Refinery"
+ building_oil_refinery:0 "Oil Refineries"
  pmg_base_oil_refinery:0 "Refining Process"
  pmg_plastics:0 "Plastics Production"
  
@@ -583,3 +583,10 @@
  pm_explosive_filler:0 "Explosive Filler"
  pm_steel_ammo:0 "Steel Bullets"
  pmg_filler_building_munition_plants:0 "Filler"
+ 
+ pmg_ranch_fertilizer:0 "Fertilizers"
+ pm_no_fertilizer_collection:0 "No Fertilizer Gathering"
+ pm_fertilizer_gathering:0 "Fertilizer Gathering"
+ 
+ # v11.7
+ pm_modern_derricks:0 "Modern Derricks"

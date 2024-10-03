@@ -1,4 +1,12 @@
 ﻿
+pmg_ranch_fertilizer = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_fertilizer_collection
+		pm_fertilizer_gathering
+	}
+}
+
 pmg_base_building_livestock_ranch = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {

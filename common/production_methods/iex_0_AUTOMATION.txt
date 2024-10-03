@@ -404,7 +404,6 @@ pm_automation_gantry_cranes = {
 	
 	state_modifiers = {
 		workforce_scaled = {
-			state_pollution_generation_add = 5
 			state_infrastructure_add = 8
 		}
 	}
@@ -509,11 +508,6 @@ pm_automation_gantry_cranes_shipyard = {
 		law_industry_banned
 	}
 	
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 5
-		}
-	}
 
 	building_modifiers = {
 		workforce_scaled = {

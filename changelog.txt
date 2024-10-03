@@ -1,9 +1,20 @@
+[h1]v11.7[/h1]
+-Reworked Oil Rigs PMs and added a new top PM - Modern Derricks.
+-Reworked Road Network PMs
+-Reworked Railroad PMs
+-Diesel Pumps PMs for mines now use refined fuel, instead of oil.
+-Dynamite for Gold Mines now actually increases gold output.
+-Tweaked Oil Refineries PMs.
+-Fixed unability to focus on luxury furniture using Home Appliances PM in furniture workshops.
+
+
 [h1]v11.6[/h1]
 [h2]Production[/h2]
 -Reworked Radio production.
 -Added new production method for Furniture Manufactories: Home Appliances. PM is unlocked by researching Dough Rollers (previously almost useless tech).
 -Reworked Munition Plants, now able to produce ammunition without explosives or lead.
 -Added +5% throughput to Chainsaws PM.
+-Fertilizer Production in Livestock Ranches can now be disabled/enabled independent from base production method.
 [h2]Trade[/h2]
 -Decreased trade route convoy usage by 40%.
 -Trade route max level increased.
@@ -17,8 +28,12 @@
 -Secessions of the same culture now have a cooldown of 10 years, instead of 5.
 -Revolutions now get less states with low support.
 -Demobilization/Remobilization cooldown reduced from 90 to 30 days.
+-Church and State laws now give political strenght to clergymen instead of clergy IG (except Atheism).
+-Reworked Secret Police insitution pop attraction/strenght effects.
+-Army Model now gives political strenght to pops instead of IGs.
 [h2]Other[/h2]
 -Fixed Iron Mines auto-expansion.
+-Removed Education Access from Privately Funded Secondary Education.
 
 
 [h1]v11.5[/h1]

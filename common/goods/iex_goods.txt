@@ -6,6 +6,7 @@ transportation = {
 	#local = yes
 
 	prestige_factor = 4
+	tradeable = no
 	
 	consumption_tax_cost = 200
 }
@@ -17,6 +18,7 @@ electricity = {
 	#local = yes
 	
 	prestige_factor = 5
+	tradeable = no
 	
 	consumption_tax_cost = 200
 }

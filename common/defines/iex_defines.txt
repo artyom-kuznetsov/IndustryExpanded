@@ -23,7 +23,7 @@ NEconomy = {
 	TRADE_ROUTE_ECONOMY_OF_SCALE_MAX_LEVEL = 241			# After this level, trade route economy of scale no longer increases the amount per level
 	TRADE_ROUTE_AUTO_INCREASE_LOW_PRODUCTIVITY_THRESHOLD = 3 # If trade route's productivity would drop below this, don't automatically increase its level (regardless of total revenue)
 	TRADE_ROUTE_AUTO_INCREASE_HIGH_PRODUCTIVITY_THRESHOLD = 4 # If trade route's productivity is above this, it's always fine to automatically increase its level (regardless of total revenue)
-	TRADE_CENTER_NUM_LEVELS_PER_TRADE_ROUTE_LEVEL = 0.5 # Each level of a trade route generates this number of Trade Center levels to manage it
+	TRADE_CENTER_NUM_LEVELS_PER_TRADE_ROUTE_LEVEL = 1 # Each level of a trade route generates this number of Trade Center levels to manage it
 	
 	PRICE_RANGE = 0.95
 	GOODS_SHORTAGE_PENALTY_THRESHOLD = 0.6

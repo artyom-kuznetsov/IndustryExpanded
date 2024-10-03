@@ -173,12 +173,12 @@ pm_oil_distillation = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_oil_add = 50			# 2000
-			goods_input_electricity_add = 10	# 300	# TOTAL 2300
+			goods_input_oil_add = 60			# 2400
+			goods_input_electricity_add = 10	# 300	# TOTAL 2700
 
 			# output goods
-			goods_output_fuel_add = 65			# 3250 
-			goods_output_sulfur_add = 5			# 250 # TOTAL 3500 # PROFIT 1200
+			goods_output_fuel_add = 75			# 3750
+			goods_output_sulfur_add = 5			# 250 # TOTAL 4000 # PROFIT 1300
 		}
 
 		level_scaled = {
@@ -201,12 +201,12 @@ pm_synthetic_diversion = {
 		workforce_scaled = {
 			# input goods
 			goods_input_oil_add = 30			# 1200
-			goods_input_coal_add = 30			# 900
-			goods_input_electricity_add = 15	# 450	# TOTAL 2550
+			goods_input_coal_add = 35			# 1050
+			goods_input_electricity_add = 15	# 450	# TOTAL 2700
 
 			# output goods
-			goods_output_fuel_add = 80			# 4000
-			goods_output_sulfur_add = 5			# 250 # TOTAL 4250 # PROFIT 1950
+			goods_output_fuel_add = 70			# 3750
+			goods_output_sulfur_add = 5			# 250 # TOTAL 4000 # PROFIT 1300
 		}
 
 		level_scaled = {
@@ -232,12 +232,12 @@ pm_synthetic_oil = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_coal_add = 60			# 1800
+			goods_input_coal_add = 70			# 2100
 			goods_input_fertilizer_add = 5		# 150
-			goods_input_electricity_add = 15	# 450	# TOTAL 2400
+			goods_input_electricity_add = 15	# 450	# TOTAL 2700
 
 			# output goods
-			goods_output_fuel_add = 80			# 4000	# PROFIT 1600
+			goods_output_fuel_add = 100			# 5000	# PROFIT 2300
 		}
 
 		level_scaled = {
@@ -271,8 +271,8 @@ pm_thermal_cracking = {
 			goods_input_electricity_add = 15	# 450	# TOTAL 2850
 
 			# output goods
-			goods_output_fuel_add = 90			# 4500 
-			goods_output_sulfur_add = 10		# 500 # TOTAL 5000 # PROFIT 2150
+			goods_output_fuel_add = 100			# 5000 
+			goods_output_sulfur_add = 10		# 500 # TOTAL 5500 # PROFIT 2650
 		}
 
 		level_scaled = {
@@ -341,66 +341,6 @@ pm_plastic_focus = {
 			goods_output_fuel_add = -70
 
 			goods_output_plastics_add = 70	# NO PROFIT
-		}
-	}
-}
-
-### OIL RIGS ###
-
-pm_steam_derricks = {
-	texture = "gfx/interface/icons/production_method_icons/simple_oil_extraction.dds"
-	
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 10
-		}
-	}
-	
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_engines_add = 5
-			goods_input_coal_add = 10
-			
-			# output goods
-			goods_output_oil_add = 60
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 3000
-			building_employment_machinists_add = 1000
-			building_employment_engineers_add = 500
-		}
-	}
-}
-
-pm_combustion_derricks = {
-	texture = "gfx/interface/icons/production_method_icons/combustion_derricks.dds"
-	
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 15
-		}
-	}
-	
-	unlocking_technologies = {
-		combustion_engine
-	}
-	
-	building_modifiers = {
-		workforce_scaled = {
-			# input goods
-			goods_input_engines_add = 10	# 600
-			goods_input_fuel_add = 10		# 500
-			
-			# output goods
-			goods_output_oil_add = 110		# 4400
-		}
-
-		level_scaled = {
-			building_employment_laborers_add = 2000
-			building_employment_machinists_add = 2000
-			building_employment_engineers_add = 900
 		}
 	}
 }

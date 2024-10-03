@@ -145,6 +145,7 @@ pm_precision_tools = {
 	unlocking_production_methods = {
 		pm_lathe
 		pm_mechanized_workshops
+		pm_plastic_furniture
 	}
 	
 	building_modifiers = {
@@ -163,6 +164,7 @@ pm_luxury_furniture_focus = {
 		
 	unlocking_technologies = {
 		mechanized_workshops
+		pm_plastic_furniture
 	}
 
 	unlocking_production_methods = {

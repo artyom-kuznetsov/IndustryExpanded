@@ -51,11 +51,10 @@ pm_slaughterhouses = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_grain_add = 15	# 300
-			goods_input_tools_add = 10	# 400	# TOTAL 700
+			goods_input_grain_add = 10			# 200
+			goods_input_tools_add = 10			# 400	# TOTAL 600
 			
-			goods_output_meat_add = 45			# 1350
-			goods_output_fertilizer_add = 5		# 150	# PROFIT 800
+			goods_output_meat_add = 45			# 1350	# PROFIT 750
 		}
 
 		level_scaled = {
@@ -82,12 +81,11 @@ pm_mechanized_slaughtering = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_grain_add = 20	# 400
-			goods_input_tools_add = 10	# 400
-			goods_input_coal_add = 5	# 150	# TOTAL 950
+			goods_input_grain_add = 15			# 300
+			goods_input_tools_add = 10			# 400
+			goods_input_coal_add = 5			# 150	# TOTAL 850
 			
-			goods_output_meat_add = 60			# 1800
-			goods_output_fertilizer_add = 10	# 300	# PROFIT 1150
+			goods_output_meat_add = 60			# 1800	# PROFIT 950
 		}
 
 		level_scaled = {
@@ -175,6 +173,28 @@ pm_intensive_grazing_ranch = {
 		workforce_scaled = {
 			goods_output_meat_add = -44		# 1320
 			goods_output_fabric_add = 66	# 1320	# NO PROFIT
+		}
+	}
+}
+
+# FERTILIZER
+
+pm_no_fertilizer_collection = {
+	texture = "gfx/interface/icons/production_method_icons/no_fertilizer.dds"
+}
+
+pm_fertilizer_gathering = {
+	texture = "gfx/interface/icons/production_method_icons/petcoke.dds"
+
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 5		# 100
+			goods_output_fertilizer_add = 3	# 150	# PROFIT 150
 		}
 	}
 }
