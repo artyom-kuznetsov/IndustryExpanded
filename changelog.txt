@@ -1,4 +1,5 @@
 [h1]v11.7[/h1]
+[h2]Production[/h2]
 -Reworked Oil Rigs PMs and added a new top PM - Modern Derricks.
 -Reworked Road Network PMs
 -Reworked Railroad PMs
@@ -7,7 +8,18 @@
 -Tweaked Oil Refineries PMs.
 -First PM for Arms Industries now uses wood instead of hardwood.
 -Fixed unability to focus on luxury furniture using Home Appliances PM in furniture workshops.
+-Fixed automation for grain farms could reduce employment by more than possible.
 
+[h2]Population[/h2]
+-Cultures now get obsessions with 30% goods overproduction, instead of 75% (from Grey's Soft Pop Adjustments)
+-Increased obsession spawn chance (from Grey's Soft Pop Adjustments)
+-Reworked pops job satisfaction. Pops with higher SoL than expected will now have much higher job satisfaction. (from Grey's Soft Pop Adjustments)
+-Cultural communities now take longer disappear. (from Grey's Soft Pop Adjustments)
+-Pops will be less likely do emigrate from low populated states. (from Grey's Soft Pop Adjustments)
+-Decreased unnecessary pop migration. (from Grey's Soft Pop Adjustments)
+-Unemployment affects migration attraction more. (from Grey's Soft Pop Adjustments)
+-Starving pops will be more likely to mass migrate. (from Grey's Soft Pop Adjustments)
+-Increased pop consolidation
 
 [h1]v11.6[/h1]
 [h2]Production[/h2]

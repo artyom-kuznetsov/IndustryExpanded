@@ -6,11 +6,11 @@ pm_muskets = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 10
-			goods_input_wood_add = 20
+			goods_input_iron_add = 10	# 400
+			goods_input_wood_add = 20	# 400	# TOTAL 800
 			
 			# output goods
-			goods_output_small_arms_add = 30
+			goods_output_small_arms_add = 30	# 
 		}
 
 		level_scaled = {

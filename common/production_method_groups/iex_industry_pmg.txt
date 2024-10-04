@@ -5,8 +5,8 @@ pmg_base_building_munition_plants = {
 
 	production_methods = {
 		pm_paper_cartridges
-		pm_percussion_caps
 		pm_steel_ammo
+		pm_percussion_caps
 		pm_explosive_shells
 	}
 }
