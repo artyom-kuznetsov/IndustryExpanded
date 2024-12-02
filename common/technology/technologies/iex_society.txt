@@ -442,6 +442,7 @@ pharmaceuticals = {
 	
 	modifier = {
 		country_institution_health_system_max_investment_add = 1
+		state_harvest_condition_disease_outbreak_impact_mult = -0.2
 	}
 	
 	unlocking_technologies = {
@@ -466,6 +467,7 @@ modern_sewerage = {
 		country_max_weekly_construction_progress_add = 5
 		market_land_trade_capacity_add = 10
 		state_pollution_reduction_health_mult = -0.1
+		state_harvest_condition_flood_impact_mult = -0.1
 	}
 	
 	unlocking_technologies = {
@@ -526,7 +528,16 @@ quinine = {
 			limit = { 
 				has_strategy = ai_strategy_colonial_expansion
 			}
-			add = 4
+			add = 1
+
+			if = {
+				limit = {
+					any_scope_state = {
+						state_is_in_africa = yes
+					}
+				}
+				add = 3
+			}
 		}
 	}
 }
@@ -563,6 +574,39 @@ central_archives = {
 	
 	unlocking_technologies = {
 		centralization
+	}
+	
+	on_researched = {
+		if = {
+			limit = {
+				NOT = {
+					any_political_movement = {
+						is_political_movement_type = movement_modernizer
+					}
+				}
+				OR = {
+					AND = {
+						OR = {
+							country_is_in_south_america = yes
+							country_is_in_central_america = yes
+						}
+						country_rank <= rank_value:major_power
+					}
+					is_country_type = colonial
+					is_country_type = unrecognized
+				}
+				AND = {
+					has_law = law_type:law_protectionism
+					OR = {
+						has_law = law_type:law_interventionism
+						has_law = law_type:law_command_economy
+						has_law = law_type:law_laissez_faire
+					}
+					has_law = law_type:law_compulsory_primary_school
+				}
+			}
+			create_political_movement = { type = movement_modernizer }
+		}
 	}
 	
 	ai_weight = {
@@ -626,7 +670,7 @@ dialectics = {
 	}
 	
 	ai_weight = {
-		value = 5
+		value = 1
 	}
 }
 
@@ -647,7 +691,7 @@ secondary_education = {
 	}
 	
 	ai_weight = {
-		value = 5
+		value = 2
 	}
 }
 
@@ -727,11 +771,9 @@ nationalism = {
 				OR = {
 					country_has_primary_culture = cu:north_german
 					country_has_primary_culture = cu:south_german
-					country_has_primary_culture = cu:north_italian
-					country_has_primary_culture = cu:south_italian
 				}				
 			}
-			add = 2
+			add = 4
 		}	
 		
 		if = {
@@ -744,7 +786,7 @@ nationalism = {
 					has_journal_entry = je_risorgimento
 				}
 			}
-			multiply = 2
+			multiply = 4
 		}
 	}
 }
@@ -933,6 +975,7 @@ steel_frame_buildings = {
 		state_building_construction_sector_max_level_add = 5
 		country_max_weekly_construction_progress_add = 10
 		market_land_trade_capacity_add = 10
+		state_harvest_condition_flood_impact_mult = -0.05
 	}
 	
 	unlocking_technologies = {
@@ -1525,6 +1568,7 @@ antibiotics = {
 	
 	modifier = {
 		country_institution_health_system_max_investment_add = 1
+		state_harvest_condition_disease_outbreak_impact_mult = -0.15
 	}
 	
 	unlocking_technologies = {
@@ -1607,6 +1651,7 @@ behaviorism = {
 		country_diplomatic_play_maneuvers_add = 10
 		state_bureaucracy_population_base_cost_factor_mult = -0.05
 		country_institution_schools_2_max_investment_add = 1
+		state_bureaucracy_population_base_cost_factor_mult = -0.05
 	}
 	
 	unlocking_technologies = {
@@ -1643,7 +1688,7 @@ paved_roads = {
 	
 	modifier = {
 		state_building_construction_sector_max_level_add = 5
-		market_land_trade_capacity_add = 10
+		market_land_trade_capacity_add = 20
 		state_infrastructure_from_automobiles_consumption_add = 0.25
 	}
 	

@@ -22,9 +22,6 @@ law_chiefdom = {
 		country_authority_add = 100
 	}
 	
-	pop_support = {
-		value = 0
-	}
 
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
@@ -69,25 +66,6 @@ law_monarchy = {
 		country_legitimacy_ideological_incoherence_mult = 0.1
 		country_aristocrats_pol_str_mult = 0.25
 		country_authority_add = 150
-	}
-	
-	possible_political_movements = {
-		law_presidential_republic
-		law_parliamentary_republic
-		law_council_republic
-	}
-	
-	pop_support = {
-		value = 0	
-		add = {
-			desc = "POP_ARISTOCRATS"
-			if = {
-				limit = { 
-					is_pop_type = aristocrats
-				}
-				value = 0.33
-			}
-		}
 	}
 	
 	ai_will_do = {
@@ -230,24 +208,6 @@ law_presidential_republic = {
 		}
 	}
 	
-	possible_political_movements = {
-		law_council_republic
-		law_monarchy
-	}
-
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_MIDDLE_STRATA"
-			if = {
-				limit = { 
-					strata = middle
-				}
-				value = 0.05
-			}
-		}
-	}
-	
 	ai_will_do = {
 		exists = ruler
 		ruler = {
@@ -361,24 +321,6 @@ law_parliamentary_republic = {
 		}
 	}
 
-	possible_political_movements = {
-		law_council_republic
-		law_monarchy
-	}
-
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_MIDDLE_STRATA"
-			if = {
-				limit = { 
-					strata = middle
-				}
-				value = 0.05
-			}
-		}
-	}
-	
 	ai_will_do = {
 		exists = ruler
 		ruler = {
@@ -456,27 +398,6 @@ law_theocracy = {
 		country_legitimacy_ideological_incoherence_mult = 0.1
 		interest_group_ig_devout_pol_str_mult = 0.25
 		country_authority_add = 150
-	}
-	
-	possible_political_movements = {
-		law_monarchy
-		law_presidential_republic
-		law_parliamentary_republic
-		law_council_republic
-	}
-
-	pop_support = {
-		value = 0
-		
-		add = {
-			desc = "POP_CLERGYMEN"
-			if = {
-				limit = { 
-					is_pop_type = clergymen
-				}
-				value = 0.33
-			}
-		}
 	}
 	
 	ai_will_do = {
@@ -577,24 +498,6 @@ law_council_republic = {
 		country_legitimacy_govt_size_add = 1
 		country_legitimacy_ideological_incoherence_mult = -0.1
 		interest_group_ig_trade_unions_pol_str_mult = 0.25
-	}
-	
-	possible_political_movements = {
-		law_presidential_republic
-		law_parliamentary_republic
-	}
-
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_LOWER_STRATA"
-			if = {
-				limit = { 
-					strata = poor
-				}
-				value = 0.05
-			}
-		}
 	}
 	
 	ai_will_do = {

@@ -1,6 +1,6 @@
 ﻿building_forestry = {
 	building_group = bg_forestry
-	texture = "gfx/interface/icons/building_icons/tree_farm.dds"
+	icon = "gfx/interface/icons/building_icons/tree_farm.dds"
 	city_type = wood
 	terrain_manipulator = forestry
 	levels_per_mesh = 0

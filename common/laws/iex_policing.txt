@@ -5,21 +5,12 @@
 	
 	progressiveness = 0
 	
-	possible_political_movements = {
-		law_local_police
-		law_dedicated_police
-		law_militarized_police
-	}
 
 	can_enact = {
 		custom_tooltip = {
 			modifier:country_disallow_law_no_police_bool = no
 			text = disallow_law_no_police_tt
 		}
-	}
-	
-	pop_support = {
-		value = 0
 	}
 
 	# AI shouldn't try to abolish institutions
@@ -55,11 +46,6 @@ law_local_police = {
 		country_authority_add = 25
 	}
 	
-	possible_political_movements = {
-		law_dedicated_police
-		law_militarized_police
-	}
-
 	can_impose = {
 		OR = {
 			AND = {
@@ -70,19 +56,6 @@ law_local_police = {
 				}
 			}
 			can_impose_law_default = yes
-		}
-	}
-
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_ARISTOCRATS"
-			if = {
-				limit = { 
-					is_pop_type = aristocrats
-				}
-				value = 0.25
-			}
 		}
 	}
 	
@@ -96,12 +69,20 @@ law_local_police = {
 
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
+
+		if = {
+			limit = {
+				has_law = law_type:law_no_police
+			}
+			add = 500
+		}
 		
 		if = {
 			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
 			add = 750
 		}
 	}
+
 
 	ai_impose_chance = {
 		value = 0
@@ -123,6 +104,20 @@ law_local_police = {
 				power_bloc ?= { has_principle_group = principle_group:principle_group_police_coordination }
 			}
 			add = 10
+		}
+			
+		if = {
+			limit = {
+				scope:target_country = {
+					c:BIC ?= this
+					OR = {	
+						has_journal_entry = je_british_dictate_plantations
+						has_journal_entry = je_british_dictate_military
+						has_journal_entry = je_british_dictate_universities
+					}
+				}
+			}
+			multiply = 0
 		}
 	}
 }
@@ -149,10 +144,6 @@ law_dedicated_police = {
 		country_authority_add = 20
 	}
 	
-	possible_political_movements = {
-		law_militarized_police
-	}
-
 	can_impose = {
 		OR = {
 			AND = {
@@ -166,40 +157,15 @@ law_dedicated_police = {
 		}
 	}
 
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_SOLDIERS"
-			if = {
-				limit = {
-					NOT = {
-						owner = {
-							has_law = law_type:law_militarized_police
-						}
-					}
-					is_pop_type = soldiers
-				}
-				value = 0.33
-			}
-		}
-		add = {
-			desc = "POP_OFFICERS"
-			if = {
-				limit = {
-					NOT = {
-						owner = {
-							has_law = law_type:law_militarized_police
-						}
-					}
-					is_pop_type = officers
-				}
-				value = 0.33
-			}
-		}
-	}
-
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
+
+		if = {
+			limit = {
+				has_law = law_type:law_no_police
+			}
+			add = 500
+		}
 		
 		if = {
 			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
@@ -219,11 +185,29 @@ law_dedicated_police = {
 		}
 
 		if = {
-            limit = {
-               has_law = law_type:law_local_police
-            }
-            add = 10000
-        }
+			limit = {
+				has_law = law_type:law_dedicated_police
+				scope:target_country = {
+					has_law = law_type:law_no_police
+				}
+				power_bloc ?= { has_principle_group = principle_group:principle_group_police_coordination }
+			}
+			add = 10
+		}
+			
+		if = {
+			limit = {
+				scope:target_country = {
+					c:BIC ?= this
+					OR = {	
+						has_journal_entry = je_british_dictate_plantations
+						has_journal_entry = je_british_dictate_military
+						has_journal_entry = je_british_dictate_universities
+					}
+				}
+			}
+			multiply = 0
+		}
 	}
 }
 
@@ -244,15 +228,14 @@ law_militarized_police = {
 
 	institution = institution_police
 	institution_modifier = {
-		state_radicals_from_sol_change_mult = -0.05
-		state_radicals_from_discrimination_mult = -0.05
+		state_radicals_from_political_movements_mult = -0.05
+		state_radicalism_increases_violent_hostility_mult = -0.05
+		state_radicalism_increases_cultural_erasure_mult = -0.05
+		state_radicalism_increases_open_prejudice_mult = -0.05
 		interest_group_ig_armed_forces_pol_str_mult = 0.10
 		state_mortality_turmoil_mult = 0.004
+		
 		country_authority_add = 30
-	}
-	
-	possible_political_movements = {
-		law_dedicated_police
 	}
 
 	can_impose = {
@@ -268,30 +251,15 @@ law_militarized_police = {
 		}
 	}
 
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_SOLDIERS"
-			if = {
-				limit = {
-					is_pop_type = soldiers
-				}
-				value = 0.25
-			}
-		}
-		add = {
-			desc = "POP_OFFICERS"
-			if = {
-				limit = {
-					is_pop_type = officers
-				}
-				value = 0.25
-			}
-		}
-	}
-
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
+
+		if = {
+			limit = {
+				has_law = law_type:law_no_police
+			}
+			add = 500
+		}
 		
 		if = {
 			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
@@ -319,6 +287,20 @@ law_militarized_police = {
 				power_bloc ?= { has_principle_group = principle_group:principle_group_police_coordination }
 			}
 			add = 10
+		}
+			
+		if = {
+			limit = {
+				scope:target_country = {
+					c:BIC ?= this
+					OR = {	
+						has_journal_entry = je_british_dictate_plantations
+						has_journal_entry = je_british_dictate_military
+						has_journal_entry = je_british_dictate_universities
+					}
+				}
+			}
+			multiply = 0
 		}
 	}
 }

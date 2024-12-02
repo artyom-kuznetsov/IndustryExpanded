@@ -4,16 +4,6 @@
 	
 	progressiveness = 0
 	
-	possible_political_movements = {
-		law_national_guard
-		law_secret_police
-		law_guaranteed_liberties
-	}
-
-	pop_support = {
-		value = 0
-	}
-	
 	# AI shouldn't try to abolish institutions
 	ai_will_do = {
 		always = no
@@ -42,29 +32,16 @@ law_national_guard = {
 	institution = institution_home_affairs
 	institution_modifier = {
 		state_conscription_rate_add = 0.005
-		political_movement_radicalism_mult = -0.05
+		political_movement_radicalism_mult = -0.04
 		country_authority_add = 20
-		interest_group_ig_armed_forces_pop_attraction_mult = 0.1
+		country_officers_pol_str_mult = 0.2
+		country_soldiers_pol_str_mult = 0.1
+		state_harvest_condition_flood_impact_mult = -0.05
+		state_harvest_condition_wildfire_impact_mult = -0.05
+		state_harvest_condition_extreme_winds_impact_mult = -0.05
+		state_harvest_condition_drought_impact_mult= -0.05
 	}
 	
-	possible_political_movements = {
-		law_secret_police
-		law_guaranteed_liberties
-	}
-
-	pop_support = {
-		value = 0
-		add = {
-			desc = "POP_OFFICERS"
-			if = {
-				limit = { 
-					is_pop_type = officers
-				}
-				value = 0.33
-			}
-		}	
-	}
-
 	# Don't return to national guard we have something more advanced
 	ai_will_do = {
 		NOR = {
@@ -100,22 +77,15 @@ law_secret_police = {
 	institution = institution_home_affairs
 	institution_modifier = {
 		country_suppression_ig_attraction_mult = -0.05
-		political_movement_radicalism_mult = -0.1
+		political_movement_radicalism_mult = -0.05
 		country_authority_add = 20
-		country_soldiers_pol_str_mult = 0.05
+		country_officers_pol_str_mult = 0.1
 		country_clerks_pol_str_mult = 0.05
 	}
 	
-	possible_political_movements = {
-		law_guaranteed_liberties
-	}
 
 	on_enact = {
 		custom_tooltip = unlock_arrange_accident_tt
-	}
-
-	pop_support = {
-		value = 0
 	}
 
 	ai_enact_weight_modifier = { #Petitions
@@ -149,18 +119,6 @@ law_guaranteed_liberties = {
 		state_loyalists_from_sol_change_mult = 0.05
 	}
 	
-	possible_political_movements = {
-		law_secret_police
-	}
-
-	pop_support = {
-		value = 0
-		add = {
-			desc = "ALL_POPS"
-			value = 0.01
-		}
-	}
-
 	ai_enact_weight_modifier = { #Petitions
 		value = 0
 		

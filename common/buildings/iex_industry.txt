@@ -1,7 +1,7 @@
 ﻿
 building_munition_plants = {
 	building_group = bg_munition_plants
-	texture = "gfx/interface/icons/building_icons/munition_plants.dds"
+	icon = "gfx/interface/icons/building_icons/munition_plants.dds"
 	city_type = city
 	levels_per_mesh = 5
 	
@@ -31,7 +31,7 @@ building_munition_plants = {
 
 building_luxury_clothes_factories = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/luxury_clothes_factories.dds"
+	icon = "gfx/interface/icons/building_icons/luxury_clothes_factories.dds"
 	
 	ai_nationalization_desire = -0.25 # AI is generally fine with privatizing consumer goods industries
 	
@@ -69,7 +69,7 @@ building_luxury_clothes_factories = {
 
 building_lumber_mill = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/lumber_mill.dds"
+	icon = "gfx/interface/icons/building_icons/lumber_mill.dds"
 	
 	unlocking_technologies = {
 		steelworking
@@ -103,7 +103,7 @@ building_lumber_mill = {
 
 building_distillery = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/distillery.dds"
+	icon = "gfx/interface/icons/building_icons/distillery.dds"
 	
 	unlocking_technologies = {
 		distillation
@@ -139,7 +139,7 @@ building_distillery = {
 
 building_sugar_substitute_factory = {
 	building_group = bg_light_industry
-	texture = "gfx/interface/icons/building_icons/sugar_factory.dds"
+	icon = "gfx/interface/icons/building_icons/sugar_factory.dds"
 	
 	unlocking_technologies = {
 		fructose
@@ -173,7 +173,7 @@ building_sugar_substitute_factory = {
 #
 #building_machine_parts_factories = {
 #	building_group = bg_heavy_industry
-#	texture = "gfx/interface/icons/building_icons/machine_parts_factory.dds"
+#	icon = "gfx/interface/icons/building_icons/machine_parts_factory.dds"
 #	city_type = city
 #	levels_per_mesh = 5
 #	
@@ -218,7 +218,7 @@ building_sugar_substitute_factory = {
 
 building_oil_refinery = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/oil_refinery.dds"
+	icon = "gfx/interface/icons/building_icons/oil_refinery.dds"
 	
 	unlocking_technologies = {
 		refining
@@ -255,7 +255,7 @@ building_oil_refinery = {
 
 building_automobile_industry = {
 	building_group = bg_heavy_industry
-	texture = "gfx/interface/icons/building_icons/automobile_industry.dds"
+	icon = "gfx/interface/icons/building_icons/automobile_industry.dds"
 	
 	ai_nationalization_desire = -0.25 # AI is generally fine with privatizing consumer goods industries
 	

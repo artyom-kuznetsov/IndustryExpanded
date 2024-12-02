@@ -2,7 +2,7 @@
 
 building_vineyard_plantation = {
 	building_group = bg_vineyard_plantations
-	texture = "gfx/interface/icons/building_icons/vineyards.dds"
+	icon = "gfx/interface/icons/building_icons/vineyards.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
@@ -24,7 +24,7 @@ building_vineyard_plantation = {
 
 building_coffee_plantation = {
 	building_group = bg_coffee_plantations
-	texture = "gfx/interface/icons/building_icons/coffee_plantation.dds"
+	icon = "gfx/interface/icons/building_icons/coffee_plantation.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
@@ -46,7 +46,7 @@ building_coffee_plantation = {
 
 building_cotton_plantation = {
 	building_group = bg_cotton_plantations
-	texture = "gfx/interface/icons/building_icons/cotton_plantation.dds"
+	icon = "gfx/interface/icons/building_icons/cotton_plantation.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
@@ -68,7 +68,7 @@ building_cotton_plantation = {
 
 building_dye_plantation = {
 	building_group = bg_dye_plantations
-	texture = "gfx/interface/icons/building_icons/dye_plantation.dds"
+	icon = "gfx/interface/icons/building_icons/dye_plantation.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
@@ -90,7 +90,7 @@ building_dye_plantation = {
 
 building_opium_plantation = {
 	building_group = bg_opium_plantations
-	texture = "gfx/interface/icons/building_icons/opium_plantation.dds"
+	icon = "gfx/interface/icons/building_icons/opium_plantation.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
@@ -119,7 +119,7 @@ building_opium_plantation = {
 
 building_tea_plantation = {
 	building_group = bg_tea_plantations
-	texture = "gfx/interface/icons/building_icons/tea_plantation.dds"
+	icon = "gfx/interface/icons/building_icons/tea_plantation.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
@@ -141,7 +141,7 @@ building_tea_plantation = {
 
 building_tobacco_plantation = {
 	building_group = bg_tobacco_plantations
-	texture = "gfx/interface/icons/building_icons/tobacco_plantation.dds"
+	icon = "gfx/interface/icons/building_icons/tobacco_plantation.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
@@ -163,7 +163,7 @@ building_tobacco_plantation = {
 
 building_sugar_plantation = {
 	building_group = bg_sugar_plantations
-	texture = "gfx/interface/icons/building_icons/sugar_plantation.dds"
+	icon = "gfx/interface/icons/building_icons/sugar_plantation.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
@@ -185,7 +185,7 @@ building_sugar_plantation = {
 
 building_banana_plantation = {
 	building_group = bg_banana_plantations
-	texture = "gfx/interface/icons/building_icons/banana_plantation.dds"
+	icon = "gfx/interface/icons/building_icons/banana_plantation.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {
@@ -207,7 +207,7 @@ building_banana_plantation = {
 
 building_silk_plantation = {
 	building_group = bg_silk_plantations
-	texture = "gfx/interface/icons/building_icons/silk_plantation.dds"
+	icon = "gfx/interface/icons/building_icons/silk_plantation.dds"
 	required_construction = construction_cost_low
 
 	unlocking_technologies = {

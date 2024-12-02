@@ -1,7 +1,7 @@
 ﻿
 building_road_network = {
 	building_group = bg_private_infrastructure	
-	texture = "gfx/interface/icons/building_icons/road_network.dds"
+	icon = "gfx/interface/icons/building_icons/road_network.dds"
 	
 	unlocking_technologies = {
 		urban_planning
@@ -42,7 +42,7 @@ building_road_network = {
 
 building_railway = {
 	building_group = bg_private_infrastructure	
-	texture = "gfx/interface/icons/building_icons/building_railway.dds"
+	icon = "gfx/interface/icons/building_icons/building_railway.dds"
 	
 	ai_nationalization_desire = 0.5 # AI is reluctant to privatize railways since they are likely to need subsidies anyway
 	

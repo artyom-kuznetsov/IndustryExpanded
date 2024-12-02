@@ -73,11 +73,11 @@ pm_mechanized_workshops = {
 			goods_output_furniture_add = 120	# 3600	# PROFIT 1600
 		}
 
-		level_scaled = {
-			building_employment_shopkeepers_add = 1000
-			building_employment_laborers_add = 3250
-			building_employment_machinists_add = 1250
-			building_employment_engineers_add = 500
+		level_scaled = {								# WAGE WEIGHT
+			building_employment_shopkeepers_add = 1000	# 2000
+			building_employment_laborers_add = 3250		# 3250
+			building_employment_machinists_add = 1250	# 1875
+			building_employment_engineers_add = 500		# 1500	# TOTAL 8625 / PROFIT = ~0.186
 		}
 	}
 }
@@ -164,11 +164,11 @@ pm_luxury_furniture_focus = {
 		
 	unlocking_technologies = {
 		mechanized_workshops
-		pm_plastic_furniture
 	}
 
 	unlocking_production_methods = {
 		pm_mechanized_workshops
+		pm_plastic_furniture
 	}
 	
 	building_modifiers = {
@@ -190,11 +190,11 @@ pm_fructose = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_fruit_add = 20		# 600
-			goods_input_grain_add = 10		# 300	# TOTAL 800
+			goods_input_fruit_add = 25		# 750
+			goods_input_grain_add = 15		# 300	# TOTAL 1050
 			
 			# output goods
-			goods_output_sugar_add = 60		# 1800	# PROFIT 1000
+			goods_output_sugar_add = 75		# 2250	# PROFIT 1200
 		}
 
 		level_scaled = {
@@ -1395,4 +1395,71 @@ pm_automatic_press = {
 			goods_output_paper_mult = 0.08
 		}
 	}
+}
+
+### ART ACADEMIES
+
+pm_traditional_art = {
+	texture = "gfx/interface/icons/production_method_icons/traditional_art.dds"
+
+	building_modifiers = {
+		workforce_scaled = { # 500 profit
+			goods_input_paper_add = 10 # 300
+			goods_output_fine_art_add = 4 # 800
+		}
+	}
+}
+
+pm_realist_art = {
+	texture = "gfx/interface/icons/production_method_icons/realist_art.dds"
+
+	unlocking_technologies = {
+		realism
+	}
+
+	building_modifiers = {
+
+		workforce_scaled = { # 550 profit
+			goods_input_paper_add = 15 # 450
+			goods_output_fine_art_add = 5 # 1000
+		}
+	}
+}
+
+pm_photographic_art = {
+	texture = "gfx/interface/icons/production_method_icons/photographic_art.dds"
+
+	unlocking_technologies = {
+		camera
+	}
+
+	building_modifiers = {
+
+		workforce_scaled = { # 630 profit
+			goods_input_paper_add = 15 # 450
+			goods_input_tools_add = 8 # 320
+
+			goods_output_fine_art_add = 7 # 1400
+		}
+	}
+}
+
+pm_film_art = {
+	texture = "gfx/interface/icons/production_method_icons/film_art.dds"
+
+	unlocking_technologies = {
+		film
+	}
+
+	building_modifiers = {
+
+		workforce_scaled = { # 690 profit
+			goods_input_tools_add = 10 # 400
+			goods_input_paper_add = 15 # 450
+			goods_input_electricity_add = 2 # 60
+
+			goods_output_fine_art_add = 8 # 1600
+		}
+	}
+
 }
