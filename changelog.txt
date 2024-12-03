@@ -1,11 +1,17 @@
-[h1]v11.8[/h1]
-[h2]Additions/Changes[/h2]
--Nerfed various power bloc principles (were these numbers sane???no).
+[h1]v12.0[/h1]
+[h2]Additions/Significant Changes[/h2]
+[b]-Victoria 3 v1.8 compatibility.[/b]
+-Nerfed various power bloc principles (were these numbers sane???).
+-Removed Luxury Textile Mills, luxury clothes is back to regular textile mills, but you can alter regular/luxury ratio (currently max ratio with top PMs is 50/70 respectively).
+-Removed base 0.5% wealth education access (vanilla doesn't have it now).
+-Goods shortage penalty threshold is now the same as in vanilla to help AI not dying.
+-Pop growth is now slightly higher for lower SoL.
 [h2]Tweaks[/h2]
 -Increased Rice Farms profitability from fertilizers. Reduced max grain output.
 -Increased grain farms profitability.
 -Slightly adjusted pop needs.
--Removed base 0.5% wealth education access (as vanilla)
+-Tweaked migration modifiers from country ranks. (from Grey's Soft Pop Adjustments)
+-Removed some political tweaks in spite of the reworks of 1.8.
 
 
 [h1]v11.7[/h1]

@@ -43,6 +43,7 @@ building_textile_mills = {
 		pmg_sewing_textile
 		pmg_fabric_textile
 		pmg_dyes_textile
+		pmg_luxury_building_textile_mills
 		pmg_automation_building_textile_mills
 	}
 	

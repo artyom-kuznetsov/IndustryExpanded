@@ -21,7 +21,7 @@ Industry Expanded изменяет многие законы и институты, чтобы они стали более логи
 [b]Китайская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url] (создано сообществом)
 [b]Корейская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (создано сообществом)
 [b]Японская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url] (создано сообществом)
-Мод создан для версии игры [b]v1.7.6[/b]
+Мод создан для версии игры [b]v1.7.6[/b] на [b]английском[/b] и [b]русском[/b] языках
 
 [h2]Совместимость с модами[/h2]
 [b]Существующие патчи совместимости о которых я в курсе:[/b]

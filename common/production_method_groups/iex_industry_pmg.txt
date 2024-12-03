@@ -41,44 +41,6 @@ pmg_base_building_furniture_manufacturies = {
 	}
 }
 
-pmg_luxury_building_furniture_manufacturies = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	production_methods = {
-		pm_no_luxuries
-		pm_luxury_furniture
-		pm_precision_tools
-		pm_luxury_furniture_focus
-	}
-}
-
-
-pmg_sewing_luxury = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_handsewing_luxury
-		pm_workshops_luxury
-		pm_sewing_machines_luxury
-		pm_electric_sewing_machines_luxury
-	}
-}
-
-pmg_fabric_luxury = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_craftsman_sewing_luxury
-		pm_elastics_luxury
-	}
-}
-
-pmg_dyes_luxury = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_dye
-		pm_dyed_clothes_luxury
-		pm_dyed_clothes_2_luxury
-	}
-}
-
 pmg_sewing_textile = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
@@ -104,6 +66,16 @@ pmg_dyes_textile = {
 		pm_no_dye
 		pm_dyed_clothes
 		pm_dyed_clothes_2
+	}
+}
+
+pmg_luxury_building_textile_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_luxury_clothes
+		pm_luxury_clothes_production
+		pm_luxury_clothes_extensive_production
+		pm_luxury_clothes_focus
 	}
 }
 

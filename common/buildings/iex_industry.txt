@@ -29,44 +29,6 @@ building_munition_plants = {
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
 
-building_luxury_clothes_factories = {
-	building_group = bg_light_industry
-	icon = "gfx/interface/icons/building_icons/luxury_clothes_factories.dds"
-	
-	ai_nationalization_desire = -0.25 # AI is generally fine with privatizing consumer goods industries
-	
-	unlocking_technologies = {
-		manufacturies
-	}
-
-	production_method_groups = {
-		pmg_sewing_luxury
-		pmg_fabric_luxury
-		pmg_dyes_luxury
-		pmg_automation_building_textile_mills
-	}
-	
-
-	should_auto_expand = { 
-		occupancy >= 0.8
-		owner = {
-			market = {
-				mg:luxury_clothes = { 
-					market_goods_pricier > 0.01
-				}
-			}
-		}
-		state.market_access = 1
-		NOT = { is_under_construction = yes }
-	}
-	
-	required_construction = construction_cost_high
-	ownership_type = self
-	
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
-}
-
-
 building_lumber_mill = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/lumber_mill.dds"

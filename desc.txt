@@ -21,7 +21,7 @@ Qualifications and migration logic were also adjusted;
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
 [b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (Community-made)
 [b]Japanese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url] (Community-made)
-Mod is made for game version [b]v1.7.6[/b]
+Mod is made for game version [b]v1.7.6[/b] in [b]English[/b] and [b]Russian[/b] languages.
 
 [h2]Mod Compatibility[/h2]
 [b]Existing Compatibility Patches that I am aware of:[/b]

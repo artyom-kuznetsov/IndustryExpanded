@@ -590,3 +590,8 @@
  
  # v11.7
  pm_modern_derricks:0 "Modern Derricks"
+ 
+ # v12.0
+ pm_luxury_clothes_extensive_production:0 "Extensive Luxury Clothes Production"
+ pm_luxury_clothes_focus:0 "Luxury Clothes Production Focus"
+ 
