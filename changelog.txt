@@ -13,6 +13,9 @@
 -Tweaked migration modifiers from country ranks. (from Grey's Soft Pop Adjustments)
 -Removed some political tweaks in spite of the reworks of 1.8.
 
+This is only the first part of the v12.0 update. New stuff will be coming in nearest updates.
+Please report any bugs or ANYTHING that might seem like unintended behaviour. Please!
+Игроки на Великом и Могучем, сообщайте пожалуйста о багах локализации.
 
 [h1]v11.7[/h1]
 [h2]Production[/h2]
