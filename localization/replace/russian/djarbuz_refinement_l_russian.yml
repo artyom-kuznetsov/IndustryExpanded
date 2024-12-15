@@ -596,3 +596,8 @@
  pm_luxury_clothes_extensive_production:0 "Увеличенное производство роскошной одежды"
  pm_luxury_clothes_focus:0 "Упор на производство роскошной одежды"
  
+ # v12.1
+ pm_no_dye_textile:0 "Некрашеная одежда"
+ 
+ # v12.2
+ pm_fertilizer_intensive:0 "Интенсивный сбор удобрений"

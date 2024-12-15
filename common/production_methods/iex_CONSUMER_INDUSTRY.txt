@@ -295,6 +295,14 @@ pm_handsewing = {
 	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
 	
 	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fabric_add = 30			# 600
+			
+			# output goods
+			goods_output_clothes_add = 35		# 1050	# PROFIT 450
+		}
+		
 		level_scaled = {
 			building_employment_laborers_add = 4500
 		}
@@ -310,9 +318,10 @@ pm_workshops = {
 		workforce_scaled = {
 			# input goods
 			goods_input_tools_add = 5		# 200
+			goods_input_fabric_add = 35		# 600	# TOTAL 900
 			
 			# output goods
-			goods_output_clothes_add = 15	# 450 	# PROFIT 250
+			goods_output_clothes_add = 50	# 1500 	# PROFIT 600
 		}
 
 		level_scaled = {
@@ -333,11 +342,11 @@ pm_sewing_machines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_fabric_add = 10			# 200
-			goods_input_tools_add = 10			# 400	# TOTAL 600
+			goods_input_fabric_add = 40			# 800
+			goods_input_tools_add = 10			# 400	# TOTAL 1200
 			
 			# output goods
-			goods_output_clothes_add = 35		# 1050	# PROFIT 450
+			goods_output_clothes_add = 80		# 2400	# PROFIT 1200
 		}
 
 		level_scaled = {
@@ -358,12 +367,12 @@ pm_electric_sewing_machines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_fabric_add = 20			# 400
+			goods_input_fabric_add = 50			# 1000
 			goods_input_tools_add = 10			# 400
-			goods_input_electricity_add = 10	# 300	# TOTAL 1100
+			goods_input_electricity_add = 10	# 300	# TOTAL 1700
 			
 			# output goods
-			goods_output_clothes_add = 60		# 1800	# PROFIT 700
+			goods_output_clothes_add = 105		# 3150	# PROFIT 1450
 		}
 
 		level_scaled = {
@@ -374,28 +383,64 @@ pm_electric_sewing_machines = {
 	}
 }
 
-### FABRIC ###
-
-pm_simple_fabric = {
-	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
-	
+pm_luxury_clothes_production = {
+	texture = "gfx/interface/icons/production_method_icons/craftsman_sewing.dds"
 	
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_fabric_add = 30			# 600
+			goods_input_fabric_add = -30			# +600
+			goods_input_silk_add = 15				# 600	# TOTAL 0
 			
 			# output goods
-			goods_output_clothes_add = 30		# 900	# PROFIT 300
+			goods_output_clothes_add = -30			# -900
+			goods_output_luxury_clothes_add = 20	# 1200	# PROFIT 300
+		}
+		
+		level_scaled = {
+			# profit = 400 (20.8)
+			building_employment_shopkeepers_add = 500
 		}
 	}
 }
 
 pm_craftsman_sewing = {
-	texture = "gfx/interface/icons/production_method_icons/craftsman_sewing_main.dds"
+	texture = "gfx/interface/icons/production_method_icons/craftsman_sewing.dds"
 	
 	unlocking_production_methods = {
 		pm_workshops
+		pm_sewing_machines
+		pm_electric_sewing_machines
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fabric_add = -30			# +600
+			goods_input_silk_add = 15				# 600	# TOTAL 0
+			
+			# output goods
+			goods_output_clothes_add = -50			# -1500
+			goods_output_luxury_clothes_add = 30	# 1800	# PROFIT 300
+		}
+		
+		level_scaled = {
+			# profit = 400 (20.8)
+			building_employment_shopkeepers_add = 500
+		}
+	}
+	
+}
+
+pm_elastics = {
+	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+	
+	unlocking_technologies = {
+		vulcanization
+	}
+	
+	unlocking_production_methods = {
+		pm_sewing_machines
 		pm_electric_sewing_machines
 	}
 	
@@ -403,23 +448,25 @@ pm_craftsman_sewing = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_fabric_add = 20			# 400
-			goods_input_silk_add = 15			# 600	# TOTAL 1000
+			goods_input_fabric_add = -40			# +800
+			goods_input_silk_add = 15				# 600
+			goods_input_rubber_add = 10 			# 400	# TOTAL 200
 			
 			# output goods
-			goods_output_clothes_add = 45		# 1350	# PROFIT 350
+			goods_output_clothes_add = -80			# -2400
+			goods_output_luxury_clothes_add = 50	# 3000	# PROFIT 400
 		}
 		
 		level_scaled = {
-			# profit = 400 (20.8)
-			building_employment_shopkeepers_add = 500
-		}		
-	}			
+			# profit = 900 (23.4)
+			building_employment_shopkeepers_add = 1000
+		}
+	}
 }
 
-pm_elastics = {
-	texture = "gfx/interface/icons/production_method_icons/elastics_main.dds"
-	
+pm_luxury_clothes_focus = {
+	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+
 	unlocking_technologies = {
 		vulcanization
 	}
@@ -431,12 +478,13 @@ pm_elastics = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_silk_add = 20			# 1200
-			goods_input_fabric_add = 20			# 400
-			goods_input_rubber_add = 10 		# 400	# TOTAL 2000
+			goods_input_fabric_add = -40			# +800
+			goods_input_silk_add = 15				# 600
+			goods_input_rubber_add = 10 			# 400	# TOTAL 200
 			
-			# output goods
-			goods_output_clothes_add = 85		# 2550	# PROFIT 550
+			# output goods	
+			goods_output_clothes_add = -100
+			goods_output_luxury_clothes_add = 60	# PROFIT 600
 		}
 		
 		level_scaled = {
@@ -446,7 +494,7 @@ pm_elastics = {
 	}
 }
 
-pm_no_dye = {
+pm_no_dye_textile = {
 	texture = "gfx/interface/icons/production_method_icons/no_dye_main.dds"
 	
 }
@@ -463,7 +511,7 @@ pm_dyed_clothes = {
 			goods_input_dye_add = 10			# 400
 			
 			# output goods
-			goods_output_clothes_add = 25		# 750	# PROFIT 350
+			goods_output_clothes_add = 20		# 600	# PROFIT 200
 		}
 	}
 }
@@ -480,71 +528,13 @@ pm_dyed_clothes_2 = {
 			goods_input_dye_add = 20			# 800
 			
 			# output goods
-			goods_output_clothes_add = 45		# 1350	# PROFIT 550
+			goods_output_clothes_add = 40		# 1200	# PROFIT 400
 		}
 	}
 }
 
 pm_no_luxury_clothes = {
 	texture = "gfx/interface/icons/production_method_icons/no_luxury_clothes.dds"
-}
-
-pm_luxury_clothes_production = {
-	texture = "gfx/interface/icons/production_method_icons/craftsman_sewing.dds"
-	
-	unlocking_production_methods = {
-		pm_craftsman_sewing
-		pm_elastics
-	}
-	
-	building_modifiers = {
-		workforce_scaled = {
-			# output goods
-			goods_output_clothes_add = -60	
-			goods_output_luxury_clothes_add = 30	# NO PROFIT
-		}
-		
-	}
-}
-
-pm_luxury_clothes_extensive_production = {
-	texture = "gfx/interface/icons/production_method_icons/rayon.dds"
-
-	unlocking_technologies = {
-		vulcanization
-	}
-
-	unlocking_production_methods = {
-		pm_elastics
-	}
-	
-	building_modifiers = {
-		workforce_scaled = {
-			# output goods	
-			goods_output_clothes_add = -100 		
-			goods_output_luxury_clothes_add = 50	# NO PROFIT
-		}
-	}
-}
-
-pm_luxury_clothes_focus = {
-	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
-
-	unlocking_technologies = {
-		vulcanization
-	}
-
-	unlocking_production_methods = {
-		pm_elastics
-	}
-	
-	building_modifiers = {
-		workforce_scaled = {
-			# output goods	
-			goods_output_clothes_add = -140 		
-			goods_output_luxury_clothes_add = 70	# NO PROFIT
-		}
-	}
 }
 
 # FOOD INDUSTRIES
@@ -973,8 +963,8 @@ pm_wine_production = {
 			goods_input_fruit_add = 20				# 600
 			
 			# output goods
-			goods_output_wine_add = 24				# 1200
-			goods_output_liquor_add = -20 			# -600 # PROFIT 0
+			goods_output_wine_add = 36				# 1800
+			goods_output_liquor_add = -40 			# -1200 # PROFIT 0
 		}
 	}
 }
@@ -982,14 +972,19 @@ pm_wine_production = {
 pm_wine_focus = {
 	texture = "gfx/interface/icons/production_method_icons/wine_focus.dds"
 	
+	unlocking_production_methods = {
+		pm_pot_stills
+		pm_patent_stills
+	}
+	
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_fruit_add = 30				# 900
+			goods_input_fruit_add = 40				# 1200
 			
 			# output goods
-			goods_output_wine_add = 36				# 1800
-			goods_output_liquor_add = -30 			# -900 # PROFIT 0
+			goods_output_wine_add = 96				# 3600
+			goods_output_liquor_add = -80 			# -3600 # PROFIT 0
 		}
 	}
 }

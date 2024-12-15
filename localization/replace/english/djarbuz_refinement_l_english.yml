@@ -596,3 +596,8 @@
  pm_luxury_clothes_extensive_production:0 "Extensive Luxury Clothes Production"
  pm_luxury_clothes_focus:0 "Luxury Clothes Production Focus"
  
+ # v12.1
+ pm_no_dye_textile:0 "Undyed Clothes"
+ 
+ # v12.2
+ pm_fertilizer_intensive:0 "Intensive Grazing Ranch"

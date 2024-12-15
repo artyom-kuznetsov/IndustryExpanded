@@ -1,3 +1,25 @@
+[h1]v12.2[/h2]
+[h2]Additions/Significant Changes[/h2]
+-Added new PM: Intensive Grazing Ranch for Livestock Ranches. It allows to get more fertilizer. "Fertilizer Gathering" PM was slightly nerfed in respect to vanilla.
+-Added MAPI to public transport PMs in urban centers to encourage using them.
+-Added MAPI to Railways and Road Networks. The better the PM, the higher the modifier. You now have to improve actual infrastructure more to get MAPI, rather than only researching society techs.
+[h2]Tweaks/Fixes[/h2]
+-Actualized training rate for three first training PMs (it's slightly lower now).
+-probably fixed compat issues with paper mills? i need feedback about that
+-Added pollution generation for High-Speed Diesel Trains.
+-Removed pollution generation from High-Speed Electric Trains.
+-Removed/Reduced MAPI from the following technologies: Railways; Paved Roads; Joint Stock Companies; Urban Planning; Corporate Charters; Investment Banks
+
+
+[h1]v12.1[/h1]
+[h2]Additions/Significant Changes[/h2]
+-Wine production PMs for Distilleries now produce more wine in exchange to producing less liquor.
+-Luxury Furniture Production Focus PM is back.
+-Reworked Textile Mills luxury clothes production again. 
+[h2]Tweaks[/h2]
+-Wine can now have higher supply share.
+-Fixed "No Dyes" PM in textile mills icon being colored as a secondary PM.
+
 [h1]v12.0[/h1]
 [h2]Additions/Significant Changes[/h2]
 [b]-Victoria 3 v1.8 compatibility.[/b]
@@ -15,7 +37,7 @@
 
 This is only the first part of the v12.0 update. New stuff will be coming in nearest updates.
 Please report any bugs or ANYTHING that might seem like unintended behaviour. Please!
-Игроки на Великом и Могучем, сообщайте пожалуйста о багах локализации.
+РРіСЂРѕРєРё РЅР° Р’РµР»РёРєРѕРј Рё РњРѕРіСѓС‡РµРј, СЃРѕРѕР±С‰Р°Р№С‚Рµ РїРѕР¶Р°Р»СѓР№СЃС‚Р° Рѕ Р±Р°РіР°С… Р»РѕРєР°Р»РёР·Р°С†РёРё.
 
 [h1]v11.7[/h1]
 [h2]Production[/h2]

@@ -41,9 +41,8 @@ building_textile_mills = {
 
 	production_method_groups = {
 		pmg_sewing_textile
-		pmg_fabric_textile
-		pmg_dyes_textile
 		pmg_luxury_building_textile_mills
+		pmg_dyes_textile
 		pmg_automation_building_textile_mills
 	}
 	

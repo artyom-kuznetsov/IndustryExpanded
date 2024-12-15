@@ -18,10 +18,10 @@ Industry Expanded изменяет многие законы и институты, чтобы они стали более логи
 [i]Авто-расширение теперь тоже хорошо работает![/i]
 
 [h1]Локализация и совместимость[/h1]
-[b]Китайская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url] (создано сообществом)
-[b]Корейская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (создано сообществом)
-[b]Японская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url] (создано сообществом)
-Мод создан для версии игры [b]v1.8.3[/b] на [b]английском[/b] и [b]русском[/b] языках
+[b]Китайская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url]
+[b]Корейская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url]
+[b]Японская локализация[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url]
+Мод создан для версии игры [b]v1.8.6[/b] на [b]английском[/b] и [b]русском[/b] языках
 
 [h2]Совместимость с модами[/h2]
 [b]Существующие патчи совместимости о которых я в курсе:[/b]
@@ -31,7 +31,7 @@ Industry Expanded изменяет многие законы и институты, чтобы они стали более логи
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]IEX + ASE Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]IEX + I.R.O.N. Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Power Plants Plus & Industry Expanded Compatibility Patch[/url]
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Industry Expanded & Better Politics Mod Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Industry Expanded Lite[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3254346454]LLWA + MR + IEX +E&F Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3316036071]IEX + Free Market Construction Compatch[/url]
 Если вы сделали патч совместимости, дайте знать, чтобы я добавил его в список!
@@ -44,13 +44,11 @@ Industry Expanded изменяет многие законы и институты, чтобы они стали более логи
 [h1]Благодарности[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971224629]Weight of Rule[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3133935511]Global Trade[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3146746156]Better Revolution Size[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3227982912]Kuromi's AI[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3181868057]Hyper-Aggressive Pop Merging[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3336914177]Grey's Soft Pop Adjustments[/url]

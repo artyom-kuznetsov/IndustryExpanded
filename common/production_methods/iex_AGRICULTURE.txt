@@ -193,8 +193,24 @@ pm_fertilizer_gathering = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_grain_add = 5		# 100
-			goods_output_fertilizer_add = 3	# 150	# PROFIT 150
+			goods_input_grain_add = 3				# 60
+			goods_output_fertilizer_add = 2.5		# 75	# PROFIT 15
+		}
+	}
+}
+
+pm_fertilizer_intensive = {
+	texture = "gfx/interface/icons/production_method_icons/petcoke2.dds"
+
+	unlocking_technologies = {
+		mechanized_farming
+	}
+
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 6				# 120
+			goods_output_fertilizer_add = 5			# 150	# PROFIT 30
 		}
 	}
 }

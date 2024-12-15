@@ -4,6 +4,7 @@ pmg_ranch_fertilizer = {
 	production_methods = {
 		pm_no_fertilizer_collection
 		pm_fertilizer_gathering
+		pm_fertilizer_intensive
 	}
 }
 

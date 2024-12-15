@@ -6,7 +6,7 @@
 		level_scaled = {
 			building_employment_soldiers_add = 990
 			building_employment_officers_add = 10
-			building_training_rate_add = 10
+			building_training_rate_add = 8
 		}
 	}
 }
@@ -22,7 +22,7 @@ pm_general_training = {
 		level_scaled = {
 			building_employment_soldiers_add = 975
 			building_employment_officers_add = 25
-			building_training_rate_add = 18
+			building_training_rate_add = 15
 		}
 	}
 }
@@ -37,7 +37,7 @@ pm_advanced_tactics_training = {
 		level_scaled = {
 			building_employment_soldiers_add = 925
 			building_employment_officers_add = 75
-			building_training_rate_add = 21
+			building_training_rate_add = 17
 		}
 	}
 }

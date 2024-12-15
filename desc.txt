@@ -18,12 +18,13 @@ Qualifications and migration logic were also adjusted;
 [i]Auto-Expand is now good too![/i]
 
 [h1]Localization and Compatibility[/h1]
-[b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url] (Community-made)
-[b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url] (Community-made)
-[b]Japanese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url] (Community-made)
-Mod is made for game version [b]v1.8.3[/b] in [b]English[/b] and [b]Russian[/b] languages.
+[b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url]
+[b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url]
+[b]Japanese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url]
+Mod is made for game version [b]v1.8.6[/b] in [b]English[/b] and [b]Russian[/b] languages.
 
 [h2]Mod Compatibility[/h2]
+[b]IF YOU HAVE PROBLEMS WITH PAPER MILLS IT IS RELATED TO MOD CONFLICTS. DO NOT WRITE IN COMMENTS ABOUT IT.[/b]
 [b]Existing Compatibility Patches that I am aware of:[/b]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3126864902]Industry Expanded & Morgenröte Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3226286551]Industry Expanded & E&F Compatch[/url]
@@ -31,7 +32,7 @@ Mod is made for game version [b]v1.8.3[/b] in [b]English[/b] and [b]Russian[/b] 
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3250365320]IEX + ASE Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3252976622]IEX + I.R.O.N. Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3117051675]Power Plants Plus & Industry Expanded Compatibility Patch[/url]
-- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Industry Expanded & Better Politics Mod Compatch[/url]
+- [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3138186286]Industry Expanded Lite[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3254346454]LLWA + MR + IEX +E&F Compatch[/url]
 - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3316036071]IEX + Free Market Construction Compatch[/url]
 If you make a compatch, let me know so I add to the list!
@@ -44,13 +45,11 @@ Not recommended to use with mods changing PMs, technologies or buildings.
 [h1]Credits[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971224629]Weight of Rule[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3097932322]LRoAI[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3133935511]Global Trade[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3146746156]Better Revolution Size[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3227982912]Kuromi's AI[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3181868057]Hyper-Aggressive Pop Merging[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3336914177]Grey's Soft Pop Adjustments[/url]
