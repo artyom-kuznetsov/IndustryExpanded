@@ -11,7 +11,7 @@ building_road_network = {
 		pmg_base_building_roads
 	}
 
-	required_construction = construction_cost_high
+	required_construction = construction_cost_medium
 	ownership_type = self
 	
 	ai_value = 2000 # Railways are important

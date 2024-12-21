@@ -724,8 +724,8 @@ principle_food_standardization_3 = {
 		building_group_bg_agriculture_throughput_add = 0.1
 		state_mortality_mult = -0.05
 		
-		# Higher SoL
-		state_standard_of_living_add = 0.5
+		# Food Security (previously +0.5 SoL)
+		state_food_security_add = 0.05
 		
 		#Unlocks a PM for Food Industries
 	}

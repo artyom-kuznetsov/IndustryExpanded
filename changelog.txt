@@ -1,4 +1,12 @@
-[h1]v12.2[/h2]
+[h1]v12.3[/h1]
+[h2]Tweaks/Fixes[/h2]
+-Road Networks cost reduced from 600 to 400 construction.
+-Food Standardization power bloc principle now has +5% food security instead of 0.5 SoL.
+-Electric Streetlights PM now employs machinists instead of labourers.
+-Fixed Gas Streetlights PM for Urban Centers was more productive than it should.
+
+
+[h1]v12.2[/h1]
 [h2]Additions/Significant Changes[/h2]
 -Added new PM: Intensive Grazing Ranch for Livestock Ranches. It allows to get more fertilizer. "Fertilizer Gathering" PM was slightly nerfed in respect to vanilla.
 -Added MAPI to public transport PMs in urban centers to encourage using them.
@@ -8,6 +16,7 @@
 -probably fixed compat issues with paper mills? i need feedback about that
 -Added pollution generation for High-Speed Diesel Trains.
 -Removed pollution generation from High-Speed Electric Trains.
+-Goods like Tea, Tobacco, Liquor and similar mass consumed goods can now provide up to 100% of the supply share.
 -Removed/Reduced MAPI from the following technologies: Railways; Paved Roads; Joint Stock Companies; Urban Planning; Corporate Charters; Investment Banks
 
 

@@ -10,6 +10,7 @@ This mod features a vast expansion in buildings and technologies, such as:
 [b]- Synthetic Industry[/b]
 [b]- Road Networks[/b], allowing you to increase infrastructure capacity before inventing railroads.
 [b]- Difficult Terrain[/b], you can negate construction efficiency debuffs in mountainous/forested states by researching technologies.
+[b]- Market Access Price Impact[/b] rework, now you need to improve infrastructure PMs to increase MAPI rather than just researching techs.
 
 Industry Expanded changes many laws and institutions to be more logical or better gameplay-wise. Various institutions give you authority, while certain laws consume it. Isolationism is not just a debuff now.
 Capitalists, employed in military-industrial buildings now tend to support Armed Forces, to represent military-industrial interests.
