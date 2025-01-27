@@ -1,9 +1,26 @@
+[h1]v12.4[/h1]
+-Reduced Road Network transportation output.
+-Pasteurization is now Tier 3 tech (fight that pebrine, my boys!).
+
+[h1]v12.3.1[/h1]
+-Removed Sugar from basic food needs since it would be overconsumed in some cases.
+
 [h1]v12.3[/h1]
+[h1]Additions[/h1]
+-Reworked [b]Glassworks[/b]:
+ Added new PMG: Houseware with PMs:
+    - Wooden Appliances
+	- Metallic Utensils
+	- Houseware Plastics (this one was moved from main PMG)
+ Added new middle automation PM - [b]Glass Rollers[/b].
+ Glassworks is now more profitable than before.
 [h2]Tweaks/Fixes[/h2]
 -Road Networks cost reduced from 600 to 400 construction.
 -Food Standardization power bloc principle now has +5% food security instead of 0.5 SoL.
 -Electric Streetlights PM now employs machinists instead of labourers.
+-Railroads now will not auto-expand until Transportation is 25% higher than base price.
 -Fixed Gas Streetlights PM for Urban Centers was more productive than it should.
+-Fixed Munition Plants missing "Filler" PMG.
 
 
 [h1]v12.2[/h1]

@@ -1012,7 +1012,7 @@ pm_forest_glass = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 4500
+			building_employment_laborers_add = 3500
 		}
 	}
 }		
@@ -1041,7 +1041,7 @@ pm_leaded_glass = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 4000
+			building_employment_laborers_add = 3000
 			building_employment_machinists_add = 500
 		}
 	}
@@ -1070,9 +1070,60 @@ pm_crystal_glass = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 3000
+			building_employment_laborers_add = 2000
 			building_employment_machinists_add = 1000
 			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_no_houseware = {
+	texture = "gfx/interface/icons/production_method_icons/no_use.dds"
+}
+
+pm_wooden_appliances = {
+	texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"
+	
+	unlocking_technologies = {
+		canneries
+	}
+	
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 15	# 300
+			
+			# output goods
+			goods_output_glass_add = 15	# 600	# PROFIT 300
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 1000
+		}
+	}
+}
+
+pm_metallic_utensils = {
+	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"
+	
+	unlocking_technologies = {
+		reinforced_concrete
+	}
+	
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_iron_add = 20	# 800
+			
+			# output goods
+			goods_output_glass_add = 32	# 1280	# PROFIT 480
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 750
+			building_employment_machinists_add = 250
 		}
 	}
 }
@@ -1084,26 +1135,24 @@ pm_houseware_plastics = {
 		plastics
 	}
 	
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 15
-		}
+	unlocking_production_methods = {
+		crystal_glass
+		leaded_glass
 	}
-
+	
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_plastics_add = 20	# 1000
-			goods_input_lead_add = 35		# 1400	# TOTAL 2400
+			goods_input_plastics_add = 24	# 1200
 			
 			# output goods
-			goods_output_glass_add = 105	# 4200	# PROFIT 1800
+			goods_output_glass_add = 45		# 1800	# PROFIT 700
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 2500
-			building_employment_machinists_add = 1250
-			building_employment_engineers_add = 750
+			building_employment_laborers_add = 500
+			building_employment_machinists_add = 250
+			building_employment_engineers_add = 250
 		}
 	}
 }
@@ -1161,6 +1210,36 @@ pm_manual_glassblowing = {
 	texture = "gfx/interface/icons/production_method_icons/glassworks_handicraft.dds"
 }
 
+pm_glass_rollers = {
+	texture = "gfx/interface/icons/production_method_icons/rotary_valve_engine.dds"
+	
+	unlocking_technologies = {
+		pasteurization
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 3	# 120
+			goods_input_electricity_add = 8	# 240	# TOTAL 360
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1250
+		}
+	}
+}
+
 pm_automatic_bottle_blowers = {
 	texture = "gfx/interface/icons/production_method_icons/automated_bottle_blowers.dds"
 	
@@ -1186,7 +1265,8 @@ pm_automatic_bottle_blowers = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = -2500
+			building_employment_laborers_add = -2000
+			building_employment_machinists_add = -500
 		}
 	}
 }

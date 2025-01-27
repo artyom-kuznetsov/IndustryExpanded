@@ -135,7 +135,7 @@ building_railway = {
 		OR = {
 			state = {
 				sg:transportation = { 
-					state_goods_pricier > 0.01
+					state_goods_pricier > 0.25
 				}
 			}
 			state.market_access < 1

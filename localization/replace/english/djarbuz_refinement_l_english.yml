@@ -601,3 +601,10 @@
  
  # v12.2
  pm_fertilizer_intensive:0 "Intensive Grazing Ranch"
+ 
+ # v12.3
+ pm_wooden_appliances:0 "Wooden Appliances"
+ pm_metallic_utensils:0 "Metallic Utensils"
+ pm_glass_rollers:0 "Glass Rollers"
+ pm_no_houseware:0 "No Houseware"
+ pmg_houseware:0 "Houseware"

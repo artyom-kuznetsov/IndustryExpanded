@@ -601,3 +601,10 @@
  
  # v12.2
  pm_fertilizer_intensive:0 "Интенсивный сбор удобрений"
+ 
+ # v12.3
+ pm_wooden_appliances:0 "Деревянные приборы"
+ pm_metallic_utensils:0 "Металлическая утварь"
+ pm_glass_rollers:0 "Стеклопрокатные машины"
+ pm_no_houseware:0 "Нет домашних товаров"
+ pmg_houseware:0 "Домашние товары"

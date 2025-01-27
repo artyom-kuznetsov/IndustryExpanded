@@ -1,4 +1,33 @@
-﻿
+﻿pmg_base_building_glassworks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_forest_glass
+		pm_leaded_glass
+		pm_crystal_glass
+	}
+}
+
+pmg_glassblowing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_manual_glassblowing
+		pm_glass_rollers
+		pm_automatic_bottle_blowers
+	}
+}
+
+pmg_houseware = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_houseware
+		pm_wooden_appliances
+		pm_metallic_utensils
+		pm_houseware_plastics
+	}
+}
+
 
 pmg_luxury_building_furniture_manufacturies = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"

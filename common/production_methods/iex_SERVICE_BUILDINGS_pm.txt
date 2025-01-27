@@ -371,10 +371,10 @@ pm_dirt_roads = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_transportation_add = 20	# 600
+			goods_output_transportation_add = 10	# 300
 		}
 		level_scaled = {
-			building_employment_laborers_add = 4000
+			building_employment_laborers_add = 2000
 			building_employment_clerks_add = 500
 		}
 	}
@@ -398,11 +398,11 @@ pm_gravel_roads = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_tools_add = 5				# 200
-			goods_output_transportation_add = 30	# 900	# PROFIT 700
+			goods_input_tools_add = 2				# 80
+			goods_output_transportation_add = 18	# 540	# PROFIT 460
 		}
 		level_scaled = {
-			building_employment_laborers_add = 3000
+			building_employment_laborers_add = 1500
 			building_employment_clerks_add = 1000
 		}
 	}
@@ -436,13 +436,13 @@ pm_paved_roads = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_tools_add = 5		# 200
-			goods_input_engines_add = 2		# 120
-			goods_input_coal_add = 6		# 180	# TOTAL 500
-			goods_output_transportation_add = 50 	# 1500	# PROFIT 1000
+			goods_input_tools_add = 2		# 80
+			goods_input_engines_add = 1		# 60
+			goods_input_coal_add = 2		# 60	# TOTAL 200
+			goods_output_transportation_add = 30 	# 900	# PROFIT 600
 		}
 		level_scaled = {
-			building_employment_laborers_add = 2000
+			building_employment_laborers_add = 1000
 			building_employment_clerks_add = 1000
 			building_employment_machinists_add = 500
 		}
@@ -477,13 +477,13 @@ pm_asphalt_roads = {
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_engines_add = 5					# 300
-			goods_input_fuel_add = 6					# 300	# TOTAL 600
-			goods_output_transportation_add = 70		# 2100	# PROFIT 1500
+			goods_input_engines_add = 2					# 120
+			goods_input_fuel_add = 2					# 100	# TOTAL 220
+			goods_output_transportation_add = 40		# 1200	# PROFIT 980
 		}
 		level_scaled = {
-			building_employment_clerks_add = 1000
-			building_employment_machinists_add = 1000
+			building_employment_clerks_add = 500
+			building_employment_machinists_add = 500
 			building_employment_engineers_add = 500
 		}
 	}

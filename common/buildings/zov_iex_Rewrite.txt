@@ -472,6 +472,7 @@ building_munition_plants = {
 
 	production_method_groups = {
 		pmg_base_building_munition_plants
+		pmg_filler_building_munition_plants
 		pmg_automation_building_industry
 	}
 	
@@ -770,6 +771,7 @@ building_glassworks = {
 
 	production_method_groups = {
 		pmg_base_building_glassworks
+		pmg_houseware
 		pmg_luxury_building_glassworks
 		pmg_glassblowing
 	}
