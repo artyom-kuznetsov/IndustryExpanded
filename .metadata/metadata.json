@@ -1,9 +1,9 @@
 {
-  "name" : "(1.8) Industry Expanded v12.3.1",
+  "name" : "(1.8) Industry Expanded v12.4",
   "picture" : "thumbnail.png",
   "id" : "",
-  "version" : "12.3.1",
-  "supported_game_version" : "1.8.6",
+  "version" : "12.4",
+  "supported_game_version" : "1.8.7",
   "short_description" : "An Industry Expansion Mod",
   "tags" : [],
   "relationships" : [],

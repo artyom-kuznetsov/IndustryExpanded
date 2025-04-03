@@ -389,8 +389,8 @@ pm_luxury_clothes_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_fabric_add = -30			# +600
-			goods_input_silk_add = 15				# 600	# TOTAL 0
+			goods_input_fabric_add = -20			# +400
+			goods_input_silk_add = 10				# 400	# TOTAL 0
 			
 			# output goods
 			goods_output_clothes_add = -30			# -900
@@ -478,9 +478,9 @@ pm_luxury_clothes_focus = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_fabric_add = -40			# +800
-			goods_input_silk_add = 15				# 600
-			goods_input_rubber_add = 10 			# 400	# TOTAL 200
+			goods_input_fabric_add = -45			# +900
+			goods_input_silk_add = 18				# 720
+			goods_input_rubber_add = 12 			# 480	# TOTAL 200
 			
 			# output goods	
 			goods_output_clothes_add = -100

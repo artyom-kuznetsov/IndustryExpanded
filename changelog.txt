@@ -1,6 +1,11 @@
 [h1]v12.4[/h1]
+-Added +3% MAPI for Port building.
+-Moved MAPI modifiers from Road Network and Railroad PMs and moved them to respective technologies. It may be less realistic and make less sense, but it's better for AI and is less annoying to deal with. Exception is latter railway PMs.
 -Reduced Road Network transportation output.
--Pasteurization is now Tier 3 tech (fight that pebrine, my boys!).
+-Balanced Luxury Clothes silk inputs.
+-Reworked Fishing Wharves and Chemical Plants auto-expansion conditions.
+-Removed Hauling PMG from Rice Farms
+-Fixed Joint Electric Trains employment.
 
 [h1]v12.3.1[/h1]
 -Removed Sugar from basic food needs since it would be overconsumed in some cases.

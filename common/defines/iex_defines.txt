@@ -141,9 +141,9 @@ NPops = {
 ### Pop Growth Constants
 ## Base Values per month
 @min_birthrate = 0.00065			# Minimum base birthrate per month (at POP_GROWTH_STABLE_SOL)
-@max_birthrate = 0.00500			# Maximum base birthrate per month (at SOL = 0 if not modified by malnourishment)
+@max_birthrate = 0.00450			# Maximum base birthrate per month (at SOL = 0 if not modified by malnourishment)
 @min_mortality = 0.00056			# Minimum base mortality per month (at POP_GROWTH_STABLE_SOL)
-@max_mortality = 0.00660			# Maximum base mortality per month (at SOL = 0 if not modified by malnourishment)
+@max_mortality = 0.00550			# Maximum base mortality per month (at SOL = 0 if not modified by malnourishment)
 
 ## SoL Thresholds
 @pop_growth_equilibrium_sol = 5		# Equilibrium is pops stop starving and where growth first becomes positive

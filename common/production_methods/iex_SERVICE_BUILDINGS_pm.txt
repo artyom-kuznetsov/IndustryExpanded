@@ -1,4 +1,55 @@
 ﻿# PORT
+pm_anchorage = {
+	texture = "gfx/interface/icons/production_method_icons/anchorage.dds"
+	
+	low_pop_method = yes # AI will activate this method for states with low population
+	
+	building_modifiers = {
+		workforce_scaled = {
+			building_employment_laborers_add = 500
+			building_employment_clerks_add = 350
+			building_employment_bureaucrats_add = 150
+		}
+	}
+	
+	country_modifiers = {
+		workforce_scaled = {
+			country_convoys_capacity_add = 20
+		}
+		unscaled = {
+			state_market_access_price_impact = 0.03
+		}
+	}
+}			
+
+pm_basic_port = {
+	texture = "gfx/interface/icons/production_method_icons/basic_port.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {	
+			goods_input_clippers_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_clerks_add = 1500
+			building_employment_bureaucrats_add = 500
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_convoys_capacity_add = 150
+		}
+	}
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 5
+		}
+		unscaled = {
+			state_market_access_price_impact = 0.03
+		}
+	}
+}		
 
 pm_industrial_port = {
 	texture = "gfx/interface/icons/production_method_icons/industrial_port.dds"
@@ -28,6 +79,9 @@ pm_industrial_port = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 7.5
+		}
+		unscaled = {
+			state_market_access_price_impact = 0.03
 		}
 	}	
 }
@@ -59,6 +113,9 @@ pm_modern_port = {
 	state_modifiers = {
 		workforce_scaled = {
 			state_infrastructure_add = 10
+		}
+		unscaled = {
+			state_market_access_price_impact = 0.03
 		}
 	}
 }				
@@ -364,7 +421,7 @@ pm_automation_automatic_power_plant = {
 	}
 }
 
-### RAILROAD ###
+### ROAD NETWORK ###
 
 pm_dirt_roads = {
 	texture = "gfx/interface/icons/production_method_icons/dirt_roads.dds"
@@ -414,7 +471,6 @@ pm_gravel_roads = {
 			state_infrastructure_mult = 0.02
 		}
 		unscaled = {
-			state_market_access_price_impact = 0.01
 			state_infrastructure_from_population_max_add = 12
 		}
 	}
@@ -455,7 +511,6 @@ pm_paved_roads = {
 			state_infrastructure_mult = 0.02
 		}
 		unscaled = {
-			state_market_access_price_impact = 0.02
 			state_infrastructure_from_population_max_add = 15
 		}
 	}
@@ -495,7 +550,6 @@ pm_asphalt_roads = {
 			state_infrastructure_mult = 0.03
 		}
 		unscaled = {
-			state_market_access_price_impact = 0.03
 			state_infrastructure_from_population_max_add = 20
 		}
 	}
@@ -522,9 +576,6 @@ pm_early_trains = {
 		workforce_scaled = {
 			state_infrastructure_add = 20
 			state_pollution_generation_add = 25
-		}
-		unscaled = {
-			state_market_access_price_impact = 0.03
 		}
 	}
 }
@@ -554,9 +605,6 @@ pm_steam_trains = {
 			state_infrastructure_add = 25
 			state_pollution_generation_add = 20
 		}
-		unscaled = {
-			state_market_access_price_impact = 0.05
-		}
 	}
 }
 
@@ -585,7 +633,7 @@ pm_electric_trains = {
 			state_infrastructure_add = 35
 		}
 		unscaled = {
-			state_market_access_price_impact = 0.06
+			state_market_access_price_impact = 0.01
 		}
 	}
 
@@ -617,7 +665,7 @@ pm_diesel_trains = {
 			state_pollution_generation_add = 10
 		}
 		unscaled = {
-			state_market_access_price_impact = 0.06
+			state_market_access_price_impact = 0.01
 		}
 	}
 }
@@ -649,7 +697,7 @@ pm_high_speed_electric_trains = {
 			state_infrastructure_add = 50
 		}
 		unscaled = {
-			state_market_access_price_impact = 0.08
+			state_market_access_price_impact = 0.03
 		}
 	}
 }
@@ -682,7 +730,7 @@ pm_high_speed_diesel_trains = {
 			state_pollution_generation_add = 15
 		}
 		unscaled = {
-			state_market_access_price_impact = 0.08
+			state_market_access_price_impact = 0.03
 		}
 	}
 
@@ -710,8 +758,8 @@ pm_electric_trains_principle_transport_3 = {
 			goods_output_transportation_add = 75 	# 2250	# PROFIT 1290
 		}
 		level_scaled = {
-			building_employment_laborers_add = 2000
-			building_employment_machinists_add = 2000
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
 			building_employment_clerks_add = 750
 		}
 	}
@@ -721,7 +769,7 @@ pm_electric_trains_principle_transport_3 = {
 			state_infrastructure_add = 40
 		}
 		unscaled = {
-			state_market_access_price_impact = 0.08
+			state_market_access_price_impact = 0.03
 		}
 	}
 
@@ -761,7 +809,7 @@ pm_diesel_trains_principle_transport_3 = {
 			state_pollution_generation_add = 20
 		}
 		unscaled = {
-			state_market_access_price_impact = 0.08
+			state_market_access_price_impact = 0.03
 		}
 	}
 }

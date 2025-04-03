@@ -90,7 +90,7 @@ building_rice_farm = {
 	production_method_groups = {
 		pmg_base_building_rice_farm
 		pmg_secondary_building_rice_farm
-		pmg_auto_hauling_plantation
+		#pmg_auto_hauling_plantation
 		pmg_harvesting_process_building_rice_farm
 	}
 
@@ -331,6 +331,19 @@ building_chemical_plants = {
 		pmg_automation_building_solid
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		owner = {
+			market = {
+				mg:fertilizer = { 
+					market_goods_pricier > 0.01
+				}
+			}
+		}
+		state.market_access = 1
+		NOT = { is_under_construction = yes }
+	}
+	
 	required_construction = construction_cost_very_high
 
 	possible = {

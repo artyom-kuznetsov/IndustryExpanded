@@ -269,6 +269,10 @@ railways = {
 		atmospheric_engine
 	}
 	
+	modifier = {
+		state_market_access_price_impact = 0.03
+	}
+	
 	ai_weight = {
 		value = 1000
 	}
@@ -682,6 +686,10 @@ steel_railway_cars = {
 	
 	unlocking_technologies = {	
 		railways
+	}
+	
+	modifier = {
+		state_market_access_price_impact = 0.02
 	}
 	
 	ai_weight = {
