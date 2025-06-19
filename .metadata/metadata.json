@@ -1,9 +1,9 @@
 {
-  "name" : "(1.8) Industry Expanded v12.4",
+  "name" : "[IEX] Industry Expanded Core v13.0 [BETA]",
   "picture" : "thumbnail.png",
   "id" : "",
-  "version" : "12.4",
-  "supported_game_version" : "1.8.7",
+  "version" : "13.0",
+  "supported_game_version" : "1.9.2",
   "short_description" : "An Industry Expansion Mod",
   "tags" : [],
   "relationships" : [],

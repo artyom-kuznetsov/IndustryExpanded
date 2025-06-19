@@ -1,3 +1,8 @@
+[h1]v12.5[/h1]
+-Extended Canning now needs electricity instead of oil.
+-Fixed Anchorage PM for Port was giving country-wide MAPI modifier instead of local.
+
+
 [h1]v12.4[/h1]
 -Added +3% MAPI for Port building.
 -Moved MAPI modifiers from Road Network and Railroad PMs and moved them to respective technologies. It may be less realistic and make less sense, but it's better for AI and is less annoying to deal with. Exception is latter railway PMs.

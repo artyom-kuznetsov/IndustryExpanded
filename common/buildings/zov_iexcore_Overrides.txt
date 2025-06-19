@@ -1,0 +1,41 @@
+﻿
+building_paper_mills = {
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/paper_mills.dds"
+	
+	ai_nationalization_desire = 0.25 # AI is a bit reluctant to privatize government goods
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	city_type = city
+	levels_per_mesh = 5
+
+	production_method_groups = {
+		pmg_assembly_paper
+		pmg_base_paper
+	}
+	
+	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	should_auto_expand = { 
+		occupancy >= 0.8
+		owner = {
+			market = {
+				mg:paper = { 
+					market_goods_pricier > 0.01
+				}
+			}
+		}
+		state = {
+			infrastructure_delta >= -1
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
+}

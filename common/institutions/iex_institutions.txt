@@ -1,5 +1,0 @@
-﻿
-institution_schools_2 = {
-	icon = "gfx/interface/icons/institution_icons/schools.dds"
-	background_texture = "gfx/interface/illustrations/institutions/schools.dds"
-}

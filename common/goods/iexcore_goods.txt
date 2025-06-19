@@ -1,0 +1,40 @@
+﻿
+electricity = {
+	texture = "gfx/interface/icons/goods_icons/electricity.dds"
+	cost = 30
+	category = staple
+	#local = yes
+	
+	prestige_factor = 5
+	tradeable = no
+	
+	consumption_tax_cost = 200
+}
+services = {
+	texture = "gfx/interface/icons/goods_icons/services.dds"
+	cost = 30
+	category = staple
+#	local = yes
+
+	tradeable = no
+	
+	consumption_tax_cost = 200
+}
+
+#
+#fuel = {
+#	texture = "gfx/interface/icons/goods_icons/fuel.dds"
+#	cost = 50
+#	category = industrial
+#	
+#	prestige_factor = 5
+#}
+#
+#plastics = {
+#	texture = "gfx/interface/icons/goods_icons/plastics.dds"
+#	cost = 50
+#	category = industrial
+#	
+#	prestige_factor = 5
+#}
+#
