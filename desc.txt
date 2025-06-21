@@ -16,8 +16,10 @@ A mod focused on goods, building, production methods and variability expansion, 
 IEX Core is the main part of Industry Expanded which all the modules depend on.
 [h2]Contents of the Core:[/h2]
 - 3 New Production Technologies
-- Paper Mill Building Rework
+- Paper Mills Building Rework
+- Textile Mills Building Rework
 - Electricity and Services goods are not local anymore
+- Enhanced pop needs, pops actually shift to electricity for heating, consume more wine and more tweaks
 
 [h1]Get More Content![/h1]
 [h2]Install all the modules for best Industry Expanded experience.[/h2]
@@ -42,11 +44,13 @@ Thanks for playing Industry Expanded!
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
 
 [b]Overrides:[/b]
--services, electricity trade goods
--buildings (functional changes): paper_mills building
+-trade goods: services, electricity
+-buildings: paper_mills building, building_textile_mills
 -pmgs: pmg_base_paper
 -technologies: electrical_generation, telephone, rotary_valve_engine
 -turmoil static modifiers
+-tooling workshop base PMs
+pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
 
 [h1]Credits[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]

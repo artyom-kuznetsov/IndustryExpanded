@@ -1,11 +1,13 @@
-[h1]v13.0 BETA 1[/h1]
+[h1]v13.0 BETA 1 for Vic3 1.9[/h1]
 [h2]We now have discord server! https://discord.gg/3QBTCvjzug[/h2]
+
 [h2]Removed[/h2]
 -Removed literally everything
 
 [h2]Re-Added[/h2]
 -Road Networks (now in a seperate mod, check description)
--Paper Mill Rework
+-Paper Mills Rework
+-Textile Mills Rework
 -Automatic Machines, Mechanical Production, Electrification technologies
 -Auto-Expansion rules to many buildings.
 

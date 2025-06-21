@@ -9,7 +9,7 @@
  
  pmg_assembly_main:0 "Assembly Method"
  
- # PAPER MILL
+ # PAPER MILLS
  pm_ink_paper:0 "Ink Usage"
 
  pm_handcrafting_paper:0 "$pm_handcrafting_main$"
@@ -35,3 +35,16 @@
  
  # MISC
  building_chemical_plants:0 "Chemical Plants"   # Vanilla Override
+ 
+ # TEXTILE MILLS
+ pmg_sewing_textile:0 "Sewing"
+ pmg_dyes_textile:0 "Dyes"
+ 
+ pm_no_dye_textile:0 "Undyed Clothes"
+ pm_dyed_clothes:0 "Dyed Clothes"
+ pm_dyed_clothes_2:0 "Dye Workshops"
+ 
+ pm_luxury_clothes_production:0 "Luxury Clothes Production"
+ pm_luxury_clothes_extensive_production:0 "Extensive Luxury Clothes Production"
+ pm_luxury_clothes_focus:0 "Luxury Clothes Focus"
+ 

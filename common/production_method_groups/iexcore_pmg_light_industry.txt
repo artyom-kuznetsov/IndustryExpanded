@@ -18,3 +18,32 @@ pmg_base_paper = {
 		pm_bleached_paper
 	}
 }
+
+pmg_sewing_textile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handsewn_clothes
+		pm_sewing_machines
+		pm_electric_sewing_machines
+	}
+}
+
+pmg_dyes_textile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_dye_textile
+		pm_dyed_clothes
+		pm_dyed_clothes_2
+	}
+}
+
+pmg_luxury_building_textile_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_luxury_clothes
+		pm_luxury_clothes_production
+		pm_craftsman_sewing
+		pm_elastics
+		pm_luxury_clothes_focus
+	}
+}
