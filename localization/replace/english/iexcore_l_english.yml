@@ -25,5 +25,13 @@
  electrification_desc:0 "The harnessing of electricity to power industry, infrastructure, and daily life, unlocking new levels of productivity and innovation."
  automatic_machines:0 "Automatic Machines"
  automatic_machines_desc:0 "Compact and powerful mechanisms have made it possible to create very efficient production in some industries."
+ mechanical_production:0 "Mechanical Production"
+ mechanical_production_desc:0 "Production of steam machines that were able to rotate or lift objects with a decent force were one of the locomotives of the industrial revolution."
+ mechanical_tools:0 "Precision Tools"
  
+
+ # GOODS 
+ fertilizer:0 "Chemicals"                       # Vanilla Override
  
+ # MISC
+ building_chemical_plants:0 "Chemical Plants"   # Vanilla Override

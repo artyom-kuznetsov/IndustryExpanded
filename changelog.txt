@@ -1,3 +1,15 @@
+[h1]v13.0 BETA 1[/h1]
+[h2]We now have discord server! https://discord.gg/3QBTCvjzug[/h2]
+[h2]Removed[/h2]
+-Removed literally everything
+
+[h2]Re-Added[/h2]
+-Road Networks (now in a seperate mod, check description)
+-Paper Mill Rework
+-Automatic Machines, Mechanical Production, Electrification technologies
+-Auto-Expansion rules to many buildings.
+
+
 [h1]v12.5[/h1]
 -Extended Canning now needs electricity instead of oil.
 -Fixed Anchorage PM for Port was giving country-wide MAPI modifier instead of local.

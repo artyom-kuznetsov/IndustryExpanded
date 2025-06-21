@@ -21,7 +21,7 @@ pm_rotary_press_paper = {
 	}
 	
 	unlocking_technologies = {
-		rotary_valve_engine
+		mechanical_production
 	}
 	
 	building_modifiers = {

@@ -5,52 +5,52 @@ A mod focused on goods, building, production methods and variability expansion, 
 [h1]Modular IEX[/h1]
 [b]Modular IEX[/b] is former Industry Expanded Mod but split into few separate mods. So you can disable/enable some of them for your preference or compatibility with your current modset.
 
+[h2]We now have Discord! https://discord.gg/3QBTCvjzug[/h2]
+
+[h2]Features of the IEX Series[/h2]
+[b]- Road Networks[/b], allowing you to increase infrastructure capacity before inventing railroads.
+[b]- Auto-Expansion reworked to automatically expand buildings when you actually could use them.
+[b]- Market Access Price Impact[/b] rework, MAPI now increases steeper, instead of vanilla spikes from techs.
+
 [h1]Industry Expanded Core[/h1]
 IEX Core is the main part of Industry Expanded which all the modules depend on.
 [h2]Contents of the Core:[/h2]
-- 2 New Production Technologies
+- 3 New Production Technologies
 - Paper Mill Building Rework
 - Electricity and Services goods are not local anymore
 
 [h1]Get More Content![/h1]
 [h2]Install all the modules for best Industry Expanded experience.[/h2]
-[img]https://i.imgur.com/AD0h9fo.png[/img]
+[img]https://i.imgur.com/5ySU5oe.png[/img]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505037469]Enhanced Auto-Expansion Module[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503014205]Load, Ship & Road Module[/url]
 
-[h1]Localization and Compatibility[/h1]
+[h1]Localization[/h1]
 Mod natively supports [b]English[/b] and [b]Russian[/b] languages.
 
 Fan-made translations:
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url]
 [b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url]
-[b]Japanese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721](1.6) Industry Expanded JP[/url]
+[b]Japanese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721]Industry Expanded JP[/url]
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v13.0[/b]
-Game version: [b]v1.9.1[/b]
+Mod version: [b]v13.0 BETA 1[/b]
+Game version: [b]v1.9.2[/b]
 
 Thanks for playing Industry Expanded!
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
 
 [b]Overrides:[/b]
--services trade good
--electricity trade good
--paper_mills building
--pmg_base_paper
--electrical_generation technology
--telephone technology
+-services, electricity trade goods
+-buildings (functional changes): paper_mills building
+-pmgs: pmg_base_paper
+-technologies: electrical_generation, telephone, rotary_valve_engine
+-turmoil static modifiers
 
 [h1]Credits[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2971224629]Weight of Rule[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3133935511]Global Trade[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3114281747]Law & Authority[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2895956555]Better Decrees[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2906096788]1 Factory 1 Product[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3227982912]Kuromi's AI[/url]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3181868057]Hyper-Aggressive Pop Merging[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3336914177]Grey's Soft Pop Adjustments[/url]
 
 
@@ -62,9 +62,6 @@ Many buildings that needed to be, were seperated (for example, grocery and liquo
 This mod and its modules feature a vast expansion in buildings and technologies, such as:
 [b]- Oil Industry[/b], as well as [b]Synthetic Rubber[/b] and [b]Plastics[/b] production.
 [b]- Synthetic Industry[/b]
-[b]- Road Networks[/b], allowing you to increase infrastructure capacity before inventing railroads.
 [b]- Difficult Terrain[/b], you can negate construction efficiency debuffs in mountainous/forested states by researching technologies.
-[b]- Market Access Price Impact[/b] rework, now you need to improve infrastructure PMs to increase MAPI rather than just researching techs.
-[b]- Auto-Expansion reworked to automatically expand buildings when you actually could use them.
 [/i]
 

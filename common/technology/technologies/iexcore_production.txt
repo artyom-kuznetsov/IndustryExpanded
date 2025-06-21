@@ -1,4 +1,47 @@
-﻿### ERA 3
+﻿### ERA 2
+
+mechanical_production = {
+	era = era_2
+	texture = "gfx/tech_icons/mechanical_production.dds"
+	category = production
+	
+	
+	unlocking_technologies = {
+		mechanical_tools
+		atmospheric_engine
+	}
+	
+	ai_weight = {
+		value = 1
+		
+		if = {
+			limit = { 
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}		
+	}
+}
+
+
+
+### ERA 3
+
+rotary_valve_engine = {
+	# Unlocks Rotary Valve Engine PM in Furniture Manufacturies, Tooling Workshops, Paper Mills, Steel Mills, Motor Industry
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/rotary_valve_engine.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		watertube_boiler
+		mechanical_production
+	}
+	
+	ai_weight = {
+		value = 2
+	}
+}
 
 electrical_generation = {
 	# Unlocks Power Plants
@@ -13,7 +56,7 @@ electrical_generation = {
 	category = production
 	
 	unlocking_technologies = {	
-		watertube_boiler
+		mechanical_production
 	}
 	
 	ai_weight = {
