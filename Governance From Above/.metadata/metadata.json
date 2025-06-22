@@ -1,0 +1,13 @@
+{
+  "name" : "(1.8) Governance From Above",
+  "picture" : "thumbnail.png",
+	"id" : "",
+  "version" : "",
+  "supported_game_version" : "1.8.6",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

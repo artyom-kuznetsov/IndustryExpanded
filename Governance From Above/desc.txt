@@ -1,0 +1,13 @@
+[b]Governance from Above[/b] is a mod, which improves subject management and viability.
+
+[h1]What it does[/h1]
+[h2]Colonial Extraction[/h2]
+Governance from Above modifies Colonial Extraction AI strategy, so colonial nations are now actually willing to extract their rubber, oil, minerals, or at least plantation potential for the sake of overlord's economy.
+[h2]Subject Law Management[/h2]
+Couldn't make AI to enact any law, because it was too long and end up stalling every time? Now AI gets a bonus to enactment time and success chance if they accept the imposition.
+[h2]Liberty Desire Tweaks[/h2]
+Reduced +0.2 liberty desire modifier that applies to all subjects if one subject gets annexed to 0.05.
+Removed +10 liberty desire to all subjects if decreasing autonomy of one subject.
+
+
+Mod is available in english and russian languages.

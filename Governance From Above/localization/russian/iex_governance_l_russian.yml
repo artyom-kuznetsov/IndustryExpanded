@@ -1,0 +1,33 @@
+﻿l_russian:
+ iex_is_subject_modifier:0 "Управление сверху"
+ iex_enacting_law_modifier:0 "Политический надзор"
+ # Develop
+ develop: "Инвестировать"
+ develop_desc: "Передача очков строительства и дохода от сюзерена к субъекту."
+ develop_action_name: "$develop$"
+ develop_action_propose_name: "Начать инвестировать"
+ develop_action_break_name: "Перестать инвестировать"
+ develop_pact_desc: "[SCOPE.GetRootScope.GetDiplomaticPact.GetFirstCountry.GetName] инвестируют в [SCOPE.GetRootScope.GetDiplomaticPact.GetSecondCountry.GetName]."
+ develop_pact: "#header $develop$#!\n$TOOLTIP_DELIMITER$\n[concept_develop_desc]"
+ develop_action_notification_name: "[INITIATOR_COUNTRY.GetName] инвестируют в нас"
+ develop_action_notification_desc: "[INITIATOR_COUNTRY.GetName] начали инвестировать в нашу страну, предоставляя дополнительный доход и очки строительства."
+ develop_action_notification_break_name: "[INITIATOR_COUNTRY.GetName] прекратили инвестиции"
+ develop_action_notification_break_desc: "[INITIATOR_COUNTRY.GetName] прекратили поток инвестиций в нашу страну."
+ develop_weekly_effect_tooltip: "Will transfer a scaled amount of construction points and income every week."
+
+ develop_effect_desc_global: "Начинает [concept_develop]"
+ develop_effect_desc_first: "[COUNTRY.GetAdjectiveNoFlag] начинает [concept_develop] [TARGET_COUNTRY.GetName]"
+ develop_effect_desc_third: "[COUNTRY.GetName] начинает [concept_develop] [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]"
+ 
+ develop_trigger_desc_global: "[Concept('concept_develop','$concept_developing$')]"
+ develop_trigger_false_desc_global: "#b not#! [Concept('concept_develop','$concept_developing$')]"
+ develop_trigger_desc_first: "[COUNTRY.GetAdjectiveNoFlag] [Concept('concept_develop','$concept_developing$')] [TARGET_COUNTRY.GetName]"
+ develop_trigger_false_desc_first: "[COUNTRY.GetAdjectiveNoFlag] #b not#! [Concept('concept_develop','$concept_developing$')] [TARGET_COUNTRY.GetName]"
+ develop_trigger_desc_third: "[COUNTRY.GetName] [Concept('concept_develop','$concept_developing$')] [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]"
+ develop_trigger_false_desc_third: "[COUNTRY.GetName] #b not#! [Concept('concept_develop','$concept_developing$')] [AddTextIf(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self),TARGET_COUNTRY.GetNameNoFlag)][AddTextIf(Not(ObjectsEqual(GetMetaPlayer.GetPlayedOrObservedCountry.Self, TARGET_COUNTRY.Self)),TARGET_COUNTRY.GetName)]"
+
+ colonial_development: "Колониальные инвестиции"
+ colonial_development_target: "Получает колониальные инвестиции"
+ 
+ concept_develop: "инвестировать"
+ concept_develop_desc: "Передача очков строительства и дохода от сюзерена к субъекту."

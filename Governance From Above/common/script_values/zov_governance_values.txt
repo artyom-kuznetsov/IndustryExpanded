@@ -1,0 +1,1 @@
+﻿decrease_autonomy_liberty_desire_to_add = 0 	# When you decrease autonomy of one of your subject, other direct subjects increase their liberty desire by this
