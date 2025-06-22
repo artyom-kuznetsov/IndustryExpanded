@@ -1,3 +1,6 @@
+[h1]BEFORE YOU ASK[/h1]
+where is all the content: It's in a stage of rework and rebalancing and it will be coming back in the future.
+
 [img]https://i.imgur.com/v028EQl.png[/img]
 [b]Please, report any bugs or problems in the mod! Also feel free to suggest your ideas.[/b]
 A mod focused on goods, building, production methods and variability expansion, improvement and balancing.
@@ -9,8 +12,9 @@ A mod focused on goods, building, production methods and variability expansion, 
 
 [h2]Features of the IEX Series[/h2]
 [b]- Road Networks[/b], allowing you to increase infrastructure capacity before inventing railroads.
-[b]- Auto-Expansion reworked to automatically expand buildings when you actually could use them.
+[b]- Auto-Expansion[/b] reworked to automatically expand buildings when you actually could use them.
 [b]- Market Access Price Impact[/b] rework, MAPI now increases steeper, instead of vanilla spikes from techs.
+[b]- Difficult Terrain[/b] - most of mountain/desert/forest negative construction effects are now counterable.
 
 [h1]Industry Expanded Core[/h1]
 IEX Core is the main part of Industry Expanded which all the modules depend on.
@@ -23,9 +27,10 @@ IEX Core is the main part of Industry Expanded which all the modules depend on.
 
 [h1]Get More Content![/h1]
 [h2]Install all the modules for best Industry Expanded experience.[/h2]
-[img]https://i.imgur.com/5ySU5oe.png[/img]
+[img]https://i.imgur.com/V5ZrrgK.png[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505037469]Enhanced Auto-Expansion Module[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503014205]Load, Ship & Road Module[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505957844]Difficult Terrain Module[/url]
 
 [h1]Localization[/h1]
 Mod natively supports [b]English[/b] and [b]Russian[/b] languages.
@@ -50,22 +55,10 @@ Thanks for playing Industry Expanded!
 -technologies: electrical_generation, telephone, rotary_valve_engine
 -turmoil static modifiers
 -tooling workshop base PMs
-pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
+-pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
 
 [h1]Credits[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3336914177]Grey's Soft Pop Adjustments[/url]
-
-
-#### Old Description. It will be moved to the top as these features actually re-appear in the mod :P ####
-[i]
-Industry Expanded is a big mod, touching many aspects of the game.
-IEX allows you to build your industry more flexibly and lack of a certain resource is not as harsh anymore, thanks to overall PM variety.
-Many buildings that needed to be, were seperated (for example, grocery and liquor) or rebalanced to be more adjustable.
-This mod and its modules feature a vast expansion in buildings and technologies, such as:
-[b]- Oil Industry[/b], as well as [b]Synthetic Rubber[/b] and [b]Plastics[/b] production.
-[b]- Synthetic Industry[/b]
-[b]- Difficult Terrain[/b], you can negate construction efficiency debuffs in mountainous/forested states by researching technologies.
-[/i]
 

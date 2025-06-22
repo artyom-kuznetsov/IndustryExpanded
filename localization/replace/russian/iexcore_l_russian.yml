@@ -1,0 +1,50 @@
+﻿l_russian:
+ # BASE NAMES
+ pm_handcrafting_main:0 "Ручная сборка"
+ pm_workingtools_main:0 "Рабочие инструменты"
+ pm_watertube_main:0 "Водотрубный котёл"
+ pm_pneumatic_main:0 "Пневматические машины"
+ pm_electric_drive_main:0 "Электроприводы"
+ pm_assembly_main:0 "Сборочная линия"
+ 
+ pmg_assembly_main:0 "Способ сборки"
+ 
+ # PAPER MILLS
+ pm_ink_paper:0 "Использование чернил"
+
+ pm_handcrafting_paper:0 "$pm_handcrafting_main$"
+ pm_rotary_press_paper:0 "Механический пресс"
+ pm_electric_drive_paper:0 "$pm_electric_drive_main$"
+ pm_auto_press_paper:0 "Автоматический пресс"
+ 
+ pmg_assembly_paper:0 "Способ обработки"
+ pmg_base_paper:0 "$pm_base$"
+ 
+ # TECHNOLOGIES
+ electrification:0 "Электрификация"
+ electrification_desc:0 "Использование электричества для питания промышленности, инфраструктуры и повседневной жизни, открывающее новые уровни производительности и инноваций.."
+ automatic_machines:0 "Автоматические машины"
+ automatic_machines_desc:0 "Компактные и мощные механизмы позволили создать очень эффективное производство в некоторых отраслях."
+ mechanical_production:0 "Машинное производство"
+ mechanical_production_desc:0 "Производство паровых машин, которые были способны вращать или переворачивать предметы с приличной силой, стало одним из локомотивов промышленной революции."
+ mechanical_tools:0 "Точные инструменты"
+ 
+
+ # GOODS 
+ fertilizer:0 "Химикаты"                       # Vanilla Override
+ 
+ # MISC
+ building_chemical_plants:0 "Химические заводы"   # Vanilla Override
+ 
+ # TEXTILE MILLS
+ pmg_sewing_textile:0 "Шитьё"
+ pmg_dyes_textile:0 "Красители"
+ 
+ pm_no_dye_textile:0 "Некрашеная одежда"
+ pm_dyed_clothes:0 "Применение красителей"
+ pm_dyed_clothes_2:0 "Красильные мастерские"
+ 
+ pm_luxury_clothes_production:0 "Производство роскошной одежды"
+ pm_luxury_clothes_extensive_production:0 "Увеличенное производство роскошной одежды"
+ pm_luxury_clothes_focus:0 "Упор на роскошную одежду"
+ 

@@ -1,3 +1,6 @@
+[h1]ПРЕЖДЕ ЧЕМ ТЫ СПРОСИШЬ,[/h1]
+где же весь контент: он в состоянии реворка и ребаланса, и он вернётся в будущем.
+
 [img]https://i.imgur.com/v028EQl.png[/img]
 [b]Пожалуйста, сообщайте о любых найденных багах или проблемах в моде! Также не стесняйтесь предлагать свои идеи.[/b]
 Мод, направленный на расширение количества методов производства, вариативности, их улучшение и балансировку.
@@ -6,12 +9,13 @@
 [b]Модульный IEX[/b] это бывший Industry Expanded, но разделённый на несколько отдельных модов.
 Таким образом, вы можете включать/выключать некоторые из них по вкусу или ради совместимости со своей сборкой модов.
 
-[h2]У нас теперь есть Discord! https://discord.gg/3QBTCvjzug[/b][/h2]
+[h2]У нас теперь есть Discord! https://discord.gg/3QBTCvjzug[/h2]
 
 [h2]Нововведения IEX и модулей:[/h2]
 [b]- Дорожные сети[/b], позволяющие расширять инфраструктуру до исследования железных дорог.
-[b]- Авторасширение переработано, чтобы автоматически строить фабрики тогда, когда они вам действительно нужны.
+[b]- Авторасширение[/b] переработано, чтобы автоматически строить фабрики тогда, когда они вам действительно нужны.
 [b]- Влияние доступности к рынку на цену[/b] было переработано и теперь увеличивается более плавно, вместо ванильных "иголок" от технологий.
+[b]- Сложная местность[/b] - возможность противодействовать большинству модификаторов гор/пустынь/лесов, уменьшающих эффективность строительства.
 
 [h1]Industry Expanded Core[/h1]
 IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все модули.
@@ -22,9 +26,10 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 
 [h1]Больше контента![/h1]
 [h2]Установите все модули для лучшего опыта игры с Industry Expanded.[/h2]
-[img]https://i.imgur.com/5ySU5oe.png[/img]
+[img]https://i.imgur.com/V5ZrrgK.png[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505037469]Улучшенное авторасширение[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503014205]Грузи и Вези[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505957844]Difficult Terrain[/url]
 
 [h1]Локализация[/h1]
 Мод из коробки поддерживает [b]Русский[/b] и [b]Английский[/b] языки.
@@ -43,38 +48,16 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
 
 [b]Перезаписи ванили:[/b]
--services, electricity trade goods
--buildings (functional changes): paper_mills building
+-trade goods: services, electricity
+-buildings: paper_mills building, building_textile_mills
 -pmgs: pmg_base_paper
 -technologies: electrical_generation, telephone, rotary_valve_engine
 -turmoil static modifiers
+-tooling workshop base PMs
+-pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
 
 [h1]Благодарности[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3336914177]Grey's Soft Pop Adjustments[/url]
 
-
-#### Old Description. It will be moved to the top as these features actually re-appear in the mod :P ####
-[i]
-Industry Expanded is a big mod, touching many aspects of the game.
-IEX allows you to build your industry more flexibly and lack of a certain resource is not as harsh anymore, thanks to overall PM variety.
-Many buildings that needed to be, were seperated (for example, grocery and liquor) or rebalanced to be more adjustable.
-This mod and its modules feature a vast expansion in buildings and technologies, such as:
-[b]- Oil Industry[/b], as well as [b]Synthetic Rubber[/b] and [b]Plastics[/b] production.
-[b]- Synthetic Industry[/b]
-[b]- Difficult Terrain[/b], you can negate construction efficiency debuffs in mountainous/forested states by researching technologies.
-[/i]
-
-
-[img]https://i.imgur.com/v028EQl.png[/img]
-
-
-Industry Expanded - это большой мод, затрагивающий многие аспекты игры.
-IEX позволяет вам строить промышленность более гибким образом: нехватка определённого ресурса не так ужасна, благодаря фичам вроде Фильтрации руды и общей вариативности методов производстваю
-Многие постройки, которым это требовалось, были разделены (например, продукты и спирт, двигатели и автомобили)
-Мод содержит значительные расширения в постройках и технологиях, такие как:
-[b]- Нефтяная промышленность[/b], также [b]Синтетическая резина[/b] и производство[b] Пластика[/b].
-[b]- Синтетическая промышленность[/b]
-[b]- Сложная местность[/b], вы можете убрать дебафф на скорость строительства в горных/лесистых регионах, исследуя технологии.
-[b]- Влияние доступности к рынку на цену[/b] было переработано, теперь нужно улучшать методы производства для инфраструктуры, а не просто исследовать технологии общества.
