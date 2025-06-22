@@ -128,3 +128,23 @@ automatic_machines = {
 		}		
 	}
 }
+
+refining = {
+	era = era_4
+	texture = "gfx/tech_icons/refining.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		pumpjacks
+	}
+	
+	ai_weight = {
+		if = {
+			limit = { 
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}
+		value = 1
+	}
+}
