@@ -1,0 +1,6 @@
+﻿l_english:
+ state_trait_iex_difficult_terrain:0 "Difficult Terrain"
+ state_trait_iex_very_difficult_terrain:0 "Very Difficult Terrain"
+ state_trait_densely_forested_terrain:0 "Densely Forested Terrain"
+ state_trait_deserted_terrain:0 "Deserted Terrain"
+ 

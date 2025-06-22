@@ -1,0 +1,38 @@
+﻿state_trait_iex_difficult_terrain = {
+	icon = "gfx/difficult_terrain.dds"
+	
+	disabling_technologies = { "dynamite" }
+	
+	modifier = {
+		state_construction_mult = -0.1
+	}
+}
+state_trait_iex_very_difficult_terrain = {
+	icon = "gfx/very_difficult_terrain.dds"
+	
+	disabling_technologies = { "pneumatic_tools" }
+	
+	modifier = {
+		state_construction_mult = -0.2
+	}
+}
+
+state_trait_densely_forested_terrain = {
+	icon = "gfx/forested_terrain.dds"
+	
+	disabling_technologies = { "steam_donkey" }
+	
+	modifier = {
+		state_construction_mult = -0.15
+	}
+}
+
+state_trait_deserted_terrain = {
+	icon = "gfx/interface/icons/state_trait_icons/dry_climate.dds"
+	
+	disabling_technologies = { "pumpjacks" }
+	
+	modifier = {
+		state_construction_mult = -0.15
+	}
+}

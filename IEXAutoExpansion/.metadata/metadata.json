@@ -1,0 +1,13 @@
+{
+  "name" : "[IEX] Enhanced Auto-Expansion",
+  "picture" : "thumbnail.png",
+  "id" : "",
+  "version" : "",
+  "supported_game_version" : "",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

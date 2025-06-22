@@ -1,0 +1,21 @@
+[img]https://i.imgur.com/v028EQl.png[/img]
+[h2]Enhanced Auto-Expansion: IEX Module is an [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]Industry Expanded Core[/url] optional (but highly recommended) module, adding auto-expansion triggers for buildings.[/h2]
+
+[h1]Modular IEX[/h1]
+[b]Modular IEX[/b] is former Industry Expanded Mod but split into few separate mods. So you can disable/enable some of them for your preference or compatibility with your current modset.
+
+[h2]We now have Discord! https://discord.gg/3QBTCvjzug[/b][/h2]
+
+[h1]Enhanced Auto-Expansion Module[/h1]
+[h2]About this module:[/h2]
+-No content additions
+-Added triggers for auto-expansion for most industries in the game
+-Fun fact: it does not really require IEX core to run
+
+[h2]Metadata[/h2]
+Mod version: [b]v1[/b]
+Game version: [b]v1.9.2[/b]
+[img]https://i.imgur.com/V5ZrrgK.png[/img]
+
+[b]Overrides:[/b]
+-buildings (auto-expansion triggers only, no functional changes): building_power_plant, building_steel_mills, building_furniture_manufacturies, building_munition_plants, building_motor_industry, building_tooling_workshops, building_chemical_plants, building_explosives_factory, building_food_industry, building_arms_industry, building_textile_mills, building_electrics_industry, building_fishing_wharf, building_rubber_plantation, building_logging_camp, building_oil_rig, building_coal_mine, building_iron_mine, building_sulfur_mine, building_lead_mine

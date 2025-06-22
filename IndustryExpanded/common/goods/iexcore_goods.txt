@@ -1,0 +1,17 @@
+﻿fuel = {
+	texture = "gfx/goods_icons/fuel.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 5
+	traded_quantity = 4 # 200
+}
+
+plastics = {
+	texture = "gfx/goods_icons/plastics.dds"
+	cost = 50
+	category = industrial
+	
+	prestige_factor = 4
+	traded_quantity = 4 # 200
+}

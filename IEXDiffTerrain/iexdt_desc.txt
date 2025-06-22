@@ -1,0 +1,27 @@
+[img]https://i.imgur.com/v028EQl.png[/img]
+[h2]Difficult Terrain: IEX Module is an [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]Industry Expanded Core[/url] optional (but highly recommended) module, making most of mountain/desert/forest negative construction effects counterable.[/h2]
+
+[h1]Modular IEX[/h1]
+[b]Modular IEX[/b] is former Industry Expanded Mod but split into few separate mods. So you can disable/enable some of them for your preference or compatibility with your current modset.
+
+[h2]We now have Discord! https://discord.gg/3QBTCvjzug[/h2]
+
+[h1]Difficult Terrain Module[/h1]
+[h2]Contents of this module:[/h2]
+-Difficult Terrain, Very Difficult Terrain, Densely Forested and Deserted Terrain state traits.
+-All of these traits can be removed by researching a respective technology, like dynamite, steam donkey or pneumatic tools.
+
+[b]Inspiration and GFX from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855&searchtext=vtm]Victoria Tweaks Mod[/url][/b]
+
+[h2]Metadata[/h2]
+Mod version: [b]v1[/b]
+Game version: [b]v1.9.2[/b]
+[img]https://i.imgur.com/V5ZrrgK.png[/img]
+
+Thanks for playing Industry Expanded!
+[img]https://i.imgur.com/aNDO8WK.gif[/img]
+
+
+[b]Overrides:[/b]
+[i]-all state traits that affect construction efficiency with a few exceptions.
+[/i]

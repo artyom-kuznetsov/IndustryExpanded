@@ -1,0 +1,13 @@
+{
+  "name" : "[IEX] Difficult Terrain",
+  "picture" : "thumbnail.png",
+	"id" : "",
+  "version" : "1.9.2",
+  "supported_game_version" : "",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

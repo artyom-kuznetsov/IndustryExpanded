@@ -1,0 +1,22 @@
+[img]https://i.imgur.com/v028EQl.png[/img]
+[h2]Улучшенное авторасширение - это опциональный (но крайне рекомендуемый) модуль [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]Industry Expanded Core[/url], добавляющий условия для авторасширения для большинства построек.[/h2]
+
+[h1]Модульный IEX[/h1]
+[b]Модульный IEX[/b] это бывший Industry Expanded, но разделённый на несколько отдельных модов.
+Таким образом, вы можете включать/выключать некоторые из них по вкусу или ради совместимости со своей сборкой модов.
+
+[h2]У нас теперь есть Discord! https://discord.gg/3QBTCvjzug[/h2]
+
+[h1]Модуль улучшенного авторасширения[/h1]
+[h2]Об этом модуле:[/h2]
+-Нет контентных нововведений
+-Добавлены триггеры для авторасширения для большинства производств в игре
+-Забавный факт: этот мод на самом деле не требует обязательной установки IEX Core и работает без него.
+
+[h2]Метаданные[/h2]
+Версия мода: [b]v1[/b]
+Версия игры: [b]v1.9.2[/b]
+[img]https://i.imgur.com/V5ZrrgK.png[/img]
+
+[b]Перезаписи ванили:[/b]
+-постройки (только триггеры авторасширения, нет функциональных изменений): building_power_plant, building_steel_mills, building_furniture_manufacturies, building_munition_plants, building_motor_industry, building_tooling_workshops, building_chemical_plants, building_explosives_factory, building_food_industry, building_arms_industry, building_textile_mills, building_electrics_industry, building_fishing_wharf, building_rubber_plantation, building_logging_camp, building_oil_rig, building_coal_mine, building_iron_mine, building_sulfur_mine, building_lead_mine

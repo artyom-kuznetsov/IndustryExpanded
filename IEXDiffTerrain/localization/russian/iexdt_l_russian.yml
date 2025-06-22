@@ -1,0 +1,6 @@
+﻿l_russian:
+ state_trait_iex_difficult_terrain:0 "Сложная местность"
+ state_trait_iex_very_difficult_terrain:0 "Крайне сложная местность"
+ state_trait_densely_forested_terrain:0 "Густо заросшая местность"
+ state_trait_deserted_terrain:0 "Пустынная местность"
+ 

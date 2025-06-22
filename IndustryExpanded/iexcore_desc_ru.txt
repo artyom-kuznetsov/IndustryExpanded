@@ -1,0 +1,66 @@
+[h1]ПРЕЖДЕ ЧЕМ ТЫ СПРОСИШЬ,[/h1]
+где же весь контент: он в состоянии реворка и ребаланса, и он вернётся в будущем.
+
+[img]https://i.imgur.com/v028EQl.png[/img]
+[b]Пожалуйста, сообщайте о любых найденных багах или проблемах в моде! Также не стесняйтесь предлагать свои идеи.[/b]
+Мод, направленный на расширение количества методов производства, вариативности, их улучшение и балансировку.
+
+[h1]Модульный IEX[/h1]
+[b]Модульный IEX[/b] это бывший Industry Expanded, но разделённый на несколько отдельных модов.
+Таким образом, вы можете включать/выключать некоторые из них по вкусу или ради совместимости со своей сборкой модов.
+
+[h2]У нас теперь есть Discord! https://discord.gg/3QBTCvjzug[/h2]
+
+[h2]Нововведения IEX и модулей:[/h2]
+[b]- Дорожные сети[/b], позволяющие расширять инфраструктуру до исследования железных дорог.
+[b]- Авторасширение[/b] переработано, чтобы автоматически строить фабрики тогда, когда они вам действительно нужны.
+[b]- Влияние доступности к рынку на цену[/b] было переработано и теперь увеличивается более плавно, вместо ванильных "иголок" от технологий.
+[b]- Сложная местность[/b] - возможность противодействовать большинству модификаторов гор/пустынь/лесов, уменьшающих эффективность строительства.
+
+[h1]Industry Expanded Core[/h1]
+IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все модули.
+[h2]Контент Ядра:[/h2]
+- 3 новые технологии в производстве
+- Топливная промышленность
+- Новые товары: Топливо и Пластик
+- Переработанная бумажная фабрика
+- Переработанная текстильная фабрика
+- Электричество и услуги больше не локальные товары.
+
+[h1]Больше контента![/h1]
+[h2]Установите все модули для лучшего опыта игры с Industry Expanded.[/h2]
+[img]https://i.imgur.com/V5ZrrgK.png[/img]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505037469]Улучшенное авторасширение[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503014205]Грузи и Вези[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505957844]Difficult Terrain[/url]
+
+[h1]Локализация[/h1]
+Мод из коробки поддерживает [b]Русский[/b] и [b]Английский[/b] языки.
+
+Фанатские переводы:
+[b]Китайский[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded ??[/url]
+[b]Корейский[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url]
+[b]Японский[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721]Industry Expanded JP[/url]
+
+
+[h2]Метаданные[/h2]
+Версия мода: [b]v13.0 BETA 1[/b]
+Версия игры: [b]v1.9.2[/b]
+
+Спасибо, что играете в Industry Expanded!
+[img]https://i.imgur.com/aNDO8WK.gif[/img]
+
+[b]Перезаписи ванили:[/b]
+-trade goods: services, electricity
+-buildings: paper_mills building, building_textile_mills
+-pmgs: pmg_base_paper
+-technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine
+-turmoil static modifiers
+-tooling workshop base PMs
+-pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
+
+[h1]Благодарности[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3336914177]Grey's Soft Pop Adjustments[/url]
+
