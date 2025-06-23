@@ -6,6 +6,7 @@
 -Mobilization options that consumed oil now consume fuel
 -Combustion Engine Derricks consume fuel instead of oil
 -Late mining PMs consume fuel instead of oil
+-Modern Ports now consume fuel
 
 [h2]Added[/h2]
 -New automation for Arms Industries and Artillery Foundries
