@@ -52,8 +52,9 @@ Thanks for playing Industry Expanded!
 
 [b]Overrides:[/b]
 -trade goods: services, electricity
--buildings: paper_mills building, building_textile_mills
+-buildings: paper_mills building, building_textile_mills, building_arms_industry, building_artillery_foundries
 -pmgs: pmg_base_paper
+-pms: pm_bolt_action_rifles, pm_recoiled_barrels
 -technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine
 -turmoil static modifiers
 -tooling workshop base PMs

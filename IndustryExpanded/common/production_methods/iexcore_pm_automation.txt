@@ -262,7 +262,7 @@ pm_automation_disabled_solid = {
 }
 
 pm_mixing_machines = {
-	texture = "gfx/interface/icons/production_method_icons/mixers.dds"
+	texture = "gfx/pm_icons/mixers.dds"
 	
 	unlocking_technologies = {
 		electrical_capacitors
@@ -297,7 +297,7 @@ pm_mixing_machines = {
 }
 
 pm_centrifuge = {
-	texture = "gfx/interface/icons/production_method_icons/centrifuge.dds"
+	texture = "gfx/pm_icons/centrifuge.dds"
 	
 	unlocking_technologies = {
 		automatic_machines
@@ -328,6 +328,141 @@ pm_centrifuge = {
 		
 		unscaled = {
 			building_throughput_add = 0.12
+		}
+	}
+}
+
+### AUTOMATION 2500
+
+pm_automation_pneumatic_conveyor_2500 = {
+	texture = "gfx/interface/icons/production_method_icons/rotary_valve_engine.dds"
+	
+	unlocking_technologies = {
+		rotary_valve_engine
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 8
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 3			# 120
+			goods_input_coal_add = 3			# 90 # TOTAL 210
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.09
+		}
+	}
+}
+
+pm_automation_electric_drive_2500 = {
+	texture = "gfx/pm_icons/electric_drive.dds"
+	
+	unlocking_technologies = {
+		electrification
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5			# 200
+			goods_input_electricity_add = 4		# 120 # TOTAL 320
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1500
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.12
+		}
+	}
+	
+}
+
+pm_automation_conveyor_production_2500 = {
+	texture = "gfx/pm_icons/conveyor_production.dds"
+	
+	unlocking_technologies = {
+		conveyors
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 6			# 240
+			goods_input_oil_add = 1				# 40
+			goods_input_electricity_add = 6		# 180 # TOTAL 460
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.15
+		}
+	}
+}
+
+pm_automation_assembly_lines_2500 = {
+	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
+	
+	unlocking_technologies = {
+		assembly_lines
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 6			# 240
+			goods_input_fuel_add = 3			# 150
+			goods_input_electricity_add = 6		# 180 # TOTAL 570
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2500
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.2
 		}
 	}
 }

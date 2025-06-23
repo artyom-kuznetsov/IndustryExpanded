@@ -19,3 +19,13 @@ pmg_automation_building_solid = {
 		pm_centrifuge
 	}
 }
+pmg_automation_building_2500 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_disabled
+		pm_automation_pneumatic_conveyor_2500
+		pm_automation_electric_drive_2500
+		pm_automation_conveyor_production_2500
+		pm_automation_assembly_lines_2500
+	}
+}

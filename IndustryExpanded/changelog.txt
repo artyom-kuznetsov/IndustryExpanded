@@ -5,6 +5,9 @@
 -Fuel trade good
 -Mobilization options that consumed oil now consume fuel
 
+[h2]Added[/h2]
+-New automation for Arms Industries and Artillery Foundries
+
 
 [h1]v13.0 BETA 1 for Vic3 1.9[/h1]
 [h2]We now have discord server! https://discord.gg/3QBTCvjzug[/h2]
