@@ -1,0 +1,225 @@
+﻿# OIL RIGS
+pm_combustion_derricks = {
+	texture = "gfx/interface/icons/production_method_icons/combustion_derricks.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		combustion_engine
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_engines_add = 10	# 600
+			goods_input_fuel_add = 10		# 500
+
+			# output goods
+			goods_output_oil_add = 110		# 4400	# PROFIT 3400
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+# MINES
+
+pm_diesel_pump_building_coal_mine = {
+	texture = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 15
+			goods_input_fuel_add = 4
+
+			# output goods
+			goods_output_coal_add = 90
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2250
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_diesel_pump_building_iron_mine = {
+	texture = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 15
+			goods_input_fuel_add = 4
+
+			# output goods
+			goods_output_iron_add = 70
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2250
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_diesel_pump_building_lead_mine = {
+	texture = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 15
+			goods_input_fuel_add = 4
+
+			# output goods
+			goods_output_lead_add = 70
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2250
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_diesel_pump_building_sulfur_mine = {
+	texture = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 15
+			goods_input_fuel_add = 4
+
+			# output goods
+			goods_output_sulfur_add = 80
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2250
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 750
+		}
+	}
+}
+
+pm_diesel_pump_building_gold_mine = {
+	texture = "gfx/interface/icons/production_method_icons/diesel_pump.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 15
+			goods_input_fuel_add = 4
+
+			# output goods
+			goods_output_gold_add = 30
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2250
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 750
+		}
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_minting_add = 1000
+		}
+	}
+}
+
+### LOGGING
+pm_chainsaws = {
+	texture = "gfx/interface/icons/production_method_icons/chainsaws.dds"
+	unlocking_technologies = {
+		combustion_engine
+	}
+	disallowing_laws = {
+		law_industry_banned
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_engines_add = 1
+			goods_input_fuel_add = 4
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.05
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -1500
+			building_employment_engineers_add = 250
+		}
+	}
+}
