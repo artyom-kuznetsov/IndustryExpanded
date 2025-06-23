@@ -170,7 +170,7 @@ mobilization_option_flamethrowers = {
 		flamethrowers
 	}
 	upkeep_modifier = {
-		goods_input_fue_add = 0.8
+		goods_input_fuel_add = 0.8
 	}
 	unit_modifier = {
 		unit_offense_add = 15

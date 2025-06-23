@@ -1,0 +1,13 @@
+{
+  "name" : "[IEX] Load, Ship & Road v1.0.4",
+  "picture" : "thumbnail.png",
+  "id" : "",
+  "version" : "1.0.4",
+  "supported_game_version" : "1.9.2",
+  "short_description" : "",
+  "tags" : [],
+  "relationships" : [],
+  "game_custom_data" : {
+    "multiplayer_synchronized" : true
+  }
+}

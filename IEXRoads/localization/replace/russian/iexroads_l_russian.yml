@@ -1,0 +1,26 @@
+﻿l_russian:
+ # v1.5
+    # Road Network
+ building_road_network:0 "Дорожная сеть"
+ pmg_base_building_roads:0 "Тип дороги"
+ pm_dirt_roads:0 "Грунтовые дороги"
+ pm_gravel_roads:0 "Гравийные дороги"
+ pm_paved_roads:0 "Мощёные дороги"
+ pm_asphalt_roads:0 "Асфальтированные дороги"
+    # Techs
+ paved_roads:0 "Автомагистраль"
+ gravel_roads:0 "Гравийная дорога"
+ stone_roads:0 "Мощёная дорога"
+ stone_roads_desc:0 "Прокладка дороги из каменных кирпичей позволяет значительно улучшить гладкость дороги и продлить срок ее службы."
+ gravel_roads_desc:0 "Если вы засыплете дорогу щебнем и тщательно все утрамбуете, то получите более прочное и комфортное покрытие, чем просто земля."
+ 
+ state_building_road_network_max_level_add:0 "к макс. уровню дорожной сети"
+
+ # IEXROADS SPLIT
+ pm_free_roadway:0 "Свободная трасса"
+ pm_paid_roadway:0 "Платная трасса"
+ pmg_paid_roadway:0 "Плата за проезд"
+ 
+ #  RAILWAYS
+ pm_high_speed_electric_trains:0 "Скоростные электропоезда"
+ pm_high_speed_diesel_trains:0 "Скоростные тепловозы"

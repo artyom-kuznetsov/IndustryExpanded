@@ -1,0 +1,18 @@
+﻿# roads
+state_building_road_network_max_level_add = {
+	color=good
+	percent = no
+	decimals = 0
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_transportation_mult = {
+	color=good
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}
+

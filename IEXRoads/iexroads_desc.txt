@@ -1,0 +1,36 @@
+[img]https://i.imgur.com/v028EQl.png[/img]
+[h2]Load, Ship & Road: IEX Module is an [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]Industry Expanded Core[/url] optional (but highly recommended) module, adding Road Networks, reworking railways and partially reworking MAPI.[/h2]
+
+[h1]Modular IEX[/h1]
+[b]Modular IEX[/b] is former Industry Expanded Mod but split into few separate mods. So you can disable/enable some of them for your preference or compatibility with your current modset.
+
+[h2]We now have Discord! https://discord.gg/3QBTCvjzug[/h2]
+
+[h1]LS&R Module[/h1]
+[h2]Contents of this module:[/h2]
+- Road Network Building (Limited source of infrastructure before railways)
+- 2 New Society Technologies
+- New PMs and rebalance for Railways
+- Ports give MAPI
+- Other Market Access Price Impact Tweaks
+- Transportation Good is not local anymore
+
+
+[h2]Metadata[/h2]
+Mod version: [b]v1.0.5[/b]
+Game version: [b]v1.9.2[/b]
+[img]https://i.imgur.com/V5ZrrgK.png[/img]
+
+Thanks for playing Industry Expanded!
+[img]https://i.imgur.com/aNDO8WK.gif[/img]
+
+
+[b]Overrides:[/b]
+[i]-transportation trade good
+-urban planning technology
+-modern sewerage technology
+-steel frame buildings technology
+-investment banks technology
+-all port base PMs
+-all railway base PMs, railway base PMG
+[/i]

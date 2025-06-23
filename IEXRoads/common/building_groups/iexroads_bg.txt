@@ -1,0 +1,5 @@
+﻿
+bg_roadnetworks = {
+	parent_group = bg_government
+	infrastructure_usage_per_level = 0
+}

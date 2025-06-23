@@ -1,0 +1,26 @@
+﻿l_english:
+ # v1.5
+    # Road Network
+ building_road_network:0 "Road Network"
+ pmg_base_building_roads:0 "Road Type"
+ pm_dirt_roads:0 "Dirt Roads"
+ pm_gravel_roads:0 "Gravel Roads"
+ pm_paved_roads:0 "Paved Roads"
+ pm_asphalt_roads:0 "Asphalt Roads"
+    # Techs
+ paved_roads:0 "Highway"
+ gravel_roads:0 "Gravel Road"
+ stone_roads:0 "Paved Road"
+ stone_roads_desc:0 "Forming a road of stone bricks allows to significantly improve road smoothness and lenght of life."
+ gravel_roads_desc:0 "If you fill up the path with rubble and mash everything thoroughly, you will get a more durable and comfortable coating than just earth."
+ 
+ state_building_road_network_max_level_add:0 "Road Network Max Level"
+
+ # IEXROADS SPLIT
+ pm_free_roadway:0 "Free Roadway"
+ pm_paid_roadway:0 "Paid Roadway"
+ pmg_paid_roadway:0 "Fare Policy"
+ 
+ #  RAILWAYS
+ pm_high_speed_electric_trains:0 "High-Speed Electric Trains"
+ pm_high_speed_diesel_trains:0 "High-Speed Diesel Trains"

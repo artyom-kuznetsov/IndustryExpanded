@@ -1,0 +1,37 @@
+[img]https://i.imgur.com/v028EQl.png[/img]
+[h2]Грузи и Вези - это опциональный (но крайне рекомендуемый) модуль [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]Industry Expanded Core[/url], добавляющий дорожные сети, перерабатывающий железные дороги, и частично перерабатывающий влияние доступности к рынку на цену.[/h2]
+
+[h1]Модульный IEX[/h1]
+[b]Модульный IEX[/b] это бывший Industry Expanded, но разделённый на несколько отдельных модов.
+Таким образом, вы можете включать/выключать некоторые из них по вкусу или ради совместимости со своей сборкой модов.
+
+[h2]У нас теперь есть Discord! https://discord.gg/3QBTCvjzug[/h2]
+
+[h1]Модуль "Грузи и Вези"[/h1]
+[h2]Контент этого модуля:[/h2]
+- Строение "Дорожные сети" (ограниченный источник инфраструктуры до железных дорог)
+- 2 новые технологии общества
+- Новые методы производства и ребаланс Железных дорог
+- Порты дают влияние доступности к рынку на цену
+- Прочие изменения влияния доступности к рынку на цену
+- Транспортация больше не локальный товар
+
+
+[h2]Метаданные[/h2]
+Версия мода: [b]v1.0.5[/b]
+Версия игры: [b]v1.9.2[/b]
+[img]https://i.imgur.com/V5ZrrgK.png[/img]
+
+Спасибо, что играете в Industry Expanded!
+[img]https://i.imgur.com/aNDO8WK.gif[/img]
+
+
+[b]Перезаписи ванили:[/b]
+[i]-transportation trade good
+-urban planning technology
+-modern sewerage technology
+-steel frame buildings technology
+-investment banks technology
+-all port base PMs
+-all railway base PMs, railway base PMG
+[/i]
