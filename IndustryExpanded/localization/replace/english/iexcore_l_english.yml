@@ -28,10 +28,23 @@
  mechanical_production:0 "Mechanical Production"
  mechanical_production_desc:0 "Production of steam machines that were able to rotate or lift objects with a decent force were one of the locomotives of the industrial revolution."
  mechanical_tools:0 "Precision Tools"
+ refining:0 "Oil Processing"
+ refining_desc:0 "Oil refining processes transform crude oils into finished products, including fuels and lubricants for automotive, ship and aircraft engines."
+ 
  
 
  # GOODS 
  fertilizer:0 "Chemicals"                       # Vanilla Override
+ oil:0 "Crude Oil"                              # Vanilla Override
+ 
+ fuel:0 "Refined Fuel"
+ modifier_goods_input_fuel_mult:0 "Building @fuel! Refined Fuel input"
+ modifier_goods_input_fuel_mult_desc:0 "A bonus or penalty to the amount of @fuel! output consumed by buildings"
+ 
+ plastics:0 "Plastics"
+ modifier_goods_output_plastics_mult:0 "Building @plastics! Plastics output"
+ modifier_goods_output_plastics_mult_desc:0 "A bonus or penalty to the amount of @plastics! output produced by buildings"
+ 
  
  # MISC
  building_chemical_plants:0 "Chemical Plants"   # Vanilla Override
@@ -48,3 +61,42 @@
  pm_luxury_clothes_extensive_production:0 "Extensive Luxury Clothes Production"
  pm_luxury_clothes_focus:0 "Luxury Clothes Focus"
  
+ # OIL REFINERY
+ building_oil_refinery:0 "Oil Refineries"
+ 
+ pmg_distillation_fuel:0 "Treatment Method"
+ 
+ pm_oil_distillation:0 "Distillation"
+ pm_synthetic_diversion:0 "Synthetic Oil Diversion"
+ pm_synthetic_oil:0 "Synthetic Oil Production"
+ pm_thermal_cracking:0 "Thermal Cracking"
+ 
+ pmg_plastics:0 "Plastics Production"
+ 
+ pm_no_plastics:0 "No Plastics Production"
+ pm_plastics_production:0 "Limited Plastics Production"
+ pm_extensive_plastic_production:0 "Extensive Plastics Production"
+ pm_plastic_focus:0 "Plastics Production Focus"
+ 
+ # AUTOMATION
+ pmg_automation_building_industry:0 "$pmg_automation$"
+ pm_automation_working_tools:0 "Working Tools"
+ pm_automation_watertube_boiler:0 "Water-tube Boiler"
+ pm_automation_pneumatic_conveyor:0 "Pneumatic Conveyor"
+ pm_automation_electric_drive:0 "Electric Drive"
+ pm_automation_conveyor_production:0 "Conveyor Production"
+ pm_automation_assembly_lines:0 "Assembly Lines"
+ 
+ pmg_automation_building_2500:0 "$pmg_automation$"
+ pm_automation_pneumatic_conveyor_2500:0 "$pm_automation_pneumatic_conveyor$"
+ pm_automation_electric_drive_2500:0 "$pm_automation_electric_drive$"
+ pm_automation_conveyor_production_2500:0 "$pm_automation_conveyor_production$"
+ pm_automation_assembly_lines_2500:0 "$pm_automation_assembly_lines$"
+ 
+ pmg_automation_building_solid:0 "$pmg_automation$"
+ pm_automation_disabled_solid:0 "No Automation"
+ pm_mixing_machines:0 "Mixing Machines"
+ pm_centrifuge:0 "Centrifuge"
+ 
+ assembly_lines:0 "Assembly Lines"
+ assembly_lines_desc:0 "The division of labor into sequential tasks performed along a moving line, drastically increasing industrial efficiency and output."
