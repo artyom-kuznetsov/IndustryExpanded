@@ -163,3 +163,17 @@ oil_turbine = {
 		value = 1
 	}
 }
+
+assembly_lines = {
+	era = era_5
+	texture = "gfx/tech_icons/assembly_lines.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		conveyors
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}

@@ -19,7 +19,7 @@ A mod focused on goods, building, production methods and variability expansion, 
 [h1]Industry Expanded Core[/h1]
 IEX Core is the main part of Industry Expanded which all the modules depend on.
 [h2]Contents of the Core:[/h2]
-- 3 New Production Technologies
+- 4 New Production Technologies
 - Oil Industry Expansion
 - New Goods: Fuel and Plastics
 - Paper Mills Building Rework
