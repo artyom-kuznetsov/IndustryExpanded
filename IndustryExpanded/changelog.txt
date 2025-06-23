@@ -3,6 +3,7 @@
 -Refining tech
 -Oil Refinery
 -Fuel trade good
+-Mobilization options that consumed oil now consume fuel
 
 
 [h1]v13.0 BETA 1 for Vic3 1.9[/h1]

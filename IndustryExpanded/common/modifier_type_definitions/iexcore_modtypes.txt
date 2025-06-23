@@ -1,0 +1,58 @@
+﻿goods_output_plastics_add = {
+	color=good
+	percent = no
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_plastics_add = {
+	color=bad
+	percent = no	
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_plastics_mult = {
+	color=good
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}
+
+
+goods_output_fuel_add = {
+	color=good
+	percent = no
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_fuel_add = {
+	color=bad
+	percent = no	
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_fuel_mult = {
+	decimals=0
+	color=bad
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_fuel_mult = {
+	decimals=0
+	color=good
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}

@@ -58,6 +58,7 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 -turmoil static modifiers
 -tooling workshop base PMs
 -pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
+-mobilization options: all that add/modify oil consumption
 
 [h1]Благодарности[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
