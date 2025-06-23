@@ -1,5 +1,11 @@
+[h1]v13.0 BETA 3[/h1]
+-Reduced Trade Center employment 10 times
+-Fixed Wrought Iron Tools were unlocked by a wrong tech
+
+
+
 [h1]v13.0 BETA 2[/h1]
-[h2]Re-Added[/h2]
+[h2]Added[/h2]
 -Refining tech
 -Oil Refinery
 -Fuel trade good
@@ -7,9 +13,11 @@
 -Combustion Engine Derricks consume fuel instead of oil
 -Late mining PMs consume fuel instead of oil
 -Modern Ports now consume fuel
-
-[h2]Added[/h2]
 -New automation for Arms Industries and Artillery Foundries
+
+[h2]Load, Ship & Road[/h2]
+-Reworked Railway PMs
+-Added High-Speed Trains PMs
 
 
 [h1]v13.0 BETA 1 for Vic3 1.9[/h1]
