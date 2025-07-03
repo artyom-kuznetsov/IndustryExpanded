@@ -1,4 +1,181 @@
-﻿
+﻿### FURNITURE MANUFACTORY ###
+
+pm_handcrafted_furniture = {
+	texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 30		# x20 =  600
+			goods_input_fabric_add = 10		# x20 =  200
+			
+			# output goods
+			goods_output_furniture_add = 45	# x30 = 1350
+		}
+
+		level_scaled = {
+			# profit = 550 (6.4)
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 4500
+		}
+	}
+}		
+
+pm_lathe = {
+	texture = "gfx/interface/icons/production_method_icons/lathes.dds"
+	
+	unlocking_technologies = {
+		lathe
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 35		# 700
+			goods_input_fabric_add = 10		# 200
+			goods_input_tools_add = 5		# 200	# TOTAL 1100
+			
+			# output goods
+			goods_output_furniture_add = 70	# 2100	# PROFIT 1000
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 1000
+		}
+	}
+}
+
+pm_mechanized_workshops = {
+	texture = "gfx/interface/icons/production_method_icons/dye_workshops.dds"
+	
+	unlocking_technologies = {
+		mechanized_workshops
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 35			# 700
+			goods_input_fabric_add = 10			# 200
+			goods_input_hardwood_add = 10		# 400
+			goods_input_tools_add = 8			# 320	# TOTAL 1620
+			
+			# output goods
+			goods_output_furniture_add = 105	# 3150	# PROFIT 1530
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_plastic_furniture = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
+	
+	unlocking_technologies = {
+		dough_rollers
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_plastics_add = 16		# 800
+			goods_input_fabric_add = 10			# 200
+			goods_input_hardwood_add = 10		# 400
+			goods_input_tools_add = 10			# 400
+			goods_input_lead_add = 5			# 200	# TOTAL 2000
+			
+			# output goods
+			goods_output_furniture_add = 150	# 4500	# PROFIT 2500
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_luxury_furniture = {
+	texture = "gfx/interface/icons/production_method_icons/luxury_furniture.dds"
+	
+	
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+	
+			# output goods
+			goods_output_furniture_add = -40		#
+			goods_output_luxury_furniture_add = 20	# NO PROFIT
+		}
+				
+	}
+}
+
+pm_precision_tools = {
+	texture = "gfx/interface/icons/production_method_icons/luxury_furniture_increased.dds"
+
+	unlocking_production_methods = {
+		pm_lathe
+		pm_mechanized_workshops
+		pm_plastic_furniture
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			
+			# output goods
+			goods_output_furniture_add = -70			# 
+			goods_output_luxury_furniture_add = 35		# NO PROFIT
+		}						
+	}
+}
+
+pm_luxury_furniture_focus = {
+	texture = "gfx/interface/icons/production_method_icons/precision_tools.dds"
+		
+	unlocking_technologies = {
+		mechanized_workshops
+	}
+
+	unlocking_production_methods = {
+		pm_mechanized_workshops
+		pm_plastic_furniture
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			
+			# output goods
+			goods_output_furniture_add = -150			# 
+			goods_output_luxury_furniture_add = 75		# NO PROFIT
+		}					
+	}
+}
+
 ### PAPER MILL #
 pm_handcrafting_paper = {
 	texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"	# VANILLA FILE

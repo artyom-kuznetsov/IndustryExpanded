@@ -100,3 +100,7 @@
  
  assembly_lines:0 "Assembly Lines"
  assembly_lines_desc:0 "The division of labor into sequential tasks performed along a moving line, drastically increasing industrial efficiency and output."
+ 
+ # FURNITURE MANUFACTORIES
+ pm_plastic_furniture:0 "Home Appliances"
+ pm_luxury_furniture_focus:0 "Luxury Furniture Focus"

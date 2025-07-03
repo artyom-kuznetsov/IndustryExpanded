@@ -24,8 +24,9 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 - Топливная промышленность
 - Новые товары: Топливо и Пластик
 - Переработанная бумажная фабрика
+- Переработанная мебельная фабрика
 - Переработанная текстильная фабрика
-- Электричество и услуги больше не локальные товары.
+- Электричество и услуги больше не локальные товары
 
 [h1]Больше контента![/h1]
 [h2]Установите все модули для лучшего опыта игры с Industry Expanded.[/h2]
@@ -44,18 +45,18 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 
 
 [h2]Метаданные[/h2]
-Версия мода: [b]v13.0 BETA 1[/b]
-Версия игры: [b]v1.9.2[/b]
+Версия мода: [b]v13.0 BETA 3[/b]
+Версия игры: [b]v1.9.6[/b]
 
 Спасибо, что играете в Industry Expanded!
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
 
 [b]Перезаписи ванили:[/b]
 -trade goods: services, electricity
--buildings: paper_mills building, building_textile_mills, building_arms_industry, building_artillery_foundries
--pmgs: pmg_base_paper
--pms: pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center_principle_external_trade_2
--technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine
+-buildings: paper_mills building, building_textile_mills, building_arms_industry, building_artillery_foundries,
+-pmgs: pmg_base_paper, all furniture factories pmgs,
+-pms: all furniture factories pms, pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2
+-technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine, plastics
 -turmoil static modifiers
 -tooling workshop base PMs
 -diesel pump mining PMs

@@ -160,7 +160,7 @@ pm_automation_conveyor_production = {
 }
 
 pm_automation_assembly_lines = {
-	texture = "gfx/pm_icons/assembly_lines.dds"
+	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
 	
 	unlocking_technologies = {
 		assembly_lines

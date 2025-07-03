@@ -23,8 +23,9 @@ IEX Core is the main part of Industry Expanded which all the modules depend on.
 - Oil Industry Expansion
 - New Goods: Fuel and Plastics
 - Paper Mills Building Rework
+- Furniture Factories Building Rework
 - Textile Mills Building Rework
-- Electricity and Services goods are not local anymore
+- Electricity and Services goods are not local goods anymore
 - Enhanced pop needs, pops actually shift to electricity for heating, consume more wine and more tweaks
 
 [h1]Get More Content![/h1]
@@ -37,25 +38,25 @@ IEX Core is the main part of Industry Expanded which all the modules depend on.
 [h1]Localization[/h1]
 Mod natively supports [b]English[/b] and [b]Russian[/b] languages.
 
-Fan-made translations:
+Fan-made translations: (if you make one, ask me to add it here)
 [b]Chinese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3003180347]Industry Expanded 汉化[/url]
 [b]Korean Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3163093442]Industry Expanded Korean Translate[/url]
 [b]Japanese Localization[/b] - [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3235330721]Industry Expanded JP[/url]
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v13.0 BETA 1[/b]
-Game version: [b]v1.9.2[/b]
+Mod version: [b]v13.0 BETA 3[/b]
+Game version: [b]v1.9.5[/b]
 
 Thanks for playing Industry Expanded!
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
 
 [b]Overrides:[/b]
 -trade goods: services, electricity
--buildings: paper_mills building, building_textile_mills, building_arms_industry, building_artillery_foundries
--pmgs: pmg_base_paper
--pms: pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2
--technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine
+-buildings: paper_mills building, building_textile_mills, building_arms_industry, building_artillery_foundries,
+-pmgs: pmg_base_paper, all furniture factories pmgs,
+-pms: all furniture factories pms, pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2
+-technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine, plastics
 -turmoil static modifiers
 -tooling workshop base PMs
 -diesel pump mining PMs
