@@ -22,9 +22,7 @@ IEX Core is the main part of Industry Expanded which all the modules depend on.
 - 4 New Production Technologies
 - Oil Industry Expansion
 - New Goods: Fuel and Plastics
-- Paper Mills Building Rework
-- Furniture Factories Building Rework
-- Textile Mills Building Rework
+- Rework and update of 4 vanilla factories
 - Electricity and Services goods are not local goods anymore
 - Enhanced pop needs, pops actually shift to electricity for heating, consume more wine and more tweaks
 
@@ -53,12 +51,11 @@ Thanks for playing Industry Expanded!
 
 [b]Overrides:[/b]
 -trade goods: services, electricity
--buildings: paper_mills building, building_textile_mills, building_arms_industry, building_artillery_foundries,
+-buildings: building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries,
 -pmgs: pmg_base_paper, all furniture factories pmgs,
--pms: all furniture factories pms, pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2
+-pms: all glassworks pms, all furniture factories pms, pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
 -technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine, plastics
 -turmoil static modifiers
--tooling workshop base PMs
 -diesel pump mining PMs
 -pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
 -mobilization options: all that add/modify oil consumption

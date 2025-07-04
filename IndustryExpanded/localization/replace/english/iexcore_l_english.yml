@@ -38,12 +38,12 @@
  oil:0 "Crude Oil"                              # Vanilla Override
  
  fuel:0 "Refined Fuel"
- modifier_goods_input_fuel_mult:0 "Building @fuel! Refined Fuel input"
- modifier_goods_input_fuel_mult_desc:0 "A bonus or penalty to the amount of @fuel! output consumed by buildings"
+ goods_input_fuel_add:0 "@fuel! Fuel input"
+ goods_input_fuel_add_desc:0 "The amount of @fuel! Fuel consumed by buildings"
  
  plastics:0 "Plastics"
- modifier_goods_output_plastics_mult:0 "Building @plastics! Plastics output"
- modifier_goods_output_plastics_mult_desc:0 "A bonus or penalty to the amount of @plastics! output produced by buildings"
+ goods_input_plastics_add:0 "@plastics! Plastics input"
+ goods_input_plastics_add_desc:0 "The amount of @plastics! Plastics consumed by buildings"
  
  
  # MISC
@@ -104,3 +104,12 @@
  # FURNITURE MANUFACTORIES
  pm_plastic_furniture:0 "Home Appliances"
  pm_luxury_furniture_focus:0 "Luxury Furniture Focus"
+ 
+ # GLASSWORKS
+ pmg_houseware:0 "Houseware"
+ 
+ pm_no_houseware:0 "No Houseware"
+ pm_wooden_appliances:0 "Wooden Appliances"
+ pm_metallic_utensils:0 "Metallic Utensils"
+ 
+ pm_glass_rollers:0 "Glass Rollers"

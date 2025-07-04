@@ -126,3 +126,78 @@ building_artillery_foundries = {
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
 }
+
+building_furniture_manufacturies = {
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
+	city_type = city
+	levels_per_mesh = 5
+	
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_furniture_manufacturies
+		pmg_luxury_building_furniture_manufacturies
+		pmg_automation_building_industry
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	should_auto_expand = { 
+		occupancy >= 0.8
+		owner = {
+			market = {
+				mg:furniture = { 
+					market_goods_pricier > -0.01
+				}
+			}
+		}
+		state = {
+			infrastructure_delta >= -2
+		}
+		NOT = { is_under_construction = yes }
+	}
+}
+
+building_glassworks = {
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/glassworks.dds"
+	city_type = city
+	levels_per_mesh = 5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_glassworks
+		pmg_houseware
+		pmg_luxury_building_glassworks
+		pmg_glassblowing
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+	
+	should_auto_expand = { 
+		occupancy >= 0.8
+		owner = {
+			market = {
+				mg:glass = { 
+					market_goods_pricier > -0.02
+				}
+			}
+		}
+		state = {
+			infrastructure_delta >= -2
+		}
+		NOT = { is_under_construction = yes }
+	}
+}

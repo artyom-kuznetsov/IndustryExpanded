@@ -1,0 +1,99 @@
+﻿pmg_base_building_glassworks = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_forest_glass
+		pm_leaded_glass
+		pm_crystal_glass
+	}
+}
+
+pmg_glassblowing = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_manual_glassblowing
+		pm_glass_rollers
+		pm_automatic_bottle_blowers
+	}
+}
+
+pmg_houseware = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_houseware
+		pm_wooden_appliances
+		pm_metallic_utensils
+		pm_houseware_plastics
+	}
+}
+
+pmg_assembly_paper = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handcrafting_paper
+		pm_rotary_press_paper
+		pm_electric_drive_paper
+		pm_auto_press_paper
+	}
+}
+
+pmg_base_paper = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_pulp_pressing
+		pm_sulfite_pulping
+		pm_ink_paper
+		pm_bleached_paper
+	}
+}
+
+pmg_sewing_textile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handsewn_clothes
+		pm_sewing_machines
+		pm_electric_sewing_machines
+	}
+}
+
+pmg_dyes_textile = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_dye_textile
+		pm_dyed_clothes
+		pm_dyed_clothes_2
+	}
+}
+
+pmg_luxury_building_textile_mills = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_luxury_clothes
+		pm_luxury_clothes_production
+		pm_craftsman_sewing
+		pm_elastics
+		pm_luxury_clothes_focus
+	}
+}
+
+pmg_base_building_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handcrafted_furniture
+		pm_lathe
+		pm_mechanized_workshops
+		pm_plastic_furniture
+	}
+}
+
+pmg_luxury_building_furniture_manufacturies = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_luxuries
+		pm_luxury_furniture
+		pm_precision_tools
+		pm_luxury_furniture_focus
+	}
+}
+

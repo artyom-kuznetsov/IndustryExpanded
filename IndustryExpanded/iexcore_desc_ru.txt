@@ -23,10 +23,9 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 - 4 новые технологии в производстве
 - Топливная промышленность
 - Новые товары: Топливо и Пластик
-- Переработанная бумажная фабрика
-- Переработанная мебельная фабрика
-- Переработанная текстильная фабрика
+- Переделка и обновление 4-х ванильных завода
 - Электричество и услуги больше не локальные товары
+- Улучшенное потребление населением, люди действительно переходят на электричество для отопления, пьют больше вина и прочие т. п. улучшения.
 
 [h1]Больше контента![/h1]
 [h2]Установите все модули для лучшего опыта игры с Industry Expanded.[/h2]
@@ -53,12 +52,11 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 
 [b]Перезаписи ванили:[/b]
 -trade goods: services, electricity
--buildings: paper_mills building, building_textile_mills, building_arms_industry, building_artillery_foundries,
+-buildings: building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries,
 -pmgs: pmg_base_paper, all furniture factories pmgs,
--pms: all furniture factories pms, pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2
+-pms: all glassworks pms, all furniture factories pms, pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
 -technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine, plastics
 -turmoil static modifiers
--tooling workshop base PMs
 -diesel pump mining PMs
 -pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
 -mobilization options: all that add/modify oil consumption

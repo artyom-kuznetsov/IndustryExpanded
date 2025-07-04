@@ -155,13 +155,8 @@ pm_precision_tools = {
 
 pm_luxury_furniture_focus = {
 	texture = "gfx/interface/icons/production_method_icons/precision_tools.dds"
-		
-	unlocking_technologies = {
-		mechanized_workshops
-	}
 
 	unlocking_production_methods = {
-		pm_mechanized_workshops
 		pm_plastic_furniture
 	}
 	
@@ -170,8 +165,8 @@ pm_luxury_furniture_focus = {
 			# input goods
 			
 			# output goods
-			goods_output_furniture_add = -150			# 
-			goods_output_luxury_furniture_add = 75		# NO PROFIT
+			goods_output_furniture_add = -100			# 
+			goods_output_luxury_furniture_add = 50		# NO PROFIT
 		}					
 	}
 }

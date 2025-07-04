@@ -1,6 +1,13 @@
 [h1]v13.0 BETA 3[/h1]
--Reduced Trade Center employment 10 times
+-Reworked and rebalanced [b]Furniture Manufactories[/b] building, re-adding Home Appliences PM
+-Reworked and rebalanced [b]Glassworks[/b] building, re-adding Houseware PMs
+-Divided Trade Center employment by 10
+-Lowering taxes now improves investment pool contribution efficiency
+-Plastics Tech is now locked beyond Oil Processing tech
+
+-Fixed Assembly Lines icon was missing
 -Fixed Wrought Iron Tools were unlocked by a wrong tech
+-Fixed Fuel Input localization
 
 
 

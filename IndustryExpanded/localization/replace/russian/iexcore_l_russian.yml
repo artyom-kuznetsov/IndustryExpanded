@@ -32,6 +32,17 @@
 
  # GOODS 
  fertilizer:0 "Химикаты"                       # Vanilla Override
+ oil:0 "Сырая нефть"                              # Vanilla Override
+ 
+ fuel:0 "Топливо"
+ goods_input_fuel_add:0 "@fuel! Fuel input"
+ goods_input_fuel_add_desc:0 "The amount of @fuel! Fuel consumed by buildings"
+ goods_input_fuel_add:0 "Потребление @fuel! топлива"
+ goods_input_fuel_add_desc:0 "Количество @fuel! топлива, потребляемого сооружениями."
+ 
+ plastics:0 "Пластмассы"
+ goods_input_plastics_add:0 "Потребление @plastics! пластика"
+ goods_input_plastics_add_desc:0 "Количество @plastics! пластика, потребляемого сооружениями."
  
  # MISC
  building_chemical_plants:0 "Химические заводы"   # Vanilla Override
