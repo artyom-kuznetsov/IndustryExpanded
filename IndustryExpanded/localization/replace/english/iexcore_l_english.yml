@@ -31,7 +31,6 @@
  refining:0 "Oil Processing"
  refining_desc:0 "Oil refining processes transform crude oils into finished products, including fuels and lubricants for automotive, ship and aircraft engines."
  
- 
 
  # GOODS 
  fertilizer:0 "Chemicals"                       # Vanilla Override
@@ -44,8 +43,7 @@
  plastics:0 "Plastics"
  goods_input_plastics_add:0 "@plastics! Plastics input"
  goods_input_plastics_add_desc:0 "The amount of @plastics! Plastics consumed by buildings"
- 
- 
+
  # MISC
  building_chemical_plants:0 "Chemical Plants"   # Vanilla Override
  

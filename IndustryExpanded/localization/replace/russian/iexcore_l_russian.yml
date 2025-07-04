@@ -28,6 +28,8 @@
  mechanical_production:0 "Машинное производство"
  mechanical_production_desc:0 "Производство паровых машин, которые были способны вращать или переворачивать предметы с приличной силой, стало одним из локомотивов промышленной революции."
  mechanical_tools:0 "Точные инструменты"
+ refining:0 "Обработка нефти"
+ refining_desc:0 "Процессы переработки нефти превращают сырую нефть в готовую продукцию, включая горюче-смазочные материалы для автомобильных, судовых и авиационных двигателей."
  
 
  # GOODS 
@@ -35,8 +37,6 @@
  oil:0 "Сырая нефть"                              # Vanilla Override
  
  fuel:0 "Топливо"
- goods_input_fuel_add:0 "@fuel! Fuel input"
- goods_input_fuel_add_desc:0 "The amount of @fuel! Fuel consumed by buildings"
  goods_input_fuel_add:0 "Потребление @fuel! топлива"
  goods_input_fuel_add_desc:0 "Количество @fuel! топлива, потребляемого сооружениями."
  
@@ -102,3 +102,12 @@
  # FURNITURE MANUFACTORIES
  pm_plastic_furniture:0 "Бытовая техника"
  pm_luxury_furniture_focus:0 "Упор на производство роскошной мебели"
+ 
+ # GLASSWORKS
+ pmg_houseware:0 "Домашние товары"
+ 
+ pm_no_houseware:0 "Нет домашних товаров"
+ pm_wooden_appliances:0 "Деревянные приборы"
+ pm_metallic_utensils:0 "Металлическая утварь"
+ 
+ pm_glass_rollers:0 "Стеклопрокатные машины"
