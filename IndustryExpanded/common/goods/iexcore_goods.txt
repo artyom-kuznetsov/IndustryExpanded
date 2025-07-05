@@ -15,3 +15,11 @@ plastics = {
 	prestige_factor = 4
 	traded_quantity = 4 # 200
 }
+
+wire = {
+	texture = "gfx/goods_icons/wire.dds"
+	cost = 30
+	category = industrial
+	
+	traded_quantity = 7 # 210
+}

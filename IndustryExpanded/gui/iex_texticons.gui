@@ -38,3 +38,13 @@ texticon = {
 		fontsize = 18
 	}
 }
+
+texticon = {
+	icon = wire
+	iconsize = {
+		texture = "gfx/goods_icons/wire.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

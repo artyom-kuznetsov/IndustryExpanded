@@ -44,6 +44,10 @@
  goods_input_plastics_add:0 "Потребление @plastics! пластика"
  goods_input_plastics_add_desc:0 "Количество @plastics! пластика, потребляемого сооружениями."
  
+ wire:0 "Проволока"
+ goods_input_wire_add:0 "Потребление @wire! проволоки"
+ goods_input_wire_add_desc:0 "Количество @wire! проволоки, потребляемого сооружениями."
+ 
  # MISC
  building_chemical_plants:0 "Химические заводы"   # Vanilla Override
  

@@ -43,6 +43,10 @@
  plastics:0 "Plastics"
  goods_input_plastics_add:0 "@plastics! Plastics input"
  goods_input_plastics_add_desc:0 "The amount of @plastics! Plastics consumed by buildings"
+ 
+ wire:0 "Wire"
+ goods_input_wire_add:0 "@wire! Wire input"
+ goods_input_wire_add_desc:0 "The amount of @wire! Wire consumed by buildings"
 
  # MISC
  building_chemical_plants:0 "Chemical Plants"   # Vanilla Override

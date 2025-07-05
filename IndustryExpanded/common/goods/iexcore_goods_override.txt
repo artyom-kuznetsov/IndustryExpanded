@@ -21,3 +21,12 @@ services = {
 	consumption_tax_cost = 200
 }
 
+
+iron = {
+	texture = "gfx/goods_icons/iron.dds"
+	cost = 40
+	category = industrial
+
+	prestige_factor = 3
+	traded_quantity = 5 # 200
+}

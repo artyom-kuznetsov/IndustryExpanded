@@ -25,3 +25,25 @@ state_turmoil_extreme = {
 	state_assimilation_mult = -1.0
 	state_construction_mult = -0.5
 }
+
+tax_modifier_very_low = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_legitimacy_base_add = 10
+	state_radicals_from_political_movements_mult = -0.2
+	state_lower_strata_expected_sol_add = -1
+	state_middle_strata_expected_sol_add = -2
+	state_upper_strata_expected_sol_add = -3
+		state_shopkeepers_investment_pool_efficiency_mult = 0.15
+		state_capitalists_investment_pool_efficiency_mult = 0.15
+}
+
+tax_modifier_low = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fist_positive.dds
+	country_legitimacy_base_add = 5
+	state_radicals_from_political_movements_mult = -0.1
+	state_lower_strata_expected_sol_add = -0.5
+	state_middle_strata_expected_sol_add = -1
+	state_upper_strata_expected_sol_add = -1.5
+		state_shopkeepers_investment_pool_efficiency_mult = 0.075
+		state_capitalists_investment_pool_efficiency_mult = 0.075
+}

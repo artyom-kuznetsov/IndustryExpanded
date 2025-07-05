@@ -1,3 +1,8 @@
+[h1]v13.0 BETA 4[/h1]
+-Pops will be less likely to consume services as Free Movement need.
+
+
+
 [h1]v13.0 BETA 3[/h1]
 -Reworked and rebalanced [b]Furniture Manufactories[/b] building, re-adding Home Appliences PM
 -Reworked and rebalanced [b]Glassworks[/b] building, re-adding Houseware PMs
