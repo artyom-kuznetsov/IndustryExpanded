@@ -1,4 +1,8 @@
 [h1]v13.0 BETA 4[/h1]
+-Vacuum Canning tech is now Era 2 (was Era 3) and unlocked after Baking Powder
+-Pasteurization tech is now Era 3 (was Era 4) and unlocked after Vacuum Canning and Shift Work
+-Oil Turbine tech is now Era 4 (was Era 5)
+-Iron icon and name were changed to represent both iron and copper.
 -Pops will be less likely to consume services as Free Movement need.
 
 

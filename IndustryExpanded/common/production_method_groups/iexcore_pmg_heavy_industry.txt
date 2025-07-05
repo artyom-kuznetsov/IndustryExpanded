@@ -28,72 +28,22 @@ pmg_houseware = {
 	}
 }
 
-pmg_assembly_paper = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_handcrafting_paper
-		pm_rotary_press_paper
-		pm_electric_drive_paper
-		pm_auto_press_paper
-	}
-}
-
-pmg_base_paper = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_pulp_pressing
-		pm_sulfite_pulping
-		pm_ink_paper
-		pm_bleached_paper
-	}
-}
-
-pmg_sewing_textile = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_handsewn_clothes
-		pm_sewing_machines
-		pm_electric_sewing_machines
-	}
-}
-
-pmg_dyes_textile = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_no_dye_textile
-		pm_dyed_clothes
-		pm_dyed_clothes_2
-	}
-}
-
-pmg_luxury_building_textile_mills = {
+pmg_wiremill_base = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_no_luxury_clothes
-		pm_luxury_clothes_production
-		pm_craftsman_sewing
-		pm_elastics
-		pm_luxury_clothes_focus
+		pm_solid_wire_extrusion
+		pm_stranded_wire_twisting
+		pm_electroplated_wire
 	}
 }
 
-pmg_base_building_furniture_manufacturies = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_handcrafted_furniture
-		pm_lathe
-		pm_mechanized_workshops
-		pm_plastic_furniture
-	}
-}
 
-pmg_luxury_building_furniture_manufacturies = {
+pmg_wiremill_material = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_no_luxuries
-		pm_luxury_furniture
-		pm_precision_tools
-		pm_luxury_furniture_focus
+		pm_copper_wire
+		pm_insulated_cable
+		pm_rubber_insulation
 	}
 }
 

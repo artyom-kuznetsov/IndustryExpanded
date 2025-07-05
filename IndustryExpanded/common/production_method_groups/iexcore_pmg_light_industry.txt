@@ -1,14 +1,4 @@
 ﻿
-pmg_assembly_paper = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
-	production_methods = {
-		pm_handcrafting_paper
-		pm_rotary_press_paper
-		pm_electric_drive_paper
-		pm_auto_press_paper
-	}
-}
-
 pmg_base_paper = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
@@ -16,6 +6,16 @@ pmg_base_paper = {
 		pm_sulfite_pulping
 		pm_ink_paper
 		pm_bleached_paper
+	}
+}
+
+pmg_assembly_paper = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_handcrafting_paper
+		pm_rotary_press_paper
+		pm_electric_drive_paper
+		pm_auto_press_paper
 	}
 }
 

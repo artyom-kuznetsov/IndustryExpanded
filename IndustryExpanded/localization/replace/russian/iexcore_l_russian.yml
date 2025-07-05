@@ -30,11 +30,13 @@
  mechanical_tools:0 "Точные инструменты"
  refining:0 "Обработка нефти"
  refining_desc:0 "Процессы переработки нефти превращают сырую нефть в готовую продукцию, включая горюче-смазочные материалы для автомобильных, судовых и авиационных двигателей."
- 
+ metal_threading:0 "Вытяжка металла"
+ metal_threading_desc:0 "Развитие технологий вытягивания и формования металла в нити стало основой для производства проволоки и кабелей, обеспечив развитие телеграфа, электрификации и современной промышленности."
 
  # GOODS 
  fertilizer:0 "Химикаты"                       # Vanilla Override
  oil:0 "Сырая нефть"                              # Vanilla Override
+ iron:0 "Металлы"                                # Vanilla Override
  
  fuel:0 "Топливо"
  goods_input_fuel_add:0 "Потребление @fuel! топлива"
@@ -50,6 +52,7 @@
  
  # MISC
  building_chemical_plants:0 "Химические заводы"   # Vanilla Override
+ building_iron_mine:0 "Шахты металлов"             # Vanilla Override
  
  # TEXTILE MILLS
  pmg_sewing_textile:0 "Шитьё"
@@ -100,6 +103,12 @@
  pm_mixing_machines:0 "Смешивающие машины"
  pm_centrifuge:0 "Центрифуга"
  
+ pmg_automation_building_small:0 "$pmg_automation$"
+ pm_automation_manual_motion:0 "Ручная сила"
+ pm_automation_pneumatic_motion:0 "Пневматика"
+ pm_automation_electric_motion:0 "$pm_automation_electric_drive$"
+ pm_automation_automatic_motion:0 "Автоматизированная линия"
+ 
  assembly_lines:0 "Производственные линии"
  assembly_lines_desc:0 "Разделение труда на последовательные операции вдоль движущейся линии, радикально повышающее эффективность и объёмы промышленного производства."
  
@@ -115,3 +124,16 @@
  pm_metallic_utensils:0 "Металлическая утварь"
  
  pm_glass_rollers:0 "Стеклопрокатные машины"
+ 
+ # WIREMILL
+ building_wiremill:0 "Проволочные заводы"
+ 
+ pmg_wiremill_base:0 "Проволока"
+ pm_solid_wire_extrusion:0 "Цельная проволока"
+ pm_stranded_wire_twisting:0 "Скученный провод"
+ pm_electroplated_wire:0 "Электролитическое осаждение"
+ 
+ pmg_wiremill_material:0 "Кабель"
+ pm_copper_wire:0 "Медный провод"
+ pm_insulated_cable:0 "Изолированный кабель"
+ pm_rubber_insulation:0 "Резиновая изоляция"

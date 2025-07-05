@@ -18,7 +18,7 @@
  pm_auto_press_paper:0 "Automatic Press"
  
  pmg_assembly_paper:0 "Treatment Method"
- pmg_base_paper:0 "Base"
+ pmg_base_paper:0 "$pm_base$"
  
  # TECHNOLOGIES
  electrification:0 "Electrification"
@@ -30,11 +30,13 @@
  mechanical_tools:0 "Precision Tools"
  refining:0 "Oil Processing"
  refining_desc:0 "Oil refining processes transform crude oils into finished products, including fuels and lubricants for automotive, ship and aircraft engines."
- 
+ metal_threading:0 "Metal Threading"
+ metal_threading_desc:0 "Advances in drawing and shaping metal into continuous threads laid the foundation for the wire and cable industries, powering telegraphy, electrification, and modern manufacturing."
 
  # GOODS 
  fertilizer:0 "Chemicals"                       # Vanilla Override
  oil:0 "Crude Oil"                              # Vanilla Override
+ iron:0 "Metals"                                # Vanilla Override
  
  fuel:0 "Refined Fuel"
  goods_input_fuel_add:0 "@fuel! Fuel input"
@@ -50,6 +52,7 @@
 
  # MISC
  building_chemical_plants:0 "Chemical Plants"   # Vanilla Override
+ building_iron_mine:0 "Metal Mines"             # Vanilla Override
  
  # TEXTILE MILLS
  pmg_sewing_textile:0 "Sewing"
@@ -100,6 +103,12 @@
  pm_mixing_machines:0 "Mixing Machines"
  pm_centrifuge:0 "Centrifuge"
  
+ pmg_automation_building_small:0 "$pmg_automation$"
+ pm_automation_manual_motion:0 "Manual Motion"
+ pm_automation_pneumatic_motion:0 "Pneumatic Motion"
+ pm_automation_electric_motion:0 "$pm_automation_electric_drive$"
+ pm_automation_automatic_motion:0 "Automated Line"
+ 
  assembly_lines:0 "Assembly Lines"
  assembly_lines_desc:0 "The division of labor into sequential tasks performed along a moving line, drastically increasing industrial efficiency and output."
  
@@ -115,3 +124,16 @@
  pm_metallic_utensils:0 "Metallic Utensils"
  
  pm_glass_rollers:0 "Glass Rollers"
+ 
+ # WIREMILL
+ building_wiremill:0 "Wiremills"
+ 
+ pmg_wiremill_base:0 "Wire"
+ pm_solid_wire_extrusion:0 "Solid Wire Extrusion"
+ pm_stranded_wire_twisting:0 "Stranded Wire Twisting"
+ pm_electroplated_wire:0 "Electroplated Wire"
+ 
+ pmg_wiremill_material:0 "Cable"
+ pm_copper_wire:0 "Copper Wire"
+ pm_insulated_cable:0 "Insulated Cable"
+ pm_rubber_insulation:0 "Rubber Insulation"

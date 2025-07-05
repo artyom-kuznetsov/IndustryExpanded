@@ -19,9 +19,9 @@ A mod focused on goods, building, production methods and variability expansion, 
 [h1]Industry Expanded Core[/h1]
 IEX Core is the main part of Industry Expanded which all the modules depend on.
 [h2]Contents of the Core:[/h2]
-- 4 New Production Technologies
+- 6 New Production Technologies
 - Oil Industry Expansion
-- New Goods: Fuel and Plastics
+- New Goods: Wire, Fuel and Plastics
 - Rework and update of 4 vanilla factories
 - Electricity and Services goods are not local goods anymore
 - Enhanced pop needs, pops actually shift to electricity for heating, consume more wine and more tweaks
@@ -43,8 +43,8 @@ Fan-made translations: (if you make one, ask me to add it here)
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v13.0 BETA 3[/b]
-Game version: [b]v1.9.5[/b]
+Mod version: [b]v13.0 BETA 4[/b]
+Game version: [b]v1.9.6[/b]
 
 Thanks for playing Industry Expanded!
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
@@ -54,7 +54,7 @@ Thanks for playing Industry Expanded!
 -buildings: building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries,
 -pmgs: pmg_base_paper, all furniture factories pmgs,
 -pms: all glassworks pms, all furniture factories pms, pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
--technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine, plastics
+-technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine, plastics, pasteurization, vacuum_canning, steam_turbine
 -turmoil static modifiers
 -diesel pump mining PMs
 -pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement

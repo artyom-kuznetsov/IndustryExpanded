@@ -19,6 +19,7 @@ pmg_automation_building_solid = {
 		pm_centrifuge
 	}
 }
+
 pmg_automation_building_2500 = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
@@ -27,5 +28,15 @@ pmg_automation_building_2500 = {
 		pm_automation_electric_drive_2500
 		pm_automation_conveyor_production_2500
 		pm_automation_assembly_lines_2500
+	}
+}
+
+pmg_automation_building_small = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_manual_motion		# 2500
+		pm_automation_pneumatic_motion	# 2000
+		pm_automation_electric_motion	# 1500
+		pm_automation_automatic_motion	# 1000
 	}
 }

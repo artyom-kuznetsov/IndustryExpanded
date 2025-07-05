@@ -1,5 +1,20 @@
 ﻿### ERA 2
 
+vacuum_canning = {
+	# Unlocks Vacuum Canning PM in Food Industries
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/vacuum_canning.dds"
+	category = production
+
+	unlocking_technologies = {
+		baking_powder
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
 mechanical_production = {
 	era = era_2
 	texture = "gfx/tech_icons/mechanical_production.dds"
@@ -23,9 +38,76 @@ mechanical_production = {
 	}
 }
 
+metal_threading = {
+	era = era_2
+	texture = "gfx/tech_icons/metal_threading.dds"
+	category = production
+	
+	
+	unlocking_technologies = {
+		bessemer_process
+	}
+	
+	ai_weight = {
+		value = 1
+		
+		if = {
+			limit = { 
+				has_strategy = ai_strategy_industrial_expansion
+			}
+			add = 1
+		}		
+	}
+}
+
+precise_metalworking = {
+	# Unlocks Open Hearth Process PM in Steel Mills
+	era = era_2
+	texture = "gfx/tech_icons/precise_metalworking.dds"
+	category = production
+
+	unlocking_technologies = {
+		metal_threading
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
 
 
 ### ERA 3
+
+open_hearth_process = {
+	# Unlocks Open Hearth Process PM in Steel Mills
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/open_hearth_process.dds"
+	category = production
+
+	unlocking_technologies = {
+		precise_metalworking
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+pasteurization = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/pasteurization.dds"
+	category = production
+
+	unlocking_technologies = {
+		vacuum_canning
+		shift_work
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
 
 rotary_valve_engine = {
 	# Unlocks Rotary Valve Engine PM in Furniture Manufacturies, Tooling Workshops, Paper Mills, Steel Mills, Motor Industry
@@ -56,9 +138,24 @@ electrical_generation = {
 	category = production
 	
 	unlocking_technologies = {	
-		mechanical_production
+		metal_threading
 	}
 	
+	ai_weight = {
+		value = 1
+	}
+}
+
+steam_turbine = {
+	# Unlocks the Coal-Firing PM in Power Plants
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/steam_turbines.dds"
+	category = production
+
+	unlocking_technologies = {
+		electrical_generation
+	}
+
 	ai_weight = {
 		value = 1
 	}
@@ -71,7 +168,6 @@ electrification = {
 	
 	unlocking_technologies = {	
 		electrical_generation
-		rotary_valve_engine
 	}
 	
 	modifier = {		
@@ -166,7 +262,7 @@ plastics = {
 
 oil_turbine = {
 	# Unlocks Oil-Fired Plant PM in Power Plants
-	era = era_5
+	era = era_4
 	texture = "gfx/interface/icons/invention_icons/oil_turbines.dds"
 	category = production
 	
