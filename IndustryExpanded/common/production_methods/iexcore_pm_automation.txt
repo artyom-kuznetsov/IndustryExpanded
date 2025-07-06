@@ -109,8 +109,9 @@ pm_automation_electric_drive = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 6			# 240
-			goods_input_electricity_add = 6		# 180 # TOTAL 420
+			goods_input_tools_add = 4			# 160
+			goods_input_wire_add = 3			# 90
+			goods_input_electricity_add = 5.5	# 165 # TOTAL 415
 		}
 
 		level_scaled = {
@@ -144,9 +145,10 @@ pm_automation_conveyor_production = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 6			# 240
+			goods_input_tools_add = 4			# 160
+			goods_input_wire_add = 4			# 120
 			goods_input_oil_add = 1				# 40
-			goods_input_electricity_add = 6		# 180 # TOTAL 460
+			goods_input_electricity_add = 6		# 180 # TOTAL 500
 		}
 
 		level_scaled = {
@@ -179,9 +181,10 @@ pm_automation_assembly_lines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 6			# 240
-			goods_input_fuel_add = 4			# 200
-			goods_input_electricity_add = 5		# 150 # TOTAL 590
+			goods_input_tools_add = 4			# 240
+			goods_input_wire_add = 3			# 90
+			goods_input_fuel_add = 3			# 150
+			goods_input_electricity_add = 4		# 120 # TOTAL 600
 		}
 
 		level_scaled = {
@@ -281,8 +284,8 @@ pm_mixing_machines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 4			# 160
-			goods_input_coal_add = 4			# 120 # TOTAL 280
+			goods_input_tools_add = 3			# 120
+			goods_input_coal_add = 3			# 90 # TOTAL 210
 		}
 
 		level_scaled = {
@@ -316,9 +319,10 @@ pm_centrifuge = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 4			# 160
+			goods_input_tools_add = 3			# 160
+			goods_input_wire_add = 1			# 30
 			goods_input_fuel_add = 1			# 50
-			goods_input_electricity_add = 8		# 240 # TOTAL 450
+			goods_input_electricity_add = 6		# 180 # TOTAL 420
 		}
 
 		level_scaled = {
@@ -327,7 +331,7 @@ pm_centrifuge = {
 		}
 		
 		unscaled = {
-			building_throughput_add = 0.12
+			building_throughput_add = 0.15
 		}
 	}
 }
@@ -382,8 +386,9 @@ pm_automation_electric_drive_2500 = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 5			# 200
-			goods_input_electricity_add = 4		# 120 # TOTAL 320
+			goods_input_tools_add = 3			# 120
+			goods_input_wire_add = 2			# 60
+			goods_input_electricity_add = 4		# 120 # TOTAL 300
 		}
 
 		level_scaled = {
@@ -417,9 +422,10 @@ pm_automation_conveyor_production_2500 = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 6			# 240
+			goods_input_tools_add = 3			# 120
+			goods_input_wire_add = 3			# 90
 			goods_input_oil_add = 1				# 40
-			goods_input_electricity_add = 6		# 180 # TOTAL 460
+			goods_input_electricity_add = 5		# 150 # TOTAL 400
 		}
 
 		level_scaled = {
@@ -452,9 +458,10 @@ pm_automation_assembly_lines_2500 = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 6			# 240
+			goods_input_tools_add = 3			# 120
+			goods_input_wire_add = 2			# 60
 			goods_input_fuel_add = 3			# 150
-			goods_input_electricity_add = 6		# 180 # TOTAL 570
+			goods_input_electricity_add = 4.5	# 165 # TOTAL 495
 		}
 
 		level_scaled = {

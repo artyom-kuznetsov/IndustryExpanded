@@ -32,6 +32,8 @@
  refining_desc:0 "Oil refining processes transform crude oils into finished products, including fuels and lubricants for automotive, ship and aircraft engines."
  metal_threading:0 "Metal Threading"
  metal_threading_desc:0 "Advances in drawing and shaping metal into continuous threads laid the foundation for the wire and cable industries, powering telegraphy, electrification, and modern manufacturing."
+ precise_metalworking:0 "Precise Metalworking"
+ precise_metalworking_desc:0 "The refinement of lathes, milling machines, and measuring tools enabled factories to produce components with unprecedented accuracy, paving the way for interchangeable parts, advanced weaponry, and electrical instruments."
 
  # GOODS 
  fertilizer:0 "Chemicals"                       # Vanilla Override

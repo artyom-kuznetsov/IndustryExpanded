@@ -299,7 +299,7 @@ pm_metallic_utensils = {
 	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"
 	
 	unlocking_technologies = {
-		open_hearth_process
+		precise_metalworking
 	}
 	
 
@@ -463,7 +463,7 @@ pm_automatic_bottle_blowers = {
 ### WIREMILL ###
 
 pm_solid_wire_extrusion = {
-	texture = "gfx/interface/icons/production_method_icons/forest_glass.dds"
+	texture = "gfx/pm_icons/wire_solid_extrusion.dds"
 	
 	building_modifiers = {
 		workforce_scaled = {
@@ -482,7 +482,7 @@ pm_solid_wire_extrusion = {
 }		
 
 pm_stranded_wire_twisting = {
-	texture = "gfx/interface/icons/production_method_icons/forest_glass.dds"
+	texture = "gfx/pm_icons/wire_stranded_twisting.dds"
 	
 	unlocking_technologies = {
 		precise_metalworking
@@ -507,7 +507,7 @@ pm_stranded_wire_twisting = {
 }
 
 pm_electroplated_wire = {
-	texture = "gfx/interface/icons/production_method_icons/forest_glass.dds"
+	texture = "gfx/pm_icons/wire_electroplated.dds"
 	
 	unlocking_technologies = {
 		electric_arc_process
@@ -516,11 +516,12 @@ pm_electroplated_wire = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 14			# 560
-			goods_input_electricity_add = 5		# 150	# TOTAL 710
+			goods_input_iron_add = 13.5			# 540
+			goods_input_electricity_add = 5		# 150
+			goods_input_fertilizer_add = 1		# 30	# TOTAL 720
 			
 			# output goods
-			goods_output_wire_add = 48			# 1440	# PROFIT 730
+			goods_output_wire_add = 48			# 1440	# PROFIT 720
 		}
 
 		level_scaled = {
@@ -533,11 +534,11 @@ pm_electroplated_wire = {
 }
 
 pm_copper_wire = {
-	texture = "gfx/interface/icons/production_method_icons/forest_glass.dds"
+	texture = "gfx/pm_icons/basic_wire.dds"
 }
 
 pm_insulated_cable = {
-	texture = "gfx/interface/icons/production_method_icons/forest_glass.dds"
+	texture = "gfx/pm_icons/insulated_cable.dds"
 	
 	unlocking_technologies = {
 		rubber_mastication
@@ -555,7 +556,7 @@ pm_insulated_cable = {
 }
 
 pm_rubber_insulation = {
-	texture = "gfx/interface/icons/production_method_icons/forest_glass.dds"
+	texture = "gfx/pm_icons/elastics_main.dds"
 	
 	
 	unlocking_technologies = {

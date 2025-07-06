@@ -405,7 +405,7 @@ pm_sewing_machines = {
 	texture = "gfx/interface/icons/production_method_icons/sewing_machines.dds"
 	
 	unlocking_technologies = {
-		mechanical_production
+		precise_metalworking
 	}
 	
 	building_modifiers = {

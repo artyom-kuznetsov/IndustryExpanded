@@ -54,7 +54,7 @@ Thanks for playing Industry Expanded!
 -buildings: building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries,
 -pmgs: pmg_base_paper, all furniture factories pmgs,
 -pms: all glassworks pms, all furniture factories pms, pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
--technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine, plastics, pasteurization, vacuum_canning, steam_turbine
+-technologies: most of production technologies
 -turmoil static modifiers
 -diesel pump mining PMs
 -pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
@@ -64,4 +64,5 @@ Thanks for playing Industry Expanded!
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3336914177]Grey's Soft Pop Adjustments[/url]
+Edouard Saladier, "More Variety" mods
 
