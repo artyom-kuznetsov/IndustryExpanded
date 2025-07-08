@@ -1,16 +1,21 @@
 [h1]v13.0 BETA 4[/h1]
+[h2]Additions[/h2]
 -Added new building - Wiremills. It produces new trade goods - Wire, which will be commonly used in other industries.
 -Added new technology - Metal Threading. It unlocks the new Wiremills building.
 -Added new technology - Precise Metalworking. It unlocks several PMs for Wiremills, Glassworks and Textile Mills
+-Added a new PM for Motor Industries to produce engines from iron instead of steel. Reworked other PMs, incl. automation.
+-Iron icon and name were changed to represent both iron and copper.
+-Goods shortage penalty will decay much quicker.
+-Nationalized buildings no longer reduce economy of scale
+[h2]Pop Changes[/h2]
+-Pops will be less likely to consume services as Free Movement need.
+-Pop with wealth level 10-14 will now consume Coffee and Tea at expense consuming fewer of other goods.
+[h2]Other Tech Changes[/h2]
 -Vacuum Canning tech is now Era 2 (was Era 3) and unlocked after Baking Powder
 -Pasteurization tech is now Era 3 (was Era 4) and unlocked after Vacuum Canning and Shift Work
 -Oil Turbine tech is now Era 4 (was Era 5)
 -Steam Turbine tech is now Era 3 (was Era 4)
 -A lot more techs changed requirements
--Iron icon and name were changed to represent both iron and copper.
--Pops will be less likely to consume services as Free Movement need.
--Goods shortage penalty will decay much quicker.
--Nationalized buildings no longer reduce economy of scale
 
 
 [h1]v13.0 BETA 3[/h1]

@@ -24,7 +24,7 @@ IEX Core is the main part of Industry Expanded which all the modules depend on.
 - New Goods: Wire, Fuel and Plastics
 - Rework and update of 5 vanilla factories
 - Electricity and Services goods are not local goods anymore
-- Enhanced pop needs, pops actually shift to electricity for heating, consume more wine and more tweaks
+- Enhanced pop needs, wealth levels 10-14 consume tea and coffee, pops actually shift to electricity for heating, consume more wine and more tweaks
 
 [h1]Get More Content![/h1]
 [h2]Install all the modules for best Industry Expanded experience.[/h2]
@@ -57,6 +57,7 @@ Thanks for playing Industry Expanded!
 -technologies: most of production technologies
 -turmoil static modifiers
 -diesel pump mining PMs
+-buy_packages: wealth levels 10-14
 -pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
 -mobilization options: all that add/modify oil consumption
 -defines: GOODS_SHORTAGE_PENALTY_DECREASE_SPEED, ECONOMY_OF_SCALE_NATIONALIZED_FRACTION_MULT
