@@ -1,0 +1,38 @@
+[img]https://i.imgur.com/v028EQl.png[/img]
+[h2]Sensible Power Blocs is an [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]Industry Expanded Core[/url] optional (but highly recommended) module, nerfing and tweaking power blocs.[/h2]
+
+[h1]Modular IEX[/h1]
+[b]Modular IEX[/b] is former Industry Expanded Mod but split into few separate mods. So you can disable/enable some of them for your preference or compatibility with your current modset.
+
+[h2]We now have Discord! https://discord.gg/3QBTCvjzug[/h2]
+
+Have you ever had a thought like "[i]WTF is this feature, Paradox? These buffs are beyond overpowered and countries that don't have power blocs suck now! And AI doesn't pick best options and sticks with coordinated policing nonsense![/i]"
+No? Well, I had since power blocs were introduced. So I [i]made[/i] this mod... no, I ripped it from HMPS.
+
+[b]All credit goes to [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3325961657]Historical MP Series[/url][/b]
+
+[h1]SPB Module[/h1]
+[h2]Contents of this module:[/h2]
+- 3 and 4 power bloc principle slots no longer have member quantity requirement.
+- There is only 1 level to each principle now.
+- Principles are balanced in comparison to each other.
+
+
+[h2]Metadata[/h2]
+Mod version: [b]v1[/b]
+Game version: [b]v1.9.6[/b]
+[img]https://i.imgur.com/5UcgQMM.png[/img]
+
+Thanks for playing Industry Expanded!
+[img]https://i.imgur.com/aNDO8WK.gif[/img]
+
+
+[b]Overrides:[/b]
+[i]-company_construction_power_bloc
+-GBR power bloc history
+-mobilization_option_balloon_recon
+-all power bloc principle groups
+-all power bloc principles
+-all PMs that were unlocked by principles
+-scripted rules: unlock_power_bloc_principle_slot_3; unlock_power_bloc_principle_slot_4
+[/i]

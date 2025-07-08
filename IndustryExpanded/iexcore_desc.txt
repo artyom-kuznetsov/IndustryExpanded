@@ -28,7 +28,7 @@ IEX Core is the main part of Industry Expanded which all the modules depend on.
 
 [h1]Get More Content![/h1]
 [h2]Install all the modules for best Industry Expanded experience.[/h2]
-[img]https://i.imgur.com/V5ZrrgK.png[/img]
+[img]https://i.imgur.com/5UcgQMM.png[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505037469]Enhanced Auto-Expansion Module[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503014205]Load, Ship & Road Module[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505957844]Difficult Terrain Module[/url]

@@ -1,0 +1,39 @@
+[img]https://i.imgur.com/v028EQl.png[/img]
+[h2]Адекватные Блоки - это опциональный (но крайне рекомендуемый) модуль [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]Industry Expanded Core[/url], который нерфит и твикает блоки.[/h2]
+
+[h1]Модульный IEX[/h1]
+[b]Модульный IEX[/b] это бывший Industry Expanded, но разделённый на несколько отдельных модов.
+Таким образом, вы можете включать/выключать некоторые из них по вкусу или ради совместимости со своей сборкой модов.
+
+[h2]У нас теперь есть Discord! https://discord.gg/3QBTCvjzug[/h2]
+
+Вас когда-нибудь посещала мысль вроде "[i]Пароходы, это ЧЁ ТАКОЕ вообще? Эти баффы нифига себе какие сильные, а страны без блока теперь намного слабее! А боты даже не умеют выбирать хорошие принципы и сидят с координированной полицией или подобной хренью![/i]"
+Нет? А меня посещала с того самого момента, как блоки были добавлены. Поэтому я [i]сделал[/i] этот мод... нет, я всё украл из HMPS.
+
+[b]Все заслуги [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3325961657]Historical MP Series[/url][/b]
+
+[h1]Адекватные Блоки[/h1]
+[h2]Контент этого модуля:[/h2]
+- 3 и 4 слоты принципов силового блока больше не требуют определённого количества участников.
+- У каждого принципа теперь только 1 уровень
+- Принципы сбалансированы по отношению друг к другу
+
+
+[h2]Метаданные[/h2]
+Версия мода: [b]v1[/b]
+Версия игры: [b]v1.9.6[/b]
+[img]https://i.imgur.com/5UcgQMM.png[/img]
+
+Спасибо, что играете в Industry Expanded!
+[img]https://i.imgur.com/aNDO8WK.gif[/img]
+
+
+[b]Перезаписи ванили:[/b]
+[i]-company_construction_power_bloc
+-GBR power bloc history
+-mobilization_option_balloon_recon
+-all power bloc principle groups
+-all power bloc principles
+-all PMs that were unlocked by principles
+-scripted rules: unlock_power_bloc_principle_slot_3; unlock_power_bloc_principle_slot_4
+[/i]

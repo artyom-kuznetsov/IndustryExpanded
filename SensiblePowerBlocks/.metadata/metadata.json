@@ -1,8 +1,8 @@
 {
-  "name" : "[IEX] Difficult Terrain",
+  "name" : "[IEX] Sensible Power Blocks",
   "picture" : "thumbnail.png",
-	"id" : "",
-  "version" : "",
+  "id" : "",
+  "version" : "v1",
   "supported_game_version" : "1.9.6",
   "short_description" : "",
   "tags" : [],

@@ -3,7 +3,7 @@
 -Added new building - Wiremills. It produces new trade goods - Wire, which will be commonly used in other industries.
 -Added new technology - Metal Threading. It unlocks the new Wiremills building.
 -Added new technology - Precise Metalworking. It unlocks several PMs for Wiremills, Glassworks and Textile Mills
--Added a new PM for Motor Industries to produce engines from iron instead of steel. Reworked other PMs, incl. automation.
+-Reworked and rebalanced [b]Motor Industries[/b] building, re-adding Experimental Engines PM
 -Iron icon and name were changed to represent both iron and copper.
 -Goods shortage penalty will decay much quicker.
 -Nationalized buildings no longer reduce economy of scale

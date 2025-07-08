@@ -17,9 +17,9 @@
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v1.0.5[/b]
-Game version: [b]v1.9.2[/b]
-[img]https://i.imgur.com/V5ZrrgK.png[/img]
+Mod version: [b]v1.0.6[/b]
+Game version: [b]v1.9.6[/b]
+[img]https://i.imgur.com/5UcgQMM.png[/img]
 
 Thanks for playing Industry Expanded!
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
