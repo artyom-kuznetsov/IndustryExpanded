@@ -139,3 +139,8 @@
  pm_copper_wire:0 "Copper Wire"
  pm_insulated_cable:0 "Insulated Cable"
  pm_rubber_insulation:0 "Rubber Insulation"
+ 
+ # MOTOR INDUSTRIES
+ pm_early_steam_engines:0 "Experimental Steam Engines"
+ pm_electric_engines:0 "High-Pressure Engines"
+ pm_diesel_engines:0 "Complex Engines"

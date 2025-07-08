@@ -9,7 +9,8 @@
 -A lot more techs changed requirements
 -Iron icon and name were changed to represent both iron and copper.
 -Pops will be less likely to consume services as Free Movement need.
-
+-Goods shortage penalty will decay much quicker.
+-Nationalized buildings no longer reduce economy of scale
 
 
 [h1]v13.0 BETA 3[/h1]

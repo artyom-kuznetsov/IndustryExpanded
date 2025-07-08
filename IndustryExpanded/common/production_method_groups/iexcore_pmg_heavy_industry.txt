@@ -47,3 +47,13 @@ pmg_wiremill_material = {
 	}
 }
 
+
+pmg_base_building_motor_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_early_steam_engines
+		pm_steam_engines
+		pm_electric_engines
+		pm_diesel_engines
+	}
+}

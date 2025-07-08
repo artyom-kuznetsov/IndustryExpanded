@@ -22,7 +22,7 @@ IEX Core is the main part of Industry Expanded which all the modules depend on.
 - 6 New Production Technologies
 - Oil Industry Expansion
 - New Goods: Wire, Fuel and Plastics
-- Rework and update of 4 vanilla factories
+- Rework and update of 5 vanilla factories
 - Electricity and Services goods are not local goods anymore
 - Enhanced pop needs, pops actually shift to electricity for heating, consume more wine and more tweaks
 
@@ -51,14 +51,15 @@ Thanks for playing Industry Expanded!
 
 [b]Overrides:[/b]
 -trade goods: services, electricity, iron
--buildings: building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries,
--pmgs: pmg_base_paper, all furniture factories pmgs,
--pms: all glassworks pms, all furniture factories pms, pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
+-buildings: building_motor_industry, building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries,
+-pmgs: pmg_base_paper; all pmgs: glassworks, furniture, textile; pmg_base_building_motor_industry
+-pms: all pms: glassworks, motor, furniture; pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
 -technologies: most of production technologies
 -turmoil static modifiers
 -diesel pump mining PMs
 -pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
 -mobilization options: all that add/modify oil consumption
+-defines: GOODS_SHORTAGE_PENALTY_DECREASE_SPEED, ECONOMY_OF_SCALE_NATIONALIZED_FRACTION_MULT
 
 [h1]Credits[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]

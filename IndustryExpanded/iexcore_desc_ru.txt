@@ -23,7 +23,7 @@ IEX Core (€дро) - это основна€ часть Industry Expanded, от которой завис€т все м
 - 6 новых технологий в производстве
 - “опливна€ промышленность
 - Ќовые товары: ѕроволока, “опливо и ѕластик
-- ѕеределка и обновление 4-х ванильных заводов
+- ѕеределка и обновление 5-х ванильных фабрик
 - Ёлектричество и услуги больше не локальные товары
 - ”лучшенное потребление населением, люди действительно переход€т на электричество дл€ отоплени€, пьют больше вина и прочие т. п. улучшени€.
 
@@ -53,13 +53,14 @@ IEX Core (€дро) - это основна€ часть Industry Expanded, от которой завис€т все м
 [b]ѕерезаписи ванили:[/b]
 -trade goods: services, electricity, iron
 -buildings: building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries,
--pmgs: pmg_base_paper, all furniture factories pmgs,
+-pmgs: pmg_base_paper, all pmgs: glassworks, furniture, textile, pmg_base_building_motor_industry
 -pms: all glassworks pms, all furniture factories pms, pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
--technologies: electrical_generation, telephone, rotary_valve_engine, oil_turbine, plastics, pasteurization, vacuum_canning, steam_turbine
+-technologies: most of production technologies
 -turmoil static modifiers
 -diesel pump mining PMs
 -pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
 -mobilization options: all that add/modify oil consumption
+-defines: GOODS_SHORTAGE_PENALTY_DECREASE_SPEED, ECONOMY_OF_SCALE_NATIONALIZED_FRACTION_MULT
 
 [h1]Ѕлагодарности[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]

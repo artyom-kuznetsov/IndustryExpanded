@@ -437,11 +437,12 @@ pm_electric_sewing_machines = {
 		workforce_scaled = {
 			# input goods
 			goods_input_fabric_add = 50			# 1000
-			goods_input_tools_add = 10			# 400
-			goods_input_electricity_add = 10	# 300	# TOTAL 1700
+			goods_input_tools_add = 5			# 200
+			goods_input_wire_add = 6.5			# 195
+			goods_input_electricity_add = 10	# 300	# TOTAL 1695
 			
 			# output goods
-			goods_output_clothes_add = 115		# 3450	# PROFIT 1750
+			goods_output_clothes_add = 115		# 3450	# PROFIT 1755
 		}
 
 		level_scaled = {

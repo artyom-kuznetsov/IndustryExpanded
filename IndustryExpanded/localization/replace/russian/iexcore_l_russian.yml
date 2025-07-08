@@ -139,3 +139,8 @@
  pm_copper_wire:0 "Медный провод"
  pm_insulated_cable:0 "Изолированный кабель"
  pm_rubber_insulation:0 "Резиновая изоляция"
+ 
+ # MOTOR INDUSTRIES
+ pm_early_steam_engines:0 "Экспериментальный двигатель"
+ pm_electric_engines:0 "Двигатели высокого давления"
+ pm_diesel_engines:0 "Комплексные двигатели"

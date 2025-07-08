@@ -1,0 +1,46 @@
+﻿
+pm_telephones = {
+	texture = "gfx/interface/icons/production_method_icons/telephones.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_wire_add = 27			# 810
+			goods_input_rubber_add = 20			# 800
+			goods_input_lead_add = 20			# 800
+			goods_input_tools_add = 10			# 400	# TOTAL 2810
+
+			goods_output_telephones_add = 60	# 4200	# PROFIT 2390
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_no_radios = {
+	texture = "gfx/interface/icons/production_method_icons/no_radios.dds"
+}
+
+pm_radios = {
+	texture = "gfx/interface/icons/production_method_icons/radios.dds"
+	unlocking_technologies = {
+		radio
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 50		# 1500
+			goods_input_wire_add = 10				# 300
+			goods_output_telephones_add = -20		# 1400
+			goods_output_radios_add = 40			# 3200	# PROFIT 0
+		}
+
+		level_scaled = {
+			building_employment_engineers_add = 500
+		}
+	}
+
+	required_input_goods = electricity
+}
