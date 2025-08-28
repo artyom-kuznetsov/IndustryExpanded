@@ -101,65 +101,7 @@ pm_modern_port = {
 	}
 }
 
-pm_basic_port = {
-	texture = "gfx/interface/icons/production_method_icons/basic_port.dds"
 
-	building_modifiers = {
-		workforce_scaled = {
-			goods_input_clippers_add = 5 # 300
-			goods_output_merchant_marine_add = 10 # 500
-		}
-		level_scaled = {
-			building_employment_laborers_add = 700
-			building_employment_clerks_add = 200
-			building_employment_bureaucrats_add = 100
-		}
-	}
-
-	country_modifiers = {
-		workforce_scaled = {
-			country_convoys_capacity_add = 100
-		}
-	}
-	state_modifiers = {
-		workforce_scaled = {
-			state_infrastructure_add = 5
-		}
-	}
-}
-
-pm_industrial_port = {
-	texture = "gfx/interface/icons/production_method_icons/industrial_port.dds"
-
-	unlocking_technologies = {
-		gantry_cranes
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			goods_input_steamers_add = 5 # 350
-			goods_input_coal_add = 5 # 150
-			goods_output_merchant_marine_add = 20 # 1000
-		}
-		level_scaled = {
-			building_employment_laborers_add = 500
-			building_employment_machinists_add = 200
-			building_employment_clerks_add = 200
-			building_employment_bureaucrats_add = 100
-		}
-	}
-
-	country_modifiers = {
-		workforce_scaled = {
-			country_convoys_capacity_add = 150
-		}
-	}
-	state_modifiers = {
-		workforce_scaled = {
-			state_infrastructure_add = 7.5
-		}
-	}
-}
 
 
 

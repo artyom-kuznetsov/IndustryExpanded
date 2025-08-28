@@ -1,9 +1,8 @@
 {
-  "name" : "[IEX] Enhanced Auto-Expansion",
-  "picture" : "thumbnail.png",
-  "id" : "",
+  "name" : "IEXLawsPlus",
+	"id" : "",
   "version" : "",
-  "supported_game_version" : "1.9.8",
+  "supported_game_version" : "",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

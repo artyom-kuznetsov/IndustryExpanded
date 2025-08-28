@@ -1,0 +1,53 @@
+﻿
+hydraulic_cranes = {
+	# Increases Port max level by 3
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/hydraulic_cranes.dds"
+	category = military
+
+	unlocking_technologies = {
+		drydocks
+	}
+
+	modifier = {
+		building_construction_sector_throughput_add = 0.02
+		state_building_construction_sector_max_level_add = 2
+	}
+
+	ai_weight = {
+		value = 1
+
+		# Important for anyone with a navy
+		if = {
+			limit = { navy_size >= 5 }
+			add = 0.5
+		}
+	}
+}
+
+gantry_cranes = {
+	# Increases Port max level by 4
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/gantry_crane.dds"
+	category = military
+
+	modifier = {
+		building_construction_sector_throughput_add = 0.03
+		state_building_construction_sector_max_level_add = 3
+	}
+
+	unlocking_technologies = {
+		hydraulic_cranes
+		screw_frigate
+	}
+
+	ai_weight = {
+		value = 1
+
+		# Important for anyone with a navy
+		if = {
+			limit = { navy_size >= 5 }
+			add = 1
+		}
+	}
+}

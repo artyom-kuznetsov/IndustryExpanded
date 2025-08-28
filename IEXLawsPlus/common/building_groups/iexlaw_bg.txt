@@ -1,0 +1,5 @@
+﻿
+bg_technology = {
+	parent_group = bg_government
+	urbanization = 10
+}

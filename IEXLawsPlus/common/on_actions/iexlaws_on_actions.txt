@@ -1,0 +1,34 @@
+﻿
+state_education_access_setup_action = {
+	effect = {	# REMOVE GSPA ACTION
+	}
+}
+
+state_education_access_update_action = {
+    effect = {	# REMOVE GSPA ACTION
+	}
+}
+
+MoG_SPA_literacy_law_enact = {
+	effect = {	# REMOVE GSPA ACTION
+	}
+}
+
+MoG_SPA_literacy_investment_change = {
+	effect = {	# REMOVE GSPA ACTION
+	}
+}
+
+MoG_SPA_literacy_no_longer_default = {
+	#effect = {
+	#	refresh_institution_schools_modifier = yes
+	#}
+}
+
+MoG_SPA_literacy_on_country_released = {
+	effect = {	# REMOVE GSPA ACTION
+		#scope:target = {
+		#	refresh_institution_schools_modifier = yes
+		#}
+	}
+}

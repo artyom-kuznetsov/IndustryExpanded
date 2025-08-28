@@ -43,6 +43,8 @@
  fuel:0 "Refined Fuel"
  goods_input_fuel_add:0 "@fuel! Fuel input"
  goods_input_fuel_add_desc:0 "The amount of @fuel! Fuel consumed by buildings"
+ goods_input_fuel_mult:0 "@fuel![Nbsp]Refined Fuel input"
+ goods_input_fuel_mult_desc:0 "The amount of @fuel![Nbsp]Refined Fuel consumed by buildings"
  
  plastics:0 "Plastics"
  goods_input_plastics_add:0 "@plastics! Plastics input"

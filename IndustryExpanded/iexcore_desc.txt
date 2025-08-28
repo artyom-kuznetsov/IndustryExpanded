@@ -32,6 +32,7 @@ IEX Core is the main part of Industry Expanded which all the modules depend on.
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505037469]Enhanced Auto-Expansion Module[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503014205]Load, Ship & Road Module[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505957844]Difficult Terrain Module[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3519992494]Sensible Power Blocs Module[/url]
 
 [h1]Localization[/h1]
 Mod natively supports [b]English[/b] and [b]Russian[/b] languages.
@@ -43,24 +44,24 @@ Fan-made translations: (if you make one, ask me to add it here)
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v13.0 BETA 4[/b]
-Game version: [b]v1.9.6[/b]
+Mod version: [b]v13.0 BETA 5[/b]
+Game version: [b]v1.9.8[/b]
 
 Thanks for playing Industry Expanded!
 [img]https://i.imgur.com/aNDO8WK.gif[/img]
 
 [b]Overrides:[/b]
 -trade goods: services, electricity, iron
--buildings: building_motor_industry, building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries,
+-buildings: building_motor_industry, building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries, building_trade_center
 -pmgs: pmg_base_paper; all pmgs: glassworks, furniture, textile; pmg_base_building_motor_industry
--pms: all pms: glassworks, motor, furniture; pm_bolt_action_rifles, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
+-pms: all pms: glassworks, motor, furniture; pm_bolt_action_rifles, pm_cannons, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
 -technologies: most of production technologies
 -turmoil static modifiers
 -diesel pump mining PMs
 -buy_packages: wealth levels 10-14
 -pop needs: popneed_basic_food, popneed_heating, popneed_intoxicants, popneed_luxury_drinks, popneed_communication, popneed_free_movement
 -mobilization options: all that add/modify oil consumption
--defines: GOODS_SHORTAGE_PENALTY_DECREASE_SPEED, ECONOMY_OF_SCALE_NATIONALIZED_FRACTION_MULT
+-defines: GOODS_SHORTAGE_PENALTY_DECREASE_SPEED, ECONOMY_OF_SCALE_NATIONALIZED_FRACTION_MULT, AUTO_DOWNSIZE_BUILDING_MIN_UNUSED_TRADE_CAPACITY
 
 [h1]Credits[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]

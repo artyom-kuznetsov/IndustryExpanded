@@ -1,8 +1,9 @@
 {
-  "name" : "[IEX] Construction Module",
+  "name" : "[IEX] UrbanismPlus Module",
+  "picture" : "thumbnail.png",
   "id" : "",
   "version" : "v1",
-  "supported_game_version" : "1.9.6",
+  "supported_game_version" : "1.9.8",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

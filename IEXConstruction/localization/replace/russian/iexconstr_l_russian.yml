@@ -1,0 +1,44 @@
+﻿l_russian:
+ # MAIN
+ pmg_base_building_construction_sector:0 "Основной материал"
+ 
+ pm_wooden_cs:0 "Деревянные рамы"
+ pm_iron_frame_cs:0 "Железные рамы"
+ pm_hardwood_cs:0 "Усиленные рамы"
+ pm_steel_frame_cs:0 "Стальные рамы"
+ 
+ # SECONDARY
+ pmg_secondary_construction_sector:0 "Вторичные материалы"
+ 
+ pm_fabric_cs:0 "Ткань"
+ pm_fabric_wood_cs:0 "Ткань-древесина"
+ pm_glass_cs:0 "Стекло"
+ 
+ # EXPLOSIVES
+ pmg_explosives_construction_sector:0 "Взрывчатка"
+ 
+ pm_no_explosives_cs:0 "Нет взрывчатки"
+ pm_nitroglycerin_cs:0 "Нитроглицерин"
+ pm_dynamite_cs:0 "Динамит"
+ 
+ # CONSTRUCTION METHOD
+ pmg_method_construction_sector:0 "Способ постройки"
+ 
+ pm_handbuilding_cs:0 "Ручное строительство"
+ pm_working_tools_cs:0 "Строительные инструменты"
+ pm_arc_welding_cs:0 "Дуговая сварка"
+ 
+ # ELECTRIFICATION
+ pmg_electrification_construction_sector:0 "Электрификация"
+ 
+ pm_no_electrification_cs:0 "Без электрификации"
+ pm_electrification_cs:0 "Электрификация"
+ 
+ # AUTOMATION
+ pmg_automation_construction_sector:0 "$pmg_automation$"
+ 
+ pm_no_automation_cs:0 "$pm_automation_disabled_solid$"
+ pm_steam_donkey_cs:0 "$steam_donkey$"
+ pm_hydraulic_cranes_cs:0 "Гидравлические краны"
+ pm_modern_cranes_cs:0 "Современные краны"
+ pm_construction_machinery_cs:0 "Строительная техника"

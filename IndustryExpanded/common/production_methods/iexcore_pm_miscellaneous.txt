@@ -34,14 +34,17 @@ pm_trade_center = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_clerks_add = 80
-			building_employment_shopkeepers_add = 20
+			building_employment_clerks_add = 800
+			building_employment_shopkeepers_add = 200
+		}
+		unscaled = {
+			building_goods_input_mult = 1
 		}
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_weekly_trades_add = 1
-			state_trade_capacity_add = 10
+			state_weekly_trades_add = 2
+			state_trade_capacity_add = 25
 		}
 	}
 }
@@ -59,18 +62,21 @@ pm_trade_center_principle_external_trade_2 = {
 		workforce_scaled = {
 			country_influence_add = 0.5
 		}
+		unscaled = {
+			building_goods_input_mult = 1
+		}
 	}
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_clerks_add = 80
-			building_employment_shopkeepers_add = 20
+			building_employment_clerks_add = 800
+			building_employment_shopkeepers_add = 200
 		}
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_weekly_trades_add = 1
-			state_trade_capacity_add = 10
+			state_weekly_trades_add = 2
+			state_trade_capacity_add = 25
 		}
 	}
 }

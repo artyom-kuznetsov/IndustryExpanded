@@ -1,0 +1,44 @@
+﻿l_english:
+ # MAIN
+ pmg_base_building_construction_sector:0 "Main Material"
+ 
+ pm_wooden_cs:0 "Wooden Frame Buildings"
+ pm_iron_frame_cs:0 "Iron Frame Buildings"
+ pm_hardwood_cs:0 "Reinforced Frame Buildings"
+ pm_steel_frame_cs:0 "Steel Frame Buildings"
+ 
+ # SECONDARY
+ pmg_secondary_construction_sector:0 "Secondary Materials"
+ 
+ pm_fabric_cs:0 "Fabric"
+ pm_fabric_wood_cs:0 "Wood-Fabric"
+ pm_glass_cs:0 "Glass"
+ 
+ # EXPLOSIVES
+ pmg_explosives_construction_sector:0 "Explosives"
+ 
+ pm_no_explosives_cs:0 "No Explosives"
+ pm_nitroglycerin_cs:0 "Nitroglycerin"
+ pm_dynamite_cs:0 "Dynamite"
+ 
+ # CONSTRUCTION METHOD
+ pmg_method_construction_sector:0 "Construction Method"
+ 
+ pm_handbuilding_cs:0 "Manual Construction"
+ pm_working_tools_cs:0 "Construction Tools"
+ pm_arc_welding_cs:0 "Arc Welders"
+ 
+ # ELECTRIFICATION
+ pmg_electrification_construction_sector:0 "Electrification"
+ 
+ pm_no_electrification_cs:0 "No Electrification"
+ pm_electrification_cs:0 "Electrification"
+ 
+ # AUTOMATION
+ pmg_automation_construction_sector:0 "$pmg_automation$"
+ 
+ pm_no_automation_cs:0 "$pm_automation_disabled_solid$"
+ pm_steam_donkey_cs:0 "$steam_donkey$"
+ pm_hydraulic_cranes_cs:0 "Hydraulic Cranes"
+ pm_modern_cranes_cs:0 "Modern Cranes"
+ pm_construction_machinery_cs:0 "Construction Machinery"

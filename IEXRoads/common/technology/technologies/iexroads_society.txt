@@ -135,6 +135,7 @@ steel_frame_buildings = {
 		state_infrastructure_from_population_add = 1
 		state_infrastructure_from_population_max_add = 20
 		state_building_construction_sector_max_level_add = 5
+		state_market_access_price_impact = 0.01
 		country_max_weekly_construction_progress_add = 10
 		state_harvest_condition_flood_impact_mult = -0.05
 	}

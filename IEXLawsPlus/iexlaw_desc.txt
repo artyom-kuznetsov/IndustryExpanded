@@ -1,0 +1,28 @@
+[img]https://i.imgur.com/v028EQl.png[/img]
+[h2]Laws & Research is an [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]Industry Expanded Core[/url] optional (but highly recommended) module, tweaking, adding and reworking various laws and innovation balance.[/h2]
+
+[h1]Modular IEX[/h1]
+[b]Modular IEX[/b] is former Industry Expanded Mod but split into few separate mods. So you can disable/enable some of them for your preference or compatibility with your current modset.
+
+[h2]We now have Discord! https://discord.gg/3QBTCvjzug[/h2]
+
+[h1]Construction Module[/h1]
+[h2]Contents of this module:[/h2]
+- Compatibility with [b]Grey's Soft Pop Adjustments[/b] (not fully compatible if you've already started a save game with GSPA)
+- Reduced University construction cost and urbanization
+
+[h2]Metadata[/h2]
+Mod version: [b]v1[/b]
+Game version: [b]v1.9.8[/b]
+[img]https://i.imgur.com/5UcgQMM.png[/img]
+
+Thanks for playing Industry Expanded!
+[img]https://i.imgur.com/aNDO8WK.gif[/img]
+
+
+[b]Overrides:[/b]
+[i]-some GSPA on_actions
+-university building
+-bg_technology
+[/i]
+

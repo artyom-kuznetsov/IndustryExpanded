@@ -1,0 +1,37 @@
+[img]https://i.imgur.com/v028EQl.png[/img]
+[h2]UrbanismPlus - это опциональный (но крайне рекомендуемый) модуль [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2962482328]Industry Expanded Core[/url], перерабатывающий строительные сектора, городские центры, также изменяет некоторые константы, относящиеся к стройке.[/h2]
+
+[h1]Модульный IEX[/h1]
+[b]Модульный IEX[/b] это бывший Industry Expanded, но разделённый на несколько отдельных модов.
+Таким образом, вы можете включать/выключать некоторые из них по вкусу или ради совместимости со своей сборкой модов.
+
+[h2]У нас теперь есть Discord! https://discord.gg/3QBTCvjzug[/h2]
+
+[h1]Модуль UrbanismPlus[/h1]
+[h2]Контент этого модуля:[/h2]
+- Переработка ПМ городского центра.
+- С увеличением уровня городского центра в регионе, строительство в нём будет медленно становиться всё менее эффективно. Это естественным образом побуждает развивать всю страну, а не один конкретный регион.
+- Уменьшена урбанизация от ненастоящих построек вроде финансовых центров, поместий и офисов компаний.
+- Переработка Строительных Секторов, делая его ПМы более модульными, и позволяя более медленный апгрейд.
+
+[h2]Метаданные[/h2]
+Версия мода: [b]v1[/b]
+Версия игры: [b]v1.9.8[/b]
+Этот модуль также требует [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503014205]дорожный модуль[/url] для корректной работы.
+[img]https://i.imgur.com/5UcgQMM.png[/img]
+
+Спасибо, что играете в Industry Expanded!
+[img]https://i.imgur.com/aNDO8WK.gif[/img]
+
+
+[b]Перезаписи ванили:[/b]
+[i]- bg_company_headquarter, bg_company_regional_headquarter, bg_financial_districts
+- urban center PMs
+- construction center building
+- techs: reinforced_concrete; hydraulic_cranes; gantry_cranes
+[/i]
+
+
+[h1]Благодарности[/h1]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3325961657]Historical MP Series[/url][/b]
+Edouard Saladier, "More Variety" mods

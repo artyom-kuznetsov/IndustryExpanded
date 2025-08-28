@@ -43,6 +43,8 @@
  fuel:0 "Топливо"
  goods_input_fuel_add:0 "Потребление @fuel! топлива"
  goods_input_fuel_add_desc:0 "Количество @fuel! топлива, потребляемого сооружениями."
+ goods_input_fuel_mult:0 "Потребление @fuel![Nbsp]топлива"
+ goods_input_fuel_mult_desc:0 "Количество @fuel![Nbsp]топлива, потребляемого сооружениями."
  
  plastics:0 "Пластмассы"
  goods_input_plastics_add:0 "Потребление @plastics! пластика"

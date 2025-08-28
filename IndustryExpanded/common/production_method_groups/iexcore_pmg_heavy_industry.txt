@@ -29,7 +29,7 @@ pmg_houseware = {
 }
 
 pmg_wiremill_base = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_solid_wire_extrusion
 		pm_stranded_wire_twisting
@@ -39,7 +39,7 @@ pmg_wiremill_base = {
 
 
 pmg_wiremill_material = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_copper_wire
 		pm_insulated_cable

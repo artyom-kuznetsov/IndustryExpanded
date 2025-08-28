@@ -1,3 +1,25 @@
+[h1]v13.0 BETA 5[/h1]
+-Reverted Trade Centers employment to 1K (non-employing TCs bug gone)
+-Increased trade capacity from Trace Centers from 10 to 25
+-Increased Trade Centers construction cost from 100 to 200
+-Artillery Foundries first PM doesn't require hardwood anymore
+
+-Fixed fuel_mult missing localization
+
+[h2]UrbanismPlus v1.0[/h2]
+[b]Module Release[/b]
+-Reworked [b]Construction Sector:[/b] 5 new PMGs, 15 new PMs
+-Rebalanced Urban Center PMs
+-Urban Center automation saves more employment and doesn't produce transportation anymore
+-Urbanization level decreases state construction efficiency, higher tech and better street lighting reduces malus
+-Reduced urbanization from admin buildings, financial districts, manor houses, company headquarters
+-Added more construction sector max levels and throughput to some techs
+
+[h2]Load, Ship & Road v1.0.7[/h2]
+-Added 1% MAPI to Steel Framed Buildings tech
+-Fixed ports didn't give MAPI
+
+
 [h1]v13.0 BETA 4[/h1]
 [h2]Additions[/h2]
 -Added new building - Wiremills. It produces new trade goods - Wire, which will be commonly used in other industries.

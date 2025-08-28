@@ -1,0 +1,67 @@
+﻿pmg_base_building_construction_sector = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_wooden_cs
+		pm_iron_frame_cs
+		pm_hardwood_cs
+		pm_steel_frame_cs
+	}
+}
+
+pmg_secondary_construction_sector = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_fabric_cs
+		pm_fabric_wood_cs
+		pm_glass_cs
+	}
+}
+
+pmg_explosives_construction_sector = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_explosives_cs
+		pm_nitroglycerin_cs
+		pm_dynamite_cs
+	}
+}
+
+pmg_method_construction_sector = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_handbuilding_cs
+		pm_working_tools_cs
+		pm_arc_welding_cs
+	}
+}
+
+pmg_electrification_construction_sector = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_electrification_cs
+		pm_electrification_cs
+	}
+}
+
+pmg_automation_construction_sector = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	ai_selection = most_productive
+
+	production_methods = {
+		pm_no_automation_cs
+		pm_steam_donkey_cs
+		pm_hydraulic_cranes_cs
+		pm_modern_cranes_cs
+		pm_construction_machinery_cs
+	}
+}
