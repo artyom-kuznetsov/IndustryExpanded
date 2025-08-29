@@ -7,9 +7,12 @@
 [h2]We now have Discord! https://discord.gg/3QBTCvjzug[/h2]
 
 [h1]Construction Module[/h1]
+Many features of this mod are made to balance research after all new technologies added by IEX and its modules.
 [h2]Contents of this module:[/h2]
 - Compatibility with [b]Grey's Soft Pop Adjustments[/b] (not fully compatible if you've already started a save game with GSPA)
 - Reduced University construction cost and urbanization
+- Increased Tech Spread from unspent innovation
+- Increased Max Innovation from Literacy Rate
 
 [h2]Metadata[/h2]
 Mod version: [b]v1[/b]
@@ -23,6 +26,7 @@ Thanks for playing Industry Expanded!
 [b]Overrides:[/b]
 [i]-some GSPA on_actions
 -university building
--bg_technology
+-building groups: bg_technology
+-modifiers: base_values; excess_innovation; country_literacy_rate
 [/i]
 

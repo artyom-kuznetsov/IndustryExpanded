@@ -13,11 +13,14 @@
 -Urban Center automation saves more employment and doesn't produce transportation anymore
 -Urbanization level decreases state construction efficiency, higher tech and better street lighting reduces malus
 -Reduced urbanization from admin buildings, financial districts, manor houses, company headquarters
--Added more construction sector max levels and throughput to some techs
+-Added more construction sector max levels and throughput to Hydraulic Cranes and Gantry Cranes
 
 [h2]Load, Ship & Road v1.0.7[/h2]
 -Added 1% MAPI to Steel Framed Buildings tech
 -Fixed ports didn't give MAPI
+
+[h2]Sensible Power Blocs[/h2]
+-Now possible to create a Sovereign Empire PB without having monarchy enacted
 
 
 [h1]v13.0 BETA 4[/h1]
