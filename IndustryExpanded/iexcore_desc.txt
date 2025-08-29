@@ -7,6 +7,8 @@ A mod focused on goods, building, production methods and variability expansion, 
 
 [h1]Modular IEX[/h1]
 [b]Modular IEX[/b] is former Industry Expanded Mod but split into few separate mods. So you can disable/enable some of them for your preference or compatibility with your current modset.
+[h2]Why bother with modules?[/h2]
+Feel overwhelmed by all the different modules and don't know what to install and what is compatible? Try [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3115605509]IEX Official Modpack[/url]!
 
 [h2]We now have Discord! https://discord.gg/3QBTCvjzug[/h2]
 
@@ -54,7 +56,7 @@ Thanks for playing Industry Expanded!
 -trade goods: services, electricity, iron
 -buildings: building_motor_industry, building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries, building_trade_center
 -pmgs: pmg_base_paper; all pmgs: glassworks, furniture, textile; pmg_base_building_motor_industry
--pms: all pms: glassworks, motor, furniture; pm_bolt_action_rifles, pm_cannons, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
+-pms: all pms: glassworks, motor, furniture; pm_muskets, pm_bolt_action_rifles, pm_cannons, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
 -technologies: most of production technologies
 -turmoil static modifiers
 -diesel pump mining PMs

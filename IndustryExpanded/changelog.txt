@@ -2,7 +2,7 @@
 -Reverted Trade Centers employment to 1K (non-employing TCs bug gone)
 -Increased trade capacity from Trace Centers from 10 to 25
 -Increased Trade Centers construction cost from 100 to 200
--Artillery Foundries first PM doesn't require hardwood anymore
+-Artillery Foundries and Arms Industries first PM don't require hardwood anymore
 
 -Fixed fuel_mult missing localization
 
@@ -19,8 +19,11 @@
 -Added 1% MAPI to Steel Framed Buildings tech
 -Fixed ports didn't give MAPI
 
-[h2]Sensible Power Blocs[/h2]
+[h2]Sensible Power Blocs v1.1[/h2]
 -Now possible to create a Sovereign Empire PB without having monarchy enacted
+
+[h2]Difficult Terrain v1.1[/h2]
+-Fixed some state traits still giving construction malus despite assigning a modded one to the state
 
 
 [h1]v13.0 BETA 4[/h1]

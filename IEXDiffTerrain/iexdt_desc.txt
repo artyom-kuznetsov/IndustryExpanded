@@ -14,8 +14,8 @@
 [b]Inspiration and GFX from [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855&searchtext=vtm]Victoria Tweaks Mod[/url][/b]
 
 [h2]Metadata[/h2]
-Mod version: [b]v1[/b]
-Game version: [b]v1.9.2[/b]
+Mod version: [b]v1.1[/b]
+Game version: [b]v1.9.8[/b]
 [img]https://i.imgur.com/5UcgQMM.png[/img]
 
 Thanks for playing Industry Expanded!
