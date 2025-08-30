@@ -59,11 +59,16 @@ base_values = {
 
 	state_trade_advantage_from_capacity_add = 0.0005
 	state_max_trade_advantage_from_capacity_add = 0.2
+	
+	
+	
+	
+	country_production_tech_research_speed_mult = 0.1
 }
 
 excess_innovation = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	country_tech_spread_add = 0.4
+	country_tech_spread_add = 0.32
 }
 
 country_literacy_rate = {

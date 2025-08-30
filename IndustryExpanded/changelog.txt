@@ -1,4 +1,5 @@
 [h1]v13.0 BETA 5[/h1]
+-Many buildings have been rebalanced to meet the new standard of industries in the mod
 -Reverted Trade Centers employment to 1K (non-employing TCs bug gone)
 -Increased trade capacity from Trace Centers from 10 to 25
 -Increased Trade Centers construction cost from 100 to 200

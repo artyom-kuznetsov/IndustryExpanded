@@ -6,11 +6,11 @@ pm_handcrafted_furniture = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wood_add = 30		# x20 =  600
-			goods_input_fabric_add = 10		# x20 =  200
+			goods_input_wood_add = 25		# 500
+			goods_input_fabric_add = 8		# 160	# TOTAL 660
 			
 			# output goods
-			goods_output_furniture_add = 45	# x30 = 1350
+			goods_output_furniture_add = 42	# 1260	# PROFIT 600
 		}
 
 		level_scaled = {
@@ -32,11 +32,11 @@ pm_lathe = {
 		workforce_scaled = {
 			# input goods
 			goods_input_wood_add = 35		# 700
-			goods_input_fabric_add = 10		# 200
-			goods_input_tools_add = 5		# 200	# TOTAL 1100
+			goods_input_fabric_add = 15		# 300
+			goods_input_tools_add = 5		# 200	# TOTAL 1200
 			
 			# output goods
-			goods_output_furniture_add = 70	# 2100	# PROFIT 1000
+			goods_output_furniture_add = 67	# 2010
 		}
 
 		level_scaled = {
@@ -63,13 +63,13 @@ pm_mechanized_workshops = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wood_add = 35			# 700
-			goods_input_fabric_add = 10			# 200
-			goods_input_hardwood_add = 10		# 400
-			goods_input_tools_add = 8			# 320	# TOTAL 1620
+			goods_input_wood_add = 30			# 600
+			goods_input_fabric_add = 15			# 300
+			goods_input_hardwood_add = 15		# 600
+			goods_input_tools_add = 7.5			# 300	# TOTAL 1800
 			
 			# output goods
-			goods_output_furniture_add = 105	# 3150	# PROFIT 1530
+			goods_output_furniture_add = 96		# 2880	# PROFIT 1530
 		}
 
 		level_scaled = {
@@ -97,14 +97,14 @@ pm_plastic_furniture = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_plastics_add = 16		# 800
-			goods_input_fabric_add = 10			# 200
-			goods_input_hardwood_add = 10		# 400
+			goods_input_plastics_add = 20		# 1000
+			goods_input_fabric_add = 15			# 300
+			goods_input_hardwood_add = 12.5		# 500
 			goods_input_tools_add = 10			# 400
-			goods_input_lead_add = 5			# 200	# TOTAL 2000
+			goods_input_lead_add = 5			# 200	# TOTAL 2400
 			
 			# output goods
-			goods_output_furniture_add = 150	# 4500	# PROFIT 2500
+			goods_output_furniture_add = 140	# 4200	# PROFIT 1800
 		}
 
 		level_scaled = {
@@ -147,8 +147,8 @@ pm_precision_tools = {
 			# input goods
 			
 			# output goods
-			goods_output_furniture_add = -70			# 
-			goods_output_luxury_furniture_add = 35		# NO PROFIT
+			goods_output_furniture_add = -60			# 
+			goods_output_luxury_furniture_add = 30		# NO PROFIT
 		}						
 	}
 }

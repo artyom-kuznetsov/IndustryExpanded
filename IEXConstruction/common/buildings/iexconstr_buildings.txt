@@ -24,4 +24,74 @@ building_construction_sector = {
 	ai_value = 1000 # Construction sector should generally be preferred over other equal-priority spending items
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+	
+	### CREDIT AAI ###
+	ai_value = {
+		value = 1000
+
+		# Iron/Steel
+		if = {
+			limit = {
+				state_population >= 300000
+				has_potential_resource = bg_iron_mining
+			}
+			multiply = {
+				value = "num_potential_resources(bg:bg_iron_mining)"
+				divide = 5
+				floor = yes
+				multiply = 0.05
+				add = 1
+				max = 2
+			}
+		}
+		
+		if = {
+			limit = {
+				owner = {
+					has_technology_researched = steel_frame_buildings
+				}
+			}
+			# Glass
+			if = {
+				limit = {
+					state_population >= 300000
+					has_potential_resource = bg_lead_mining
+				}
+				multiply = {
+					value = "num_potential_resources(bg:bg_lead_mining)"
+					divide = 5
+					floor = yes
+					multiply = 0.02
+					add = 1
+					max = 1.1
+				}
+			}
+			# Explosives
+			if = {
+				limit = {
+					state_population >= 300000
+					has_potential_resource = bg_sulfur_mining
+				}
+				multiply = {
+					value = "num_potential_resources(bg:bg_sulfur_mining)"
+					divide = 5
+					floor = yes
+					multiply = 0.02
+					add = 1
+					max = 1.05
+				}
+			}
+		}
+		else = {
+			multiply = {
+				value = "num_potential_resources(bg:bg_logging)"
+				divide = 10
+				floor = yes
+				multiply = 0.05
+				add = 1
+				max = 1.2
+			}
+		}
+	}
+
 }

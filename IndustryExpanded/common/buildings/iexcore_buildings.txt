@@ -46,7 +46,7 @@ building_oil_refinery = {
 }
 
 building_wiremill = {
-	building_group = bg_light_industry
+	building_group = bg_heavy_industry
 	icon = "gfx/b_icons/wiremill.dds"
 	
 	unlocking_technologies = {
@@ -56,9 +56,9 @@ building_wiremill = {
 	production_method_groups = {
 		pmg_wiremill_base
 		pmg_wiremill_material
-		pmg_automation_building_small
+		pmg_automation_building_2500
 	}
-	required_construction = construction_cost_medium
+	required_construction = construction_cost_very_high
 	
 	possible = {
 		owner = {
