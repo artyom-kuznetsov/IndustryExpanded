@@ -1,5 +1,177 @@
 ﻿# LIVESTOCK
 
+pm_open_air_stockyards = {
+	texture = "gfx/interface/icons/production_method_icons/open_air_stockyards.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_meat_add = 10 # 300
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4000
+			building_employment_farmers_add = 1000
+		}
+	}
+}
+
+pm_butchering_tools = {
+	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 2 # 60
+			goods_output_meat_add = 15 # 450
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_farmers_add = 1000
+		}
+	}
+}
+
+pm_slaughterhouses = {
+	texture = "gfx/interface/icons/production_method_icons/slaughterhouses.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		mechanical_tools
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5 # 200
+			goods_output_meat_add = 25 # 750
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3250
+			building_employment_farmers_add = 1000
+			building_employment_machinists_add = 250
+		}
+	}
+}
+
+pm_mechanized_slaughtering = {
+	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		mechanized_farming
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_tools_add = 5 # 200
+			goods_input_electricity_add = 5 # 150
+			goods_output_meat_add = 35 # 1050
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_farmers_add = 1000
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+
+### SECONDARY
+
+
+pm_simple_ranch = {
+	texture = "gfx/interface/icons/production_method_icons/sheep_ranch.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_fabric_add = 3
+			goods_output_meat_add = 2
+		}
+		level_scaled = {
+			building_employment_laborers_add = 500
+		}
+	}
+}
+
+pm_sheep_farms = {
+	texture = "gfx/interface/icons/production_method_icons/sheep_farms.dds"
+
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 10 # 200
+			goods_output_fabric_add = 15 # 300	# PROFIT 100
+		}
+		level_scaled = {
+			building_employment_farmers_add = 500
+		}
+	}
+}
+
+pm_pig_ranch = {
+	texture = "gfx/pm_icons/pig_ranch.dds"
+
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 10 # 200
+			goods_output_meat_add = 10 # 300	# PROFIT 100
+		}
+		level_scaled = {
+			building_employment_farmers_add = 500
+		}
+	}
+}
+
+pm_no_fertilizer_collection = {
+	texture = "gfx/pm_icons/no_fertilizer.dds"
+}
+
+pm_fertilizer_gathering = {
+	texture = "gfx/pm_icons/chemical.dds"
+
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 3				# 60
+			goods_output_fertilizer_add = 2.5		# 75	# PROFIT 15
+		}
+	}
+}
+
+pm_fertilizer_intensive = {
+	texture = "gfx/pm_icons/chemical2.dds"
+
+	unlocking_technologies = {
+		threshing_machine
+	}
+
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_grain_add = 5				# 100
+			goods_output_fertilizer_add = 5			# 150	# PROFIT 50
+		}
+	}
+}
+
 pm_barbed_wire_fences = {
 	texture = "gfx/interface/icons/production_method_icons/barbed_wire_fencing.dds"
 	unlocking_technologies = {

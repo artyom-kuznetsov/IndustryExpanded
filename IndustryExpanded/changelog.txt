@@ -1,6 +1,7 @@
 [h1]v13.0 BETA 5[/h1]
 -[b]Lumber Mill[/b] building from IEX v12 is back. It is the only way to produce Hardwood [i](now Lumber)[/i] again.
--[b]Distilleries[/b] building was split off food industries. Groceries and liquor are now produced separately.
+-[b]Distilleries[/b] building was split off food industries. Groceries and liquor are now produced separately. Patent Stills PM is now locked behind Pasteurization, making this tech not that useless.
+-Reworked Livestock Ranch: Added an option to produce meat instead of fabric, split fertilizer gathering into a new PMG.
 -Many buildings have been rebalanced to meet the new standard of industries in the mod. Some are buffed, some are nerfed.
 -Reverted Trade Centers employment to 1K (non-employing TCs bug gone)
 -Increased trade capacity from Trace Centers from 10 to 25

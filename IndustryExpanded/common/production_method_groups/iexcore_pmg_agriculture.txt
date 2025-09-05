@@ -1,0 +1,18 @@
+﻿
+pmg_sheep_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_simple_ranch
+		pm_sheep_farms
+		pm_pig_ranch
+	}
+}
+
+pmg_ranch_fertilizer = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_fertilizer_collection
+		pm_fertilizer_gathering
+		pm_fertilizer_intensive
+	}
+}

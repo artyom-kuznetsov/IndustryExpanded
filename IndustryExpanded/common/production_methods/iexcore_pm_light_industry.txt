@@ -1,7 +1,7 @@
 ﻿### DISTILLERIES ###
 
 pm_alcohol_production = {
-	texture = "gfx/interface/icons/production_method_icons/alcohol_production.dds"
+	texture = "gfx/pm_icons/alcohol_production.dds"
 	
 	building_modifiers = {
 		workforce_scaled = {
@@ -24,7 +24,7 @@ pm_pot_stills = {
 	texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
 
 	unlocking_technologies = {
-		distillation
+		fractional_distillation
 	}
 
 	building_modifiers = {
@@ -49,7 +49,7 @@ pm_patent_stills = {
 	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
 
 	unlocking_technologies = {
-		fractional_distillation
+		pasteurization
 	}
 
 	building_modifiers = {
@@ -163,7 +163,7 @@ pm_electrical_saw_lm = {
 }
 
 pm_no_secondary_treatment = {
-	texture = "gfx/interface/icons/production_method_icons/no_use.dds"
+	texture = "gfx/pm_icons/no_chemical.dds"
 	
 
 }

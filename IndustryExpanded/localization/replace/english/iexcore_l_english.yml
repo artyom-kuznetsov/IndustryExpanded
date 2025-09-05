@@ -168,3 +168,15 @@
  pm_sawdust_reuse:0 "Sawdust Reuse"
  pm_minimal_chemical_treatment:0 "Basic Chemical Treatment"
  pm_full_chemical_treatment:0 "Full Chemical Treatment"
+ 
+ # LIVESTOCK RANCH
+ pmg_sheep_ranch:0 "Enclosures"
+ 
+ pm_simple_ranch:0 "Simple Ranch"
+ pm_sheep_farms:0 "Sheep Farming"
+ pm_pig_ranch:0 "Pig Breeding"
+ 
+ pmg_ranch_fertilizer:0 "Fertilizers"
+ pm_no_fertilizer_collection:0 "No Fertilizer Gathering"
+ pm_fertilizer_gathering:0 "Fertilizer Gathering"
+ pm_fertilizer_intensive:0 "Intensive Grazing Ranch"
