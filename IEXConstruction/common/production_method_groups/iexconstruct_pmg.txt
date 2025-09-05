@@ -5,7 +5,6 @@
 	production_methods = {
 		pm_wooden_cs
 		pm_iron_frame_cs
-		pm_hardwood_cs
 		pm_steel_frame_cs
 	}
 }
@@ -17,6 +16,7 @@ pmg_secondary_construction_sector = {
 	production_methods = {
 		pm_fabric_cs
 		pm_fabric_wood_cs
+		pm_fabric_hardwood_cs
 		pm_glass_cs
 	}
 }

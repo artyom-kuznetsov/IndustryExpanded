@@ -1,6 +1,7 @@
 ﻿# LIVESTOCK
 
 pm_open_air_stockyards = {
+	is_default = yes
 	texture = "gfx/interface/icons/production_method_icons/open_air_stockyards.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -31,7 +32,7 @@ pm_butchering_tools = {
 
 pm_slaughterhouses = {
 	texture = "gfx/interface/icons/production_method_icons/slaughterhouses.dds"
-
+	
 	state_modifiers = {
 		workforce_scaled = {
 			state_pollution_generation_add = 10
@@ -88,7 +89,8 @@ pm_mechanized_slaughtering = {
 
 pm_simple_ranch = {
 	texture = "gfx/interface/icons/production_method_icons/sheep_ranch.dds"
-
+	is_default = yes
+	
 	building_modifiers = {
 		workforce_scaled = {
 			goods_output_fabric_add = 3
@@ -138,6 +140,7 @@ pm_pig_ranch = {
 
 pm_no_fertilizer_collection = {
 	texture = "gfx/pm_icons/no_fertilizer.dds"
+	is_default = yes
 }
 
 pm_fertilizer_gathering = {

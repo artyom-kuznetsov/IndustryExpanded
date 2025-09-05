@@ -4,7 +4,6 @@
  
  pm_wooden_cs:0 "Деревянные рамы"
  pm_iron_frame_cs:0 "Железные рамы"
- pm_hardwood_cs:0 "Усиленные рамы"
  pm_steel_frame_cs:0 "Стальные рамы"
  
  # SECONDARY
@@ -12,6 +11,7 @@
  
  pm_fabric_cs:0 "Ткань"
  pm_fabric_wood_cs:0 "Ткань-древесина"
+ pm_fabric_hardwood_cs:0 "Усиленные рамы"
  pm_glass_cs:0 "Стекло"
  
  # EXPLOSIVES

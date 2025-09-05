@@ -24,7 +24,8 @@ IEX Core is the main part of Industry Expanded which all the modules depend on.
 - 6 New Production Technologies
 - Oil Industry Expansion
 - New Goods: Wire, Fuel and Plastics
-- Rework and update of 6 vanilla buildings
+- Rework and update of many vanilla buildings
+- Improved agriculture
 - Electricity and Services goods are not local goods anymore
 - Enhanced pop needs, wealth levels 10-14 consume tea and coffee, pops actually shift to electricity for heating, consume more wine and more tweaks
 

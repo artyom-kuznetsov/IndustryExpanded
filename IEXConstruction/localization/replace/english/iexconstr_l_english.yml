@@ -4,7 +4,6 @@
  
  pm_wooden_cs:0 "Wooden Frame Buildings"
  pm_iron_frame_cs:0 "Iron Frame Buildings"
- pm_hardwood_cs:0 "Reinforced Frame Buildings"
  pm_steel_frame_cs:0 "Steel Frame Buildings"
  
  # SECONDARY
@@ -12,6 +11,7 @@
  
  pm_fabric_cs:0 "Fabric"
  pm_fabric_wood_cs:0 "Wood-Fabric"
+ pm_fabric_hardwood_cs:0 "Reinforced Frames"
  pm_glass_cs:0 "Glass"
  
  # EXPLOSIVES

@@ -32,34 +32,13 @@ pm_iron_frame_cs = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 2.5
+			country_construction_add = 2.75
 		}
 	}
 
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_iron_add = 50	# 2000	# MONEY/CP	=	800/1
-		}
-	}
-}
-
-pm_hardwood_cs = {
-	texture = "gfx/pm_icons/hardwood_cs.dds"
-	
-	unlocking_technologies = {
-		stone_roads
-	}
-
-	country_modifiers = {
-		workforce_scaled = {
-			country_construction_add = 3.25
-		}
-	}
-
-	building_modifiers = {
-		workforce_scaled = {
-			goods_input_iron_add = 50		# 2000
-			goods_input_hardwood_add = 10	# 400	# MONEY/CP	=	~738/1
 		}
 	}
 }
@@ -451,6 +430,27 @@ pm_fabric_wood_cs = {
 		workforce_scaled = {
 			goods_input_fabric_add = 20
 			goods_input_wood_add = 40	# 1200	# MONEY/CP	=	~889/1
+		}
+	}
+}
+
+pm_fabric_hardwood_cs = {
+	texture = "gfx/pm_icons/hardwood_cs.dds"
+	
+	unlocking_technologies = {
+		lathe
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 1.8
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fabric_add = 20
+			goods_input_hardwood_add = 25	# 1400	# MONEY/CP	=	~777/1
 		}
 	}
 }

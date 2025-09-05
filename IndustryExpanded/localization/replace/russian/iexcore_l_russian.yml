@@ -168,3 +168,15 @@
  pm_sawdust_reuse:0 "Повторное использование опилок"
  pm_minimal_chemical_treatment:0 "Минимальная химическая обработка"
  pm_full_chemical_treatment:0 "Полная химическая обработка"
+ 
+ # LIVESTOCK RANCH
+ pmg_sheep_ranch:0 "Загоны"
+ 
+ pm_simple_ranch:0 "Простая ферма"
+ pm_sheep_farms:0 "Разведение овец"
+ pm_pig_ranch:0 "Разведение свиней"
+ 
+ pmg_ranch_fertilizer:0 "Удобрения"
+ pm_no_fertilizer_collection:0 "Не собирать удобрения"
+ pm_fertilizer_gathering:0 "Сбор удобрений"
+ pm_fertilizer_intensive:0 "Активный выпас"
