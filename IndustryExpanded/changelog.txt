@@ -1,11 +1,14 @@
 [h1]v13.0 BETA 5[/h1]
--Many buildings have been rebalanced to meet the new standard of industries in the mod
+-[b]Lumber Mill[/b] building from IEX v12 is back. It is the only way to produce Hardwood [i](now Lumber)[/i] again.
+-[b]Distilleries[/b] building was split off food industries. Groceries and liquor are now produced separately.
+-Many buildings have been rebalanced to meet the new standard of industries in the mod. Some are buffed, some are nerfed.
 -Reverted Trade Centers employment to 1K (non-employing TCs bug gone)
 -Increased trade capacity from Trace Centers from 10 to 25
 -Increased Trade Centers construction cost from 100 to 200
 -Artillery Foundries and Arms Industries first PM don't require hardwood anymore
 
 -Fixed fuel_mult missing localization
+-Updated icon for rubber insulated wires
 
 [h2]UrbanismPlus v1.0[/h2]
 [b]Module Release[/b]

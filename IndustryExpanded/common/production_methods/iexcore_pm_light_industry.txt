@@ -1,4 +1,240 @@
-﻿### FURNITURE MANUFACTORY ###
+﻿### DISTILLERIES ###
+
+pm_alcohol_production = {
+	texture = "gfx/interface/icons/production_method_icons/alcohol_production.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 19.5
+			goods_input_sugar_add = 7				# TOTAL 600
+			
+			# output goods
+			goods_output_liquor_add = 40				# 1200 # PROFIT 600
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3500
+		}
+	}
+}
+
+pm_pot_stills = {
+	texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
+
+	unlocking_technologies = {
+		distillation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_grain_add = 40				# 800
+			goods_input_sugar_add = 20				# 600	# TOTAL 1400
+
+			# output goods
+			goods_output_liquor_add = 75				# 2250
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 500
+		}
+	}
+}
+
+pm_patent_stills = {
+	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
+
+	unlocking_technologies = {
+		fractional_distillation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_glass_add = 10				# 400
+			goods_input_grain_add = 50				# 1000
+			goods_input_sugar_add = 30				# 900	# TOTAL 2300
+
+			# output goods
+			goods_output_liquor_add = 135			# 4050
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+
+
+### LUMBER MILL	###
+
+pm_manual_sawing_lm = {
+	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 5 # 200
+			goods_input_wood_add = 40 # 800 # TOTAL 1000
+			
+			# output goods
+			goods_output_hardwood_add = 45 # 1800 # PROFIT 800
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4250
+			building_employment_machinists_add = 250
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
+
+pm_powered_sawing_lm = {
+	texture = "gfx/pm_icons/powered_saw_lumber_mill.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	
+	unlocking_technologies = {
+		mechanical_production
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 10.5		# 420
+			goods_input_coal_add = 6 			# 180
+			goods_input_wood_add = 50 			# 1000 # TOTAL 1500
+			
+			# output goods
+			goods_output_hardwood_add = 62.5 # 2500 # PROFIT 1000
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3500
+			building_employment_machinists_add = 800
+			building_employment_engineers_add = 200
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
+
+pm_electrical_saw_lm = {
+	texture = "gfx/pm_icons/electric_saw_lumber_mill.dds"
+	
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 15 			# 600
+			goods_input_electricity_add = 10	# 300
+			goods_input_wood_add = 60			# 1200 # TOTAL 2100
+			
+			# output goods
+			goods_output_hardwood_add = 90		# 3600 # PROFIT 1500
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+
+}
+
+pm_no_secondary_treatment = {
+	texture = "gfx/interface/icons/production_method_icons/no_use.dds"
+	
+
+}
+
+pm_minimal_chemical_treatment = {
+	texture = "gfx/interface/icons/production_method_icons/leblanc_process.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	
+	unlocking_technologies = {
+		chemical_bleaching
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 3 			# 120
+			goods_input_fertilizer_add = 6		# 180	# TOTAL 300
+			
+			# output goods
+			goods_output_hardwood_add = 10	# 400 # PROFIT 100
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 75
+			building_employment_engineers_add = 75
+		}
+	}
+
+}
+
+pm_full_chemical_treatment = {
+	texture = "gfx/interface/icons/production_method_icons/ammonia_soda_process.dds"
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 8
+		}
+	}
+
+	
+	unlocking_technologies = {
+		aniline
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_electricity_add = 5		# 150
+			goods_input_fertilizer_add = 10		# 300 # TOTAL 450
+			
+			# output goods
+			goods_output_hardwood_add = 20	# 800 # PROFIT 300
+		}
+
+		level_scaled = {
+			building_employment_machinists_add = 125
+			building_employment_engineers_add = 125
+		}
+	}
+	
+
+}
+
+
+### FURNITURE MANUFACTORY ###
 
 pm_handcrafted_furniture = {
 	texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"

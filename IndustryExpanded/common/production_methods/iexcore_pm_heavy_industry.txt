@@ -663,7 +663,7 @@ pm_insulated_cable = {
 }
 
 pm_rubber_insulation = {
-	texture = "gfx/pm_icons/elastics_main.dds"
+	texture = "gfx/pm_icons/rubber_insulation.dds"
 	
 	
 	unlocking_technologies = {

@@ -310,15 +310,6 @@ pmg_base_paper = {
 	}
 }
 
-pmg_distillery = {
-	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
-	production_methods = {
-		pm_alcohol_production
-		pm_pot_stills
-		pm_patent_stills
-	}
-}
-
 pmg_winery = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {

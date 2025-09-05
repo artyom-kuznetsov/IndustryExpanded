@@ -1,4 +1,31 @@
 ﻿
+pmg_distillery = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_alcohol_production
+		pm_pot_stills
+		pm_patent_stills
+	}
+}
+
+pmg_base_building_lumber_mill = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_manual_sawing_lm
+		pm_powered_sawing_lm
+		pm_electrical_saw_lm
+	}
+}
+
+pmg_secondary_building_lumber_mill = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_no_secondary_treatment
+		pm_minimal_chemical_treatment
+		pm_full_chemical_treatment
+	}
+}
+
 pmg_base_paper = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {

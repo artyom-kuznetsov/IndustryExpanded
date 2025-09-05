@@ -68,40 +68,6 @@ building_oil_rig = {
 		NOT = { is_under_construction = yes }
 	}
 }
-building_logging_camp = {
-	building_group = bg_logging
-	icon = "gfx/interface/icons/building_icons/logging_camp.dds"
-	city_type = wood
-	required_construction = construction_cost_low
-	terrain_manipulator = forestry
-	levels_per_mesh = 5
-
-	production_method_groups = {
-		pmg_base_building_logging_camp
-		pmg_hardwood
-		pmg_equipment
-		pmg_transportation_building_logging_camp
-	}
-	ownership_type = self
-
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
-	
-	should_auto_expand = { 
-		occupancy >= 0.6
-		owner = {
-			market = {
-				mg:wood = { 
-					market_goods_pricier > 0.01
-				}
-			}
-		}
-		state = {
-			infrastructure_delta >= -2
-		}
-		NOT = { is_under_construction = yes }
-	}
-}
-
 building_rubber_plantation = {
 	building_group = bg_rubber
 	icon = "gfx/interface/icons/building_icons/rubber_lodge.dds"
@@ -408,46 +374,6 @@ building_arms_industry = {
 		owner = {
 			market = {
 				mg:small_arms = { 
-					market_goods_pricier > -0.02
-				}
-			}
-		}
-		state = {
-			infrastructure_delta >= -2
-		}
-		NOT = { is_under_construction = yes }
-	}
-}
-
-building_food_industry = {
-	building_group = bg_light_industry
-	icon = "gfx/interface/icons/building_icons/food_industry.dds"
-	city_type = city
-	levels_per_mesh = 5
-	
-	ai_nationalization_desire = -0.25 # AI is generally fine with privatizing consumer goods industries
-	
-	unlocking_technologies = {
-		manufacturies
-	}
-
-	production_method_groups = {
-		pmg_base_building_food_industry
-		pmg_canning
-		pmg_distillery
-		pmg_automation_building_food_industry
-	}
-
-	required_construction = construction_cost_high
-	ownership_type = self
-
-	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
-	
-	should_auto_expand = { 
-		occupancy >= 0.8
-		owner = {
-			market = {
-				mg:groceries = { 
 					market_goods_pricier > -0.02
 				}
 			}
