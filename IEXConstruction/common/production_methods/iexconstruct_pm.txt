@@ -464,13 +464,14 @@ pm_glass_cs = {
 
 	country_modifiers = {
 		workforce_scaled = {
-			country_construction_add = 2.4
+			country_construction_add = 3
 		}
 	}
 	
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_glass_add = 40	# 1600	# MONEY/CP	=	~667/1
+			goods_input_glass_add = 40	# TOTAL 2000	# MONEY/CP	=	~666/1
+			goods_input_hardwood_add = 10	
 		}
 	}
 }
