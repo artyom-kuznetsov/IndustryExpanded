@@ -18,7 +18,7 @@
 Mod version: [b]v1[/b]
 Game version: [b]v1.9.8[/b]
 This module requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503014205]roads module[/url] as well.
-[img]https://i.imgur.com/5UcgQMM.png[/img]
+[img]https://i.imgur.com/fwdIwjS.png[/img]
 
 Thanks for playing Industry Expanded!
 [img]https://i.imgur.com/aNDO8WK.gif[/img]

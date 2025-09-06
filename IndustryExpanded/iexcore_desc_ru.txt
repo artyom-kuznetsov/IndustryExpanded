@@ -32,11 +32,12 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 
 [h1]Больше контента![/h1]
 [h2]Установите все модули для лучшего опыта игры с Industry Expanded.[/h2]
-[img]https://i.imgur.com/5UcgQMM.png[/img]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505037469]Улучшенное авторасширение[/url]
+[img]https://i.imgur.com/fwdIwjS.png[/img]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503014205]Грузи и Вези - Дорожные сети[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3562825340]UrbanismPlus[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505957844]Difficult Terrain[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3519992494]Адекватные силовые блоки[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3505037469]Улучшенное авторасширение[/url]
 
 [h1]Локализация[/h1]
 Мод из коробки поддерживает [b]Русский[/b] и [b]Английский[/b] языки.

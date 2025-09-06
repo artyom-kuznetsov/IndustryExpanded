@@ -15,7 +15,7 @@
 [h2]Metadata[/h2]
 Mod version: [b]v1.2[/b]
 Game version: [b]v1.9.8[/b]
-[img]https://i.imgur.com/5UcgQMM.png[/img]
+[img]https://i.imgur.com/fwdIwjS.png[/img]
 
 [b]Overrides:[/b]
--buildings (auto-expansion triggers only, no functional changes): building_power_plant, building_steel_mills, building_furniture_manufacturies, building_munition_plants, building_motor_industry, building_tooling_workshops, building_chemical_plants, building_explosives_factory, building_food_industry, building_arms_industry, building_textile_mills, building_electrics_industry, building_fishing_wharf, building_rubber_plantation, building_logging_camp, building_oil_rig, building_coal_mine, building_iron_mine, building_sulfur_mine, building_lead_mine
+-buildings (auto-expansion triggers only, no functional changes): building_power_plant, building_steel_mills, building_munition_plants, building_tooling_workshops, building_chemical_plants, building_explosives_factory, building_arms_industry, building_electrics_industry, building_fishing_wharf, building_rubber_plantation, building_oil_rig, building_coal_mine, building_iron_mine, building_sulfur_mine, building_lead_mine
