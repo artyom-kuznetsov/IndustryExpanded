@@ -756,7 +756,8 @@ pm_electric_engines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 25				# 1250
+			goods_input_steel_add = 21				# 1050
+			goods_input_wire_add = 10				# 200
 			goods_input_tools_add = 10				# 400
 			goods_input_electricity_add = 10		# 300	# TOTAL 1950
 
@@ -791,7 +792,8 @@ pm_diesel_engines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 25				# 1250
+			goods_input_steel_add = 21				# 1050
+			goods_input_wire_add = 10				# 200
 			goods_input_tools_add = 10				# 400
 			goods_input_electricity_add = 8			# 240
 			goods_input_fuel_add = 8				# 400	# TOTAL 2290
