@@ -23,3 +23,11 @@ wire = {
 	
 	traded_quantity = 7 # 210
 }
+
+copper = {
+	texture = "gfx/goods_icons/copper.dds"
+	cost = 40
+	category = industrial
+	
+	traded_quantity = 7 # 210
+}

@@ -13,6 +13,23 @@ goods_input_wire_add = {
 		ai_value=0
 	}
 }
+
+goods_output_copper_add = {
+	color=good
+	percent = no
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_copper_add = {
+	color=bad
+	percent = no	
+	game_data={
+		ai_value=0
+	}
+}
+
 goods_output_plastics_add = {
 	color=good
 	percent = no
@@ -67,6 +84,14 @@ goods_output_fuel_mult = {
 	decimals=0
 	color=good
 	percent = yes
+	game_data={
+		ai_value=0
+	}
+}
+
+state_building_copper_mine_max_level_add={
+	decimals=0
+	color=good
 	game_data={
 		ai_value=0
 	}

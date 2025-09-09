@@ -56,8 +56,9 @@
  goods_input_wire_add_desc:0 "Количество @wire! проволоки, потребляемого сооружениями."
  
  # MISC
- building_chemical_plants:0 "Химические заводы"   # Vanilla Override
- building_iron_mine:0 "Шахты металлов"             # Vanilla Override
+ building_chemical_plants:0 "Химические заводы"     # Vanilla Override
+ building_iron_mine:0 "Шахты чёрных металлов"       # Vanilla Override
+ bg_iron_mining:0 "Шахты чёрных металлов"           # Vanilla Override
  
  # TEXTILE MILLS
  pmg_sewing_textile:0 "Шитьё"
@@ -180,3 +181,30 @@
  pm_no_fertilizer_collection:0 "Не собирать удобрения"
  pm_fertilizer_gathering:0 "Сбор удобрений"
  pm_fertilizer_intensive:0 "Активный выпас"
+ 
+ # COPPER MINES
+ building_copper_mine:0 "Шахты цветных металлов"
+ building_copper_mine_lens_option:0 "Expand $building_copper_mine$"
+ bg_copper_mining:0 "Шахты цветных металлов"
+ 
+ pmg_mining_equipment_building_copper_mine:0 "$pmg_mining_equipment_building_iron_mine$"
+ 
+ pm_picks_and_shovels_building_copper_mine:0 "$pm_picks_and_shovels_building_iron_mine$"
+ pm_atmospheric_engine_pump_building_copper_mine:0 "$pm_atmospheric_engine_pump_building_iron_mine$"
+ pm_condensing_engine_pump_building_copper_mine:0 "$pm_condensing_engine_pump_building_iron_mine$"
+ pm_diesel_pump_building_copper_mine:0 "$pm_diesel_pump_building_iron_mine$"
+ 
+ pmg_explosives_building_copper_mine:0 "$pmg_explosives_building_iron_mine$"
+ 
+ pm_nitroglycerin_building_copper_mine:0 "$pm_nitroglycerin_building_iron_mine$"
+ pm_dynamite_building_copper_mine:0 "$pm_dynamite_building_iron_mine$"
+ 
+ state_trait_tiny_copper_field:0 "Бедные медные месторождения"
+ state_trait_small_copper_field:0 "Небольшие медные месторождения"
+ state_trait_medium_copper_field:0 "Существенные медные месторождения"
+ state_trait_large_copper_field:0 "Большие медные месторождения"
+ state_trait_huge_copper_field:0 "Богатые медные месторождения"
+ state_trait_gigantic_copper_field:0 "Колоссальные медные месторождения"
+ 
+ state_building_copper_mine_max_level_add:0 "Потенциал шахт цветных металлов"
+ state_building_copper_mine_max_level_add_desc:0 "Максимальный уровень шахт цветных металлов"

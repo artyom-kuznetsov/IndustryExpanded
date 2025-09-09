@@ -1,4 +1,50 @@
 ﻿
+building_copper_mine = {
+	building_group = bg_copper_mining
+	icon = "gfx/b_icons/copper_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	required_construction = construction_cost_medium
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		shaft_mining
+	}
+
+	production_method_groups = {
+		pmg_mining_equipment_building_copper_mine
+		pmg_explosives_building_copper_mine
+		pmg_steam_automation_building_iron_mine
+		pmg_train_automation_building_iron_mine
+	}
+	ownership_type = self
+
+	should_auto_expand = { 
+		occupancy >= 0.8
+		owner = {
+			market = {
+				mg:copper = { 
+					market_goods_pricier > 0.01
+				}
+			}
+		}
+		state = {
+			infrastructure_delta >= -2
+		}
+		NOT = { is_under_construction = yes }
+
+	}
+	
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+	
+	
+    potential = {
+        modifier:state_building_copper_mine_max_level_add > 0
+    }
+	
+	has_max_level = yes
+}
+
 building_distillery = {
 	building_group = bg_light_industry
 	icon = "gfx/b_icons/distillery.dds"

@@ -214,7 +214,7 @@ popneed_free_movement = {
 		goods = automobiles
 
 		weight = 1.25
-		max_supply_share = 1.0
+		max_supply_share = 0.5
 		min_supply_share = 0.0
 	}
 }

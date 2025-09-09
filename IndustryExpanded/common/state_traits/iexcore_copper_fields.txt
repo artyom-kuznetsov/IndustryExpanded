@@ -1,11 +1,8 @@
-﻿
-	
-	
-state_trait_tiny_copper_field = {
+﻿state_trait_tiny_copper_field = {
     icon = "gfx/interface/icons/state_trait_icons/copper_field.dds"
 	
 	modifier = {
-		state_building_iron_mine_max_level_add = 5
+		state_building_copper_mine_max_level_add = 5
 	}
 	
 }
@@ -14,7 +11,7 @@ state_trait_small_copper_field = {
     icon = "gfx/interface/icons/state_trait_icons/copper_field.dds"
 	
 	modifier = {
-		state_building_iron_mine_max_level_add = 10
+		state_building_copper_mine_max_level_add = 10
 	}
 	
 }
@@ -23,7 +20,7 @@ state_trait_medium_copper_field = {
     icon = "gfx/interface/icons/state_trait_icons/copper_field.dds"
 	
 	modifier = {
-		state_building_iron_mine_max_level_add = 25
+		state_building_copper_mine_max_level_add = 25
 	}
 	
 }
@@ -32,7 +29,7 @@ state_trait_large_copper_field = {
     icon = "gfx/interface/icons/state_trait_icons/copper_field.dds"
 	
 	modifier = {
-		state_building_iron_mine_max_level_add = 40
+		state_building_copper_mine_max_level_add = 40
 	}
 	
 }
@@ -41,7 +38,7 @@ state_trait_huge_copper_field = {
     icon = "gfx/interface/icons/state_trait_icons/copper_field.dds"
 	
 	modifier = {
-		state_building_iron_mine_max_level_add = 60
+		state_building_copper_mine_max_level_add = 60
 	}
 	
 }
@@ -50,7 +47,7 @@ state_trait_gigantic_copper_field = {
     icon = "gfx/interface/icons/state_trait_icons/copper_field.dds"
 	
 	modifier = {
-		state_building_iron_mine_max_level_add = 80
+		state_building_copper_mine_max_level_add = 90
 	}
 	
 }

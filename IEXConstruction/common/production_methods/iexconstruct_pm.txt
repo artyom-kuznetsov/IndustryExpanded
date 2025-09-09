@@ -476,6 +476,27 @@ pm_glass_cs = {
 	}
 }
 
+pm_plastic_glass_cs = {
+	texture = "gfx/pm_icons/plastics_main.dds"
+	
+	unlocking_technologies = {
+		plastics
+	}
+
+	country_modifiers = {
+		workforce_scaled = {
+			country_construction_add = 4.25
+		}
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_glass_add = 40	# TOTAL 2500	# MONEY/CP	=	~588/1
+			goods_input_plastics_add = 10
+		}
+	}
+}
+
 ### 
 
 ## URBAN CENTER

@@ -575,7 +575,7 @@ pm_solid_wire_extrusion = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 15		# 600
+			goods_input_copper_add = 15		# 600
 			
 			# output goods
 			goods_output_wire_add = 40		# 1200	# PROFIT 600
@@ -598,7 +598,7 @@ pm_stranded_wire_twisting = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 22.5		# 900
+			goods_input_copper_add = 22.5		# 900
 			
 			# output goods
 			goods_output_wire_add = 53.5	# 1605	# PROFIT 705
@@ -623,7 +623,7 @@ pm_electroplated_wire = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_iron_add = 30			# 1200
+			goods_input_copper_add = 30			# 1200
 			goods_input_electricity_add = 15	# 450
 			goods_input_fertilizer_add = 2		# 60	# TOTAL 1710
 			

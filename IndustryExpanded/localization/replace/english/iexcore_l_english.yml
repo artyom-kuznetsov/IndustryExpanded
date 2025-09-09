@@ -38,8 +38,9 @@
  # GOODS 
  fertilizer:0 "Chemicals"                       # Vanilla Override
  oil:0 "Crude Oil"                              # Vanilla Override
- iron:0 "Metals"                                # Vanilla Override
+ iron:0 "Black Metals"                          # Vanilla Override
  hardwood:0 "Lumber"                            # Vanilla Override
+ copper:0 "Colored Metals"                      # Vanilla Override
  
  fuel:0 "Refined Fuel"
  goods_input_fuel_add:0 "@fuel! Fuel input"
@@ -57,7 +58,8 @@
 
  # MISC
  building_chemical_plants:0 "Chemical Plants"   # Vanilla Override
- building_iron_mine:0 "Metal Mines"             # Vanilla Override
+ building_iron_mine:0 "Black Metals Mines"             # Vanilla Override
+ bg_iron_mining:0 "Black Metals Mines"
  
  # TEXTILE MILLS
  pmg_sewing_textile:0 "Sewing"
@@ -180,3 +182,31 @@
  pm_no_fertilizer_collection:0 "No Fertilizer Gathering"
  pm_fertilizer_gathering:0 "Fertilizer Gathering"
  pm_fertilizer_intensive:0 "Intensive Grazing Ranch"
+ 
+ # COPPER MINES
+ building_copper_mine:0 "Colored Metals Mines"
+ building_copper_mine_lens_option:0 "Expand $building_copper_mine$"
+ bg_copper_mining:0 "Colored Metals Mines"
+ 
+ pmg_mining_equipment_building_copper_mine:0 "$pmg_mining_equipment_building_iron_mine$"
+ 
+ pm_picks_and_shovels_building_copper_mine:0 "$pm_picks_and_shovels_building_iron_mine$"
+ pm_atmospheric_engine_pump_building_copper_mine:0 "$pm_atmospheric_engine_pump_building_iron_mine$"
+ pm_condensing_engine_pump_building_copper_mine:0 "$pm_condensing_engine_pump_building_iron_mine$"
+ pm_diesel_pump_building_copper_mine:0 "$pm_diesel_pump_building_iron_mine$"
+ 
+ pmg_explosives_building_copper_mine:0 "$pmg_explosives_building_iron_mine$"
+ 
+ pm_nitroglycerin_building_copper_mine:0 "$pm_nitroglycerin_building_iron_mine$"
+ pm_dynamite_building_copper_mine:0 "$pm_dynamite_building_iron_mine$"
+ 
+ state_trait_tiny_copper_field:0 "Poor Copper Deposits"
+ state_trait_small_copper_field:0 "Small Copper Deposits"
+ state_trait_medium_copper_field:0 "Sizeable Copper Deposits"
+ state_trait_large_copper_field:0 "Large Copper Deposits"
+ state_trait_huge_copper_field:0 "Rich Copper Deposits"
+ state_trait_gigantic_copper_field:0 "Enormous Copper Deposits"
+ 
+ state_building_copper_mine_max_level_add:0 "Colored Metals Mining Potential"
+ state_building_copper_mine_max_level_add_desc:0 "Maximum level of Colored Metals Mines"
+ 

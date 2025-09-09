@@ -1,3 +1,14 @@
+[h1]v13.0[/h1]
+[h2]UrbanismPlus v1.1[/h2]
+-[b]Copper Mines[/b] that once were in the mod, were added back, just as the corresponding good. Copper will be used in a lot of places, though it is not vital for a country, like it was before. Lack of it will severely limit your production chains though.
+-Added a new secondary material PM for construction sector after Glass: Glass-Plastic
+
+
+
+
+
+
+
 [h1]v13.0 BETA 5[/h1]
 -[b]Lumber Mill[/b] building from IEX v12 is back. It is the only way to produce Hardwood [i](now Lumber)[/i] again.
 -[b]Distilleries[/b] building was split off food industries. Groceries and liquor are now produced separately. Patent Stills PM is now locked behind Pasteurization, making this tech not that useless.

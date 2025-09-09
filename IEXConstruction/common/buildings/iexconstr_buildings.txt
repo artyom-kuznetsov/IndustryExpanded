@@ -25,72 +25,22 @@ building_construction_sector = {
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 	
-	### CREDIT AAI ###
 	ai_value = {
 		value = 1000
-
-		# Iron/Steel
+		# KAI: Prefer states with iron
 		if = {
 			limit = {
-				state_population >= 300000
+				state_population >= 250000
 				has_potential_resource = bg_iron_mining
-			}
-			multiply = {
-				value = "num_potential_resources(bg:bg_iron_mining)"
-				divide = 5
-				floor = yes
-				multiply = 0.05
-				add = 1
-				max = 2
-			}
-		}
-		
-		if = {
-			limit = {
-				owner = {
-					has_technology_researched = steel_frame_buildings
+				NOR = {
+					has_building = building_construction_sector
+					any_scope_building = {
+						is_building_type = building_construction_sector
+						is_under_construction = yes
+					}
 				}
 			}
-			# Glass
-			if = {
-				limit = {
-					state_population >= 300000
-					has_potential_resource = bg_lead_mining
-				}
-				multiply = {
-					value = "num_potential_resources(bg:bg_lead_mining)"
-					divide = 5
-					floor = yes
-					multiply = 0.02
-					add = 1
-					max = 1.1
-				}
-			}
-			# Explosives
-			if = {
-				limit = {
-					state_population >= 300000
-					has_potential_resource = bg_sulfur_mining
-				}
-				multiply = {
-					value = "num_potential_resources(bg:bg_sulfur_mining)"
-					divide = 5
-					floor = yes
-					multiply = 0.02
-					add = 1
-					max = 1.05
-				}
-			}
-		}
-		else = {
-			multiply = {
-				value = "num_potential_resources(bg:bg_logging)"
-				divide = 10
-				floor = yes
-				multiply = 0.05
-				add = 1
-				max = 1.2
-			}
+			add = 500
 		}
 	}
 

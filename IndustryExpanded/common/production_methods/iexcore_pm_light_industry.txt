@@ -90,8 +90,7 @@ pm_manual_sawing_lm = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 4250
-			building_employment_machinists_add = 250
+			building_employment_laborers_add = 4500
 			building_employment_shopkeepers_add = 500
 		}
 	}
@@ -127,9 +126,9 @@ pm_powered_sawing_lm = {
 		}
 
 		level_scaled = {
-			building_employment_laborers_add = 3500
-			building_employment_machinists_add = 800
-			building_employment_engineers_add = 200
+			building_employment_laborers_add = 3750
+			building_employment_machinists_add = 500
+			building_employment_engineers_add = 250
 			building_employment_shopkeepers_add = 500
 		}
 	}
@@ -373,7 +372,6 @@ pm_precision_tools = {
 	texture = "gfx/interface/icons/production_method_icons/luxury_furniture_increased.dds"
 
 	unlocking_production_methods = {
-		pm_lathe
 		pm_mechanized_workshops
 		pm_plastic_furniture
 	}
@@ -383,8 +381,8 @@ pm_precision_tools = {
 			# input goods
 			
 			# output goods
-			goods_output_furniture_add = -60			# 
-			goods_output_luxury_furniture_add = 30		# NO PROFIT
+			goods_output_furniture_add = -70			# 
+			goods_output_luxury_furniture_add = 35		# NO PROFIT
 		}						
 	}
 }
