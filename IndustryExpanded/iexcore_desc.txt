@@ -21,9 +21,10 @@ Feel overwhelmed by all the different modules and don't know what to install and
 [h1]Industry Expanded Core[/h1]
 IEX Core is the main part of Industry Expanded which all the modules depend on.
 [h2]Contents of the Core:[/h2]
-- 6 New Production Technologies
+- 7 New Production Technologies
 - Oil Industry Expansion
-- New Goods: Wire, Fuel and Plastics
+- Electronics Industry Expansion
+- New Goods: Colored Metals, Wire, Electronics, Fuel and Plastics
 - Rework and update of many vanilla buildings
 - Improved agriculture
 - Electricity and Services goods are not local goods anymore
@@ -48,7 +49,7 @@ Fan-made translations: (if you make one, ask me to add it here)
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v13.0 BETA 5[/b]
+Mod version: [b]v13.0[/b]
 Game version: [b]v1.9.8[/b]
 
 Thanks for playing Industry Expanded!
@@ -56,8 +57,8 @@ Thanks for playing Industry Expanded!
 
 [b]Overrides:[/b]
 -trade goods: services, electricity, iron
--buildings: building_motor_industry, building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries, building_trade_center, building_livestock_ranch, building_logging_camp, building_food_industry
--pmgs: pmg_base_paper; all pmgs: glassworks, furniture, textile, livestock ranch, food industries; pmg_base_building_motor_industry
+-buildings: building_motor_industry, building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries, building_trade_center, building_livestock_ranch, building_logging_camp, building_food_industry, building_electrics_industry
+-pmgs: pmg_base_paper; all pmgs: electrics, glassworks, furniture, textile, livestock ranch, food industries; pmg_base_building_motor_industry
 -pms: all pms: glassworks, motor, furniture; pm_muskets, pm_bolt_action_rifles, pm_cannons, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
 -technologies: most of production technologies
 -turmoil static modifiers

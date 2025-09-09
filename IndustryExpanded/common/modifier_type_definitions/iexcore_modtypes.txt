@@ -14,6 +14,22 @@ goods_input_wire_add = {
 	}
 }
 
+goods_output_electronics_add = {
+	color=good
+	percent = no
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_input_electronics_add = {
+	color=bad
+	percent = no	
+	game_data={
+		ai_value=0
+	}
+}
+
 goods_output_copper_add = {
 	color=good
 	percent = no

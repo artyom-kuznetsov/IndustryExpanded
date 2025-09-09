@@ -295,7 +295,7 @@ telephone = {
 	category = production
 	
 	unlocking_technologies = {
-		electrical_generation
+		electrical_capacitors
 	}
 	
 	modifier = {
@@ -306,6 +306,42 @@ telephone = {
 		value = 1
 	}
 }
+radio = {
+	# Unlocks Radios PM in Electrics Industry
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/radio.dds"
+	category = production
+
+	unlocking_technologies = {
+		electrical_capacitors
+	}
+
+	modifier = {
+		country_max_declared_interests_add = 1
+	}
+
+	ai_weight = {
+		value = 1
+	}
+}
+
+
+advanced_electronics = {
+	era = era_5
+	texture = "gfx/tech_icons/advanced_electronics.dds"
+	category = production
+
+	unlocking_technologies = {
+		telephone
+		radio
+	}
+
+
+	ai_weight = {
+		value = 1
+	}
+}
+
 
 automatic_machines = {
 	era = era_4

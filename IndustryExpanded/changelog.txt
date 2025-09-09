@@ -1,7 +1,20 @@
 [h1]v13.0[/h1]
-[h2]UrbanismPlus v1.1[/h2]
 -[b]Copper Mines[/b] that once were in the mod, were added back, just as the corresponding good. Copper will be used in a lot of places, though it is not vital for a country, like it was before. Lack of it will severely limit your production chains though.
+-[b]Electronics[/b] - the new goods, were added. They are used in production of telephones, radios, engines, and other places you would expect.
+-[b]Radios[/b] and [b]Telephones[/b] are now produced in separate buildings.
+-Added a new technology - [b]Advanced Electronics[/b], that now unlocks more advanced PMs for Radio and Telephone factories.
+-Rebalanced Motor Industries
+-Brine Electrolysis PM for Explosives Industries was moved from Electrical Capacitors to Oil Refining.
+
+-Fixed Power Bloc Principle trade center PM was increasing country-wide input goods by 100%
+
+[h2]UrbanismPlus v1.1[/h2]
 -Added a new secondary material PM for construction sector after Glass: Glass-Plastic
+
+[h2]Sensible Power Blocs v1.2[/h2]
+-Up to date with IEX Core
+
+
 
 
 

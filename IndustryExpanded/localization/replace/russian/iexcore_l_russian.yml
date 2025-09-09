@@ -34,12 +34,16 @@
  metal_threading_desc:0 "Развитие технологий вытягивания и формования металла в нити стало основой для производства проволоки и кабелей, обеспечив развитие телеграфа, электрификации и современной промышленности."
  precise_metalworking:0 "Точная металлообработка"
  precise_metalworking_desc:0 "Совершенствование токарных и фрезерных станков, а также измерительных инструментов позволило изготавливать детали с невиданной ранее точностью, открыв путь к взаимозаменяемости компонентов, современному вооружению и электротехническим приборам."
+ advanced_electronics:0 "Продвинутая электроника"
+ advanced_electronics_desc:0 "Развитие вакуумных ламп и радиотехники открывает путь к новым областям применения электричества. От массового радиовещания до первых шагов в области автоматических вычислений — электроника становится основой будущего технологического прогресса."
 
  # GOODS 
  fertilizer:0 "Химикаты"                       # Vanilla Override
  oil:0 "Сырая нефть"                              # Vanilla Override
- iron:0 "Металлы"                                # Vanilla Override
+ iron:0 "Чёрные металлы"                                # Vanilla Override
  hardwood:0 "Пиломатериалы"                            # Vanilla Override
+ copper:0 "Цветные металлы"
+ electronics:0 "Электроприборы"
  
  fuel:0 "Топливо"
  goods_input_fuel_add:0 "Потребление @fuel! топлива"
@@ -55,7 +59,7 @@
  goods_input_wire_add:0 "Потребление @wire! проволоки"
  goods_input_wire_add_desc:0 "Количество @wire! проволоки, потребляемого сооружениями."
  
- # MISC
+ # BUILDING OVERRIDES
  building_chemical_plants:0 "Химические заводы"     # Vanilla Override
  building_iron_mine:0 "Шахты чёрных металлов"       # Vanilla Override
  bg_iron_mining:0 "Шахты чёрных металлов"           # Vanilla Override
@@ -208,3 +212,14 @@
  
  state_building_copper_mine_max_level_add:0 "Потенциал шахт цветных металлов"
  state_building_copper_mine_max_level_add_desc:0 "Максимальный уровень шахт цветных металлов"
+ 
+ # ELECTRONICS
+ building_electronics_factory:0 "Заводы электроприборов"
+ building_radios_assembly:0 "Радиомастерские"
+ building_electrics_industry:0 "Телефонные производства"   # Vanilla Override
+ 
+ pm_early_electronics:0 "Ранняя электроника"
+ pm_developed_electronics:0 "Развитая электроника"
+ 
+ pm_lr_radios:0 "Радио дальнего действия"
+ pm_experimental_telephones:0 "Опытные телефоны"

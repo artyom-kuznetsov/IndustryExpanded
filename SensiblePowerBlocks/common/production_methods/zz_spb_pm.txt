@@ -176,8 +176,11 @@ pm_trade_center_principle_external_trade_2 = {
 
 	building_modifiers = {
 		level_scaled = {
-			building_employment_clerks_add = 80
-			building_employment_shopkeepers_add = 20
+			building_employment_clerks_add = 800
+			building_employment_shopkeepers_add = 200
+		}
+		unscaled = {
+			building_goods_input_mult = 1
 		}
 	}
 	state_modifiers = {

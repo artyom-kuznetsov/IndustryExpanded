@@ -144,7 +144,8 @@ pm_electrical_saw_lm = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_tools_add = 15 			# 600
+			goods_input_tools_add = 10.5 		# >
+			goods_input_electronics_add = 4.5 	# <+ 600
 			goods_input_electricity_add = 10	# 300
 			goods_input_wood_add = 60			# 1200 # TOTAL 2100
 			
@@ -336,7 +337,7 @@ pm_plastic_furniture = {
 			goods_input_fabric_add = 15			# 300
 			goods_input_hardwood_add = 12.5		# 500
 			goods_input_tools_add = 10			# 400
-			goods_input_lead_add = 5			# 200	# TOTAL 2400
+			goods_input_electronics_add = 5		# 200	# TOTAL 2400
 			
 			# output goods
 			goods_output_furniture_add = 140	# 4200	# PROFIT 1800
@@ -492,7 +493,8 @@ pm_auto_press_paper = {
 			# input goods
 			goods_input_tools_add = 10 			# 400
 			goods_input_electricity_add = 10 	# 300
-			goods_input_fuel_add = 4 			# 200	# TOTAL 900
+			goods_input_electronics_add = 6.25	# 50
+			goods_input_fuel_add = 1 			# 50	# TOTAL 750
 			
 			# output goods
 			goods_output_paper_add = 60 		# 1800	# PROFIT 900
@@ -671,7 +673,7 @@ pm_electric_sewing_machines = {
 		workforce_scaled = {
 			# input goods
 			goods_input_fabric_add = 50			# 1000
-			goods_input_tools_add = 5			# 200
+			goods_input_electronics_add = 5		# 200
 			goods_input_wire_add = 6.5			# 195
 			goods_input_electricity_add = 10	# 300	# TOTAL 1695
 			

@@ -34,13 +34,16 @@
  metal_threading_desc:0 "Advances in drawing and shaping metal into continuous threads laid the foundation for the wire and cable industries, powering telegraphy, electrification, and modern manufacturing."
  precise_metalworking:0 "Precise Metalworking"
  precise_metalworking_desc:0 "The refinement of lathes, milling machines, and measuring tools enabled factories to produce components with unprecedented accuracy, paving the way for interchangeable parts, advanced weaponry, and electrical instruments."
+ advanced_electronics:0 "Advanced Electronics"
+ advanced_electronics_desc:0 "The development of vacuum tubes and radio technology paves the way for new applications of electricity. From mass broadcasting to the first steps in automatic computation, electronics is becoming the foundation of future technological progress."
 
  # GOODS 
  fertilizer:0 "Chemicals"                       # Vanilla Override
  oil:0 "Crude Oil"                              # Vanilla Override
  iron:0 "Black Metals"                          # Vanilla Override
  hardwood:0 "Lumber"                            # Vanilla Override
- copper:0 "Colored Metals"                      # Vanilla Override
+ copper:0 "Coloured Metals"
+ electronics:0 "Electronics"
  
  fuel:0 "Refined Fuel"
  goods_input_fuel_add:0 "@fuel! Fuel input"
@@ -56,10 +59,10 @@
  goods_input_wire_add:0 "@wire! Wire input"
  goods_input_wire_add_desc:0 "The amount of @wire! Wire consumed by buildings"
 
- # MISC
- building_chemical_plants:0 "Chemical Plants"   # Vanilla Override
- building_iron_mine:0 "Black Metals Mines"             # Vanilla Override
- bg_iron_mining:0 "Black Metals Mines"
+ # BUILDING OVERRIDES
+ building_chemical_plants:0 "Chemical Plants"           # Vanilla Override
+ building_iron_mine:0 "Black Metals Mines"              # Vanilla Override
+ bg_iron_mining:0 "Black Metals Mines"                  # Vanilla Override
  
  # TEXTILE MILLS
  pmg_sewing_textile:0 "Sewing"
@@ -184,9 +187,9 @@
  pm_fertilizer_intensive:0 "Intensive Grazing Ranch"
  
  # COPPER MINES
- building_copper_mine:0 "Colored Metals Mines"
+ building_copper_mine:0 "Coloured Metals Mines"
  building_copper_mine_lens_option:0 "Expand $building_copper_mine$"
- bg_copper_mining:0 "Colored Metals Mines"
+ bg_copper_mining:0 "Coloured Metals Mines"
  
  pmg_mining_equipment_building_copper_mine:0 "$pmg_mining_equipment_building_iron_mine$"
  
@@ -207,6 +210,18 @@
  state_trait_huge_copper_field:0 "Rich Copper Deposits"
  state_trait_gigantic_copper_field:0 "Enormous Copper Deposits"
  
- state_building_copper_mine_max_level_add:0 "Colored Metals Mining Potential"
- state_building_copper_mine_max_level_add_desc:0 "Maximum level of Colored Metals Mines"
+ state_building_copper_mine_max_level_add:0 "Coloured Metals Mining Potential"
+ state_building_copper_mine_max_level_add_desc:0 "Maximum level of Coloured Metals Mines"
  
+ # ELECTRONICS
+ building_electronics_factory:0 "Electronics Factories"
+ building_radios_assembly:0 "Radios Assembly"
+ building_electrics_industry:0 "Telephonic Factories"   # Vanilla Override
+ 
+ pmg_electronics:0 "Electronics Production"
+ 
+ pm_early_electronics:0 "Early Electronics"
+ pm_developed_electronics:0 "Developed Electronics"
+ 
+ pm_lr_radios:0 "Long-Range Radios"
+ pm_experimental_telephones:0 "Experimental Telephones"

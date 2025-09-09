@@ -29,5 +29,15 @@ copper = {
 	cost = 40
 	category = industrial
 	
-	traded_quantity = 7 # 210
+	prestige_factor = 3
+	traded_quantity = 5 # 200
+}
+
+electronics = {
+	texture = "gfx/goods_icons/electronics.dds"
+	cost = 40
+	category = industrial
+	
+	prestige_factor = 3
+	traded_quantity = 5 # 200
 }

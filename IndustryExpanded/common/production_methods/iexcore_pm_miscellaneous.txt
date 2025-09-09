@@ -1,4 +1,39 @@
 ﻿
+pm_brine_electrolysis = {
+	texture = "gfx/interface/icons/production_method_icons/vaccum_brine_electrolysis.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 25
+		}
+	}
+
+	unlocking_technologies = {
+		refining
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 40
+			goods_input_fertilizer_add = 50
+			goods_input_paper_add = 30
+			goods_input_electricity_add = 20
+
+			# output goods
+			goods_output_explosives_add = 150
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 1500
+		}
+	}
+
+}
+
 pm_oil-fired_plant = {
 	texture = "gfx/interface/icons/production_method_icons/oil_fired_plant.dds"
 
@@ -62,15 +97,15 @@ pm_trade_center_principle_external_trade_2 = {
 		workforce_scaled = {
 			country_influence_add = 0.5
 		}
-		unscaled = {
-			building_goods_input_mult = 1
-		}
 	}
 
 	building_modifiers = {
 		level_scaled = {
 			building_employment_clerks_add = 800
 			building_employment_shopkeepers_add = 200
+		}
+		unscaled = {
+			building_goods_input_mult = 1
 		}
 	}
 	state_modifiers = {

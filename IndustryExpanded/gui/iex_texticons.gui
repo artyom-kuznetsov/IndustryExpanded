@@ -48,3 +48,13 @@ texticon = {
 		fontsize = 18
 	}
 }
+
+texticon = {
+	icon = electronics
+	iconsize = {
+		texture = "gfx/goods_icons/electronics.dds"
+		size = { 25 25 }
+		offset = { 0 7 }
+		fontsize = 18
+	}
+}

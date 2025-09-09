@@ -725,10 +725,10 @@ pm_steam_engines = {
 
 	building_modifiers = {
 		workforce_scaled = {
-			goods_input_steel_add = 25		# 1250
-			goods_input_tools_add = 7.5		# 300	# TOTAL 1600
+			goods_input_steel_add = 20		# 1000
+			goods_input_tools_add = 10		# 400	# TOTAL 1400
 
-			goods_output_engines_add = 45	# 2700	# PROFIT 1100
+			goods_output_engines_add = 40	# 2400	# PROFIT 1000
 		}
 
 		level_scaled = {
@@ -756,13 +756,13 @@ pm_electric_engines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 21				# 1050
-			goods_input_wire_add = 10				# 200
+			goods_input_steel_add = 20				# 1000
 			goods_input_tools_add = 10				# 400
-			goods_input_electricity_add = 10		# 300	# TOTAL 1950
+			goods_input_electronics_add = 10		# 400
+			goods_input_oil_add = 2.5				# 100	# TOTAL 1900
 
 			# output goods
-			goods_output_engines_add = 55			# 3300	# PROFIT 1350
+			goods_output_engines_add = 52			# 3120	# PROFIT 1220
 		}
 
 		level_scaled = {
@@ -773,7 +773,6 @@ pm_electric_engines = {
 		}
 	}
 
-	required_input_goods = electricity
 }
 
 pm_diesel_engines = {
@@ -792,14 +791,13 @@ pm_diesel_engines = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 21				# 1050
-			goods_input_wire_add = 10				# 200
-			goods_input_tools_add = 10				# 400
-			goods_input_electricity_add = 8			# 240
-			goods_input_fuel_add = 8				# 400	# TOTAL 2290
+			goods_input_steel_add = 24				# 1200
+			goods_input_tools_add = 15				# 600
+			goods_input_electronics_add = 15		# 600
+			goods_input_fuel_add = 4				# 200	# TOTAL 2600
 
 			# output goods
-			goods_output_engines_add = 77			# 4620	# PROFIT 2330
+			goods_output_engines_add = 75			# 4500	# PROFIT 
 		}
 
 		level_scaled = {
