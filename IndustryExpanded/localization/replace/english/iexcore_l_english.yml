@@ -40,9 +40,9 @@
  # GOODS 
  fertilizer:0 "Chemicals"                       # Vanilla Override
  oil:0 "Crude Oil"                              # Vanilla Override
- iron:0 "Black Metals"                          # Vanilla Override
+ iron:0 "Ferrous Metals"                          # Vanilla Override
  hardwood:0 "Lumber"                            # Vanilla Override
- copper:0 "Coloured Metals"
+ copper:0 "Base Metals"
  electronics:0 "Electronics"
  
  fuel:0 "Refined Fuel"
@@ -187,9 +187,9 @@
  pm_fertilizer_intensive:0 "Intensive Grazing Ranch"
  
  # COPPER MINES
- building_copper_mine:0 "Coloured Metals Mines"
+ building_copper_mine:0 "Base Metals Mines"
  building_copper_mine_lens_option:0 "Expand $building_copper_mine$"
- bg_copper_mining:0 "Coloured Metals Mines"
+ bg_copper_mining:0 "Base Metals Mines"
  
  pmg_mining_equipment_building_copper_mine:0 "$pmg_mining_equipment_building_iron_mine$"
  
@@ -210,8 +210,8 @@
  state_trait_huge_copper_field:0 "Rich Copper Deposits"
  state_trait_gigantic_copper_field:0 "Enormous Copper Deposits"
  
- state_building_copper_mine_max_level_add:0 "Coloured Metals Mining Potential"
- state_building_copper_mine_max_level_add_desc:0 "Maximum level of Coloured Metals Mines"
+ state_building_copper_mine_max_level_add:0 "Base Metals Mining Potential"
+ state_building_copper_mine_max_level_add_desc:0 "Maximum level of Base Metals Mines"
  
  # ELECTRONICS
  building_electronics_factory:0 "Electronics Factories"

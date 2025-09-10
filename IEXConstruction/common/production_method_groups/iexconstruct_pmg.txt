@@ -18,6 +18,7 @@ pmg_secondary_construction_sector = {
 		pm_fabric_wood_cs
 		pm_fabric_hardwood_cs
 		pm_glass_cs
+		pm_plastic_glass_cs
 	}
 }
 

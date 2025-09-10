@@ -17,10 +17,11 @@
 - 3 и 4 слоты принципов силового блока больше не требуют определённого количества участников.
 - У каждого принципа теперь только 1 уровень
 - Принципы сбалансированы по отношению друг к другу
+- Скорость прироста мандата изменена так, что даже маленькие блоки могут получить мандаты.
 
 
 [h2]Метаданные[/h2]
-Версия мода: [b]v1.2[/b]
+Версия мода: [b]v1.3[/b]
 Версия игры: [b]v1.9.8[/b]
 [img]https://i.imgur.com/fwdIwjS.png[/img]
 
@@ -36,4 +37,5 @@
 -all power bloc principles
 -all PMs that were unlocked by principles
 -scripted rules: unlock_power_bloc_principle_slot_3; unlock_power_bloc_principle_slot_4
+-script values: power_bloc_mandate_progress_by_rank
 [/i]

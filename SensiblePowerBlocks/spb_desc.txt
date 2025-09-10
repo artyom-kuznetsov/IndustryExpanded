@@ -16,10 +16,11 @@ No? Well, I had since power blocs were introduced. So I [i]made[/i] this mod... 
 - 3 and 4 power bloc principle slots no longer have member quantity requirement.
 - There is only 1 level to each principle now.
 - Principles are balanced in comparison to each other.
+- Mandate Progress tweaked so small power blocs can have mandates.
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v1.2[/b]
+Mod version: [b]v1.3[/b]
 Game version: [b]v1.9.8[/b]
 [img]https://i.imgur.com/fwdIwjS.png[/img]
 
@@ -35,4 +36,5 @@ Thanks for playing Industry Expanded!
 -all power bloc principles
 -all PMs that were unlocked by principles
 -scripted rules: unlock_power_bloc_principle_slot_3; unlock_power_bloc_principle_slot_4
+-script values: power_bloc_mandate_progress_by_rank
 [/i]

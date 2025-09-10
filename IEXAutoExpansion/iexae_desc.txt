@@ -13,7 +13,7 @@
 -Fun fact: it does not really require IEX core to run
 
 [h2]Metadata[/h2]
-Mod version: [b]v1.3[/b]
+Mod version: [b]v1.4[/b]
 Game version: [b]v1.9.8[/b]
 [img]https://i.imgur.com/fwdIwjS.png[/img]
 

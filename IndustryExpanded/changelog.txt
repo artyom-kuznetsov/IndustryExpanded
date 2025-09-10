@@ -1,3 +1,23 @@
+[h1]v13.1[/h1]
+- Reworked Automobile Production PMs to use new goods.
+- Chemical Production now needs Copper instead of Iron.
+- Automatic Power Looms PM now consumes Electronics instead of Tools.
+- Swapped +25% Hardwood output from Pneumatic Tools with Wood output.
+- Positions of new buildings in buildings tab should be more intuitive now, rather than everything being at bottom.
+- Renamed "Coloured Metals" and "Black Metals" to "Base Metals" and "Ferrous Metals"
+
+[h2]Sensible Power Blocs v1.3[/h2]
+- Significantly increased mandate progress from power bloc ranking
+
+[h2]Enhanced Auto Expansion v1.4[/h2]
+- Fixed Sulfur Mines auto expansion triggered by Iron instead of Sulfur
+
+
+
+
+
+
+
 [h1]v13.0[/h1]
 -[b]Copper Mines[/b] that once were in the mod, were added back, just as the corresponding good. Copper will be used in a lot of places, though it is not vital for a country, like it was before. Lack of it will severely limit your production chains though.
 -[b]Electronics[/b] - the new goods, were added. They are used in production of telephones, radios, engines, and other places you would expect.
@@ -5,6 +25,7 @@
 -Added a new technology - [b]Advanced Electronics[/b], that now unlocks more advanced PMs for Radio and Telephone factories.
 -Rebalanced Motor Industries
 -Brine Electrolysis PM for Explosives Industries was moved from Electrical Capacitors to Oil Refining.
+-Added temporary research balancing measures to let you research most of the techs 
 
 -Fixed Power Bloc Principle trade center PM was increasing country-wide input goods by 100%
 

@@ -245,7 +245,7 @@ building_sulfur_mine = {
 		occupancy >= 0.6
 		owner = {
 			market = {
-				mg:iron = { 
+				mg:sulfur = { 
 					market_goods_pricier > 0.01
 				}
 			}

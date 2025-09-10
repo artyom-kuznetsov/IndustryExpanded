@@ -17,7 +17,7 @@
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v1.0.7[/b]
+Mod version: [b]v1.0.8[/b]
 Game version: [b]v1.9.8[/b]
 [img]https://i.imgur.com/fwdIwjS.png[/img]
 

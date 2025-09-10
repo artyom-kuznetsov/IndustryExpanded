@@ -121,7 +121,7 @@ pm_early_electronics = {
 
 pm_developed_electronics = {
 	unlocking_technologies = {
-		telephones
+		telephone
 	}
 	
 	texture = "gfx/pm_icons/vactube_main.dds"
@@ -141,6 +141,74 @@ pm_developed_electronics = {
 			building_employment_laborers_add = 2500
 			building_employment_machinists_add = 1500
 			building_employment_engineers_add = 500
+		}
+	}
+}
+
+pm_automobile_production = {
+	texture = "gfx/interface/icons/production_method_icons/automobiles.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		combustion_engine
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_engines_add = 10		# 600
+			goods_input_wire_add = 5			# 150
+			goods_input_rubber_add = 5			# 200
+			goods_input_oil_add = 5				# 200
+			goods_input_electricity_add = 5		# 150	# TOTAL 1300
+
+			# output goods
+			goods_output_automobiles_add = 30	# 3000	# PROFIT 1700
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+pm_mass_automobile_production = {
+	texture = "gfx/interface/icons/production_method_icons/standardized_automobiles.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_engines_add = 10		# 600
+			goods_input_electronics_add = 10	# 800
+			goods_input_rubber_add = 10			# 400
+			goods_input_fuel_add = 10			# 500
+			goods_input_electricity_add = 10	# 300	# TOTAL 2600
+
+			# output goods
+			goods_output_automobiles_add = 60	# 6000	# PROFIT 3400
+		}
+
+		level_scaled = {
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 1500
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1500
 		}
 	}
 }

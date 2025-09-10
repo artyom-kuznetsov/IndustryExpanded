@@ -13,6 +13,7 @@
  pm_fabric_wood_cs:0 "Wood-Fabric"
  pm_fabric_hardwood_cs:0 "Reinforced Frames"
  pm_glass_cs:0 "Glass"
+ pm_plastic_glass_cs:0 "Glass-Plastic"
  
  # EXPLOSIVES
  pmg_explosives_construction_sector:0 "Explosives"

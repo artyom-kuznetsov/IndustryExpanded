@@ -13,6 +13,7 @@
  pm_fabric_wood_cs:0 "Ткань-древесина"
  pm_fabric_hardwood_cs:0 "Усиленные рамы"
  pm_glass_cs:0 "Стекло"
+ pm_plastic_glass_cs:0 "Стекло-пластик"
  
  # EXPLOSIVES
  pmg_explosives_construction_sector:0 "Взрывчатка"
