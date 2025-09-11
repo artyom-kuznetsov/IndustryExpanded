@@ -474,6 +474,80 @@ pm_automation_assembly_lines_2500 = {
 	}
 }
 
+### 2000 LATE AUTOMATION
+
+pm_automation_conveyor_production_2000_late = {
+	texture = "gfx/pm_icons/conveyor_production.dds"
+	
+	unlocking_technologies = {
+		conveyors
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 2.5			# 100
+			goods_input_wire_add = 2			# 60
+			goods_input_oil_add = 1				# 40
+			goods_input_electricity_add = 3		# 60 	# TOTAL 290
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1500
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.15
+		}
+	}
+}
+
+pm_automation_assembly_lines_2000_late = {
+	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
+	
+	unlocking_technologies = {
+		assembly_lines
+	}
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+	
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 3			# 120
+			goods_input_wire_add = 3			# 90
+			goods_input_fuel_add = 2			# 100
+			goods_input_electricity_add = 3		# 90 	# TOTAL 400
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.2
+		}
+	}
+}
+
 ### SMALL BUILDING AUTOMATION ###
 
 ### AUTOMATION ###
@@ -575,6 +649,67 @@ pm_automation_automatic_motion = {
 		
 		unscaled = {
 			building_throughput_add = 0.15
+		}
+	}
+}
+
+
+### BAKERY ###
+
+pm_electric_ovens_bakery = {
+	texture = "gfx/pm_icons/bakery.dds"
+	
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	unlocking_technologies = {
+		steam_turbine
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 4.5		# 180
+			goods_input_electricity_add = 4	# 120	# TOTAL 300
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1500
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+
+pm_automated_bakery = {
+	texture = "gfx/interface/icons/production_method_icons/automated_bakery.dds"
+
+	disallowing_laws = {
+		law_industry_banned
+	}
+
+	unlocking_technologies = {
+		dough_rollers
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 6			# 240
+			goods_input_electronics_add = 3		# 120
+			goods_input_electricity_add = 10		# 180	# TOTAL 600
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -3000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.2
 		}
 	}
 }

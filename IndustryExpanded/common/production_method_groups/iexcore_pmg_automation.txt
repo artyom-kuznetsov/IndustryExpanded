@@ -31,6 +31,14 @@ pmg_automation_building_2500 = {
 	}
 }
 
+pmg_automation_building_2000_late = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_automation_conveyor_production_2000_late	# 1500 labourers
+		pm_automation_assembly_lines_2000_late		# 1500 labour 500 machinists
+	}
+}
+
 pmg_automation_building_small = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
@@ -38,5 +46,14 @@ pmg_automation_building_small = {
 		pm_automation_pneumatic_motion	# 2000
 		pm_automation_electric_motion	# 1500
 		pm_automation_automatic_motion	# 1000
+	}
+}
+
+pmg_automation_building_food_industry = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_manual_dough_processing
+		pm_electric_ovens_bakery
+		pm_automated_bakery
 	}
 }

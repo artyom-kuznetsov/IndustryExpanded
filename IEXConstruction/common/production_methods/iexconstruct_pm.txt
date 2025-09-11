@@ -121,7 +121,6 @@ pm_arc_welding_cs = {
 	
 	unlocking_production_methods = {
 		pm_iron_frame_cs
-		pm_hardwood_cs
 		pm_steel_frame_cs
 	}
 
@@ -138,7 +137,8 @@ pm_arc_welding_cs = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_electricity_add = 30	# 900
-			goods_input_tools_add = 20	# 800	# MONEY/CP	=	~566/1
+			goods_input_tools_add = 10			# 400
+			goods_input_electronics_add = 10	# 400	# MONEY/CP	=	~566/1
 		}
 		level_scaled = {
 			building_employment_bureaucrats_add = 100
@@ -346,7 +346,6 @@ pm_nitroglycerin_cs = {
 	
 	unlocking_production_methods = {
 		pm_iron_frame_cs
-		pm_hardwood_cs
 		pm_steel_frame_cs
 	}
 	
@@ -375,7 +374,6 @@ pm_dynamite_cs = {
 	
 	unlocking_production_methods = {
 		pm_iron_frame_cs
-		pm_hardwood_cs
 		pm_steel_frame_cs
 	}
 	

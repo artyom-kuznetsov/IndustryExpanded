@@ -2,9 +2,14 @@
 - Reworked Automobile Production PMs to use new goods.
 - Chemical Production now needs Copper instead of Iron.
 - Automatic Power Looms PM now consumes Electronics instead of Tools.
+- Arc Welders PM for Construction Sectors now consumes some Electronics.
 - Swapped +25% Hardwood output from Pneumatic Tools with Wood output.
+- Reintroduced Electrical Ovens automation PM for Food Industries. Unlocked by steam turbine. 
+- Automation in Automotive and Food Induestries now gives throughput bonus.
+
 - Positions of new buildings in buildings tab should be more intuitive now, rather than everything being at bottom.
 - Renamed "Coloured Metals" and "Black Metals" to "Base Metals" and "Ferrous Metals"
+- Tweaked employment in Food Industries. (5.5K Max / 3K Min >> 5K Max / 2.5K Min)
 
 [h2]Sensible Power Blocs v1.3[/h2]
 - Significantly increased mandate progress from power bloc ranking

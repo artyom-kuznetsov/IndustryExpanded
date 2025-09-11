@@ -122,6 +122,12 @@
  assembly_lines:0 "Производственные линии"
  assembly_lines_desc:0 "Разделение труда на последовательные операции вдоль движущейся линии, радикально повышающее эффективность и объёмы промышленного производства."
  
+ pmg_automation_building_2000_late:0 "$pmg_automation$"
+ pm_automation_conveyor_production_2000_late:0 "$pm_automation_pneumatic_conveyor$"
+ pm_automation_assembly_lines_2000_late:0 "$pm_automation_assembly_lines$"
+ 
+ pm_electric_ovens_bakery:0 "Электрические духовки"
+ 
  # FURNITURE MANUFACTORIES
  pm_plastic_furniture:0 "Бытовая техника"
  pm_luxury_furniture_focus:0 "Упор на производство роскошной мебели"

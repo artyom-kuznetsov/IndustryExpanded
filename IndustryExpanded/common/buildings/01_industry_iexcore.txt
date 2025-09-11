@@ -103,7 +103,7 @@ building_electrics_industry = {	# TELEPHONE FACTORY
 
 	production_method_groups = {
 		pmg_telephones_category
-		pmg_automation_building_2500
+		pmg_automation_building_2000_late
 	}
 	
 	required_construction = construction_cost_very_high
@@ -151,7 +151,7 @@ building_radios_assembly = {
 
 	production_method_groups = {
 		pmg_radios_category
-		pmg_automation_building_2500
+		pmg_automation_building_2000_late
 	}
 	
 	required_construction = construction_cost_very_high

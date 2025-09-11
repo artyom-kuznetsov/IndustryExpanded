@@ -61,8 +61,8 @@
 
  # BUILDING OVERRIDES
  building_chemical_plants:0 "Chemical Plants"           # Vanilla Override
- building_iron_mine:0 "Black Metals Mines"              # Vanilla Override
- bg_iron_mining:0 "Black Metals Mines"                  # Vanilla Override
+ building_iron_mine:0 "Ferrous Metals Mines"              # Vanilla Override
+ bg_iron_mining:0 "Ferrous Metals Mines"                  # Vanilla Override
  
  # TEXTILE MILLS
  pmg_sewing_textile:0 "Sewing"
@@ -121,6 +121,12 @@
  
  assembly_lines:0 "Assembly Lines"
  assembly_lines_desc:0 "The division of labor into sequential tasks performed along a moving line, drastically increasing industrial efficiency and output."
+ 
+ pmg_automation_building_2000_late:0 "$pmg_automation$"
+ pm_automation_conveyor_production_2000_late:0 "$pm_automation_pneumatic_conveyor$"
+ pm_automation_assembly_lines_2000_late:0 "$pm_automation_assembly_lines$"
+ 
+ pm_electric_ovens_bakery:0 "Electric Ovens"
  
  # FURNITURE MANUFACTORIES
  pm_plastic_furniture:0 "Home Appliances"
