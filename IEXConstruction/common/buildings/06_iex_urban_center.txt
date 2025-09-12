@@ -1,0 +1,29 @@
+﻿
+building_artisan_workshop = {
+	building_group = bg_artisans
+	icon = "gfx/b_icons/artisan_workshop.dds"
+	city_type = city
+	residence_points_per_level = 0
+
+	unlocking_technologies = {
+		urbanization
+	}
+
+	production_method_groups = {
+		pmg_artisan_base
+	}
+
+	buildable = no
+	expandable = no
+	downsizeable = no
+	can_switch_owner = no
+	
+	has_max_level = yes
+	min_raise_to_hire = 0.1
+
+	terrain_manipulator = urban_city
+
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_monuments.dds"
+}

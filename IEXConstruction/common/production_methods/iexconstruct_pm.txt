@@ -741,4 +741,65 @@ pm_public_motor_carriages = {
 }
 
 
-### CONSTRUCTION SECTOR ###
+### ARTISAN WORKSHOP ###
+
+pm_artisan_consumer = {
+	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fabric_add = 4			# 80
+			goods_input_wood_add = 4			# 80
+			goods_input_grain_add = 4			# 80
+			goods_input_meat_add = 1			# 30
+			goods_input_fish_add = 1			# 30	# TOTAL 300
+			
+			goods_output_clothes_add = 5				# 150
+			goods_output_luxury_clothes_add = 0.5		# 30
+			goods_output_furniture_add = 3				# 90
+			goods_output_luxury_furniture_add = 0.5		# 30
+			goods_output_groceries_add = 6				# 180
+			goods_output_liquor_add = 3					# 90
+			goods_output_paper_add = 4					# 90
+			goods_output_services_add = 3				# 90	# TOTAL 750	# PROFIT 450
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4500
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
+
+
+pm_artisan_industrial = {
+	texture = "gfx/pm_icons/artisan_industrial.dds"
+	
+	unlocking_technologies = {
+		steelworking
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fabric_add = 3.5		# 90
+			goods_input_grain_add = 1			# 20
+			goods_input_wood_add = 4.5			# 90
+			goods_input_iron_add = 2.5			# 100
+			goods_input_fabric_add = 1			# 20	# TOTAL 300
+			
+			goods_output_tools_add = 7			# 280
+			goods_output_hardwood_add = 4		# 160
+			goods_output_glass_add = 3			# 120
+			goods_output_engines_add = 0.5		# 30
+			goods_output_clothes_add = 1		# 30
+			goods_output_groceries_add = 1		# 30
+			goods_output_steel_add = 2			# 100	# TOTAL 750	# PROFIT 450
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 4500
+			building_employment_shopkeepers_add = 500
+		}
+	}
+}
+

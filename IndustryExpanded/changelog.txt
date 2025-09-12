@@ -15,6 +15,12 @@
 - Min construction efficiency increased 5% >> 10%.
 - Fixed a lot of errors.
 
+[h2]UrbanismPlus v1.2[/h2]
+[b]BIG![/b]
+- Added [b]Artisan Workshops[/b] building, level of which is tier to urbanization and literacy in a state.
+Artisan workshops produce small amount of goods, which type of them - your choice. With the growth of cities, more artisans appear, but as population in the state becomes more and more literate (by when you shouldn't be needing them anymore), they slowly disappear.
+Hope this change will make economy feel a bit more alive and dynamic.
+
 [h2]Sensible Power Blocs v1.3[/h2]
 - Significantly increased mandate progress from power bloc ranking
 

@@ -8,6 +8,7 @@
 
 [h1]UrbanismPlus Module[/h1]
 [h2]Contents of this module:[/h2]
+- Artisan Workshops (tied to Urban Centers level and Literacy in a state)
 - Rework of urban center PMs.
 - With more urban centers you have in a state, construction there will slowly lose efficiency, naturally encouraging country-wide development and discouraging super-states.
 - Rework of Construction Sector, making its PMs more modular and allowing slow upgrade.
@@ -15,7 +16,7 @@
 - Reduced urbanization from fake buildings like financial districts, manor houses and company headquarters.
 
 [h2]Metadata[/h2]
-Mod version: [b]v1[/b]
+Mod version: [b]v1.2[/b]
 Game version: [b]v1.9.8[/b]
 This module requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503014205]roads module[/url] as well.
 [img]https://i.imgur.com/fwdIwjS.png[/img]

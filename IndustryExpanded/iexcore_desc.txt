@@ -10,13 +10,14 @@ Feel overwhelmed by all the different modules and don't know what to install and
 [h2]We now have Discord! https://discord.gg/3QBTCvjzug[/h2]
 
 [h2]Features of the IEX Series[/h2]
+[b]- Expanded Industry[/b] - better and longer PM and goods progression.
 [b]- Road Networks[/b], allowing you to increase infrastructure capacity before inventing railroads.
-[b]- Auto-Expansion[/b] reworked to automatically expand buildings when you actually could use them.
-[b]- Market Access Price Impact[/b] rework, MAPI now increases steeper, instead of vanilla spikes from techs.
 [b]- Difficult Terrain[/b] - most of mountain/desert/forest negative construction effects are now counterable.
+[b]- Artisans[/b] - Urbanization increases artisanal production in a state, which is being replaced with industrial production over time.
 [b]- Sensible Power Blocs[/b] - power blocs are not insanely overpowered anymore.
 [b]- Better Trade[/b] - trading is cheaper, stimulating general amount of trade.
-[b]- Expanded Industry[/b] - better and longer PM and goods progression.
+[b]- Auto-Expansion[/b] reworked to automatically expand buildings when you actually could use them.
+[b]- Market Access Price Impact[/b] rework, MAPI now increases steeper, instead of vanilla spikes from techs.
 
 [h1]Industry Expanded Core[/h1]
 IEX Core is the main part of Industry Expanded which all the modules depend on.

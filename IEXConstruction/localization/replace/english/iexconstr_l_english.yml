@@ -46,3 +46,15 @@
  
  # GUI
  TOTAL_ARTISAN_WORKSHOP:0 "[GetBuildingType('building_artisan_workshop').GetName] size:"
+ 
+ # ARTISAN WORKSHOP
+ pm_artisan_consumer:0 "Consumer Goods Focus"
+ pm_artisan_industrial:0 "Industrial Goods Focus"
+ pmg_artisan_base:0 "$pm_base$"
+ building_artisan_workshop:0 "Artisan Workshops"
+ bg_artisans:0 "$building_artisan_workshop$"
+ state_building_artisan_workshop_max_level_add:0 "Artisan Production Level"
+ state_building_artisan_workshop_max_level_add_desc:0 "Read: [concept_artisans]."
+ artisan_workshop_max_level:0 "[concept_artisans]"
+ concept_artisans:0 "Artisans"
+ concept_artisans_desc:0 "Artisan Workshops are being created in states in amount dependant on Urban Center level in state. [concept_literacy], however, reduces amount of artisans, and they completely disappear somewhere about 80% [concept_literacy]. Unemployment adds up to 10 levels of Artisan Workshops to a state.\n\nArtisans are a mechanic added by Industry Expanded's UrbanismPlus module."

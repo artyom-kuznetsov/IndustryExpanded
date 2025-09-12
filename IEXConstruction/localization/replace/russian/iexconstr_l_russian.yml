@@ -46,3 +46,15 @@
  
  # GUI
  TOTAL_ARTISAN_WORKSHOP:0 "[GetBuildingType('building_artisan_workshop').GetName] размер:"
+ 
+ # ARTISAN WORKSHOP
+ pm_artisan_consumer:0 "Упор на потребительские товары"
+ pm_artisan_industrial:0 "Упор на промышленные товары"
+ pmg_artisan_base:0 "$pm_base$"
+ building_artisan_workshop:0 "Кустарные мастерские"
+ bg_artisans:0 "Кустарные мастерские"
+ state_building_artisan_workshop_max_level_add:0 "Размер кустарного производства"
+ state_building_artisan_workshop_max_level_add_desc:0 "Читай: [concept_artisans]."
+ artisan_workshop_max_level:0 "[concept_artisans]"
+ concept_artisans:0 "Кустари"
+ concept_artisans_desc:0 "Мастерские кустарей создаются в регионе в количестве, зависящем от размера городского центра в регионе. [concept_literacy], с другой стороны, уменьшает количество кустарей, и около 80% грамотности, их не остаётся совсем. Безработица добавляет до 10 уровней мастерских кустарей в регион.\n\nКустари это механика, добавленная модулем Industry Expanded - UrbanismPlus."
