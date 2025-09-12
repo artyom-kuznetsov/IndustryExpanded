@@ -47,7 +47,7 @@ base_values = {
 	state_market_access_price_impact = 0.75
 
 	country_company_throughput_bonus_add = 0.2
-	country_company_construction_efficiency_bonus_add = 0.5
+	country_company_construction_efficiency_bonus_add = 0.2
 
 	country_max_weekly_construction_progress_add = 10
 
@@ -66,13 +66,8 @@ base_values = {
 	country_production_tech_research_speed_mult = 0.1
 }
 
-excess_innovation = {
-	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	country_tech_spread_add = 0.32
-}
-
 country_literacy_rate = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_lightbulb_positive.dds
-	country_weekly_innovation_max_add = 180
-	country_tech_spread_add = 80
+	country_weekly_innovation_max_add = 150
+	country_weekly_innovation_add = 150
 }

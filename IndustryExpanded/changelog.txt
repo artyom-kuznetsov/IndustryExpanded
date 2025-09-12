@@ -10,6 +10,9 @@
 - Positions of new buildings in buildings tab should be more intuitive now, rather than everything being at bottom.
 - Renamed "Coloured Metals" and "Black Metals" to "Base Metals" and "Ferrous Metals"
 - Tweaked employment in Food Industries. (5.5K Max / 3K Min >> 5K Max / 2.5K Min)
+- Reduced CEO popularity impact on company prosperity.
+- Reduced Company Construction Bonus 50% >> 20%
+- Min construction efficiency increased 5% >> 10%
 
 [h2]Sensible Power Blocs v1.3[/h2]
 - Significantly increased mandate progress from power bloc ranking

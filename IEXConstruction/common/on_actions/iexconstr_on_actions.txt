@@ -1,0 +1,17 @@
+﻿
+on_yearly_pulse_country = {
+	on_actions = {
+		iex_artisan_level_check
+	}
+}
+
+iex_artisan_level_check = {
+	effect = {
+		every_state = {
+			add_modifier = {
+				name = artisan_workshop_max_level_add
+				multiplier = iexconstr_artisan_max_value
+			}
+		}
+	}
+}

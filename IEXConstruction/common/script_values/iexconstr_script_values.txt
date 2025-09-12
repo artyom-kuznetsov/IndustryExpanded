@@ -1,0 +1,20 @@
+﻿
+iexconstr_artisan_max_value = {
+	add = {
+		b:building_urban_center ?= {
+    		add = level
+    	}
+    	multiply = {
+    		value = 1
+    		subtract = literacy_rate
+    	}
+    	if = {
+			limit = {
+				literacy_rate >= 0.6
+			}
+    		subtract = 5
+    	}
+    }
+	round = yes	
+	min = 0
+}
