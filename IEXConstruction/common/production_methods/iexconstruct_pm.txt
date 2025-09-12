@@ -190,7 +190,7 @@ pm_electrification_cs = {
 pm_no_automation_cs = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 	
-	building_modifiers
+	building_modifiers = {
 		unscaled = {
 			building_laborers_mortality_mult = 0.1
 		}

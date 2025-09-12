@@ -6,15 +6,26 @@ iexconstr_artisan_max_value = {
     	}
     	multiply = {
     		value = 1
-    		subtract = literacy_rate
+    		subtract = { value = literacy_rate }
     	}
     	if = {
 			limit = {
 				literacy_rate >= 0.6
 			}
-    		subtract = 5
+    		subtract = 3
+    	}
+    	if = {
+			limit = {
+				literacy_rate >= 0.7
+			}
+    		subtract = 3
+    	}
+    	if = {
+			limit = {
+				literacy_rate >= 0.8
+			}
+    		subtract = 1000
     	}
     }
-	round = yes	
 	min = 0
 }

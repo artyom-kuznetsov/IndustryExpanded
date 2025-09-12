@@ -1,5 +1,11 @@
 ﻿
-on_yearly_pulse_country = {
+on_game_started = {
+	on_actions = {
+		iex_artisan_level_check
+	}
+}
+
+on_yearly_pulse = {
 	on_actions = {
 		iex_artisan_level_check
 	}
@@ -8,9 +14,14 @@ on_yearly_pulse_country = {
 iex_artisan_level_check = {
 	effect = {
 		every_state = {
+			#remove_modifier = artisan_workshop_max_level
+			set_local_variable = {
+				name = iex_artisan_max_level_var
+				value = iexconstr_artisan_max_value
+			}
 			add_modifier = {
-				name = artisan_workshop_max_level_add
-				multiplier = iexconstr_artisan_max_value
+				name = artisan_workshop_max_level
+				multiplier = local_var:iex_artisan_max_level_var
 			}
 		}
 	}

@@ -1,19 +1,5 @@
-﻿add = {
-	state.b:building_urban_center ?= {
-		add = level
-	}
-	round = yes	
-	multiply = {
-		value = 1
-		subtract = literacy_rate
-	}
-	if = {
-		literacy_rate = 0.6
-		subtract = 5
-	}
-}
-
-
-test_max_level_add = {
-	state_building_test_max_level_add = 1
+﻿
+artisan_workshop_max_level = {
+	icon = "gfx/interface/icons/invention_icons/labor_movement.dds"
+	state_building_artisan_workshop_max_level_add = 1
 }

@@ -39,3 +39,17 @@ bg_government = {
 	
 	construction_efficiency_modifier = yes
 }
+
+bg_artisans = {
+	category = urban
+
+	always_possible = yes
+
+	auto_place_buildings = yes
+
+	always_self_owning = yes
+
+	default_building = building_artisan_workshop
+
+	cash_reserves_max = 25000
+}

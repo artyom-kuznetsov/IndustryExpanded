@@ -43,3 +43,6 @@
  pm_hydraulic_cranes_cs:0 "Гидравлические краны"
  pm_modern_cranes_cs:0 "Современные краны"
  pm_construction_machinery_cs:0 "Строительная техника"
+ 
+ # GUI
+ TOTAL_ARTISAN_WORKSHOP:0 "[GetBuildingType('building_artisan_workshop').GetName] размер:"

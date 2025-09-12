@@ -165,7 +165,7 @@
 		
 		## INDIA
 		s:STATE_PUNJAB = { add_state_trait = state_trait_medium_copper_field }
-		s:STATE_NAGPUR = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_CENTRAL_PROVINCES = { add_state_trait = state_trait_large_copper_field }
 		s:STATE_CIRCARS = { add_state_trait = state_trait_large_copper_field }
 		
 		## EAST ASIA
