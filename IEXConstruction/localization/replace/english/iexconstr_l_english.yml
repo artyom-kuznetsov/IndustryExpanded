@@ -57,4 +57,4 @@
  state_building_artisan_workshop_max_level_add_desc:0 "Read: [concept_artisans]."
  artisan_workshop_max_level:0 "[concept_artisans]"
  concept_artisans:0 "Artisans"
- concept_artisans_desc:0 "Artisan Workshops are being created in states in amount dependant on Urban Center level in state. [concept_literacy], however, reduces amount of artisans, and they completely disappear somewhere about 80% [concept_literacy]. Unemployment adds up to 10 levels of Artisan Workshops to a state.\n\nArtisans are a mechanic added by Industry Expanded's UrbanismPlus module."
+ concept_artisans_desc:0 "Artisan Workshops are being created in states in amount dependant on Urban Center level in state. Fewer artisans appear in states that don't have a lot of peasants and unemployed.\n\nArtisans are a mechanic added by Industry Expanded's UrbanismPlus module."

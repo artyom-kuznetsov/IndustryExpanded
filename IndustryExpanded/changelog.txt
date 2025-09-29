@@ -3,7 +3,6 @@
 - Chemical Production now needs Copper instead of Iron.
 - Automatic Power Looms PM now consumes Electronics instead of Tools.
 - Arc Welders PM for Construction Sectors now consumes some Electronics.
-- Swapped +25% Hardwood output from Pneumatic Tools with Wood output.
 - Reintroduced Electrical Ovens automation PM for Food Industries. Unlocked by steam turbine. 
 - Automation in Automotive and Food Induestries now gives throughput bonus.
 
@@ -13,9 +12,10 @@
 - Reduced CEO popularity impact on company prosperity.
 - Reduced Company Construction Bonus 50% >> 20%.
 - Min construction efficiency increased 5% >> 10%.
-- Fixed a lot of errors.
+- Removed +25% Hardwood output from Pneumatic Tools.
+- Fixed a bunch of errors.
 
-[h2]UrbanismPlus v1.2[/h2]
+[h2]UrbanismPlus v2.0[/h2]
 [b]BIG![/b]
 - Added [b]Artisan Workshops[/b] building, level of which is tier to urbanization and literacy in a state.
 Artisan workshops produce small amount of goods, which type of them - your choice. With the growth of cities, more artisans appear, but as population in the state becomes more and more literate (by when you shouldn't be needing them anymore), they slowly disappear.

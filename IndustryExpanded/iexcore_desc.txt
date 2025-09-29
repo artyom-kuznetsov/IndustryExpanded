@@ -50,8 +50,8 @@ Fan-made translations: (if you make one, ask me to add it here)
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v13.0[/b]
-Game version: [b]v1.9.8[/b]
+Mod version: [b]v13.1[/b]
+Game version: [b]v1.10.22[/b]
 
 Thanks for playing Industry Expanded!
 [img]https://i.imgur.com/aNDO8WK.gif[/img]

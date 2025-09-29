@@ -16,3 +16,6 @@ MoG_SPA_literacy_no_longer_default = {
 
 MoG_SPA_literacy_on_country_released = {
 }
+
+MoG_SPA_literacy_setup_action = {
+}

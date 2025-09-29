@@ -1,55 +1,39 @@
 ﻿
 iexconstr_artisan_max_value = {
 	add = {
-		b:building_urban_center ?= {
-    		add = level
-    	}
+		every_scope_pop ?= {
+			limit = {
+				NOT = { exists = workplace } #workplace = { exists = no }
+			}
+			add = total_size 
+			divide = 5000
+			max = {
+				state = {
+					b:building_urban_center ?= {
+						add = level
+					}
+				}
+			}
+		}
+		every_scope_pop ?= {
+			limit = {
+				workplace ?= { is_subsistence_building = yes }
+			}
+			add = total_size 
+			divide = 50000
+			max = {
+				state = {
+					b:building_urban_center ?= {
+						add = level
+					}
+				}
+			}
+		}
     	multiply = {
     		value = 1
     		subtract = { value = literacy_rate }
 			multiply = 2
     	}
-    	if = {
-			limit = {
-				literacy_rate >= 0.6
-			}
-    		multiply = 0.95
-    	}
-    	if = {
-			limit = {
-				literacy_rate >= 0.64
-			}
-    		multiply = 0.94
-    	}
-    	if = {
-			limit = {
-				literacy_rate >= 0.68
-			}
-    		multiply = 0.93
-    	}
-    	if = {
-			limit = {
-				literacy_rate >= 0.72
-			}
-    		multiply = 0.92
-    	}
-    	if = {
-			limit = {
-				literacy_rate >= 0.76
-			}
-    		multiply = 0.91
-    	}
-    	if = {
-			limit = {
-				literacy_rate >= 0.8
-			}
-    		multiply = 0
-    	}
-		add = {
-			value = state_unemployment_rate
-			multiply = 100
-			max = 10
-		}
 		if = {
 			limit = { state_population < 100000 }
 			divide = 2
