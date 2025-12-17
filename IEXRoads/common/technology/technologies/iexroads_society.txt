@@ -1,41 +1,13 @@
 ﻿
-stock_exchange = {
-	era = era_1
-	texture = "gfx/interface/icons/invention_icons/stock_exchanges.dds"
-	category = society	
-	
+INJECT:stock_exchange = {
 	modifier = {
-		state_market_access_price_impact = 0.05
-	}
-	
-	unlocking_technologies = {
-		international_trade
-	}
-	
-	ai_weight = {
-		value = 1
+		state_market_access_price_impact = -0.05
 	}
 }
 
-urban_planning = {
-	era = era_1
-	texture = "gfx/interface/icons/invention_icons/urban_planning.dds"
-	category = society
-	
+INJECT:urban_planning = {
 	modifier = {
-		state_infrastructure_from_population_add = 1
-		state_infrastructure_from_population_max_add = 20
-		state_building_construction_sector_max_level_add = 5
-		country_max_weekly_construction_progress_add = 5
 		state_building_road_network_max_level_add = 2
-	}
-	
-	unlocking_technologies = {
-		urbanization
-	}
-	
-	ai_weight = {
-		value = 2 # Important in general
 	}
 }
 
@@ -58,32 +30,13 @@ gravel_roads = {
 	}
 }
 
-modern_sewerage = {
-	# Unlocks Maintained Sewers PM in Urban Centers
-	era = era_2
-	texture = "gfx/interface/icons/invention_icons/modern_sewerage.dds"
-	category = society
-	
+INJECT:modern_sewerage = {
 	modifier = {
-		state_infrastructure_from_population_add = 1
-		state_infrastructure_from_population_max_add = 20
-		state_building_construction_sector_max_level_add = 5
-		country_max_weekly_construction_progress_add = 5
-		state_pollution_reduction_health_mult = -0.1
-		state_harvest_condition_flood_impact_mult = -0.1
 		state_market_access_price_impact = 0.01
-	}
-	
-	unlocking_technologies = {
-		gravel_roads
-	}
-	
-	ai_weight = {
-		value = 2 # Important in general
 	}
 }
 
-stone_roads = {
+paved_road_iex = {
 	era = era_2
 	texture = "gfx/tech/stone_roads.dds"
 	category = society
@@ -94,7 +47,7 @@ stone_roads = {
 	}
 	
 	unlocking_technologies = {
-		modern_sewerage
+		gravel_roads
 	}
 	
 	ai_weight = {
@@ -102,71 +55,28 @@ stone_roads = {
 	}
 }
 
-investment_banks = {
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/investment_banks.dds"
-	category = society
-	
+INJECT:investment_banks = {
 	modifier = {
-		country_max_companies_add = 1
-		country_free_charters_add = 1
-		state_urbanization_per_level_mult = -0.15
-		#
 		state_market_access_price_impact = 0.01
 	}	
-	
-	unlocking_technologies = {
-		joint_stock_companies
-		mutual_funds
-	}
-	
-	ai_weight = {
-		value = 2 # important tech
-	}
 }
 
 ### ERA 3
-steel_frame_buildings = {
-	# Unlocks Covered Markets PM in Urban Centers
-	era = era_3
-	texture = "gfx/interface/icons/invention_icons/steel_frame_buildings.dds"
-	category = society
+INJECT:steel_frame_buildings = {
 	modifier = {
-		state_infrastructure_from_population_add = 1
-		state_infrastructure_from_population_max_add = 20
-		state_building_construction_sector_max_level_add = 5
 		state_market_access_price_impact = 0.01
-		country_max_weekly_construction_progress_add = 10
-		state_harvest_condition_flood_impact_mult = -0.05
+		country_max_weekly_construction_progress_add = 5
 	}
 	
 	unlocking_technologies = {
-		stone_roads
-	}
-	
-	ai_weight = {
-		value = 2 # Important in general
+		paved_road_iex
 	}
 }
 
 ### ERA 4
 
-paved_roads = {
-	era = era_5
-	texture = "gfx/interface/icons/invention_icons/paved_roads.dds"
-	category = society
-	
+INJECT:paved_roads = {
 	modifier = {
-		state_building_construction_sector_max_level_add = 5
-		state_infrastructure_from_automobiles_consumption_add = 0.25
 		state_market_access_price_impact = 0.01
-	}
-	
-	unlocking_technologies = {	
-		elevator
-	}
-	
-	ai_weight = {
-		value = 2 # Important for those nice-looking roads!
 	}
 }

@@ -1,11 +1,3 @@
-﻿
-transportation = {
-	texture = "gfx/interface/icons/goods_icons/transportation.dds"
-	cost = 30
-	category = staple
-	#local = yes
-
-	tradeable = no
-	
-	consumption_tax_cost = 200
+﻿INJECT:transportation = {
+	local = no
 }

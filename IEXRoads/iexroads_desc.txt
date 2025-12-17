@@ -11,14 +11,14 @@
 - Road Network Building (Limited source of infrastructure before railways)
 - 2 New Society Technologies
 - New PMs and rebalance for Railways
-- Ports give MAPI
+- Buffed Ports infrastructure
 - Other Market Access Price Impact Tweaks
 - Transportation Good is not local anymore
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v1.0.8[/b]
-Game version: [b]v1.9.8[/b]
+Mod version: [b]v1.0.10[/b]
+Game version: [b]v1.12.X[/b]
 [img]https://i.imgur.com/fwdIwjS.png[/img]
 
 Thanks for playing Industry Expanded!

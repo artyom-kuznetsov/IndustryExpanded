@@ -21,7 +21,7 @@ pmg_paid_roadway = {
 	}
 }
 
-pmg_base_building_railway = {
+REPLACE:pmg_base_building_railway = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive
 

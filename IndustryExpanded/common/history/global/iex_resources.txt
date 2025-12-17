@@ -21,7 +21,7 @@
 		s:STATE_MUNSTER = { add_state_trait = state_trait_large_copper_field }
 	
 		## SOUTH EUROPE
-		s:STATE_BALEARES = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_BALEARIC_ISLANDS = { add_state_trait = state_trait_tiny_copper_field }
 		s:STATE_ARAGON = { add_state_trait = state_trait_tiny_copper_field }
 		s:STATE_PIEDMONT = { add_state_trait = state_trait_tiny_copper_field }
 		s:STATE_SARDINIA = { add_state_trait = state_trait_huge_copper_field }
@@ -31,25 +31,25 @@
 		s:STATE_VENETIA = { add_state_trait = state_trait_medium_copper_field }
 		s:STATE_BULGARIA = { add_state_trait = state_trait_medium_copper_field }
 		s:STATE_VALENCIA = { add_state_trait = state_trait_medium_copper_field }
-		s:STATE_NORTHERN_SERBIA = { add_state_trait = state_trait_medium_copper_field }
+		s:STATE_EASTERN_SERBIA = { add_state_trait = state_trait_medium_copper_field }
 		s:STATE_SKOPIA = { add_state_trait = state_trait_medium_copper_field }
 		s:STATE_MACEDONIA = { add_state_trait = state_trait_medium_copper_field }
 		s:STATE_WESTERN_THRACE = { add_state_trait = state_trait_medium_copper_field }
-		s:STATE_SOUTHERN_SERBIA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_KOSOVO = { add_state_trait = state_trait_large_copper_field }
 		
 		## EAST EUROPE
 		s:STATE_VOLHYNIA = { add_state_trait = state_trait_tiny_copper_field }
 		s:STATE_KHARKOV = { add_state_trait = state_trait_medium_copper_field }
 		s:STATE_PERM = { add_state_trait = state_trait_large_copper_field }
-		s:STATE_SILESIA = { add_state_trait = state_trait_large_copper_field }
-		s:STATE_WEST_SLOVAKIA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_LOWER_SILESIA = { add_state_trait = state_trait_large_copper_field }
+		s:STATE_SLOVAKIA = { add_state_trait = state_trait_large_copper_field }
 		s:STATE_LESSER_POLAND = { add_state_trait = state_trait_medium_copper_field }
 		s:STATE_WEST_GALICIA = { add_state_trait = state_trait_medium_copper_field }
 		s:STATE_SOUTHERN_TRANSYLVANIA = { add_state_trait = state_trait_medium_copper_field }
 		s:STATE_NORTHERN_TRANSYLVANIA = { add_state_trait = state_trait_medium_copper_field }
 		s:STATE_CENTRAL_HUNGARY = { add_state_trait = state_trait_small_copper_field }
 		s:STATE_BEKES = { add_state_trait = state_trait_small_copper_field }
-		s:STATE_EAST_SLOVAKIA = { add_state_trait = state_trait_huge_copper_field }
+		s:STATE_SLOVAKIA = { add_state_trait = state_trait_huge_copper_field }
 		
 		## NORTH AFRICA
 		s:STATE_EASTERN_MALI = { add_state_trait = state_trait_small_copper_field }
@@ -106,7 +106,8 @@
 		## CENTRAL AMERICA
 		s:STATE_PANAMA = { add_state_trait = state_trait_medium_copper_field }
 		s:STATE_HAITI = { add_state_trait = state_trait_small_copper_field }
-		s:STATE_CUBA = { add_state_trait = state_trait_small_copper_field }
+		s:STATE_CENTAL_CUBA = { add_state_trait = state_trait_tiny_copper_field }
+		s:STATE_EASTERN_CUBA = { add_state_trait = state_trait_small_copper_field }
 		s:STATE_SANTO_DOMINGO = { add_state_trait = state_trait_small_copper_field }
 		s:STATE_PUERTO_RICO = { add_state_trait = state_trait_small_copper_field }
 		s:STATE_JAMAICA = { add_state_trait = state_trait_tiny_copper_field }

@@ -3,7 +3,7 @@ building_automotive_industry = {
 	building_group = bg_heavy_industry
 	icon = "gfx/interface/icons/building_icons/vehicles_industry.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 
 	unlocking_technologies = {
 		combustion_engine
@@ -52,7 +52,7 @@ building_food_industry = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/food_industry.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	
 	ai_nationalization_desire = -0.25 # AI is generally fine with privatizing consumer goods industries
 	
@@ -93,7 +93,7 @@ building_logging_camp = {
 	city_type = wood
 	required_construction = construction_cost_low
 	terrain_manipulator = forestry
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 
 	production_method_groups = {
 		pmg_base_building_logging_camp
@@ -123,7 +123,7 @@ building_logging_camp = {
 building_trade_center = {
 	building_group = bg_trade
 	city_type = city
-	levels_per_mesh = 10
+	levels_per_mesh = 100
 
 	lens = infrastructure
 
@@ -160,7 +160,7 @@ building_paper_mills = {
 	}
 
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 
 	production_method_groups = {
 		pmg_assembly_paper
@@ -194,7 +194,7 @@ building_textile_mills = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/textile_industry.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	
 	ai_nationalization_desire = -0.25 # AI is generally fine with privatizing consumer goods industries
 	
@@ -235,7 +235,7 @@ building_arms_industry = {
 	building_group = bg_arms_industries
 	icon = "gfx/interface/icons/building_icons/arms_industry.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 
 	ai_nationalization_desire = 0.5 # AI generally does not want to privatize military goods industries
 
@@ -248,6 +248,21 @@ building_arms_industry = {
 		pmg_automation_building_2500
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		owner = {
+			market = {
+				mg:small_arms = { 
+					market_goods_pricier > -0.01
+				}
+			}
+		}
+		state = {
+			infrastructure_delta >= -2
+		}
+		NOT = { is_under_construction = yes }
+	}
+	
 	required_construction = construction_cost_high
 	ownership_type = self
 
@@ -255,10 +270,10 @@ building_arms_industry = {
 }
 
 building_artillery_foundries = {
-	building_group = bg_artillery_foundaries
+	building_group = bg_artillery_foundries
 	icon = "gfx/interface/icons/building_icons/artillery_foundry.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 
 	ai_nationalization_desire = 0.5 # AI generally does not want to privatize military goods industries
 
@@ -271,6 +286,21 @@ building_artillery_foundries = {
 		pmg_automation_building_2500
 	}
 
+	should_auto_expand = { 
+		occupancy >= 0.8
+		owner = {
+			market = {
+				mg:artillery = { 
+					market_goods_pricier > -0.01
+				}
+			}
+		}
+		state = {
+			infrastructure_delta >= -2
+		}
+		NOT = { is_under_construction = yes }
+	}
+	
 	required_construction = construction_cost_high
 	ownership_type = self
 
@@ -281,7 +311,7 @@ building_furniture_manufacturies = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/furniture_manufacturies.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	
 	unlocking_technologies = {
 		manufacturies
@@ -318,7 +348,7 @@ building_glassworks = {
 	building_group = bg_light_industry
 	icon = "gfx/interface/icons/building_icons/glassworks.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 
 	unlocking_technologies = {
 		manufacturies
@@ -356,7 +386,7 @@ building_motor_industry = {
 	building_group = bg_heavy_industry
 	icon = "gfx/interface/icons/building_icons/motor_industry.dds"
 	city_type = city
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	
 	unlocking_technologies = {
 		atmospheric_engine

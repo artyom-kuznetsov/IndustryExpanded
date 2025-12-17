@@ -1,3 +1,30 @@
+[h1]Core v13.2.0[/h1]
+- Research is not always maxed to the cap anymore.
+
+[b]- Updated to Victoria 3 v1.12.1[/b]
+- Utilized new "INJECT" logic wherever possible to reduce amount of file/entry overrides. Thus better compatibility and easier maintenance.
+
+[h2]Load, Ship & Road v1.0.10[/h2]
+- Ports now give more infrastructure, especially since Industrial Ports PM.
+
+
+[h1]Core v13.1.2[/h1]
+- Added auto-expansion triggers for Artillery and Small Arms factories.
+- Fixed Artillery Foundries could not be built (thanks Paradox)
+- Fixed Copper deposits for some of the state-regions affected by 1.10 update: Slovakia, Silesia, Northern Serbia
+
+
+
+
+[h1]v13.1.1[/h1]
+- Removed changes to buy_packages since Paradox added tea and coffee consumption for low SoLs
+
+[h2]Sensible Power Blocs v1.4[/h2]
+- Fixed PB principle PM had vanilla trade capacity and weekly trades, resulting in a downgrade if using this PM.
+- Principle slots are easier to unlock via PB rank.
+
+
+
 [h1]v13.1[/h1]
 - Reworked Automobile Production PMs to use new goods.
 - Chemical Production now needs Copper instead of Iron.
@@ -17,14 +44,72 @@
 
 [h2]UrbanismPlus v2.0[/h2]
 [b]BIG![/b]
-- Added [b]Artisan Workshops[/b] building, level of which is tier to urbanization and literacy in a state.
-Artisan workshops produce small amount of goods, which type of them - your choice. With the growth of cities, more artisans appear, but as population in the state becomes more and more literate (by when you shouldn't be needing them anymore), they slowly disappear.
+- Added [b]Artisan Workshops[/b] building, level of which is increased by urbanization and unemployed/peasants in state. 
+When you are close to depeasant the state, the amount of artisans will shrink, to free the workforce for your industries.
 Hope this change will make economy feel a bit more alive and dynamic.
 
 [h2]Sensible Power Blocs v1.3[/h2]
 - Significantly increased mandate progress from power bloc ranking
 
 [h2]Enhanced Auto Expansion v1.4[/h2]
+- Fixed Sulfur Mines auto expansion triggered by Iron instead of Sulfur
+
+# v13.1
+- ПМы автомобильных заводов переработаны для использования новых товаров.
+- Производство химикатов теперь требует медь вместо железа.
+- ПМ "Автоматические ткацкие станки" теперь использует электронику вместо инструментов.
+- ПМ "Электродуговая сварка" для строительного сектора теперь потребляет немного электроники.
+- Возвращён ПМ автоматизации "Электрические духовки" для пищевой промышленности. Открывается с паровой турбиной.
+- Автоматизация в автомобильной и пищевой промышленности теперь даёт бонус к товарообороту.
+
+- Расположение новых построек во вкладке зданий теперь должно быть более интуитивно понятным, раньше все новые постройки были внизу.
+- Скорректировано количество рабочих в пищевой промышленности. (5.5K макс / 3K мин >> 5K макс / 2.5K мин).
+- Снижен эффект популярности генерального директора на процветание компании.
+- Снижен бонус на строительство от компании с 50% до 20%.
+- Минимальная эффективность строительства увеличена с 5% до 10%.
+- Удалён бонус +25% к производству твёрдой древесины от пневматических инструментов.
+- Исправлено несколько ошибок.
+
+## UrbanismPlus v2.0
+**ВАЖНО!**
+- Добавлено здание **Мастерские кустарей**, уровень которого растёт от урбанизации и количества безработных/крестьян в регионе.
+Когда вы близки к тому, чтобы нанять всех рабочих в регионе, количество кустарей будет падать, освобождая рабочую силу для ваших заводов.
+Надеюсь, что это сделает экономику более живой и динамичной.
+
+## Sensible Power Blocs v1.3
+- Значительно увеличен прогресс мандата от ранга силового блока.
+
+## Enhanced Auto Expansion v1.4
+- Исправлена автопостройка серных шахт, триггером для которой было железо, а не сера.
+
+
+# v13.1
+- Reworked Automobile Production PMs to use new goods.
+- Chemical Production now needs Copper instead of Iron.
+- Automatic Power Looms PM now consumes Electronics instead of Tools.
+- Arc Welders PM for Construction Sectors now consumes some Electronics.
+- Reintroduced Electrical Ovens automation PM for Food Industries. Unlocked by steam turbine. 
+- Automation in Automotive and Food Induestries now gives throughput bonus.
+
+- Positions of new buildings in buildings tab should be more intuitive now, rather than everything being at bottom.
+- Renamed "Coloured Metals" and "Black Metals" to "Base Metals" and "Ferrous Metals"
+- Tweaked employment in Food Industries. (5.5K Max / 3K Min >> 5K Max / 2.5K Min).
+- Reduced CEO popularity impact on company prosperity.
+- Reduced Company Construction Bonus 50% >> 20%.
+- Min construction efficiency increased 5% >> 10%.
+- Removed +25% Hardwood output from Pneumatic Tools.
+- Fixed a bunch of errors.
+
+## UrbanismPlus v2.0
+**BIG!**
+- Added **Artisan Workshops** building, level of which is increased by urbanization and unemployed/peasants in state. 
+When you are close to depeasant the state, the amount of artisans will shrink, to free the workforce for your industries.
+Hope this change will make economy feel a bit more alive and dynamic.
+
+## Sensible Power Blocs v1.3
+- Significantly increased mandate progress from power bloc ranking
+
+## Enhanced Auto Expansion v1.4
 - Fixed Sulfur Mines auto expansion triggered by Iron instead of Sulfur
 
 

@@ -1,9 +1,9 @@
 {
-  "name" : "[IEX] Load, Ship & Road v1.0.8",
+  "name" : "[IEX] Load, Ship & Road v1.0.10",
   "picture" : "thumbnail.png",
   "id" : "",
-  "version" : "1.0.8",
-  "supported_game_version" : "1.9.8",
+  "version" : "1.0.10",
+  "supported_game_version" : "1.12.*",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

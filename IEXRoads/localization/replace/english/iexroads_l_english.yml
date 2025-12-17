@@ -10,8 +10,8 @@
     # Techs
  paved_roads:0 "Highway"
  gravel_roads:0 "Gravel Road"
- stone_roads:0 "Paved Road"
- stone_roads_desc:0 "Forming a road of stone bricks allows to significantly improve road smoothness and lenght of life."
+ paved_road_iex:0 "Paved Road"
+ paved_road_iex_desc:0 "Forming a road of stone bricks allows to significantly improve road smoothness and lenght of life."
  gravel_roads_desc:0 "If you fill up the path with rubble and mash everything thoroughly, you will get a more durable and comfortable coating than just earth."
  
  state_building_road_network_max_level_add:0 "Road Network Max Level"

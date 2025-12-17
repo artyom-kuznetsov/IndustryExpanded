@@ -1,9 +1,9 @@
 {
   "name" : "[IEX] Difficult Terrain",
   "picture" : "thumbnail.png",
-	"id" : "v1.1",
+	"id" : "v1.2",
   "version" : "",
-  "supported_game_version" : "1.9.8",
+  "supported_game_version" : "1.11.0",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],

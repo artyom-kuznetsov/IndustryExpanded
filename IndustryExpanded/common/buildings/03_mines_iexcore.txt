@@ -3,7 +3,7 @@ building_copper_mine = {
 	building_group = bg_copper_mining
 	icon = "gfx/b_icons/copper_mine.dds"
 	city_type = mine
-	levels_per_mesh = 5
+	levels_per_mesh = 50
 	required_construction = construction_cost_medium
 	terrain_manipulator = mining
 
