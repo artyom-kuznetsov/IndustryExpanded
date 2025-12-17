@@ -1,6 +1,6 @@
 ﻿
 
-agreeable_to_imposition = {
+REPLACE:agreeable_to_imposition = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_documents_positive.dds
 	country_law_enactment_success_add = 0.3
 	country_law_enactment_time_mult = -0.25
@@ -8,7 +8,7 @@ agreeable_to_imposition = {
 }
 
 
-modifier_has_annexed_another_subject = {
+REPLACE:modifier_has_annexed_another_subject = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_flag_negative.dds
 	country_liberty_desire_add = 0.05
 }

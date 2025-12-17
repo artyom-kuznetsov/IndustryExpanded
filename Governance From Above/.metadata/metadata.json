@@ -1,9 +1,9 @@
 {
-  "name" : "(1.9) Governance From Above",
+  "name" : "(1.12) Governance From Above",
   "picture" : "thumbnail.png",
 	"id" : "",
   "version" : "",
-  "supported_game_version" : "1.9.8",
+  "supported_game_version" : "1.12.*",
   "short_description" : "",
   "tags" : [],
   "relationships" : [],
