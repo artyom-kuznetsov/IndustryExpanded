@@ -1,5 +1,5 @@
 ﻿
-power_bloc_mandate_progress_by_rank = {
+REPLACE:power_bloc_mandate_progress_by_rank = {
 	value = {
 		value = 10
 		subtract = power_bloc_rank

@@ -2,7 +2,7 @@
 
 ### CONSTRUCTION
 
-principle_construction_1 = {
+REPLACE:principle_construction_1 = {
 	icon = "gfx/interface/icons/principles_icons/construction.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -40,46 +40,20 @@ principle_construction_1 = {
 
 ### INTERNAL TRADE
 
-principle_internal_trade_1 = {
-	icon = "gfx/interface/icons/principles_icons/internal_trade.dds"
-	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
-	
+INJECT:principle_internal_trade_1 = {
 	member_modifier = {
-		country_convoy_contribution_to_market_owner_add = 0.4
-		#tariff_import_outside_power_bloc_mult = 0.2
-		#tariff_export_outside_power_bloc_mult = 0.2
+		country_convoy_contribution_to_market_owner_add = 0.2
 		country_convoy_damage_taken_mult = -0.5
-		state_infrastructure_mult = 0.2
+		state_infrastructure_mult = 0.1
 		
 		# Cheaper port connections
 		country_port_connection_cost_mult = -0.25
 	}
-	
-	ai_weight = {
-		value = 200 # Good for trade leagues to have
-			
-		if = {
-			limit = { 
-				OR = {
-					has_law = law_type:law_mercantilism 
-					has_law = law_type:law_command_economy
-				}
-			}
-			add = 100
-		}	
-
-		if = {
-			limit = { 
-				power_bloc ?= { has_principle_group = principle_group:principle_group_external_trade }
-			}
-			multiply = 0.5
-		}
-	}	
 }
 
 ### MARKET UNIFICATION
 
-principle_market_unification_1 = {
+REPLACE:principle_market_unification_1 = {
 	icon = "gfx/interface/icons/principles_icons/market_unification.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
@@ -88,7 +62,7 @@ principle_market_unification_1 = {
 	}
 
 	leader_modifier = {
-		country_leverage_generation_mult = -0.25
+		country_leverage_generation_mult = -0.1
 	}
 
 	member_modifier = {
@@ -113,7 +87,7 @@ principle_market_unification_1 = {
 ### SOVEREIGN EMPIRE
 ### Vassal Subjects
 
-principle_vassalization_1 = {
+REPLACE:principle_vassalization_1 = {
 	icon = "gfx/interface/icons/principles_icons/vassals_subjects.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
@@ -158,7 +132,7 @@ principle_vassalization_1 = {
 
 ### RESEARCH CONGLOMERATE
 
-principle_advanced_research_1 = {
+REPLACE:principle_advanced_research_1 = {
 	icon = "gfx/interface/icons/principles_icons/advanced_research.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -201,7 +175,7 @@ principle_advanced_research_1 = {
 
 ### DEFENSIVE COOPERATION
 
-principle_defensive_cooperation_1 = {
+REPLACEprinciple_defensive_cooperation_1 = {
 	icon = "gfx/interface/icons/principles_icons/defensive_coorperation.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -256,7 +230,7 @@ principle_defensive_cooperation_1 = {
 
 ### AGGRESSIVE COORDINATION
 
-principle_aggressive_coordination_1 = {
+REPLACE:principle_aggressive_coordination_1 = {
 	icon = "gfx/interface/icons/principles_icons/aggressive_coordination.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
@@ -311,7 +285,7 @@ principle_aggressive_coordination_1 = {
 
 ### EXTERNAL TRADE
 
-principle_external_trade_1 = {
+REPLACE:principle_external_trade_1 = {
 	icon = "gfx/interface/icons/principles_icons/external_trade.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -357,7 +331,7 @@ principle_external_trade_1 = {
 
 ### Food Standardization
 
-principle_food_standardization_1 = {
+REPLACE:principle_food_standardization_1 = {
 	icon = "gfx/interface/icons/principles_icons/food_standardization.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
@@ -400,7 +374,7 @@ principle_food_standardization_1 = {
 
 ### Police Coordination
 
-principle_police_coordination_1 = {
+REPLACE:principle_police_coordination_1 = {
 	icon = "gfx/interface/icons/principles_icons/dedicated_police.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
@@ -455,7 +429,7 @@ principle_police_coordination_1 = {
 
 ### TRANSPORT INFRASTRUCTURE
 
-principle_transport_1 = {
+REPLACE:principle_transport_1 = {
 	icon = "gfx/interface/icons/principles_icons/transport.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -498,7 +472,7 @@ principle_transport_1 = {
 
 ### Military Industry
 
-principle_military_industry_1 = {
+REPLACE:principle_military_industry_1 = {
 	icon = "gfx/interface/icons/principles_icons/military_industry.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
@@ -555,7 +529,7 @@ principle_military_industry_1 = {
 
 ### Colonial Offices
 
-principle_colonial_offices_1 = {
+REPLACE:principle_colonial_offices_1 = {
 	icon = "gfx/interface/icons/principles_icons/colonial_offices.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 	
@@ -600,7 +574,7 @@ principle_colonial_offices_1 = {
 
 ### Foreign Investment
 
-principle_foreign_investment_1 = {
+REPLACE:principle_foreign_investment_1 = {
 	icon = "gfx/interface/icons/principles_icons/foreign_investment.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -647,7 +621,7 @@ principle_foreign_investment_1 = {
 
 ### Creative Legislature
 
-principle_creative_legislature_1 = {
+REPLACE:principle_creative_legislature_1 = {
 	icon = "gfx/interface/icons/principles_icons/creative_legislature.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -679,7 +653,7 @@ principle_creative_legislature_1 = {
 
 ### Freedom of Movement
 
-principle_freedom_of_movement_1 = {
+REPLACE:principle_freedom_of_movement_1 = {
 	icon = "gfx/interface/icons/principles_icons/freedom_of_movement.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -751,7 +725,7 @@ principle_freedom_of_movement_1 = {
 
 ### Divine Economics
 
-principle_divine_economics_1 = {
+REPLACE:principle_divine_economics_1 = {
 	icon = "gfx/interface/icons/principles_icons/divine_economy.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -791,7 +765,7 @@ principle_divine_economics_1 = {
 
 ### Exploit Members
 
-principle_exploit_members_1 = {
+REPLACE:principle_exploit_members_1 = {
 	icon = "gfx/interface/icons/principles_icons/exploitation_of_members.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -846,7 +820,7 @@ principle_exploit_members_1 = {
 
 ### Sacred Civics
 
-principle_sacred_civics_1 = {
+REPLACE:principle_sacred_civics_1 = {
 	icon = "gfx/interface/icons/principles_icons/sacred_civics.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -894,7 +868,7 @@ principle_sacred_civics_1 = {
 
 ### Ideological Truth
 
-principle_ideological_truth_1 = {
+REPLACE:principle_ideological_truth_1 = {
 	icon = "gfx/interface/icons/principles_icons/ideological_truth.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 
@@ -937,7 +911,7 @@ principle_ideological_truth_1 = {
 
 ### Companies
 
-principle_companies_1 = {
+REPLACE:principle_companies_1 = {
 	icon = "gfx/interface/icons/principles_icons/companies.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 

@@ -1,5 +1,5 @@
 ﻿
-mobilization_option_balloon_recon = {
+REPLACE:mobilization_option_balloon_recon = {
 	texture = "gfx/interface/icons/mobilization_options/balloon_recon.dds"
 
 	unlocking_principles = {
