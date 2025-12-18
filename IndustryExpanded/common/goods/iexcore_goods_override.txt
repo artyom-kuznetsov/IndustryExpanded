@@ -1,32 +1,12 @@
 ﻿
-electricity = {
-	texture = "gfx/interface/icons/goods_icons/electricity.dds"
-	cost = 30
-	category = staple
-	#local = yes
-	
-	prestige_factor = 5
-	tradeable = no
-	
-	consumption_tax_cost = 200
+INJECT:electricity = {
+	local = no
 }
-services = {
-	texture = "gfx/interface/icons/goods_icons/services.dds"
-	cost = 30
-	category = staple
-#	local = yes
-
-	tradeable = no
-	
-	consumption_tax_cost = 200
+INJECT:services = {
+	local = no
 }
 
 
-iron = {
+INJECT:iron = {
 	texture = "gfx/goods_icons/iron.dds"
-	cost = 40
-	category = industrial
-
-	prestige_factor = 3
-	traded_quantity = 5 # 200
 }

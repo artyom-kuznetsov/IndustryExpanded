@@ -1,4 +1,4 @@
-﻿pmg_automation_building_industry = {
+﻿REPLACE_OR_CREATE:pmg_automation_building_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_automation_disabled
@@ -49,7 +49,7 @@ pmg_automation_building_small = {
 	}
 }
 
-pmg_automation_building_food_industry = {
+REPLACE_OR_CREATE:pmg_automation_building_food_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_manual_dough_processing

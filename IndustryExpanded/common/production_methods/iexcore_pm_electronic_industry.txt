@@ -19,7 +19,7 @@ pm_experimental_telephones = {
 		}
 	}
 }
-pm_telephones = {
+REPLACE_OR_CREATE:pm_telephones = {
 	texture = "gfx/interface/icons/production_method_icons/telephones.dds"
 	
 	unlocking_technologies = {
@@ -46,7 +46,7 @@ pm_telephones = {
 	}
 }
 
-pm_radios = {
+REPLACE_OR_CREATE:pm_radios = {
 	texture = "gfx/pm_icons/radio_main.dds"
 	
 	building_modifiers = {
@@ -145,7 +145,7 @@ pm_developed_electronics = {
 	}
 }
 
-pm_automobile_production = {
+REPLACE_OR_CREATE:pm_automobile_production = {
 	texture = "gfx/interface/icons/production_method_icons/automobiles.dds"
 	state_modifiers = {
 		workforce_scaled = {
@@ -179,7 +179,7 @@ pm_automobile_production = {
 	}
 }
 
-pm_mass_automobile_production = {
+REPLACE_OR_CREATE:pm_mass_automobile_production = {
 	texture = "gfx/interface/icons/production_method_icons/standardized_automobiles.dds"
 	state_modifiers = {
 		workforce_scaled = {

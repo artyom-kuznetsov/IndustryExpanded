@@ -26,7 +26,7 @@
 		}
 		add_technology_researched = mechanical_production
 		activate_production_method = {
-			building_type = building_tooling_workshops
+			building_type = building_tooling_workshop
 			production_method = pm_steel
 		}
 	}

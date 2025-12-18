@@ -1,8 +1,11 @@
 [h1]Core v13.2.0[/h1]
 - Research is not always maxed to the cap anymore.
+- Some techs changed requirements to make a more visually pleasant and sensical research tree.
+- Increased Distillery building cost from 400 to 600.
+- Late game unit types that previously used oil now use refined fuel.
 
 [b]- Updated to Victoria 3 v1.12.1[/b]
-- Utilized new "INJECT" logic wherever possible to reduce amount of file/entry overrides. Thus better compatibility and easier maintenance.
+- Utilized new "INJECT" logic wherever possible to reduce amount of file/entry overrides. This MAY result better compatibility and easier maintenance.
 
 [h2]Load, Ship & Road v1.0.10[/h2]
 - Ports now give more infrastructure, especially since Industrial Ports PM.

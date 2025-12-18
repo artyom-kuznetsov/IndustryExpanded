@@ -1,0 +1,21 @@
+﻿
+INJECT:combat_unit_type_mechanized_infantry = {
+    upkeep_modifier = {
+        goods_input_oil_add = -1
+        goods_input_fuel_add = 0.8
+    }
+}
+
+INJECT:combat_unit_type_heavy_tank = {
+    upkeep_modifier = {
+        goods_input_oil_add = -3
+        goods_input_fuel_add = 2.4
+    }
+}
+
+INJECT:combat_unit_type_light_tanks = {
+    upkeep_modifier = {
+        goods_input_oil_add = -2
+        goods_input_fuel_add = 1.6
+    }
+}

@@ -91,7 +91,7 @@ building_wiremill = {
 	}
 }
 
-building_electrics_industry = {	# TELEPHONE FACTORY
+REPLACE:building_electrics_industry = {	# TELEPHONE FACTORY
 	building_group = bg_heavy_industry
 	icon = "gfx/interface/icons/building_icons/electrics_industry.dds"
 	city_type = city

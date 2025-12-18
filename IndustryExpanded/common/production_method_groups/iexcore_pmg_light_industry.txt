@@ -1,5 +1,5 @@
 ﻿
-pmg_distillery = {
+REPLACE_OR_CREATE:pmg_distillery = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_alcohol_production
@@ -8,7 +8,7 @@ pmg_distillery = {
 	}
 }
 
-pmg_base_building_lumber_mill = {
+REPLACE_OR_CREATE:pmg_base_building_lumber_mill = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_manual_sawing_lm
@@ -26,7 +26,7 @@ pmg_secondary_building_lumber_mill = {
 	}
 }
 
-pmg_base_paper = {
+REPLACE_OR_CREATE:pmg_base_paper = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_pulp_pressing
@@ -46,7 +46,7 @@ pmg_assembly_paper = {
 	}
 }
 
-pmg_sewing_textile = {
+REPLACE_OR_CREATE:pmg_sewing_textile = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_handsewn_clothes
@@ -55,7 +55,7 @@ pmg_sewing_textile = {
 	}
 }
 
-pmg_dyes_textile = {
+REPLACE_OR_CREATE:pmg_dyes_textile = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_no_dye_textile
@@ -64,7 +64,7 @@ pmg_dyes_textile = {
 	}
 }
 
-pmg_luxury_building_textile_mills = {
+REPLACE_OR_CREATE:pmg_luxury_building_textile_mills = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_no_luxury_clothes
@@ -75,7 +75,7 @@ pmg_luxury_building_textile_mills = {
 	}
 }
 
-pmg_base_building_furniture_manufacturies = {
+REPLACE_OR_CREATE:pmg_base_building_furniture_manufacturies = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_handcrafted_furniture
@@ -85,7 +85,7 @@ pmg_base_building_furniture_manufacturies = {
 	}
 }
 
-pmg_luxury_building_furniture_manufacturies = {
+REPLACE_OR_CREATE:pmg_luxury_building_furniture_manufacturies = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_no_luxuries

@@ -1,5 +1,5 @@
 ﻿
-pmg_telephones_category = {
+REPLACE_OR_CREATE:pmg_telephones_category = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_experimental_telephones
@@ -7,7 +7,7 @@ pmg_telephones_category = {
 	}
 }
 
-pmg_radios_category = {
+REPLACE_OR_CREATE:pmg_radios_category = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_radios
@@ -15,7 +15,7 @@ pmg_radios_category = {
 	}
 }
 
-pmg_electronics = {
+REPLACE_OR_CREATE:pmg_electronics = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_early_electronics

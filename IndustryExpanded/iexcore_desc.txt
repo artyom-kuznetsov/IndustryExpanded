@@ -51,8 +51,8 @@ NOTE! All translations below are currently outdated. If you want, you can upload
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v13.1.3[/b]
-Game version: [b]v1.11.0[/b]
+Mod version: [b]v13.2.0[/b]
+Game version: [b]v1.12.X[/b]
 
 Thanks for playing Industry Expanded!
 [img]https://i.imgur.com/aNDO8WK.gif[/img]

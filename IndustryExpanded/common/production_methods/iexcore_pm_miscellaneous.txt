@@ -1,5 +1,5 @@
 ﻿
-pm_brine_electrolysis = {
+REPLACE_OR_CREATE:pm_brine_electrolysis = {
 	texture = "gfx/interface/icons/production_method_icons/vaccum_brine_electrolysis.dds"
 	state_modifiers = {
 		workforce_scaled = {
@@ -34,7 +34,7 @@ pm_brine_electrolysis = {
 
 }
 
-pm_oil-fired_plant = {
+REPLACE_OR_CREATE:pm_oil-fired_plant = {
 	texture = "gfx/interface/icons/production_method_icons/oil_fired_plant.dds"
 
 	unlocking_technologies = {
@@ -62,56 +62,30 @@ pm_oil-fired_plant = {
 	}
 }
 
-pm_trade_center = {
-	texture = "gfx/interface/icons/production_method_icons/trade_center.dds"
-	replacement_if_valid = pm_trade_center_principle_external_trade_2
-	is_hidden_when_unavailable = yes
-
+INJECT:pm_trade_center = {
 	building_modifiers = {
-		level_scaled = {
-			building_employment_clerks_add = 800
-			building_employment_shopkeepers_add = 200
-		}
 		unscaled = {
 			building_goods_input_mult = 1
 		}
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_weekly_trades_add = 2
-			state_trade_capacity_add = 25
+			state_weekly_trades_add = 1
+			state_trade_capacity_add = 15
 		}
 	}
 }
 
-pm_trade_center_principle_external_trade_2 = {
-	texture = "gfx/interface/icons/production_method_icons/trade_center.dds"
-	is_hidden_when_unavailable = yes
-
-	unlocking_principles = {
-		principle_external_trade_2
-		principle_external_trade_3
-	}
-
-	country_modifiers = {
-		workforce_scaled = {
-			country_influence_add = 0.5
-		}
-	}
-
+INJECT:pm_trade_center_principle_external_trade_2 = {
 	building_modifiers = {
-		level_scaled = {
-			building_employment_clerks_add = 800
-			building_employment_shopkeepers_add = 200
-		}
 		unscaled = {
 			building_goods_input_mult = 1
 		}
 	}
 	state_modifiers = {
 		workforce_scaled = {
-			state_weekly_trades_add = 2
-			state_trade_capacity_add = 25
+			state_weekly_trades_add = 1
+			state_trade_capacity_add = 15
 		}
 	}
 }

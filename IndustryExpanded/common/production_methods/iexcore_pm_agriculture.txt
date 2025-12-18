@@ -1,6 +1,6 @@
 ﻿# LIVESTOCK
 
-pm_open_air_stockyards = {
+REPLACE_OR_CREATE:pm_open_air_stockyards = {
 	is_default = yes
 	texture = "gfx/interface/icons/production_method_icons/open_air_stockyards.dds"
 	building_modifiers = {
@@ -15,7 +15,7 @@ pm_open_air_stockyards = {
 	}
 }
 
-pm_butchering_tools = {
+REPLACE_OR_CREATE:pm_butchering_tools = {
 	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -30,7 +30,7 @@ pm_butchering_tools = {
 	}
 }
 
-pm_slaughterhouses = {
+REPLACE_OR_CREATE:pm_slaughterhouses = {
 	texture = "gfx/interface/icons/production_method_icons/slaughterhouses.dds"
 	
 	state_modifiers = {
@@ -56,7 +56,7 @@ pm_slaughterhouses = {
 	}
 }
 
-pm_mechanized_slaughtering = {
+REPLACE_OR_CREATE:pm_mechanized_slaughtering = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_slaughtering.dds"
 
 	state_modifiers = {
@@ -87,7 +87,7 @@ pm_mechanized_slaughtering = {
 ### SECONDARY
 
 
-pm_simple_ranch = {
+REPLACE_OR_CREATE:pm_simple_ranch = {
 	texture = "gfx/interface/icons/production_method_icons/sheep_ranch.dds"
 	is_default = yes
 	
@@ -102,7 +102,7 @@ pm_simple_ranch = {
 	}
 }
 
-pm_sheep_farms = {
+REPLACE_OR_CREATE:pm_sheep_farms = {
 	texture = "gfx/interface/icons/production_method_icons/sheep_farms.dds"
 
 	unlocking_technologies = {
@@ -175,7 +175,7 @@ pm_fertilizer_intensive = {
 	}
 }
 
-pm_barbed_wire_fences = {
+REPLACE_OR_CREATE:pm_barbed_wire_fences = {
 	texture = "gfx/interface/icons/production_method_icons/barbed_wire_fencing.dds"
 	unlocking_technologies = {
 		field_works
@@ -192,7 +192,7 @@ pm_barbed_wire_fences = {
 	}
 }
 
-pm_electric_fencing = {
+REPLACE_OR_CREATE:pm_electric_fencing = {
 	texture = "gfx/interface/icons/production_method_icons/electric_fencing.dds"
 	unlocking_technologies = {
 		electrical_generation

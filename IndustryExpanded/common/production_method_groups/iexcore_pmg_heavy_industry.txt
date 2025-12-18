@@ -1,4 +1,4 @@
-﻿pmg_base_building_glassworks = {
+﻿REPLACE_OR_CREATE:pmg_base_building_glassworks = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_forest_glass
@@ -7,7 +7,7 @@
 	}
 }
 
-pmg_glassblowing = {
+REPLACE_OR_CREATE:pmg_glassblowing = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
 	production_methods = {
 		pm_manual_glassblowing
@@ -48,7 +48,7 @@ pmg_wiremill_material = {
 }
 
 
-pmg_base_building_motor_industry = {
+REPLACE_OR_CREATE:pmg_base_building_motor_industry = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	production_methods = {
 		pm_early_steam_engines

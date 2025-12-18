@@ -1,10 +1,10 @@
 ﻿
 ### AUTOMATION ###
-pm_automation_disabled = {
+REPLACE_OR_CREATE:pm_automation_disabled = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 }
 
-pm_automation_working_tools = {
+REPLACE_OR_CREATE:pm_automation_working_tools = {
 	texture = "gfx/pm_icons/working_tools.dds"
 	
 	unlocking_technologies = {
@@ -27,7 +27,7 @@ pm_automation_working_tools = {
 	}
 }
 
-pm_automation_watertube_boiler = {
+REPLACE_OR_CREATE:pm_automation_watertube_boiler = {
 	texture = "gfx/interface/icons/production_method_icons/watertube_boiler.dds"
 	
 	unlocking_technologies = {
@@ -125,7 +125,7 @@ pm_automation_electric_drive = {
 	
 }
 
-pm_automation_conveyor_production = {
+REPLACE_OR_CREATE:pm_automation_conveyor_production = {
 	texture = "gfx/pm_icons/conveyor_production.dds"
 	
 	unlocking_technologies = {
@@ -161,7 +161,7 @@ pm_automation_conveyor_production = {
 	}
 }
 
-pm_automation_assembly_lines = {
+REPLACE_OR_CREATE:pm_automation_assembly_lines = {
 	texture = "gfx/interface/icons/production_method_icons/assembly_lines.dds"
 	
 	unlocking_technologies = {
@@ -197,11 +197,11 @@ pm_automation_assembly_lines = {
 	}
 }
 
-pm_traditional_looms = {
+REPLACE_OR_CREATE:pm_traditional_looms = {
 	texture = "gfx/interface/icons/production_method_icons/no_automation.dds"
 }
 
-pm_mechanized_looms = {
+REPLACE_OR_CREATE:pm_mechanized_looms = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_looms.dds"
 
 	unlocking_technologies = {
@@ -228,7 +228,7 @@ pm_mechanized_looms = {
 	}
 }
 
-pm_automatic_power_looms = {
+REPLACE_OR_CREATE:pm_automatic_power_looms = {
 	texture = "gfx/interface/icons/production_method_icons/automatic_power_looms.dds"
 
 	unlocking_technologies = {
@@ -685,7 +685,7 @@ pm_electric_ovens_bakery = {
 }
 
 
-pm_automated_bakery = {
+REPLACE_OR_CREATE:pm_automated_bakery = {
 	texture = "gfx/interface/icons/production_method_icons/automated_bakery.dds"
 
 	disallowing_laws = {

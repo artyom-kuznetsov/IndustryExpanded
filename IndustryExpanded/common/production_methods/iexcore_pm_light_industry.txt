@@ -1,5 +1,5 @@
 ﻿### FOOD INDUSTRIES ###
-pm_bakery = {
+REPLACE_OR_CREATE:pm_bakery = {
 	texture = "gfx/interface/icons/production_method_icons/bakeries.dds"
 
 	building_modifiers = {
@@ -19,7 +19,7 @@ pm_bakery = {
 	}
 }
 
-pm_sweeteners = {
+REPLACE_OR_CREATE:pm_sweeteners = {
 	texture = "gfx/interface/icons/production_method_icons/sweeteners.dds"
 
 	unlocking_technologies = {
@@ -45,7 +45,7 @@ pm_sweeteners = {
 	}
 }
 
-pm_baking_powder = {
+REPLACE_OR_CREATE:pm_baking_powder = {
 	texture = "gfx/interface/icons/production_method_icons/baking_powder.dds"
 
 	unlocking_technologies = {
@@ -72,11 +72,11 @@ pm_baking_powder = {
 	}
 }
 
-pm_disabled_canning = {
+REPLACE_OR_CREATE:pm_disabled_canning = {
 	texture = "gfx/interface/icons/production_method_icons/no_canning.dds"
 }
 
-pm_cannery = {
+REPLACE_OR_CREATE:pm_cannery = {
 	texture = "gfx/interface/icons/production_method_icons/canneries.dds"
 
 	unlocking_technologies = {
@@ -101,7 +101,7 @@ pm_cannery = {
 	}
 }
 
-pm_cannery_fish = {
+REPLACE_OR_CREATE:pm_cannery_fish = {
 	texture = "gfx/interface/icons/production_method_icons/canneries.dds"
 
 	unlocking_technologies = {
@@ -125,7 +125,7 @@ pm_cannery_fish = {
 	}
 }
 
-pm_vacuum_canning = {
+REPLACE_OR_CREATE:pm_vacuum_canning = {
 	texture = "gfx/interface/icons/production_method_icons/vaccum_canning.dds"
 	replacement_if_valid = pm_vacuum_canning_principle_3
 
@@ -153,7 +153,7 @@ pm_vacuum_canning = {
 	}
 }
 
-pm_vacuum_canning_principle_3 = {
+REPLACE_OR_CREATE:pm_vacuum_canning_principle_3 = {
 	texture = "gfx/interface/icons/production_method_icons/vaccum_canning.dds"
 	is_hidden_when_unavailable = yes
 
@@ -211,7 +211,7 @@ pm_alcohol_production = {
 	}
 }
 
-pm_pot_stills = {
+REPLACE_OR_CREATE:pm_pot_stills = {
 	texture = "gfx/interface/icons/production_method_icons/pot_stills.dds"
 
 	unlocking_technologies = {
@@ -236,7 +236,7 @@ pm_pot_stills = {
 	}
 }
 
-pm_patent_stills = {
+REPLACE_OR_CREATE:pm_patent_stills = {
 	texture = "gfx/interface/icons/production_method_icons/patent_stills.dds"
 
 	unlocking_technologies = {
@@ -427,7 +427,7 @@ pm_full_chemical_treatment = {
 
 ### FURNITURE MANUFACTORY ###
 
-pm_handcrafted_furniture = {
+REPLACE_OR_CREATE:pm_handcrafted_furniture = {
 	texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"
 	
 	building_modifiers = {
@@ -448,7 +448,7 @@ pm_handcrafted_furniture = {
 	}
 }		
 
-pm_lathe = {
+REPLACE_OR_CREATE:pm_lathe = {
 	texture = "gfx/interface/icons/production_method_icons/lathes.dds"
 	
 	unlocking_technologies = {
@@ -474,7 +474,7 @@ pm_lathe = {
 	}
 }
 
-pm_mechanized_workshops = {
+REPLACE_OR_CREATE:pm_mechanized_workshops = {
 	texture = "gfx/interface/icons/production_method_icons/dye_workshops.dds"
 	
 	unlocking_technologies = {
@@ -508,7 +508,7 @@ pm_mechanized_workshops = {
 	}
 }
 
-pm_plastic_furniture = {
+REPLACE_OR_CREATE:pm_plastic_furniture = {
 	texture = "gfx/interface/icons/production_method_icons/mechanized_workshops.dds"
 	
 	unlocking_technologies = {
@@ -543,7 +543,7 @@ pm_plastic_furniture = {
 	}
 }
 
-pm_luxury_furniture = {
+REPLACE_OR_CREATE:pm_luxury_furniture = {
 	texture = "gfx/interface/icons/production_method_icons/luxury_furniture.dds"
 	
 	
@@ -560,7 +560,7 @@ pm_luxury_furniture = {
 	}
 }
 
-pm_precision_tools = {
+REPLACE_OR_CREATE:pm_precision_tools = {
 	texture = "gfx/interface/icons/production_method_icons/luxury_furniture_increased.dds"
 
 	unlocking_production_methods = {
@@ -579,7 +579,7 @@ pm_precision_tools = {
 	}
 }
 
-pm_luxury_furniture_focus = {
+REPLACE_OR_CREATE:pm_luxury_furniture_focus = {
 	texture = "gfx/interface/icons/production_method_icons/precision_tools.dds"
 
 	unlocking_production_methods = {
@@ -598,7 +598,7 @@ pm_luxury_furniture_focus = {
 }
 
 ### PAPER MILL #
-pm_handcrafting_paper = {
+REPLACE_OR_CREATE:pm_handcrafting_paper = {
 	texture = "gfx/interface/icons/production_method_icons/furniture_handicraft.dds"	# VANILLA FILE
 	
 	building_modifiers = {
@@ -703,7 +703,7 @@ pm_auto_press_paper = {
 
 # PAPER MILL
 
-pm_pulp_pressing = {
+REPLACE_OR_CREATE:pm_pulp_pressing = {
 	texture = "gfx/interface/icons/production_method_icons/pulp_pressing.dds"			
 	
 	building_modifiers = {
@@ -717,7 +717,7 @@ pm_pulp_pressing = {
 	}
 }
 
-pm_sulfite_pulping = {
+REPLACE_OR_CREATE:pm_sulfite_pulping = {
 	texture = "gfx/interface/icons/production_method_icons/sulfite_pulping.dds"
 	
 	state_modifiers = {
@@ -776,7 +776,7 @@ pm_ink_paper = {
 	}
 }
 
-pm_bleached_paper = {
+REPLACE_OR_CREATE:pm_bleached_paper = {
 	texture = "gfx/interface/icons/production_method_icons/bleached_paper.dds"
 	state_modifiers = {
 		workforce_scaled = {
@@ -809,7 +809,7 @@ pm_bleached_paper = {
 ### TEXTILE MILLS ###
 
 ### EQUIPMENT ###
-pm_handsewn_clothes = {
+REPLACE_OR_CREATE:pm_handsewn_clothes = {
 	texture = "gfx/interface/icons/production_method_icons/handsewn_clothes.dds"
 	
 	building_modifiers = {
@@ -828,7 +828,7 @@ pm_handsewn_clothes = {
 	}
 }
 
-pm_sewing_machines = {
+REPLACE_OR_CREATE:pm_sewing_machines = {
 	texture = "gfx/interface/icons/production_method_icons/sewing_machines.dds"
 	
 	unlocking_technologies = {
@@ -853,7 +853,7 @@ pm_sewing_machines = {
 	}
 }
 
-pm_electric_sewing_machines = {
+REPLACE_OR_CREATE:pm_electric_sewing_machines = {
 	texture = "gfx/interface/icons/production_method_icons/electric_sewing_machines.dds"
 	
 	unlocking_technologies = {
@@ -923,11 +923,11 @@ pm_dyed_clothes_2 = {
 
 # LUXURY CLOTHES
 
-pm_no_luxury_clothes = {
+REPLACE_OR_CREATE:pm_no_luxury_clothes = {
 	texture = "gfx/interface/icons/production_method_icons/no_luxury_clothes.dds"
 }
 
-pm_luxury_clothes_production = {
+REPLACE_OR_CREATE:pm_luxury_clothes_production = {
 	texture = "gfx/interface/icons/production_method_icons/craftsman_sewing.dds"
 	
 	building_modifiers = {
@@ -943,7 +943,7 @@ pm_luxury_clothes_production = {
 	}
 }
 
-pm_craftsman_sewing = {
+REPLACE_OR_CREATE:pm_craftsman_sewing = {
 	texture = "gfx/interface/icons/production_method_icons/craftsman_sewing.dds"
 	
 	unlocking_production_methods = {
@@ -965,7 +965,7 @@ pm_craftsman_sewing = {
 	
 }
 
-pm_elastics = {
+REPLACE_OR_CREATE:pm_elastics = {
 	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
 	
 	unlocking_technologies = {
