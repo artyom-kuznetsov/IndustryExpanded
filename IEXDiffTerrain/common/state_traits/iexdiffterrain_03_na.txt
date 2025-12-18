@@ -1,79 +1,54 @@
 ﻿
-state_trait_northern_canadian_terrain = {	# VERYDIFF
-	icon = "gfx/interface/icons/state_trait_icons/cold_climate.dds"
-
+INJECT:INJECT:state_trait_northern_canadian_terrain = {	# VERYDIFF
 	modifier = {
-		building_group_bg_agriculture_throughput_add = -0.2
-		state_infrastructure_mult = -0.2
-		state_migration_pull_mult = -0.5
+		state_construction_mult = 0.2
 	}
 }
 
-state_trait_cascades = {	# DIFFICULT
-	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
-
+INJECT:state_trait_cascades = {	# DIFFICULT
 	modifier = {
-		state_infrastructure_mult = -0.1
+		state_construction_mult = 0.1
 	}
 }
 
-state_trait_northern_california_coastal_forests = {	# DIFFICULT
-    icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
-
+INJECT:state_trait_northern_california_coastal_forests = {	# DIFFICULT
 	modifier = {
-		building_group_bg_logging_throughput_add = 0.2
+		state_construction_mult = 0.1
 	}
 }
 
-state_trait_the_great_basin_desert = {	# DESERTED
-	icon = "gfx/interface/icons/state_trait_icons/dry_climate.dds"
-
+INJECT:state_trait_the_great_basin_desert = {	# DESERTED
 	modifier = {
-        building_group_bg_ranching_throughput_add = -0.1
-		building_group_bg_agriculture_throughput_add = -0.2
-		building_group_bg_plantations_throughput_add = -0.2
-		#state_construction_mult = -0.25
-		state_infrastructure_mult = -0.25
+		#state_construction_mult = 0.25
 	}
 }
 
-state_trait_floridian_wetlands = {	# FORESTED
-	icon = "gfx/interface/icons/state_trait_icons/swamp.dds"
-
+INJECT:state_trait_floridian_wetlands = {	# FORESTED
 	modifier = {
-		#state_construction_mult = -0.15
-		state_infrastructure_mult = -0.15
+		state_construction_mult = 0.15
 	}
 }
 
-state_trait_rocky_mountains = {	# VERYDIFF
-	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
-
+INJECT:state_trait_rocky_mountains = {	# VERYDIFF
 	modifier = {
-		state_infrastructure_mult = -0.2
+		state_construction_mult = 0.2
 	}
 }
 
-state_trait_sierra_madre_occidental = {	# DIFFICULT
-	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
-
+INJECT:state_trait_sierra_madre_occidental = {	# DIFFICULT
 	modifier = {
-		state_infrastructure_mult = -0.10
+		state_construction_mult = 0.1
 	}
 }
 
-state_trait_sierra_madre_oriental = {	# DIFFICULT
-	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
-
+INJECT:state_trait_sierra_madre_oriental = {	# DIFFICULT
 	modifier = {
-		state_infrastructure_mult = -0.1
+		state_construction_mult = 0.1
 	}
 }
 
-state_trait_central_american_cordilleras = {	# DIFFICULT
-	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
-
+INJECT:state_trait_central_american_cordilleras = {	# DIFFICULT
 	modifier = {
-		state_infrastructure_mult = -0.1
+		state_construction_mult = 0.1
 	}
 }

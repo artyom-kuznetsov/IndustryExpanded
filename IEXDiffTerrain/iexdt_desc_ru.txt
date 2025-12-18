@@ -15,8 +15,8 @@
 [b]Вдохновение и графика от [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855&searchtext=vtm]Victoria Tweaks Mod[/url][/b]
 
 [h2]Метаданные[/h2]
-Версия мода: [b]v1.2[/b]
-Версия игры: [b]v1.11.0[/b]
+Версия мода: [b]v1.3[/b]
+Версия игры: [b]v1.12.*[/b]
 [img]https://i.imgur.com/fwdIwjS.png[/img]
 
 Спасибо, что играете в Industry Expanded!

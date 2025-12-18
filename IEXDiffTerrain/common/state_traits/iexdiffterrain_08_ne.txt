@@ -1,42 +1,29 @@
-﻿state_trait_zagros_mountains = {	# DIFFICULT
-	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
-
+﻿INJECT:state_trait_zagros_mountains = {	# DIFFICULT
 	modifier = {
-		state_infrastructure_mult = -0.1
+		state_construction_mult = 0.1
 	}
 }
 
-state_trait_alborz_mountains = {	# DIFFICULT
-	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
-
+INJECT:state_trait_alborz_mountains = {	# DIFFICULT
 	modifier = {
-		state_infrastructure_mult = -0.2
+		state_construction_mult = 0.1
 	}
 }
 
-state_trait_baluchistan_mountains = {	# VERYDIFF
-	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
-
+INJECT:state_trait_baluchistan_mountains = {	# VERYDIFF
 	modifier = {
-		state_infrastructure_mult = -0.2
+		state_construction_mult = 0.2
 	}
 }
 
-state_trait_arabian_desert = {	# DESERTED
-	icon = "gfx/interface/icons/state_trait_icons/dry_climate.dds"
-
+INJECT:state_trait_arabian_desert = {	# DESERTED
 	modifier = {
-        building_group_bg_ranching_throughput_add = -0.1
-		building_group_bg_agriculture_throughput_add = -0.2
-		building_group_bg_plantations_throughput_add = -0.2
-		state_infrastructure_mult = -0.25
+		state_construction_mult = 0.25
     }
 }
 
-state_trait_mount_lebanon = {	# DIFFICULT
-	icon = "gfx/interface/icons/state_trait_icons/mountain.dds"
+INJECT:state_trait_mount_lebanon = {	# DIFFICULT
 	modifier = {
-		state_infrastructure_mult = -0.05
-		building_group_bg_silk_plantations_throughput_add = 0.15
+		state_construction_mult = 0.05
 	}
 }

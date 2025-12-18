@@ -1,27 +1,23 @@
 ﻿
-state_trait_burmese_teak = {	# FORESTED
-	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
-
+INJECT:state_trait_burmese_teak = {	# FORESTED
 	modifier = {
-		goods_output_hardwood_mult = 0.25
-		state_infrastructure_mult = -0.10
+		goods_output_hardwood_mult = -0.25
+		state_construction_mult = 0.1
+		building_group_bg_logging_throughput_add = 0.1
 	}
 }
 
-state_trait_indochinese_forest = {	# FORESTED
-	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
-
+INJECT:state_trait_indochinese_forest = {	# FORESTED
 	modifier = {
 		building_group_bg_logging_throughput_add = 0.1
-		state_infrastructure_mult = -0.1
+		state_construction_mult = 0.1
 	}
 }
 
-state_trait_borneo_rainforest = {	# FORESTED
-	icon = "gfx/interface/icons/state_trait_icons/resources_lumber.dds"
-
+INJECT:state_trait_borneo_rainforest = {	# FORESTED
 	modifier = {
-		goods_output_hardwood_mult = 0.25
-		state_infrastructure_mult = -0.1
+		goods_output_hardwood_mult = -0.25
+		state_construction_mult = 0.1
+		building_group_bg_logging_throughput_add = 0.1
 	}
 }
