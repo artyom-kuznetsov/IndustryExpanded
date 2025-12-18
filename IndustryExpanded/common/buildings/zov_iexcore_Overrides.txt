@@ -206,7 +206,7 @@ REPLACE:building_textile_mill = {
 
 REPLACE:building_arms_industry = {
 	aliases = { building_arms_industries }
-	building_group = bg_arms_industries
+	building_group = bg_military_industry
 	icon = "gfx/interface/icons/building_icons/arms_industry.dds"
 	city_type = city
 	levels_per_mesh = 50
@@ -244,7 +244,7 @@ REPLACE:building_arms_industry = {
 }
 
 REPLACE:building_artillery_foundry = {
-	building_group = bg_artillery_foundries
+	building_group = bg_military_industry
 	icon = "gfx/interface/icons/building_icons/artillery_foundry.dds"
 	city_type = city
 	levels_per_mesh = 50

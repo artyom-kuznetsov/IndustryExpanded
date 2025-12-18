@@ -18,6 +18,10 @@
 [b]- Updated to Victoria 3 v1.12.1[/b]
 - Utilized new "INJECT" logic wherever possible to reduce amount of file/entry overrides. This MAY result better compatibility and easier maintenance.
 
+[h2]Enhanced Auto Expansion v1.5[/h2]
+[b]- Updated to Victoria 3 v1.12.1[/b]
+- Utilized new "INJECT" logic wherever possible to reduce amount of file/entry overrides. This MAY result better compatibility and easier maintenance.
+
 
 
 
