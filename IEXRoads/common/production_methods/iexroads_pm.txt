@@ -96,7 +96,7 @@ pm_gravel_roads = {
 	}
 }
 
-pm_paved_roads = { # ASPHALT ROADS
+pm_paved_roads = {
 	texture = "gfx/paved_roads.dds"
 	
 	state_modifiers = {
@@ -107,7 +107,7 @@ pm_paved_roads = { # ASPHALT ROADS
 
 
 	unlocking_technologies = {
-		stone_roads
+		paved_road_iex
 	}
 	
 	building_modifiers = {

@@ -8,7 +8,7 @@ REPLACE:pmg_sheep_ranch = {
 	}
 }
 
-REPLACE:pmg_ranch_fertilizer = {
+pmg_ranch_fertilizer = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_no_fertilizer_collection

@@ -3,7 +3,7 @@
 # max_supply_share			The maximum weight that can be applied to this good based on market Sell Order share, relative supply above this amount will have no further impact on base weight
 # min_supply_share			If above 0, a minimum of this multiplier of the base weight will be applied to a good regardless of its market Sell Order share
 
-popneed_basic_food = {
+REPLACE:popneed_basic_food = {
 	default = grain
 
 	entry = {
@@ -47,7 +47,7 @@ popneed_basic_food = {
 	}
 }
 
-popneed_heating = {
+REPLACE:popneed_heating = {
 	default = wood
 
 	entry = {
@@ -99,7 +99,7 @@ popneed_heating = {
 	}
 }
 
-popneed_intoxicants = {
+REPLACE:popneed_intoxicants = {
 	default = liquor
 	
 	obsession_demand_min = 0.75
@@ -139,7 +139,7 @@ popneed_intoxicants = {
 	}
 }
 
-popneed_luxury_drinks = {
+REPLACE:popneed_luxury_drinks = {
 	default = tea
 	
 	obsession_demand_min = 0.75
@@ -171,7 +171,7 @@ popneed_luxury_drinks = {
 	}
 }
 
-popneed_communication = {
+REPLACE:popneed_communication = {
 	default = transportation
 	
 	entry = {
@@ -207,7 +207,7 @@ popneed_communication = {
 	}
 }
 
-popneed_free_movement = {
+REPLACE:popneed_free_movement = {
 	default = transportation
 
 	entry = {

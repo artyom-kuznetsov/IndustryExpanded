@@ -6,6 +6,7 @@
 - Some techs changed requirements to make a more visually pleasant and sensical research tree.
 - Increased Distillery building cost from 400 to 600.
 - Late game unit types that previously used oil now use refined fuel.
+- Fixed missing loc for luxury clothes PMG
 
 [h2]Load, Ship & Road v1.0.10[/h2]
 - Ports now give more infrastructure, especially since Industrial Ports PM.
