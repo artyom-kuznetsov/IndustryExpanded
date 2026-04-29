@@ -11,7 +11,11 @@
 [b]- Updated to Victoria 3 v1.13.0[/b]
 - Fixed North Canadian Terrain
 
+[h2]Load, Ship & Road v1.0.11[/h2]
+[b]- Updated to Victoria 3 v1.13.0[/b]
 
+[h2]UrbanismPlus v2.1[/h2]
+[b]- Updated to Victoria 3 v1.13.0[/b]
 
 
 [h1]Core v13.2.0[/h1]

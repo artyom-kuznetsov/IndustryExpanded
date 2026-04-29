@@ -16,8 +16,8 @@
 - Reduced urbanization from fake buildings like financial districts, manor houses and company headquarters.
 
 [h2]Metadata[/h2]
-Mod version: [b]v2.0[/b]
-Game version: [b]v1.10.2[/b]
+Mod version: [b]v2.1[/b]
+Game version: [b]v1.13.X[/b]
 This module requires [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3503014205]roads module[/url] as well.
 [img]https://i.imgur.com/fwdIwjS.png[/img]
 
