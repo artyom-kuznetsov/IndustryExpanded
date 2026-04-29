@@ -190,7 +190,7 @@ INJECT:building_munition_plant = {
 	}
 }
 
-INJECT:building_steel_mills = {
+INJECT:building_steel_mill = {
 	should_auto_expand = { 
 		occupancy >= 0.8
 		owner = {

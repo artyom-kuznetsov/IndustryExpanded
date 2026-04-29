@@ -494,9 +494,9 @@ REPLACE_OR_CREATE:pm_bone_china = {
 	}														
 }
 
-pm_manual_glassblowing = {
-	texture = "gfx/interface/icons/production_method_icons/glassworks_handicraft.dds"
-}
+#pm_manual_glassblowing = {
+#	texture = "gfx/interface/icons/production_method_icons/glassworks_handicraft.dds"
+#}
 
 REPLACE_OR_CREATE:pm_glass_rollers = {
 	texture = "gfx/interface/icons/production_method_icons/rotary_valve_engine.dds"

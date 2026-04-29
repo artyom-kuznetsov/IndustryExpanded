@@ -1,5 +1,33 @@
 ﻿### See power_bloc_principle_groups for grouping, primary groups for identities etc.
 
+### Shared Canon
+
+REPLACE:principle_shared_canon_1 = {
+	icon = "gfx/interface/icons/principles_icons/shared_canon.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+
+	visible = {
+		has_dlc_feature = ip4_content
+	}
+
+	member_modifier = {
+		country_society_tech_spread_mult = 0.1
+		state_assimilation_mult = 0.1
+		country_radicalism_increases_full_acceptance_mult = -0.10
+	}
+
+	ai_weight = {
+		value = 100
+
+		if = {
+			limit = {
+				has_law_or_variant = law_type:law_ethnostate
+			}
+			add = 100
+		}
+	}
+}
+
 ### CONSTRUCTION
 
 REPLACE:principle_construction_1 = {
@@ -935,6 +963,41 @@ REPLACE:principle_companies_1 = {
 
 		if = {
 			limit = { has_strategy = ai_strategy_economic_imperialism }
+			multiply = 1.5
+		}
+	}
+}
+
+### Navy
+
+REPLACE:principle_navy_1 = {
+	icon = "gfx/interface/icons/principles_icons/fleet_unification.dds"
+	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
+
+	visible = {
+		has_dlc_feature = ep2_content
+	}
+
+	member_modifier = {
+		# Increase interest gain from fleets
+		ship_interest_gain_mult = 0.1
+		country_flagship_interest_gain_mult = 0.15
+		
+		country_ship_construction_progress_max_add = 5
+	}
+
+	ai_weight = {
+		value = 100
+
+		if = {
+			limit = {
+				ig:ig_armed_forces ?= { is_in_government = yes }
+			}
+			add = 100
+		}
+
+		if = {
+			limit = { has_strategy = ai_strategy_colonial_expansion }
 			multiply = 1.5
 		}
 	}

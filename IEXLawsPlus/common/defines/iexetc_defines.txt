@@ -1,0 +1,9 @@
+﻿
+NCountry = {
+	INCORPORATION_TIME_SAME_CULTURE = 2				# Years if the state is a Homeland of one of the country's primary cultures
+	INCORPORATION_TIME_SAME_HERITAGE_AND_LANGUAGE = 4			# Years if the state is a Homeland of a culture that matches of one of the country's primary cultures' Heritage and Language traits
+	INCORPORATION_TIME_SAME_HERITAGE_OR_LANGUAGE = 6			# Years if the state is a Homeland of a culture that matches of one of the country's primary cultures' Heritage or Language traits
+	INCORPORATION_TIME_SAME_TRAIT_GROUP = 8				# Years if the state is a Homeland of a culture with any trait in common with a country's primary cultures
+	INCORPORATION_TIME_NO_MATCH = 10				# Years if the state's Homeland cultures have nothing in common with the country's primary cultures
+	
+}

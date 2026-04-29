@@ -1,5 +1,14 @@
 ﻿### See power_bloc_principles for the individual effects
 
+REPLACE:principle_group_shared_canon = {
+	primary_for_identity = identity_cultural
+	unlocking_identity = identity_cultural
+
+	levels = {
+		principle_shared_canon_1
+	}
+}
+
 REPLACE:principle_group_construction = {
 	levels = {
 		principle_construction_1
@@ -151,5 +160,12 @@ REPLACE:principle_group_companies = {
 
 	levels = {
 		principle_companies_1
+	}
+}
+
+REPLACE:principle_group_navy = {
+
+	levels = {
+		principle_navy_1
 	}
 }

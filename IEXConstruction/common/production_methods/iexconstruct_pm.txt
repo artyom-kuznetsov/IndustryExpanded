@@ -498,7 +498,7 @@ pm_plastic_glass_cs = {
 ### 
 
 ## URBAN CENTER
-pm_market_stalls = {
+REPLACE:pm_market_stalls = {
 	texture = "gfx/interface/icons/production_method_icons/market_stalls.dds"
 
 	building_modifiers = {
@@ -520,7 +520,7 @@ pm_market_stalls = {
 	}
 }
 
-pm_market_squares = {
+REPLACE:pm_market_squares = {
 	texture = "gfx/interface/icons/production_method_icons/market_squares.dds"
 
 	unlocking_technologies = { urban_planning }
@@ -546,7 +546,7 @@ pm_market_squares = {
 	}
 }
 
-pm_covered_markets = {
+REPLACE:pm_covered_markets = {
 	texture = "gfx/interface/icons/production_method_icons/covered_markets.dds"
 	unlocking_technologies = {
 		steel_frame_buildings
@@ -573,7 +573,7 @@ pm_covered_markets = {
 	}
 }
 
-pm_arcades = {
+REPLACE:pm_arcades = {
 	texture = "gfx/interface/icons/production_method_icons/arcades.dds"
 	unlocking_technologies = {
 		elevator
@@ -604,7 +604,7 @@ pm_arcades = {
 }
 
 
-pm_principle_freedom_of_movement_3 = {
+REPLACE:pm_principle_freedom_of_movement_3 = {
 	texture = "gfx/interface/icons/production_method_icons/government_run.dds"
 
 	is_hidden_when_unavailable = yes
@@ -620,7 +620,7 @@ pm_principle_freedom_of_movement_3 = {
 	}
 }
 
-pm_gas_streetlights = {
+REPLACE:pm_gas_streetlights = {
 	texture = "gfx/interface/icons/production_method_icons/gas_streetlights.dds"
 
 	city_lights_color_index = 1	# Needs to match city_graphics_data.settings color array
@@ -650,7 +650,7 @@ pm_gas_streetlights = {
 	}
 }
 
-pm_electric_streetlights = {
+REPLACE:pm_electric_streetlights = {
 	texture = "gfx/interface/icons/production_method_icons/electric_streetlights.dds"
 
 	city_lights_color_index = 2	# Needs to match city_graphics_data.settings color array
@@ -683,7 +683,7 @@ pm_electric_streetlights = {
 
 }
 
-pm_public_trams = {
+REPLACE:pm_public_trams = {
 	texture = "gfx/interface/icons/production_method_icons/public_trams.dds"
 
 	unlocking_technologies = {
@@ -711,7 +711,7 @@ pm_public_trams = {
 	}
 }
 
-pm_public_motor_carriages = {
+REPLACE:pm_public_motor_carriages = {
 	texture = "gfx/interface/icons/production_method_icons/public_motor_carriages.dds"
 
 	unlocking_technologies = {
