@@ -1,3 +1,19 @@
+[h1]Core v13.3.0[/h1]
+[b]- Updated to Victoria 3 v1.13.0[/b]
+
+[h2]Sensible Power Blocs v1.6[/h2]
+[b]- Updated to Victoria 3 v1.13.0[/b]
+
+[h2]Enhanced Auto Expansion v1.6[/h2]
+[b]- Updated to Victoria 3 v1.13.0[/b]
+
+[h2]Difficult Terrain v1.4[/h2]
+[b]- Updated to Victoria 3 v1.13.0[/b]
+- Fixed North Canadian Terrain
+
+
+
+
 [h1]Core v13.2.0[/h1]
 [b]- Updated to Victoria 3 v1.12.1[/b]
 - Utilized new "INJECT" logic wherever possible to reduce amount of file/entry overrides. This MAY result better compatibility and easier maintenance.

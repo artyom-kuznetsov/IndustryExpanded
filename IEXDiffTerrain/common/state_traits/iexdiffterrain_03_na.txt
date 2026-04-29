@@ -1,5 +1,5 @@
 ﻿
-INJECT:INJECT:state_trait_northern_canadian_terrain = {	# VERYDIFF
+INJECT:state_trait_northern_canadian_terrain = {	# VERYDIFF # ARCTIC
 	modifier = {
 		state_construction_mult = 0.2
 	}
