@@ -1,3 +1,15 @@
+[h1]Core v13.4.0[/h1]
+- Added mod's automation PMs for Tooling Workshops.
+- Added new Fishing Wharves PM - Modern Trawlers. Consumes fuel. Nerfed steam trawlers a bit.
+- Fixed some factories automation PMs reducing labourer employment excessively.
+
+[h2]Load, Ship & Road v1.0.12[/h2]
+- Fixed transportation was tradeable.
+
+
+
+
+
 [h1]Core v13.3.0[/h1]
 [b]- Updated to Victoria 3 v1.13.0[/b]
 
@@ -16,6 +28,7 @@
 
 [h2]UrbanismPlus v2.1[/h2]
 [b]- Updated to Victoria 3 v1.13.0[/b]
+- Reduced urbanization construction efficiency malus.
 
 
 [h1]Core v13.2.0[/h1]

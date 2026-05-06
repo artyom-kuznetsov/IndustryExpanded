@@ -1,4 +1,7 @@
 ﻿l_russian:
+ # MISC
+ pm_modern_trawlers:0 "Современные траулеры"
+ 
  # BASE NAMES
  pm_handcrafting_main:0 "Ручная сборка"
  pm_workingtools_main:0 "Рабочие инструменты"
@@ -95,6 +98,7 @@
  pm_plastic_focus:0 "Упор на производство пластмасс"
  
  # AUTOMATION
+ pmg_automation_building_tooling:0 "$pmg_automation$"
  pmg_automation_building_industry:0 "$pmg_automation$"
  pm_automation_working_tools:0 "Рабочие инструменты"
  pm_automation_watertube_boiler:0 "Водотрубный котёл"

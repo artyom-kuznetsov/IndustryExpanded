@@ -1,28 +1,18 @@
 ﻿
 INJECT:bg_company_headquarter = {
-	parent_group = bg_owner_buildings
-
-	company_headquarter = yes
-
-	urbanization = -3
+	urbanization = 2
 }
 
 INJECT:bg_company_regional_headquarter = {
-	parent_group = bg_owner_buildings
-
-	regional_company_headquarter = yes
-
-	urbanization = -3
+	urbanization = 2
 }
 
 INJECT:bg_financial_districts = {
-	parent_group = bg_owner_buildings
-
-	urbanization = -3
+	urbanization = 2
 }
 
 INJECT:bg_government = {
-	urbanization = -10
+	urbanization = 10
 }
 
 bg_artisans = {

@@ -1,9 +1,11 @@
 ﻿
 INJECT:electricity = {
 	local = no
+	tradeable = no
 }
 INJECT:services = {
 	local = no
+	tradeable = no
 }
 
 

@@ -1,0 +1,12 @@
+﻿
+INJECT:railways = {
+	modifier = {
+		state_market_access_price_impact = 0.01
+	}
+}
+
+INJECT:steel_railway_cars = {
+	modifier = {
+		state_market_access_price_impact = 0.01
+	}
+}

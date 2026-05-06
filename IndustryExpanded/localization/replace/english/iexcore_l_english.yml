@@ -1,4 +1,7 @@
 ﻿l_english:
+ # MISC
+ pm_modern_trawlers:0 "Modern Trawlers"
+ 
  # BASE NAMES
  pm_handcrafting_main:0 "Hand Crafting"
  pm_workingtools_main:0 "Working Tools"
@@ -95,6 +98,7 @@
  pm_plastic_focus:0 "Plastics Production Focus"
  
  # AUTOMATION
+ pmg_automation_building_tooling:0 "$pmg_automation$"
  pmg_automation_building_industry:0 "$pmg_automation$"
  pm_automation_working_tools:0 "Working Tools"
  pm_automation_watertube_boiler:0 "Water-tube Boiler"
