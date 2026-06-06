@@ -39,7 +39,11 @@
  precise_metalworking_desc:0 "The refinement of lathes, milling machines, and measuring tools enabled factories to produce components with unprecedented accuracy, paving the way for interchangeable parts, advanced weaponry, and electrical instruments."
  advanced_electronics:0 "Advanced Electronics"
  advanced_electronics_desc:0 "The development of vacuum tubes and radio technology paves the way for new applications of electricity. From mass broadcasting to the first steps in automatic computation, electronics is becoming the foundation of future technological progress."
-
+ common_synthetic_polymers:0 "Synthetic Polymers"
+ common_synthetic_polymers_desc:0 "With the advances in synthetic material production technologies, high quality fabrics, rubbers and other limited materials become much easier to obtain."
+ synthetic_rubber:0 "Synthetic Rubber"
+ synthetic_rubber_desc:0 "With new production methods, we do not have to rely on natural sources of rubber."
+ 
  # GOODS 
  fertilizer:0 "Chemicals"                       # Vanilla Override
  oil:0 "Crude Oil"                              # Vanilla Override
@@ -145,6 +149,14 @@
  pm_metallic_utensils:0 "Metallic Utensils"
  
  pm_glass_rollers:0 "Glass Rollers"
+ 
+ # CHEMICAL Plants
+ building_chemical_plant:0 "Chemical Plants"
+ 
+ pmg_synthetic_rubber:0 "Synthetic Rubber"
+ pm_no_synthetic_rubber:0 "No Synthetic Rubber"
+ pm_isoprene:0 "Isoprene"
+ pm_bytadiene:0 "Butadiene"
  
  # WIREMILL
  building_wiremill:0 "Wiremills"

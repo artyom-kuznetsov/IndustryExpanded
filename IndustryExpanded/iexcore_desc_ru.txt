@@ -18,7 +18,8 @@
 [b]- Адекватные блоки[/b] - силовые блоки больше не лютая имба.
 [b]- Улучшенная торговля[/b] - торговать стало дешевле, что стимулирует общий объём торговли.
 [b]- Авторасширение[/b] переработано, чтобы автоматически строить фабрики тогда, когда они вам действительно нужны.[b]- Влияние доступности к рынку на цену[/b] было переработано и теперь увеличивается более плавно, вместо ванильных "иголок" от технологий.
-
+[b]- Влияние доступности рынка на цену[/b] переработано, теперь значение меняется более плавно, вместо ванильных "пиков".
+[b]- Синтетическая резина и нефть[/b] - Сбалансированный подход к синтетическим товарам, которые не смогут полностью заменить обычные источники.
 
 [h1]Industry Expanded Core[/h1]
 IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все модули.
@@ -26,11 +27,12 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 - 7 новых технологий в производстве
 - Топливная промышленность
 - Расширенная электронная отрасль
-- Новые товары: Цветные металлы, Проволока, Электроприборы Топливо и Пластик
+- Новые товары: Цветные металлы, Проволока, Электроприборы, Топливо и Пластик
 - Реворк или обновление многих ванильных построек
 - Улучшенное сельское хозяйство
 - Электричество и услуги больше не локальные товары
 - Улучшенное потребление населением, уровни жизни с 10 до 14 потребляют чай и кофе, люди действительно переходят на электричество для отопления, пьют больше вина и прочие т. п. улучшения.
+- Синтетическое топливо и резина
 
 [h1]Больше контента![/h1]
 [h2]Установите все модули для лучшего опыта игры с Industry Expanded.[/h2]
@@ -59,7 +61,7 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 
 [b]Перезаписи ванили:[/b]
 -trade goods: services, electricity, iron
--buildings: building_motor_industry, building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries, building_trade_center, building_livestock_ranch, building_logging_camp, building_food_industry, building_electrics_industry
+-buildings: building_chemical_plants, building_motor_industry, building_paper_mills, building_furniture_manufacturies, building_glassworks, building_textile_mills, building_arms_industry, building_artillery_foundries, building_trade_center, building_livestock_ranch, building_logging_camp, building_food_industry, building_electrics_industry
 -pmgs: pmg_base_paper; all pmgs: electrics, glassworks, furniture, textile, livestock ranch, food industries; pmg_base_building_motor_industry
 -pms: all pms: glassworks, motor, furniture; pm_muskets, pm_bolt_action_rifles, pm_cannons, pm_recoiled_barrels, pm_combustion_derricks, pm_chainsaws, pm_oil-fired_plant, pm_trade_center, pm_trade_center_principle_external_trade_2, tooling workshops base pms
 -technologies: most of production technologies

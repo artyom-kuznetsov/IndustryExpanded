@@ -408,6 +408,20 @@ refining = {
 	}
 }
 
+synthetic_rubber = {
+	era = era_4
+	texture = "gfx/tech_icons/synthetic_rubber.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		refining
+	}
+	
+	ai_weight = {
+		value = 1
+	}
+}
+
 REPLACE:plastics = {
 	# Unlocks the Houseware Plastics PM in Glassworks
 	era = era_4
@@ -488,5 +502,20 @@ REPLACE:arc_welding = {
 INJECT:dough_rollers = {
 	unlocking_technologies = {
 		automatic_machines
+	}
+}
+
+common_synthetic_polymers = {
+	era = era_5
+	texture = "gfx/tech_icons/polymer.dds"
+	category = production
+	
+	unlocking_technologies = {	
+		synthetic_rubber
+		plastics
+	}
+	
+	ai_weight = {
+		value = 1
 	}
 }

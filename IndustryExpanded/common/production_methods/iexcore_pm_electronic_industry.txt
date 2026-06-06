@@ -188,7 +188,7 @@ REPLACE_OR_CREATE:pm_mass_automobile_production = {
 	}
 
 	unlocking_technologies = {
-		compression_ignition
+		common_synthetic_polymers
 	}
 
 	building_modifiers = {

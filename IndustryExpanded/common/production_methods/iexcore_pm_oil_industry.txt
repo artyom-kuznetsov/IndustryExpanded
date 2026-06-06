@@ -79,7 +79,7 @@ pm_synthetic_oil = {
 	}
 	
 	unlocking_technologies = {
-		oil_turbine
+		synthetic_rubber
 	}
 
 	building_modifiers = {
@@ -195,6 +195,147 @@ pm_plastic_focus = {
 			goods_output_fuel_add = -75
 
 			goods_output_plastics_add = 75	# NO PROFIT
+		}
+	}
+}
+
+### CHEMICAL PLANTS ###
+
+REPLACE_OR_CREATE:pm_artificial_fertilizers = {
+	texture = "gfx/interface/icons/production_method_icons/chemical_fertilizers.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 20			# 1000
+			goods_input_copper_add = 7.5			# 300	# TOTAL 1300
+
+			# output goods
+			goods_output_fertilizer_add = 70	# 2100	# PROFIT 800
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 3000
+			building_employment_machinists_add = 1000
+			building_employment_engineers_add = 500
+		}
+	}
+}
+
+REPLACE_OR_CREATE:pm_improved_fertilizer = {
+	texture = "gfx/interface/icons/production_method_icons/improved_fertilizer.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_sulfur_add = 30			# 1500
+			goods_input_copper_add = 10			# 400	# TOTAL 1900
+
+			# output goods
+			goods_output_fertilizer_add = 100	# 3000	# PROFIT 1100
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 2000
+			building_employment_machinists_add = 1500
+			building_employment_engineers_add = 1000
+		}
+	}
+}
+
+REPLACE_OR_CREATE:pm_nitrogen_fixation = {
+	texture = "gfx/interface/icons/production_method_icons/nitrogen_fixation.dds"
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_sulfur_add = 32			# 1600
+			goods_input_fuel_add = 10			# 500
+			goods_input_copper_add = 10			# 400	# TOTAL 2500
+
+			# output goods
+			goods_output_fertilizer_add = 150	# 4500	# PROFIT 2000
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_shopkeepers_add = 500
+			building_employment_laborers_add = 1000
+			building_employment_machinists_add = 2000
+			building_employment_engineers_add = 1500
+		}
+	}
+}
+
+
+### CHEMICAL PLANTS - SYNTHETIC RUBBER
+
+pm_no_synthetic_rubber = {
+	texture = "gfx/pm_icons//no_artificial_silk.dds"
+	
+}
+
+pm_isoprene = {
+	texture = "gfx/interface/icons/production_method_icons/elastics.dds"
+	
+	unlocking_technologies = {
+		synthetic_rubber
+	}
+	
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_oil_add = 20			# 800
+			goods_output_fertilizer_add = -60	# 1800	# TOTAL 2400
+			
+			goods_output_rubber_add = 60		# 2400	# NO PROFIT	
+		}
+	}
+}
+
+pm_bytadiene = {
+	texture = "gfx/pm_icons/butadiene.dds"
+	
+	unlocking_technologies = {
+		common_synthetic_polymers
+	}
+	
+	unlocking_production_methods = {
+		pm_improved_fertilizer
+	}
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_fuel_add = 20			# 1000
+			goods_output_fertilizer_add = -80	# 2400	# TOTAL 3400
+			
+			goods_output_rubber_add = 85		# 3400	# NO PROFIT	
 		}
 	}
 }

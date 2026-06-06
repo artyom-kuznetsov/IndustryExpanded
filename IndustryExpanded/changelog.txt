@@ -1,4 +1,8 @@
 [h1]Core v13.4.0[/h1]
+- Re-Added Synthetic Rubber and Synthetic Polymers techs.
+	- Moved "Mass Production" PM for Automotive Industries to Synthetic Polymers tech from Compression Ignition.
+	- Moved "Synthetic Oil Production" PM for Refineries to Synthetic Rubber from Oil Turbine
+- Fertilizer Plants now can produce Synthetic Rubber with 2 PMs: Isoprene and Butadiene
 - Added mod's automation PMs for Tooling Workshops.
 - Added new Fishing Wharves PM - Modern Trawlers. Consumes fuel. Nerfed steam trawlers a bit.
 - Fixed some factories automation PMs reducing labourer employment excessively.
