@@ -2,6 +2,22 @@
  # MISC
  pm_modern_trawlers:0 "Modern Trawlers"
  
+ pmg_secondary_fishing_wharf:0 "Fish Oil"
+ 
+ pm_no_fish_oil_extraction:0 "No Fish Oil Extraction"
+ pm_fish_oil_extraction:0 "Fish Oil Extraction"
+ pm_fish_oil_advanced:0 "Cod Liver Oil"
+ pm_modern_whaling_ships:0 "Modern Whaling Ships"
+ 
+ pm_electric_saw_mills:0 "Automated Saw Mills"
+ 
+ pmg_power_logging_camp:0 "Power"
+ 
+ pm_power_electricity_logging:0 "Electric Power"
+ pm_power_coal_logging:0 "Coal Power"
+ pm_power_fuel_logging:0 "Petroleum Power"
+ pm_power_none_logging:0 "Manual Labour"
+ 
  # BASE NAMES
  pm_handcrafting_main:0 "Hand Crafting"
  pm_workingtools_main:0 "Working Tools"
@@ -149,6 +165,13 @@
  pm_metallic_utensils:0 "Metallic Utensils"
  
  pm_glass_rollers:0 "Glass Rollers"
+ 
+ pmg_kiln_fuel:0 "Kiln Fuel"
+ 
+ pm_kiln_wood:0 "Wood-Fired Kilns"
+ pm_kiln_coal:0 "Coal-Fired Kilns"
+ pm_kiln_fuel:0 "Oil-Fired Kilns"
+ pm_kiln_electric:0 "Electric Kilns"
  
  # CHEMICAL Plants
  building_chemical_plant:0 "Chemical Plants"

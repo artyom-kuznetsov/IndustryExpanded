@@ -206,7 +206,7 @@ REPLACE_OR_CREATE:pm_forest_glass = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wood_add = 30		# 600
+			goods_input_wood_add = 25		# 600 (150 Kiln)
 			
 			# output goods
 			goods_output_glass_add = 30		# 1200	# PROFIT 600
@@ -226,16 +226,10 @@ REPLACE_OR_CREATE:pm_leaded_glass = {
 		lathe 
 	}
 	
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 5
-		}
-	}
-
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wood_add = 20		# 400
+			goods_input_wood_add = 15		# 400 (150 Kiln)
 			goods_input_lead_add = 10		# 400	# TOTAL 800
 			
 			# output goods
@@ -259,7 +253,7 @@ REPLACE_OR_CREATE:pm_crystal_glass = {
 	
 	state_modifiers = {
 		workforce_scaled = {
-			state_pollution_generation_add = 10
+			state_pollution_generation_add = 5
 		}
 	}
 
@@ -296,7 +290,8 @@ pm_wooden_appliances = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_wood_add = 20	# 400
+			goods_input_wood_add = 18	# 360
+			goods_input_tools_add = 1	# 40
 			
 			# output goods
 			goods_output_glass_add = 14	# 560	# PROFIT 160
@@ -319,7 +314,8 @@ pm_metallic_utensils = {
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods
-			goods_input_steel_add = 10	# 500
+			goods_input_steel_add = 8	# 400
+			goods_input_tools_add = 2.5	# 100
 			
 			# output goods
 			goods_output_glass_add = 22.5	# 900	# PROFIT 400

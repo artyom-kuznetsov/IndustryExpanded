@@ -1,3 +1,12 @@
+[h1]Core v14.0.0[/h1]
+- Overhauled [b]Logging Camps[/b] building. Now scales output more gradually, and outputs less until late game. Should not become a pointless resource that everyone has a lot of by electric sawmills anymore.
+- Added [b]Fish Oil Extraction[/b] PMG for fishing wharves with 2 new PMs. It allows to get a little bit of oil at cost of a little bit of fish.
+- Added [b]Modern Whaling Ships[/b] PM for Whaling Stations as the new top PM.
+- Moved Mass Production for Automotive Industries from Synthetic Polymers to Assembly Lines tech. You shouldn't be forced to research synthetics just to make cars.
+
+
+
+
 [h1]Core v13.4.0[/h1]
 - Re-Added Synthetic Rubber and Synthetic Polymers techs.
 	- Moved "Mass Production" PM for Automotive Industries to Synthetic Polymers tech from Compression Ignition.
@@ -9,6 +18,20 @@
 
 [h2]Load, Ship & Road v1.0.12[/h2]
 - Fixed transportation was tradeable.
+
+
+
+# Core v13.4.0
+- Возвращены технологии **Синтетическая Резина и Синтетические Полимеры.
+	- ПМ "Массовое производство" для автомобилей передвинут из ДВС в Синтетические Полимеры.
+	- ПМ "Синтетическая нефть" для НПЗ передвинут из ГСМ-Турбины в Синтетическую Резину.
+- Заводы удобрений теперь могут производить **синтетическую резину** с двумя ПМ: Изопрен и Бутадиен
+- Добавлены модовые ПМы автоматизации для заводов инструментов
+- Добавлен новый ПМ для рыболовецкого промысла - Современные траулеры. Использует обработанное топливо. Небольшой нерф паровых траулеров.
+- Исправлено то, что некоторая автоматизация для фабрик слишком сильно уменьшала наём рабочих.
+
+## Load, Ship & Road v1.0.12
+- Исправлена возможность торговать транспортацией.
 
 
 

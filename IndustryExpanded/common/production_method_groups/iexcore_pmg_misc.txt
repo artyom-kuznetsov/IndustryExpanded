@@ -8,3 +8,50 @@ REPLACE:pmg_base_building_fishing_wharf = {
 		pm_modern_trawlers
 	}
 }
+
+pmg_secondary_fishing_wharf = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_no_fish_oil_extraction
+		pm_fish_oil_extraction
+		pm_fish_oil_advanced
+	}
+}
+
+REPLACE:pmg_base_building_whaling_station = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_whaling
+		pm_wooden_whaling_ships
+		pm_steam_whaling_ships
+		pm_modern_whaling_ships
+	}
+}
+
+REPLACE:pmg_equipment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_equipment
+		pm_steam_donkey_building_logging_camp
+		pm_chainsaws
+	}
+}
+
+REPLACE:pmg_transportation_building_logging_camp = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport_building_logging_camp
+		pm_log_carts
+	}
+}
+
+pmg_power_logging_camp = {
+	texture = "gfx/power_icons/mixed_icon_power.dds"
+	production_methods = {
+		pm_power_none_logging
+		pm_power_electricity_logging
+		pm_power_coal_logging
+		pm_power_fuel_logging
+	}
+}

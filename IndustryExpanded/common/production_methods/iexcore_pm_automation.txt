@@ -714,3 +714,159 @@ REPLACE_OR_CREATE:pm_automated_bakery = {
 		}
 	}
 }
+
+
+
+### GLASSBLOWING KILN FUEL ###
+
+pm_kiln_wood = {
+	texture = "gfx/interface/icons/production_method_icons/log_carts.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_wood_add = 5	# 150
+		}
+	}
+}
+
+pm_kiln_coal = {
+	texture = "gfx/interface/icons/production_method_icons/coal_fired_plant.dds"
+
+	unlocking_technologies = {
+		steam_donkey
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_coal_add = 4.5	# 135
+		}
+
+		unscaled = {
+			goods_output_glass_mult = 0.05
+		}
+	}
+}
+
+pm_kiln_fuel = {
+	texture = "gfx/interface/icons/production_method_icons/oil_fired_plant.dds"
+
+	unlocking_technologies = {
+		refining
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fuel_add = 2.5	# 125
+		}
+
+		unscaled = {
+			goods_output_glass_mult = 0.075
+		}
+	}
+}
+
+pm_kiln_electric = {
+	texture = "gfx/pm_icons/electric_streetlights.dds"
+
+	unlocking_technologies = {
+		dough_rollers
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_electricity_add = 4.5	# 135
+		}
+
+		unscaled = {
+			goods_output_glass_mult = 0.075
+		}
+	}
+}
+
+### POWER LOGGING CAMP ###
+
+pm_power_none_logging = {
+	texture = "gfx/power_icons/manual_power.dds"
+	
+	is_hidden_when_unavailable = yes
+
+}
+
+pm_power_electricity_logging = {
+	texture = "gfx/power_icons/electric_power.dds"
+	
+	is_hidden_when_unavailable = yes
+	
+	unlocking_production_methods = {
+		pm_electric_saw_mills
+	}
+
+}
+
+pm_power_coal_logging = {
+	texture = "gfx/power_icons/coal_power.dds"
+
+	is_hidden_when_unavailable = yes
+	
+	unlocking_production_methods = {
+		pm_electric_saw_mills
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_electricity_add = -10	# -300
+			goods_input_coal_add = 10			# 300
+		}
+	}
+}
+
+pm_power_fuel_logging = {
+	texture = "gfx/power_icons/oil_power.dds"
+
+	is_hidden_when_unavailable = yes
+	
+	unlocking_technologies = {
+		refining
+	}
+	
+	unlocking_production_methods = {
+		pm_electric_saw_mills
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_electricity_add = -10	# -300
+			goods_input_fuel_add = 6			# 300
+		}
+	}
+}

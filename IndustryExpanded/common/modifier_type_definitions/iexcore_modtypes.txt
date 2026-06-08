@@ -112,3 +112,11 @@ state_building_copper_mine_max_level_add={
 		ai_value=0
 	}
 }
+
+goods_output_glass_mult = {
+	color=good
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}

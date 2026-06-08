@@ -16,6 +16,16 @@ REPLACE_OR_CREATE:pmg_glassblowing = {
 	}
 }
 
+pmg_kiln_fuel = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_kiln_wood
+		pm_kiln_coal
+		pm_kiln_fuel
+		pm_kiln_electric
+	}
+}
+
 pmg_houseware = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
 	ai_selection = most_productive

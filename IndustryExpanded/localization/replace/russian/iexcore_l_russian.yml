@@ -2,6 +2,22 @@
  # MISC
  pm_modern_trawlers:0 "Современные траулеры"
  
+ pmg_secondary_fishing_wharf:0 "Рыбий Жир"
+ 
+ pm_no_fish_oil_extraction:0 "Не извлекать рыбий жир"
+ pm_fish_oil_extraction:0 "Извлечение рыбьего жира"
+ pm_fish_oil_advanced:0 "Масло печени трески"
+ pm_modern_whaling_ships:0 "Современные китобойные суда"
+ 
+ pm_electric_saw_mills:0 "Автоматизированные лесопилки"
+ 
+ pmg_power_logging_camp:0 "Энергия"
+ 
+ pm_power_electricity_logging:0 "Электричество"
+ pm_power_coal_logging:0 "Уголь"
+ pm_power_fuel_logging:0 "Нефть"
+ pm_power_none_logging:0 "Ручная работа"
+ 
  # BASE NAMES
  pm_handcrafting_main:0 "Ручная сборка"
  pm_workingtools_main:0 "Рабочие инструменты"
@@ -149,6 +165,14 @@
  pm_metallic_utensils:0 "Металлическая утварь"
  
  pm_glass_rollers:0 "Стеклопрокатные машины"
+ 
+ pmg_kiln_fuel:0 "Процесс обжига"
+ 
+ pm_kiln_wood:0 "Обжиг на древесине"
+ pm_kiln_coal:0 "Обжиг на угле"
+ pm_kiln_fuel:0 "Топливный килн"
+ pm_kiln_electric:0 "Электрический килн"
+ 
  
  # CHEMICAL PLANTS
  building_chemical_plant:0 "Химические заводы"

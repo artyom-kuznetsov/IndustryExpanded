@@ -1,4 +1,40 @@
 ﻿
+REPLACE:building_fishing_wharf = {
+	building_group = bg_fishing
+	icon = "gfx/interface/icons/building_icons/fishing_wharf.dds"
+	city_type = port
+	levels_per_mesh = 1
+	required_construction = construction_cost_low
+
+	production_method_groups = {
+		pmg_base_building_fishing_wharf
+		pmg_secondary_fishing_wharf
+		pmg_refrigeration_building_fishing_wharf
+	}
+
+	potential = {
+		is_sea_adjacent = yes
+	}
+	ownership_type = self
+
+	should_auto_expand = { 
+		occupancy >= 0.8
+		owner = {
+			market = {
+				mg:fish = { 
+					market_goods_pricier > 0.01
+				}
+			}
+		}
+		state = {
+			infrastructure_delta >= -2
+		}
+		NOT = { is_under_construction = yes }
+	}
+	
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_fishing.dds"
+}
+
 REPLACE:building_chemical_plant = {
 	aliases = { building_chemical_plants }
 	building_group = bg_heavy_industry
@@ -174,6 +210,7 @@ REPLACE:building_logging_camp = {
 
 	production_method_groups = {
 		pmg_base_building_logging_camp
+		pmg_power_logging_camp
 		pmg_equipment
 		pmg_transportation_building_logging_camp
 	}
@@ -413,6 +450,7 @@ REPLACE:building_glassworks = {
 		pmg_houseware
 		pmg_luxury_building_glassworks
 		pmg_glassblowing
+		pmg_kiln_fuel
 	}
 
 	required_construction = construction_cost_high

@@ -53,7 +53,7 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 
 
 [h2]Метаданные[/h2]
-Версия мода: [b]v13.4.0[/b]
+Версия мода: [b]v14.0.0[/b]
 Версия игры: [b]v1.13.X[/b]
 
 Спасибо, что играете в Industry Expanded!
@@ -74,6 +74,7 @@ IEX Core (ядро) - это основная часть Industry Expanded, от которой зависят все м
 
 [h1]Благодарности[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3723966801]Chains of Industry[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3336914177]Grey's Soft Pop Adjustments[/url]
 Edouard Saladier, "More Variety" mods

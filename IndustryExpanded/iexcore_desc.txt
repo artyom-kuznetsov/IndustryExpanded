@@ -53,7 +53,7 @@ NOTE! All translations below are currently outdated. If you want, you can upload
 
 
 [h2]Metadata[/h2]
-Mod version: [b]v13.4.0[/b]
+Mod version: [b]v14.0.0[/b]
 Game version: [b]v1.13.X[/b]
 
 Thanks for playing Industry Expanded!
@@ -74,6 +74,7 @@ Thanks for playing Industry Expanded!
 
 [h1]Credits[/h1]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2941771030]Cold War Project[/url]
+[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3723966801]Chains of Industry[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=2935989855]VTM[/url]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3336914177]Grey's Soft Pop Adjustments[/url]
 Edouard Saladier, "More Variety" mods
