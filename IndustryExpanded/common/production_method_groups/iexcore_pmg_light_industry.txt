@@ -64,14 +64,20 @@ REPLACE_OR_CREATE:pmg_dyes_textile = {
 	}
 }
 
-REPLACE_OR_CREATE:pmg_luxury_building_textile_mills = {
+REPLACE_OR_CREATE:pmg_luxury_building_textile_mill = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
-		pm_no_luxury_clothes
-		pm_luxury_clothes_production
+		pm_handsewn_clothes_luxury
+		pm_sewing_machines_luxury
+		pm_electric_sewing_machines_luxury
+	}
+}
+
+pmg_luxury_elastics = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
 		pm_craftsman_sewing
 		pm_elastics
-		pm_luxury_clothes_focus
 	}
 }
 

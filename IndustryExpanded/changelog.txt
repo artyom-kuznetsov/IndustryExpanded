@@ -2,8 +2,14 @@
 - Overhauled [b]Logging Camps[/b] building. Now scales output more gradually, and outputs less until late game. Should not become a pointless resource that everyone has a lot of by electric sawmills anymore.
 - Added [b]Fish Oil Extraction[/b] PMG for fishing wharves with 2 new PMs. It allows to get a little bit of oil at cost of a little bit of fish.
 - Added [b]Modern Whaling Ships[/b] PM for Whaling Stations as the new top PM.
+- Re-Added separate Luxury Clothes factory building.
+- Added a new PM for Rayon to focus more on silk production. This is a placeholder until a proper rework of the "Synthetic Silk/Dye" situation.
 - Moved Mass Production for Automotive Industries from Synthetic Polymers to Assembly Lines tech. You shouldn't be forced to research synthetics just to make cars.
+- Fixed no way to disable automation for automotive, telephone and radio factories.
+- Fixed Central Cuba did not have Copper.
 
+[h2]Sensible Power Blocs v1.7[/h2]
+- It is now possible to form a Power Bloc with Isolationism enacted.
 
 
 

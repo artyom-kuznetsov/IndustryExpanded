@@ -343,3 +343,37 @@ pm_plastic_focus = {
 		}
 	}
 }
+
+### SYNTHETIC SILK ###
+
+pm_rayon_modern = {
+	texture = "gfx/pm_icons/rayon_focus.dds"
+
+	unlocking_technologies = {
+		automatic_machines
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_rubber_add = 5		# 200
+			goods_input_wood_add = 10		# 200
+			goods_output_dye_add = -15		# -450	# TOTAL 850
+			
+			
+			goods_output_silk_add = 45		# 2200	# PROFIT 1350
+		}
+
+		level_scaled = {
+			# employment
+			building_employment_laborers_add = -1000
+			building_employment_machinists_add = 1000
+		}
+	}
+}

@@ -816,14 +816,17 @@ pm_kiln_electric = {
 pm_power_none_logging = {
 	texture = "gfx/power_icons/manual_power.dds"
 	
+	unlocking_production_methods = {
+		pm_simple_forestry
+		pm_saw_mills
+	}
+	
 	is_hidden_when_unavailable = yes
 
 }
 
 pm_power_electricity_logging = {
 	texture = "gfx/power_icons/electric_power.dds"
-	
-	is_hidden_when_unavailable = yes
 	
 	unlocking_production_methods = {
 		pm_electric_saw_mills
@@ -834,8 +837,6 @@ pm_power_electricity_logging = {
 pm_power_coal_logging = {
 	texture = "gfx/power_icons/coal_power.dds"
 
-	is_hidden_when_unavailable = yes
-	
 	unlocking_production_methods = {
 		pm_electric_saw_mills
 	}
@@ -852,8 +853,6 @@ pm_power_coal_logging = {
 pm_power_fuel_logging = {
 	texture = "gfx/power_icons/oil_power.dds"
 
-	is_hidden_when_unavailable = yes
-	
 	unlocking_technologies = {
 		refining
 	}

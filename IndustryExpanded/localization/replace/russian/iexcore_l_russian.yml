@@ -95,11 +95,19 @@
  pm_dyed_clothes:0 "Применение красителей"
  pm_dyed_clothes_2:0 "Красильные мастерские"
  
- pmg_luxury_building_textile_mills:0 "Роскошная одежда"
- pm_luxury_clothes_production:0 "Производство роскошной одежды"
- pm_luxury_clothes_extensive_production:0 "Увеличенное производство роскошной одежды"
- pm_luxury_clothes_focus:0 "Упор на роскошную одежду"
-  
+ # LUXURY TEXTILE MILLS
+ building_luxury_textile_mill:0 "Фабрики роскошной одежды"
+ 
+ pm_handsewn_clothes_luxury:0 "$pm_handsewn_clothes$"
+ pm_sewing_machines_luxury:0 "$pm_sewing_machines$"
+ pm_electric_sewing_machines_luxury:0 "$pm_electric_sewing_machines$"
+ 
+ pmg_luxury_elastics:0 "Materials"
+ 
+ # SYNTHETIC DYE PLANT
+ pm_rayon:0 "Раннее производство вискозы"
+ pm_rayon_modern:0 "Производство вискозы"
+ 
  # OIL REFINERY
  building_oil_refinery:0 "Нефтеперерабатывающие заводы"
  
