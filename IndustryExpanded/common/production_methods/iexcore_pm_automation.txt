@@ -720,7 +720,7 @@ REPLACE_OR_CREATE:pm_automated_bakery = {
 ### GLASSBLOWING KILN FUEL ###
 
 pm_kiln_wood = {
-	texture = "gfx/interface/icons/production_method_icons/log_carts.dds"
+	texture = "gfx/power_icons/wood_power.dds"
 
 	state_modifiers = {
 		workforce_scaled = {
@@ -737,7 +737,7 @@ pm_kiln_wood = {
 }
 
 pm_kiln_coal = {
-	texture = "gfx/interface/icons/production_method_icons/coal_fired_plant.dds"
+	texture = "gfx/power_icons/coal_power.dds"
 
 	unlocking_technologies = {
 		steam_donkey
@@ -762,7 +762,7 @@ pm_kiln_coal = {
 }
 
 pm_kiln_fuel = {
-	texture = "gfx/interface/icons/production_method_icons/oil_fired_plant.dds"
+	texture = "gfx/power_icons/oil_power.dds"
 
 	unlocking_technologies = {
 		refining
@@ -787,7 +787,7 @@ pm_kiln_fuel = {
 }
 
 pm_kiln_electric = {
-	texture = "gfx/pm_icons/electric_streetlights.dds"
+	texture = "gfx/power_icons/electric_power.dds"
 
 	unlocking_technologies = {
 		dough_rollers
