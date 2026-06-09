@@ -18,6 +18,26 @@
  pm_power_fuel_logging:0 "Нефть"
  pm_power_none_logging:0 "Ручная работа"
  
+ # MINING
+ pm_high_pressure_engine_pump_building_iron_mine:0 "Двигатель высокого давления"
+ pm_high_pressure_engine_pump_building_lead_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
+ pm_high_pressure_engine_pump_building_copper_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
+ pm_high_pressure_engine_pump_building_sulfur_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
+ pm_high_pressure_engine_pump_building_coal_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
+ 
+ pm_wet_drilling_building_iron_mine:0 "Бурение с промывкой"
+ pm_wet_drilling_building_lead_mine:0 "$pm_wet_drilling_building_iron_mine$"
+ pm_wet_drilling_building_copper_mine:0 "$pm_wet_drilling_building_iron_mine$"
+ pm_wet_drilling_building_sulfur_mine:0 "$pm_wet_drilling_building_iron_mine$"
+ pm_wet_drilling_building_coal_mine:0 "$pm_wet_drilling_building_iron_mine$"
+ 
+ pm_excavation_machinery_building_iron_mine:0 "Экскаваторы"
+ pm_excavation_machinery_building_lead_mine:0 "$pm_excavation_machinery_building_iron_mine$"
+ pm_excavation_machinery_building_copper_mine:0 "$pm_excavation_machinery_building_iron_mine$"
+ pm_excavation_machinery_building_sulfur_mine:0 "$pm_excavation_machinery_building_iron_mine$"
+ pm_excavation_machinery_building_coal_mine:0 "$pm_excavation_machinery_building_iron_mine$"
+
+ 
  # BASE NAMES
  pm_handcrafting_main:0 "Ручная сборка"
  pm_workingtools_main:0 "Рабочие инструменты"
@@ -57,7 +77,7 @@
  advanced_electronics_desc:0 "Развитие вакуумных ламп и радиотехники открывает путь к новым областям применения электричества. От массового радиовещания до первых шагов в области автоматических вычислений — электроника становится основой будущего технологического прогресса."
  common_synthetic_polymers:0 "Синтетические полимеры"
  common_synthetic_polymers_desc:0 "С развитием технологий производства синтетических материалов становится намного проще получать высококачественные ткани, каучуки и другие ограниченные материалы."
-  synthetic_rubber:0 "Синтетическая резина"
+ synthetic_rubber:0 "Синтетическая резина"
  synthetic_rubber_desc:0 "Благодаря новым методам производства нам не нужно полагаться на природные источники каучука."
 
  # GOODS 

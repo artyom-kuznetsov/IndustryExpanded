@@ -203,7 +203,7 @@ REPLACE:principle_advanced_research_1 = {
 
 ### DEFENSIVE COOPERATION
 
-REPLACEprinciple_defensive_cooperation_1 = {
+REPLACE:principle_defensive_cooperation_1 = {
 	icon = "gfx/interface/icons/principles_icons/defensive_coorperation.dds"
 	background = "gfx/interface/icons/principles_icons/principle_tier_1.dds"
 

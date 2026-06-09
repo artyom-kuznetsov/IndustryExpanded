@@ -1,0 +1,150 @@
+﻿
+INJECT:company_lkab = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_van_vlissingen_en_dudok_van_heel = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_maschinenfabrik_oerlikon = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_mav = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_yasuda = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_john_cockerill = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_kouppas = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_gotaverken = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_lilpop = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_erste_brunner = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_ansaldo = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_massey_harris = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_construction_power_bloc = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_basic_metalworks = {
+	building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_basileiades = {
+	extension_building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_basic_forestry = {
+	extension_building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_aker_mek = {
+	extension_building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_hispano_suiza = {
+	extension_building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_foochow_arsenal = {
+	extension_building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_sumitomo = {
+	extension_building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_guthrie = {
+	extension_building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_ferranti_ltd = {
+	extension_building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_a_markwald_and_company = {
+	extension_building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_norsk_hydro = {
+	extension_building_types = {
+		building_wiremill
+	}
+}
+
+INJECT:company_construction_power_bloc = {
+	extension_building_types = {
+		building_explosives_factory
+	}
+}

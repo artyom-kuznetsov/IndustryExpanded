@@ -3,7 +3,15 @@
 - Added [b]Fish Oil Extraction[/b] PMG for fishing wharves with 2 new PMs. It allows to get a little bit of oil at cost of a little bit of fish.
 - Added [b]Modern Whaling Ships[/b] PM for Whaling Stations as the new top PM.
 - Re-Added separate Luxury Clothes factory building.
+- Reworked all mining PMs. 
+- Added 3 new PMs for mines: 
+	- High Pressure Engine Pump (Step between Condensing Engine and Diesel Pump)
+	- Wet Drilling (New Top PM)
+	- Excavation Machinery (New Top PM)
 - Added a new PM for Rayon to focus more on silk production. This is a placeholder until a proper rework of the "Synthetic Silk/Dye" situation.
+
+- Vanilla companies now support Lumber Mills, Copper Mines, Radios Assembly and Electronics Factories.
+
 - Moved Mass Production for Automotive Industries from Synthetic Polymers to Assembly Lines tech. You shouldn't be forced to research synthetics just to make cars.
 - Fixed no way to disable automation for automotive, telephone and radio factories.
 - Fixed Central Cuba did not have Copper.

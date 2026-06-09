@@ -1,0 +1,63 @@
+﻿
+INJECT:company_basic_electrics = {
+	building_types = {
+		building_electronics_factory
+		building_radios_assembly
+	}
+}
+
+INJECT:company_nokia = {
+	building_types = {
+		building_electronics_factory
+		building_radios_assembly
+	}
+}
+
+INJECT:company_siemens_and_halske = {
+	building_types = {
+		building_electronics_factory
+		building_radios_assembly
+	}
+}
+
+INJECT:company_ferranti_ltd = {
+	building_types = {
+		building_electronics_factory
+		building_radios_assembly
+	}
+}
+
+INJECT:company_philips = {
+	building_types = {
+		building_electronics_factory
+		building_radios_assembly
+	}
+}
+
+INJECT:company_ericsson = {
+	building_types = {
+		building_electronics_factory
+		building_radios_assembly
+	}
+}
+
+INJECT:company_general_electric = {
+	building_types = {
+		building_electronics_factory
+		building_radios_assembly
+	}
+}
+
+INJECT:company_paradox = {
+	building_types = {
+		building_electronics_factory
+		building_radios_assembly
+	}
+}
+
+INJECT:company_oevg = {
+	extension_building_types = {
+		building_electronics_factory
+		building_radios_assembly
+	}
+}

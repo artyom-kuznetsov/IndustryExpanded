@@ -18,6 +18,28 @@
  pm_power_fuel_logging:0 "Petroleum Power"
  pm_power_none_logging:0 "Manual Labour"
  
+ # MINING
+ pm_high_pressure_engine_pump_building_iron_mine:0 "High Pressure Engine Pump"
+ pm_high_pressure_engine_pump_building_lead_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
+ pm_high_pressure_engine_pump_building_copper_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
+ pm_high_pressure_engine_pump_building_sulfur_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
+ pm_high_pressure_engine_pump_building_coal_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
+ pm_high_pressure_engine_pump_building_gold_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
+ 
+ pm_wet_drilling_building_iron_mine:0 "Wet Drilling"
+ pm_wet_drilling_building_lead_mine:0 "$pm_wet_drilling_building_iron_mine$"
+ pm_wet_drilling_building_copper_mine:0 "$pm_wet_drilling_building_iron_mine$"
+ pm_wet_drilling_building_sulfur_mine:0 "$pm_wet_drilling_building_iron_mine$"
+ pm_wet_drilling_building_coal_mine:0 "$pm_wet_drilling_building_iron_mine$"
+ pm_wet_drilling_building_gold_mine:0 "$pm_wet_drilling_building_iron_mine$"
+ 
+ pm_excavation_machinery_building_iron_mine:0 "Excavation Machinery"
+ pm_excavation_machinery_building_lead_mine:0 "$pm_excavation_machinery_building_iron_mine$"
+ pm_excavation_machinery_building_copper_mine:0 "$pm_excavation_machinery_building_iron_mine$"
+ pm_excavation_machinery_building_sulfur_mine:0 "$pm_excavation_machinery_building_iron_mine$"
+ pm_excavation_machinery_building_coal_mine:0 "$pm_excavation_machinery_building_iron_mine$"
+ pm_excavation_machinery_building_gold_mine:0 "$pm_excavation_machinery_building_iron_mine$"
+ 
  # BASE NAMES
  pm_handcrafting_main:0 "Hand Crafting"
  pm_workingtools_main:0 "Working Tools"
@@ -73,6 +95,9 @@
  goods_input_fuel_add_desc:0 "The amount of @fuel! Fuel consumed by buildings"
  goods_input_fuel_mult:0 "@fuel![Nbsp]Refined Fuel input"
  goods_input_fuel_mult_desc:0 "The amount of @fuel![Nbsp]Refined Fuel consumed by buildings"
+ 
+ goods_output_glass_mult:0 "@glass![Nbsp]Glass output"
+ goods_output_glass_mult_desc:0 "The amount of @glass![Nbsp]Glass produced by buildings"
  
  plastics:0 "Plastics"
  goods_input_plastics_add:0 "@plastics! Plastics input"

@@ -793,12 +793,6 @@ pm_kiln_electric = {
 		dough_rollers
 	}
 
-	state_modifiers = {
-		workforce_scaled = {
-			state_pollution_generation_add = 10
-		}
-	}
-
 	building_modifiers = {
 		workforce_scaled = {
 			# input goods

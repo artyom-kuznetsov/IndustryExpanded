@@ -307,7 +307,7 @@ pm_metallic_utensils = {
 	texture = "gfx/interface/icons/production_method_icons/butchering_tools.dds"
 	
 	unlocking_technologies = {
-		precise_metalworking
+		open_hearth_process
 	}
 	
 

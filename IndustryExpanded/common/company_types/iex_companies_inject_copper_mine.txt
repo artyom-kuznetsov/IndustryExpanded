@@ -1,0 +1,102 @@
+﻿
+INJECT:company_csfa = {
+	building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_estanifera_llallagua = {
+	building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_yasuda = {
+	building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_sumitomo = {
+	building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_chr_hansens = {
+	building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_witkowitzer_bergbau_und_huttengewerkschaft = {
+	building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_basf = {
+	building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_office_cherifien_des_phosphates = {
+	building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_anglo_sicilian_sulphur_company = {
+	building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_norsk_hydro = {
+	building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_uniao_fabril = {
+	building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_societe_mokta_el_hadid = {
+	extension_building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_mantetsu = {
+	extension_building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_basic_chemicals = {
+	extension_building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_basic_mineral_mining = {
+	extension_building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_b_grimm = {
+	extension_building_types = {
+		building_copper_mine
+	}
+}
+
+INJECT:company_office_cherifien_des_phosphates = {
+	extension_building_types = {
+		building_copper_mine
+	}
+}
