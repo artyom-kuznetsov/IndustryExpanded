@@ -863,3 +863,272 @@ pm_power_fuel_logging = {
 		}
 	}
 }
+
+### RICE FARM ###
+
+REPLACE:pm_tools_building_rice_farm = {
+	texture = "gfx/interface/icons/production_method_icons/harvesting_tools.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 4
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.03
+		}
+	}
+}
+
+REPLACE:pm_steam_threshers_building_rice_farm = {
+	texture = "gfx/interface/icons/production_method_icons/steam_powered_threshers.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		threshing_machine
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 4
+			goods_input_coal_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -3000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.06
+		}
+	}
+}
+
+pm_tractors_rice_farm = {
+	texture = "gfx/interface/icons/production_method_icons/tractors.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		mechanized_farming
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_oil_add = 3
+			goods_input_engines_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -4000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+pm_compression_ignition_tractors_rice_farm = {
+	texture = "gfx/interface/icons/production_method_icons/compression_ignition_tractors.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fuel_add = 3.2
+			goods_input_engines_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -5000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.15
+		}
+	}
+}
+
+### FARMS ###
+
+REPLACE:pm_tools = {
+	texture = "gfx/interface/icons/production_method_icons/harvesting_tools.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.03
+		}
+	}
+}
+
+REPLACE:pm_steam_threshers = {
+	texture = "gfx/interface/icons/production_method_icons/steam_powered_threshers.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		threshing_machine
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_tools_add = 2
+			goods_input_coal_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1500
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.06
+		}
+	}
+}
+
+REPLACE:pm_tractors = {
+	texture = "gfx/interface/icons/production_method_icons/tractors.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		mechanized_farming
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_oil_add = 1.5
+			goods_input_engines_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2000
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.1
+		}
+	}
+}
+
+REPLACE:pm_compression_ignition_tractors = {
+	texture = "gfx/interface/icons/production_method_icons/compression_ignition_tractors.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+
+	unlocking_technologies = {
+		compression_ignition
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_fuel_add = 1.6
+			goods_input_engines_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2500
+		}
+		
+		unscaled = {
+			building_throughput_add = 0.15
+		}
+	}
+}
+
+
+
+### LIVESTOCK ###
+
+REPLACE:pm_refrigerated_storage_building_livestock_ranch = {
+	texture = "gfx/interface/icons/production_method_icons/refrigerated_storage.dds"
+
+	unlocking_technologies = {
+		pasteurization
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 2		# 60
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -500
+		}
+		
+		unscaled = {
+			goods_output_meat_mult = 0.04
+		}
+	}
+
+	required_input_goods = electricity
+}
+
+REPLACE:pm_refrigerated_rail_cars_building_livestock_ranch = {
+	texture = "gfx/interface/icons/production_method_icons/refrigerated_rail_cars.dds"
+
+	unlocking_technologies = {
+		electric_railway
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_electricity_add = 2		# 60
+			goods_input_transportation_add = 3	# 90	# TOTAL 150
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+		
+		unscaled = {
+			goods_output_meat_mult = 0.08
+		}
+	}
+
+	required_input_goods = electricity
+}

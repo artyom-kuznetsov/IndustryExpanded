@@ -96,6 +96,12 @@
  goods_input_fuel_mult:0 "@fuel![Nbsp]Refined Fuel input"
  goods_input_fuel_mult_desc:0 "The amount of @fuel![Nbsp]Refined Fuel consumed by buildings"
  
+ goods_output_meat_mult:0 "@meat![Nbsp]Meat output"
+ goods_output_meat_mult_desc:0 "The amount of @meat![Nbsp]Meat produced by buildings"
+ 
+ goods_output_fabric_mult:0 "@fabric![Nbsp]Fabric output"
+ goods_output_fabric_mult_desc:0 "The amount of @fabric![Nbsp]Fabric produced by buildings"
+ 
  goods_output_glass_mult:0 "@glass![Nbsp]Glass output"
  goods_output_glass_mult_desc:0 "The amount of @glass![Nbsp]Glass produced by buildings"
  
@@ -265,6 +271,10 @@
  pm_no_fertilizer_collection:0 "No Fertilizer Gathering"
  pm_fertilizer_gathering:0 "Fertilizer Gathering"
  pm_fertilizer_intensive:0 "Intensive Grazing Ranch"
+ 
+ # RICE FARM
+ pm_tractors_rice_farm:0 "$pm_tractors$"
+ pm_compression_ignition_tractors_rice_farm:0 "$pm_compression_ignition_tractors$"
  
  # COPPER MINES
  building_copper_mine:0 "Base Metals Mines"

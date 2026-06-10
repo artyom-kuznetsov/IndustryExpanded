@@ -3,13 +3,16 @@
 - Added [b]Fish Oil Extraction[/b] PMG for fishing wharves with 2 new PMs. It allows to get a little bit of oil at cost of a little bit of fish.
 - Added [b]Modern Whaling Ships[/b] PM for Whaling Stations as the new top PM.
 - Re-Added [b]Luxury Textile Mills[/b] building for separate Luxury Clothes production.
-- Reworked [b]all mining PMs[/b]. 
+- Reworked [b]All Mining PMs[/b]. 
 - Added 3 new PMs for mines: 
 	- [b]High Pressure Engine Pump[/b] (Step between Condensing Engine and Diesel Pump)
 	- [b]Wet Drilling[/b] (New Top PM)
 	- [b]Excavation Machinery[/b] (New Top PM)
 - Added a new PM for Rayon to focus more on silk production. This is a placeholder until a proper rework of the "Synthetic Silk/Dye" situation.
 - Added [b]Marginal Plastics Production[/b] PM for Refineries.
+- Added Tractors automation PMs for Rice Farms. Tractors for all farms now consume oil instead of coal, compression ignition tractors consume fuel.
+- Automation PMs for farms now grant throughput bonuses.
+- Automation PMs for livestock ranches are more expensive and now grant output bonuses.
 - Munition Plants now use the same automation PMs as Artillery and Arms Industries.
 
 - Vanilla companies now support Lumber Mills, Distilleries, Copper Mines, Radios Assembly, Electronics Factories and Luxury Textile Mills.

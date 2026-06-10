@@ -24,20 +24,22 @@
  pm_high_pressure_engine_pump_building_copper_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
  pm_high_pressure_engine_pump_building_sulfur_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
  pm_high_pressure_engine_pump_building_coal_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
+ pm_high_pressure_engine_pump_building_gold_mine:0 "$pm_high_pressure_engine_pump_building_iron_mine$"
  
  pm_wet_drilling_building_iron_mine:0 "Бурение с промывкой"
  pm_wet_drilling_building_lead_mine:0 "$pm_wet_drilling_building_iron_mine$"
  pm_wet_drilling_building_copper_mine:0 "$pm_wet_drilling_building_iron_mine$"
  pm_wet_drilling_building_sulfur_mine:0 "$pm_wet_drilling_building_iron_mine$"
  pm_wet_drilling_building_coal_mine:0 "$pm_wet_drilling_building_iron_mine$"
+ pm_wet_drilling_building_gold_mine:0 "$pm_wet_drilling_building_iron_mine$"
  
  pm_excavation_machinery_building_iron_mine:0 "Экскаваторы"
  pm_excavation_machinery_building_lead_mine:0 "$pm_excavation_machinery_building_iron_mine$"
  pm_excavation_machinery_building_copper_mine:0 "$pm_excavation_machinery_building_iron_mine$"
  pm_excavation_machinery_building_sulfur_mine:0 "$pm_excavation_machinery_building_iron_mine$"
  pm_excavation_machinery_building_coal_mine:0 "$pm_excavation_machinery_building_iron_mine$"
+ pm_excavation_machinery_building_gold_mine:0 "$pm_excavation_machinery_building_iron_mine$"
 
- 
  # BASE NAMES
  pm_handcrafting_main:0 "Ручная сборка"
  pm_workingtools_main:0 "Рабочие инструменты"
@@ -93,6 +95,15 @@
  goods_input_fuel_add_desc:0 "Количество @fuel! топлива, потребляемого сооружениями."
  goods_input_fuel_mult:0 "Потребление @fuel![Nbsp]топлива"
  goods_input_fuel_mult_desc:0 "Количество @fuel![Nbsp]топлива, потребляемого сооружениями."
+ 
+ goods_output_meat_mult:0 "Производство @meat![Nbsp] мяса"
+ goods_output_meat_mult_desc:0 "Количество @meat![Nbsp]мяса, производимого сооружениями."
+ 
+ goods_output_fabric_mult:0 "Производство @fabric![Nbsp] ткани"
+ goods_output_fabric_mult_desc:0 "Количество @fabric![Nbsp]ткани, производимого сооружениями."
+ 
+ goods_output_glass_mult:0 "Производство @glass![Nbsp] стекла"
+ goods_output_glass_mult_desc:0 "Количество @glass![Nbsp]стекла, производимого сооружениями."
  
  plastics:0 "Пластмассы"
  goods_input_plastics_add:0 "Потребление @plastics! пластика"
@@ -202,7 +213,6 @@
  pm_kiln_fuel:0 "Топливный килн"
  pm_kiln_electric:0 "Электрический килн"
  
- 
  # CHEMICAL PLANTS
  building_chemical_plant:0 "Химические заводы"
  
@@ -261,6 +271,10 @@
  pm_no_fertilizer_collection:0 "Не собирать удобрения"
  pm_fertilizer_gathering:0 "Сбор удобрений"
  pm_fertilizer_intensive:0 "Активный выпас"
+ 
+ # RICE FARM
+ pm_tractors_rice_farm:0 "$pm_tractors$"
+ pm_compression_ignition_tractors_rice_farm:0 "$pm_compression_ignition_tractors$"
  
  # COPPER MINES
  building_copper_mine:0 "Шахты цветных металлов"

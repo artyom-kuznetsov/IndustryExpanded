@@ -120,3 +120,19 @@ goods_output_glass_mult = {
 		ai_value=0
 	}
 }
+
+goods_output_meat_mult = {
+	color=good
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}
+
+goods_output_fabric_mult = {
+	color=good
+	percent = yes
+	game_data={
+		ai_value=0
+	}
+}
