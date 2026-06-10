@@ -255,7 +255,7 @@ pm_modern_whaling_ships = {
 	}
 
 	unlocking_technologies = {
-		landing_craft
+		concrete_dockyards
 	}
 	building_modifiers = {
 		workforce_scaled = {

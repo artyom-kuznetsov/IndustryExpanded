@@ -9,6 +9,7 @@
 	- Wet Drilling (New Top PM)
 	- Excavation Machinery (New Top PM)
 - Added a new PM for Rayon to focus more on silk production. This is a placeholder until a proper rework of the "Synthetic Silk/Dye" situation.
+- Munition Plants now use the same automation PMs as Artillery and Arms Industries.
 
 - Vanilla companies now support Lumber Mills, Distilleries, Copper Mines, Radios Assembly, Electronics Factories and Luxury Textile Mills.
 
@@ -16,6 +17,9 @@
 - Moved Mass Production for Automotive Industries from Synthetic Polymers to Assembly Lines tech. You shouldn't be forced to research synthetics just to make cars.
 - Fixed no way to disable automation for automotive, telephone and radio factories.
 - Fixed Central Cuba did not have Copper.
+
+[h2]UrbanismPlus v2.2[/h2]
+- Reworked Urban Center transportation once more. It now produces transportation again, at the cost of services, and saves more workers.
 
 [h2]Sensible Power Blocs v1.7[/h2]
 - It is now possible to form a Power Bloc with Isolationism enacted.
