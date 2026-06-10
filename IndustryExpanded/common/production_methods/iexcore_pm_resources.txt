@@ -71,10 +71,9 @@ REPLACE:pm_atmospheric_engine_pump_building_coal_mine = {
 		workforce_scaled = {
 			# input goods
 			goods_input_tools_add = 6.5	# 260
-			goods_input_coal_add = 8	# 240	# TOTAL 400
 
 			# output goods
-			goods_output_coal_add = 40	# 1200	# PROFIT 800
+			goods_output_coal_add = 32	# 960	# PROFIT 800
 		}
 
 		level_scaled = {
@@ -103,10 +102,9 @@ REPLACE:pm_condensing_engine_pump_building_coal_mine = {
 		workforce_scaled = {
 			# input goods
 			goods_input_tools_add = 10	# 400
-			goods_input_coal_add = 10	# 300	# TOTAL 700
 
 			# output goods
-			goods_output_coal_add = 57		# 1710	# PROFIT 1010
+			goods_output_coal_add = 47		# 1410	# PROFIT 1010
 		}
 
 		level_scaled = {
@@ -135,11 +133,10 @@ pm_high_pressure_engine_pump_building_coal_mine = {
 		workforce_scaled = {
 			# input goods
 			goods_input_tools_add = 10		# 400
-			goods_input_engines_add = 2.5	# 150
-			goods_input_coal_add = 12		# 360	# TOTAL 910
+			goods_input_engines_add = 2.5	# 150	# TOTAL 650
 
 			# output goods
-			goods_output_coal_add = 70			# 2100
+			goods_output_coal_add = 58			# 1740	# PROFIT 1090
 		}
 
 		level_scaled = {
@@ -1517,7 +1514,7 @@ REPLACE:pm_diesel_pump_building_gold_mine = {
 	}
 
 	unlocking_technologies = {
-		compression_ignition
+		pneumatic_tools
 	}
 
 	building_modifiers = {

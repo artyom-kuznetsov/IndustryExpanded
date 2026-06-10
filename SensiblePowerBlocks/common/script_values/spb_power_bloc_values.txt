@@ -1,9 +1,9 @@
 ﻿
 REPLACE:power_bloc_mandate_progress_by_rank = {
 	value = {
-		value = 10
-		subtract = power_bloc_rank
-		min = 3
+		value = 50
+		divide = power_bloc_rank
+		min = 5
 		desc = "POWER_BLOC_MANDATE_PROGRESS_BASE"
 	}
 

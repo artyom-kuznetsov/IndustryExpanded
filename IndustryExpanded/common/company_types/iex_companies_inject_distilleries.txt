@@ -1,0 +1,156 @@
+﻿
+INJECT:company_bunge_born = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_san_miguel = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_mate_gavrilovic = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_klanicko_drustvo = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_ramirez = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_elso_budapesti_gozmalom = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_noda_shoyu = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_basic_food = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_douro_wine_company = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_bunge_born = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_ynchausti_y_compania = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_pedro_domecq = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_bacardi = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_compania_sansinena_de_carnes_congeladas = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_vodka_monopoly = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_guinness = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_chr_hansens = {
+	building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_hbc = {
+	extension_building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_oriental_development_company = {
+	extension_building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_mantetsu = {
+	extension_building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_ong_lung_sheng_tea_company = {
+	extension_building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_mitsui = {
+	extension_building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_uniao_fabril = {
+	extension_building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_allatini_mills = {
+	extension_building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_sunhwaguk = {
+	extension_building_types = {
+		building_distillery
+	}
+}
+
+INJECT:company_cgv = {
+	extension_building_types = {
+		building_distillery
+	}
+}

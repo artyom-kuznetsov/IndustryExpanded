@@ -1,0 +1,156 @@
+﻿
+INJECT:company_misr = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_tata = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_nam_dinh = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_pernambuco_textiles = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_espana_industrial = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_dmc = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_j_p_coats = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_bombay_dyeing_company = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_madura_mills = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_getzner_mutter = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_uniao_fabril = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_mitsui = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_jiangnan_weaving_bureaus = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_maison_worth = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_mantero_seta = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_savva_morozov = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_da_afghan_nassaji_sherkat = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_sherkate_eslamiya = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_persshelk = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_basic_fabrics = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_basic_silk_and_dye = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_basic_textiles = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_ralli_brothers = {
+	extension_building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_yasuda = {
+	extension_building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_sherkat_shemali = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}
+
+INJECT:company_ingolstadt_electrical_company = {
+	building_types = {
+		building_luxury_textile_mill
+	}
+}

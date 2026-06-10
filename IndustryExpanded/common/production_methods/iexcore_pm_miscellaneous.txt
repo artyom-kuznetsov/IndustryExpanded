@@ -261,7 +261,7 @@ pm_modern_whaling_ships = {
 		workforce_scaled = {
 			# input
 			goods_input_steamers_add = 10	# 600
-			goods_input_oil_add = 10		# 500	# TOTAL 1100
+			goods_input_fuel_add = 10		# 500	# TOTAL 1100
 
 			goods_output_meat_add = 25		# 750
 			goods_output_oil_add = 50		# 2000	# TOTAL 2750	# PROFIT 1650

@@ -10,14 +10,16 @@
 	- Excavation Machinery (New Top PM)
 - Added a new PM for Rayon to focus more on silk production. This is a placeholder until a proper rework of the "Synthetic Silk/Dye" situation.
 
-- Vanilla companies now support Lumber Mills, Copper Mines, Radios Assembly and Electronics Factories.
+- Vanilla companies now support Lumber Mills, Distilleries, Copper Mines, Radios Assembly, Electronics Factories and Luxury Textile Mills.
 
+- Sewing Machines PM now needs Wire.
 - Moved Mass Production for Automotive Industries from Synthetic Polymers to Assembly Lines tech. You shouldn't be forced to research synthetics just to make cars.
 - Fixed no way to disable automation for automotive, telephone and radio factories.
 - Fixed Central Cuba did not have Copper.
 
 [h2]Sensible Power Blocs v1.7[/h2]
 - It is now possible to form a Power Bloc with Isolationism enacted.
+- Mandate progress is now much quicker.
 
 
 
