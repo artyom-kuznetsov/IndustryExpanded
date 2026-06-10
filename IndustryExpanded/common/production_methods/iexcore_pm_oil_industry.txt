@@ -146,6 +146,22 @@ pm_no_plastics = {
 	
 }
 
+pm_marginal_plastics_production = {
+	texture = "gfx/pm_icons/plastics_marginal.dds"
+
+	unlocking_technologies = {
+		plastics
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_fuel_add = -15
+
+			goods_output_plastics_add = 15	# NO PROFIT
+		}
+	}
+}
+
 pm_plastics_production = {
 	texture = "gfx/pm_icons/plastics.dds"
 

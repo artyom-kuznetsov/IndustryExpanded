@@ -515,7 +515,7 @@ REPLACE:pm_market_stalls = {
 
 	state_modifiers = {
 		level_scaled = {
-			state_construction_mult = -0.008
+			state_building_construction_sector_max_level_add = 0.1
 		}
 	}
 }
@@ -541,7 +541,7 @@ REPLACE:pm_market_squares = {
 
 	state_modifiers = {
 		level_scaled = {
-			state_construction_mult = -0.005
+			state_building_construction_sector_max_level_add = 0.1
 		}
 	}
 }
@@ -568,7 +568,7 @@ REPLACE:pm_covered_markets = {
 
 	state_modifiers = {
 		level_scaled = {
-			state_construction_mult = -0.003
+			state_building_construction_sector_max_level_add = 0.1
 		}
 	}
 }
@@ -596,7 +596,7 @@ REPLACE:pm_arcades = {
 
 	state_modifiers = {
 		level_scaled = {
-			state_construction_mult = -0.0012
+			state_building_construction_sector_max_level_add = 0.1
 		}
 	}
 
@@ -644,9 +644,6 @@ REPLACE:pm_gas_streetlights = {
 		workforce_scaled = {
 			state_infrastructure_add = 1
 		}
-		level_scaled = {
-			state_construction_mult = 0.0005
-		}
 	}
 }
 
@@ -676,9 +673,6 @@ REPLACE:pm_electric_streetlights = {
 		workforce_scaled = {
 			state_infrastructure_add = 2
 		}
-		level_scaled = {
-			state_construction_mult = 0.001
-		}
 	}
 
 }
@@ -699,8 +693,8 @@ REPLACE:pm_public_trams = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_engines_add = 1			# 60
-			goods_output_services_add = -5		# 150
-			goods_output_transportation_add = 5	# 150	# PROFIT -60
+			goods_input_coal_add = 0.5			# 15
+			goods_output_transportation_add = 5	# 150	# PROFIT 75
 		}
 
 		level_scaled = {
@@ -726,9 +720,9 @@ REPLACE:pm_public_motor_carriages = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_automobiles_add = 1			# 100
-			goods_output_services_add = -10			# 300
+			goods_input_electricity_add = 1			# 30
 			
-			goods_output_transportation_add = 10	# 300	# PROFIT -100
+			goods_output_transportation_add = 10	# 300	# PROFIT 170
 		}
 
 		level_scaled = {

@@ -141,6 +141,7 @@
  pmg_plastics:0 "Производство пластмасс"
  
  pm_no_plastics:0 "Нет производства пластмасс"
+ pm_marginal_plastics_production:0 "Минимальное производство пластмасс"
  pm_plastics_production:0 "Ограниченное производство пластмасс"
  pm_extensive_plastic_production:0 "Расширенное производство пластмасс"
  pm_plastic_focus:0 "Упор на производство пластмасс"

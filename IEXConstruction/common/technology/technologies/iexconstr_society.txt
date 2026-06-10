@@ -1,7 +1,14 @@
 ﻿
-INJECT:reinforced_concrete = {
+INJECT:urban_planning = {
 	modifier = {
-		state_building_construction_sector_max_level_add = 5
+		state_building_construction_sector_max_level_add = -5
+	}
+
+}
+
+INJECT:modern_sewerage = {
+	modifier = {
+		state_building_construction_sector_max_level_add = -5
 	}
 
 }

@@ -13,6 +13,7 @@ pmg_plastics = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
 	production_methods = {
 		pm_no_plastics
+		pm_marginal_plastics_production
 		pm_plastics_production
 		pm_extensive_plastic_production
 		pm_plastic_focus
