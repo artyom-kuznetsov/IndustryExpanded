@@ -344,8 +344,6 @@ REPLACE:pm_electric_saw_mills = {
 			building_employment_engineers_add = 250
 		}
 	}
-
-	required_input_goods = electricity
 }
 
 REPLACE:pm_steam_donkey_building_logging_camp = {

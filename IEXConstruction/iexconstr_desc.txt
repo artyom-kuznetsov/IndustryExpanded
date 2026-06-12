@@ -10,8 +10,8 @@
 [h2]Contents of this module:[/h2]
 - Artisan Workshops.
 - Rework of urban center PMs.
-- With more urban centers you have in a state, construction there will slowly lose efficiency, naturally encouraging country-wide development and discouraging super-states.
 - Rework of Construction Sector, making its PMs more modular and allowing slow upgrade.
+- Urbanization increases construction sector max level in state.
 - Reduced urbanization from government buildings, since they employ only 1K, but gave as much urbanization as a 5K industry.
 - Reduced urbanization from fake buildings like financial districts, manor houses and company headquarters.
 
@@ -34,7 +34,6 @@ Thanks for playing Industry Expanded!
 
 
 [h1]Credits[/h1]
-[url=https://steamcommunity.com/sharedfiles/filedetails/?id=3325961657]Historical MP Series[/url][/b]
 [url=https://steamcommunity.com/sharedfiles/filedetails/?id=3558714442]The Birth of Corporations[/url][/b]
 Edouard Saladier, "More Variety" mods
 MasterOfGrey
